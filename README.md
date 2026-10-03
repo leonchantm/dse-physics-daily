@@ -43,12 +43,20 @@ Deep links: `https://leonchantm.github.io/dse-physics-daily/#2026-10-03`
     "story": "所根據嘅新聞標題",
     "question_en": "English question…\n(a) … (3 marks)\n(b) … (3 marks)",
     "question_zh": "中文題目……\n(a) ……（3 分）\n(b) ……（3 分）",
-    "answer": "(a) …\n(b) …"
+    "answer_en": "(a) …\n(b) …",
+    "answer_zh": "(a) ……\n(b) ……"
   }
 }
 ```
 
-`source_date`, `links` and `based_on` are optional. `\n` in question/answer text becomes a line break.
+`source_date`, `links` and `based_on` are optional. `question_en`, `question_zh`, `answer_en` and
+`answer_zh` are all required (the old single `answer` field is rejected by `add_day.py`; the page
+still displays it for both languages if an old file has it).
+
+The question box shows English by default; the 中文 / English button switches both question and
+answer, and the choice is remembered in the browser (localStorage).
+
+`\n` in question/answer text becomes a line break.
 Use Unicode super/subscripts for nuclear notation, e.g. `²₁H + ³₁H → ⁴₂He + ¹₀n`, `10⁻¹²`.
 
 ## Adding a new day

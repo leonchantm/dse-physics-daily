@@ -17,7 +17,8 @@ The day JSON must look like:
   ],
   "question": {
     "based_on": 2,                               (optional, 1-based news index)
-    "story": "...", "question_en": "...", "question_zh": "...", "answer": "..."
+    "story": "...", "question_en": "...", "question_zh": "...",
+    "answer_en": "...", "answer_zh": "..."
   }
 }
 Exit code is non-zero on any validation error (nothing is written in that case).
@@ -92,8 +93,10 @@ def validate_day(day):
     q = day.get("question")
     if not isinstance(q, dict):
         raise ValidationError("'question' must be an object")
-    for k in ("story", "question_en", "question_zh", "answer"):
+    for k in ("story", "question_en", "question_zh", "answer_en", "answer_zh"):
         _str(q, k, "question")
+    if "answer" in q:
+        raise ValidationError("question: legacy 'answer' field is not allowed; use 'answer_en' and 'answer_zh'")
     b = q.get("based_on")
     if b is not None:
         if not isinstance(b, int) or isinstance(b, bool) or not (1 <= b <= len(news)):

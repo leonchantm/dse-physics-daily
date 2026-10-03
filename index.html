@@ -34,18 +34,15 @@
       <section class="question card" id="questionCard" aria-labelledby="qHeading">
         <h3 id="qHeading">📝 每日一題 Question of the Day</h3>
         <p class="q-story" id="qStory"></p>
-        <div class="q-lang">
-          <h4>English</h4>
-          <div class="q-text" id="qEn" lang="en"></div>
+        <div class="q-toolbar">
+          <span class="q-lang-label" id="qLangLabel">English</span>
+          <button type="button" id="langBtn" class="lang-btn" aria-label="Switch to Chinese 轉做中文">中文</button>
         </div>
-        <div class="q-lang">
-          <h4>中文</h4>
-          <div class="q-text" id="qZh" lang="zh-Hant-HK"></div>
-        </div>
-        <button type="button" id="answerBtn" class="answer-btn" aria-expanded="false" aria-controls="answer">顯示答案 Show answer</button>
+        <div class="q-text" id="qText" lang="en"></div>
+        <button type="button" id="answerBtn" class="answer-btn" aria-expanded="false" aria-controls="answer">Show answer</button>
         <div id="answer" class="answer" hidden>
-          <h4>參考答案 Suggested answer</h4>
-          <div class="q-text" id="qAns"></div>
+          <h4 id="answerTitle">Suggested answer</h4>
+          <div class="q-text" id="qAns" lang="en"></div>
         </div>
       </section>
     </section>

@@ -9,6 +9,9 @@
   var dates = [];
   var cache = {};
   var current = null;
+  var LANG_KEY = "dsePhysicsDaily.lang";
+  var lang = "en";
+  var currentQ = null;
 
   function $(id) { return document.getElementById(id); }
 
@@ -87,17 +90,38 @@
     var story = str(q.story);
     if (!story && q.based_on && news && news[q.based_on - 1]) story = str(news[q.based_on - 1].title);
     $("qStory").textContent = story ? "根據新聞" + (q.based_on ? " " + q.based_on : "") + "：" + story : "";
-    $("qEn").textContent = str(q.question_en);
-    $("qZh").textContent = str(q.question_zh);
-    $("qAns").textContent = str(q.answer);
+    currentQ = q;
+    renderLang();
     setAnswer(false);
+  }
+
+  function loadLang() {
+    try { return localStorage.getItem(LANG_KEY) === "zh" ? "zh" : "en"; } catch (e) { return "en"; }
+  }
+
+  function renderLang() {
+    var q = currentQ || {};
+    var zh = lang === "zh";
+    var qText = $("qText"), qAns = $("qAns");
+    qText.textContent = str(zh ? (q.question_zh || q.question_en) : (q.question_en || q.question_zh));
+    var ans = zh ? (q.answer_zh || q.answer || q.answer_en) : (q.answer_en || q.answer || q.answer_zh);
+    qAns.textContent = str(ans);
+    qText.setAttribute("lang", zh ? "zh-Hant-HK" : "en");
+    qAns.setAttribute("lang", zh ? "zh-Hant-HK" : "en");
+    $("qLangLabel").textContent = zh ? "中文" : "English";
+    var btn = $("langBtn");
+    btn.textContent = zh ? "English" : "中文";
+    btn.setAttribute("aria-label", zh ? "Switch to English 轉做英文" : "Switch to Chinese 轉做中文");
+    $("answerTitle").textContent = zh ? "參考答案" : "Suggested answer";
+    setAnswer(!$("answer").hidden);
   }
 
   function setAnswer(show) {
     $("answer").hidden = !show;
     var btn = $("answerBtn");
     btn.setAttribute("aria-expanded", show ? "true" : "false");
-    btn.textContent = show ? "隱藏答案 Hide answer" : "顯示答案 Show answer";
+    var zh = lang === "zh";
+    btn.textContent = show ? (zh ? "隱藏答案" : "Hide answer") : (zh ? "顯示答案" : "Show answer");
   }
 
   function renderNav() {
@@ -158,6 +182,12 @@
   }
 
   function init() {
+    lang = loadLang();
+    $("langBtn").addEventListener("click", function () {
+      lang = lang === "zh" ? "en" : "zh";
+      try { localStorage.setItem(LANG_KEY, lang); } catch (e) { /* ignore */ }
+      renderLang();
+    });
     $("answerBtn").addEventListener("click", function () { setAnswer($("answer").hidden); });
     $("dateSelect").addEventListener("change", function (e) { go(e.target.value); });
     $("prevBtn").addEventListener("click", function () {
