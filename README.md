@@ -41,10 +41,10 @@ Deep links: `https://leonchantm.github.io/dse-physics-daily/#2026-10-03`
   "question": {
     "based_on": 2,
     "story": "所根據嘅新聞標題",
-    "question_en": "English question…\n(a) … (3 marks)\n(b) … (3 marks)",
-    "question_zh": "中文題目……\n(a) ……（3 分）\n(b) ……（3 分）",
-    "answer_en": "(a) …\n(b) …",
-    "answer_zh": "(a) ……\n(b) ……"
+    "question_en": "Stem…\n$$…$$\n(a) … (3 marks)\nGiven:\n- $…$\n(b) … (3 marks)",
+    "question_zh": "題幹……\n$$…$$\n(a) ……（3 分）\n已知：\n- $…$\n(b) ……（3 分）",
+    "answer_en": "(a)\n- step … (1M)\n- result … (1A)\n(b)\n- point … (1)",
+    "answer_zh": "(a)\n- 步驟……（1M）\n- 答案……（1A）\n(b)\n- 要點……（1）"
   }
 }
 ```
@@ -56,8 +56,51 @@ still displays it for both languages if an old file has it).
 The question box shows English by default; the 中文 / English button switches both question and
 answer, and the choice is remembered in the browser (localStorage).
 
-`\n` in question/answer text becomes a line break.
-Use Unicode super/subscripts for nuclear notation, e.g. `²₁H + ³₁H → ⁴₂He + ¹₀n`, `10⁻¹²`.
+### Question / answer authoring format
+
+`question_*` and `answer_*` are plain text (never HTML). The page builds the layout from the
+line structure and renders math with [KaTeX](https://katex.org/) (`trust: false`). If KaTeX
+can't load, the math shows as plain LaTeX source.
+
+| Write | Shows as |
+|---|---|
+| one line per item, blank line = new paragraph | separate paragraphs |
+| `(a) …`, `(b) …` at line start | sub-part with a hanging label; `(i)`, `(ii)` = nested |
+| `- …` | list item (use for "Given" data and for each marking step) |
+| trailing `(3 marks)`, `（3 分）`, `(1M)`, `(1A)`, `(1)` | right-aligned mark badge |
+| `$…$` | inline math |
+| `$$…$$` on its own line | centred display equation (scrolls sideways on small screens) |
+| `\$` | literal dollar sign |
+
+Rules: keep Chinese text outside `$…$`. Use `\mathrm{}` for units and element symbols. Write
+nuclides as `{}^{A}_{Z}\mathrm{X}`. Use `\Delta`, `\times`, `\approx`, `10^{-12}`.
+
+Example `question_en` (with real line breaks):
+
+```text
+China's BEST tokamak aims to demonstrate the fusion reaction:
+$${}^{2}_{1}\mathrm{H} + {}^{3}_{1}\mathrm{H} \rightarrow {}^{4}_{2}\mathrm{He} + {}^{1}_{0}\mathrm{n}$$
+(a) Calculate the energy released in one reaction, in MeV. (3 marks)
+Given:
+- $m({}^{2}\mathrm{H}) = 2.014102\ \mathrm{u}$
+- $1\ \mathrm{u} = 931\ \mathrm{MeV}$
+(b) Explain why the fuel must be heated to about 100 million °C … (3 marks)
+```
+
+Example `answer_en`:
+
+```text
+(a)
+- Mass defect $\Delta m = 5.030151 - 5.011268 = 0.018883\ \mathrm{u}$ (1M)
+- $E = 0.018883 \times 931 \approx 17.6\ \mathrm{MeV}$ (1A)
+(b)
+- Both nuclei are positively charged, so they repel strongly. (1)
+```
+
+In the JSON file, line breaks are `\n` and every backslash is doubled, for example
+`"- $E \\approx 17.6\\ \\mathrm{MeV}$ (1A)\n(b)"`. `add_day.py` rejects unbalanced `$`/`$$`
+or braces. It warns (but doesn't fail) about Chinese inside math or answers without mark badges.
+See `data/2026-10-03.json` for a full example.
 
 ## Adding a new day
 

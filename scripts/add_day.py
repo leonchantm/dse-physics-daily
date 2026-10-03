@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Add (or update) one day's entry for the DSE Physics Daily site.
+r"""Add (or update) one day's entry for the DSE Physics Daily site.
 
 Usage:
     python3 scripts/add_day.py path/to/day.json            # validate, copy to data/, update index
@@ -22,11 +22,37 @@ The day JSON must look like:
   }
 }
 Exit code is non-zero on any validation error (nothing is written in that case).
+
+Question / answer authoring format (plain text, rendered safely; never HTML):
+  * one line per item; a blank line starts a new paragraph
+  * "(a) ...", "(b) ..." at the start of a line = sub-part ("(i)", "(ii)" = nested sub-part)
+  * "- ..." = list item (use for 'Given' data and for each marking step)
+  * a trailing "(3 marks)" / "（3 分）" / "(1M)" / "(1A)" / "(1)" is shown as a right-aligned mark badge
+  * $...$ = inline LaTeX math; $$...$$ on its own line = centred display equation;
+    write \$ for a literal dollar sign. Keep Chinese text outside math.
+  * nuclide notation:  $${}^{2}_{1}\mathrm{H} + {}^{3}_{1}\mathrm{H} \rightarrow {}^{4}_{2}\mathrm{He} + {}^{1}_{0}\mathrm{n}$$
+  * upright units with \mathrm:  $E = 17.6\ \mathrm{MeV}$,  $2.8 \times 10^{-12}\ \mathrm{J}$,  $\Delta m$
+Example question_en (shown with real line breaks; in JSON use \n and double every backslash):
+  China's BEST tokamak aims to demonstrate the fusion reaction:
+  $${}^{2}_{1}\mathrm{H} + {}^{3}_{1}\mathrm{H} \rightarrow {}^{4}_{2}\mathrm{He} + {}^{1}_{0}\mathrm{n}$$
+  (a) Calculate the energy released in one reaction, in MeV. (3 marks)
+  Given:
+  - $m({}^{2}\mathrm{H}) = 2.014102\ \mathrm{u}$
+  - $1\ \mathrm{u} = 931\ \mathrm{MeV}$
+  (b) Explain why ... (3 marks)
+Example answer_en:
+  (a)
+  - Mass defect $\Delta m = 0.018883\ \mathrm{u}$ (1M)
+  - $E = 0.018883 \times 931 \approx 17.6\ \mathrm{MeV}$ (1A)
+  (b)
+  - Both nuclei are positively charged ... (1)
+In JSON: "$m = 2.014102\\ \\mathrm{u}$ (1M)\n- next line"
 """
 import argparse
 import datetime as dt
 import json
 import os
+import re
 import sys
 import tempfile
 
@@ -56,7 +82,29 @@ def _url(obj, key, where, required=True):
         raise ValidationError(f"{where}: '{key}' must start with http:// or https:// (got {v!r})")
 
 
-def validate_day(day):
+CJK_RE = re.compile(r"[\u3000-\u303f\u4e00-\u9fff\uff00-\uffef]")
+
+
+def check_math(text, where, warnings):
+    """Check $...$ / $$...$$ delimiters are balanced; warn about suspicious math."""
+    t = text.replace("\\$", "")
+    if t.count("$$") % 2:
+        raise ValidationError(f"{where}: unbalanced $$ ... $$ (display math)")
+    display = re.findall(r"\$\$(.*?)\$\$", t, flags=re.S)
+    rest = re.sub(r"\$\$.*?\$\$", " ", t, flags=re.S)
+    if rest.count("$") % 2:
+        raise ValidationError(f"{where}: unbalanced $ ... $ (inline math); write \\$ for a literal dollar sign")
+    inline = re.findall(r"\$(.+?)\$", rest, flags=re.S)
+    for seg in display + inline:
+        if CJK_RE.search(seg):
+            warnings.append(f"{where}: Chinese/full-width characters inside math: {seg.strip()[:40]!r}")
+        if seg.count("{") != seg.count("}"):
+            raise ValidationError(f"{where}: unbalanced braces in math: {seg.strip()[:60]!r}")
+
+
+def validate_day(day, warnings=None):
+    if warnings is None:
+        warnings = []
     if not isinstance(day, dict):
         raise ValidationError("top level must be a JSON object")
     date = day.get("date")
@@ -97,6 +145,11 @@ def validate_day(day):
         _str(q, k, "question")
     if "answer" in q:
         raise ValidationError("question: legacy 'answer' field is not allowed; use 'answer_en' and 'answer_zh'")
+    for k in ("question_en", "question_zh", "answer_en", "answer_zh"):
+        check_math(q[k], f"question.{k}", warnings)
+    for k in ("answer_en", "answer_zh"):
+        if not re.search(r"[（(]\s*\d*\s*[MA]?\s*[)）]\s*$", q[k], flags=re.M):
+            warnings.append(f"question.{k}: no mark badges found, e.g. end marking lines with (1M) / (1A) / (1)")
     b = q.get("based_on")
     if b is not None:
         if not isinstance(b, int) or isinstance(b, bool) or not (1 <= b <= len(news)):
@@ -130,9 +183,12 @@ def check_all():
         try:
             with open(p, encoding="utf-8") as f:
                 day = json.load(f)
-            if validate_day(day) != d:
+            warnings = []
+            if validate_day(day, warnings) != d:
                 raise ValidationError(f"date inside file != {d}")
             print(f"OK   {d}")
+            for w in warnings:
+                print(f"     WARNING: {w}")
         except (OSError, json.JSONDecodeError, ValidationError) as e:
             ok = False
             print(f"FAIL {d}: {e}")
@@ -157,7 +213,10 @@ def main():
     try:
         with open(args.day_json, encoding="utf-8") as f:
             day = json.load(f)
-        date = validate_day(day)
+        warnings = []
+        date = validate_day(day, warnings)
+        for w in warnings:
+            print(f"WARNING: {w}", file=sys.stderr)
     except (OSError, json.JSONDecodeError, ValidationError) as e:
         print(f"ERROR: {e}", file=sys.stderr)
         sys.exit(1)

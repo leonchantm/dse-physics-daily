@@ -43,6 +43,113 @@
 
   function str(v) { return typeof v === "string" ? v : (v == null ? "" : String(v)); }
 
+  /* ---------- Rich text for questions/answers ----------
+   * Authoring format (plain text, never HTML):
+   *   blank line           -> paragraph break
+   *   (a) … / (b) …        -> sub-part; (i) (ii) … -> nested sub-part
+   *   - item               -> list item
+   *   trailing (3 marks) / （3 分） / (1M) / (1A) / (1) -> mark badge, right-aligned
+   *   $$ … $$ on own line  -> display equation (may span lines)
+   *   $ … $                -> inline math;  \$ -> literal dollar
+   * Text is inserted with textContent; only math segments go to KaTeX (trust:false). */
+  var PART_RE = /^[（(]([a-h]|i{1,3}|iv|vi{0,3}|ix|x)[)）]\s*(.*)$/;
+  var ROMAN_RE = /^(i{1,3}|iv|vi{0,3}|ix|x)$/;
+  var ITEM_RE = /^[-•]\s+(.*)$/;
+  var MARK_RE = /\s*[（(]\s*(\d+\s*(?:marks?|分)|\d*\s*[MA]|\d+)\s*[)）]\s*$/i;
+
+  function renderMath(tex, display) {
+    var node = el(display ? "div" : "span", { className: display ? "math-display" : "math-inline" });
+    if (window.katex && typeof window.katex.render === "function") {
+      try {
+        window.katex.render(tex, node, { displayMode: !!display, throwOnError: false, trust: false, strict: "ignore", output: "htmlAndMathml" });
+        return node;
+      } catch (e) { /* fall through to plain text */ }
+    }
+    node.classList.add("math-fallback");
+    node.textContent = tex;
+    return node;
+  }
+
+  function appendInline(parent, text) {
+    var buf = "", i = 0, n = text.length;
+    function flush() { if (buf) { parent.appendChild(document.createTextNode(buf)); buf = ""; } }
+    while (i < n) {
+      var c = text.charAt(i);
+      if (c === "\\" && text.charAt(i + 1) === "$") { buf += "$"; i += 2; continue; }
+      if (c === "$") {
+        var j = i + 1;
+        while (j < n && !(text.charAt(j) === "$" && text.charAt(j - 1) !== "\\")) j++;
+        if (j < n && j > i + 1) {
+          flush();
+          parent.appendChild(renderMath(text.slice(i + 1, j), false));
+          i = j + 1;
+          continue;
+        }
+      }
+      buf += c; i++;
+    }
+    flush();
+    return parent;
+  }
+
+  function lineWithMark(tag, className, text) {
+    var node = el(tag, { className: className });
+    var m = text.match(MARK_RE);
+    var body = m ? text.slice(0, m.index) : text;
+    node.appendChild(appendInline(el("span", { className: "q-line-text" }), body));
+    if (m) node.appendChild(el("span", { className: "q-mark", text: m[1].replace(/\s+/g, " ") }));
+    return node;
+  }
+
+  function renderRich(container, text) {
+    container.replaceChildren();
+    var lines = str(text).replace(/\r\n?/g, "\n").split("\n");
+    var root = container, cur = root, part1 = null, list = null, mathBuf = null;
+    lines.forEach(function (raw) {
+      var t = raw.trim();
+      if (mathBuf !== null) {
+        var end = t.indexOf("$$");
+        if (end < 0) { mathBuf.push(t); return; }
+        mathBuf.push(t.slice(0, end));
+        cur.appendChild(renderMath(mathBuf.join("\n"), true));
+        mathBuf = null;
+        return;
+      }
+      if (!t) { list = null; return; }
+      if (t.indexOf("$$") === 0) {
+        list = null;
+        var rest = t.slice(2), close = rest.indexOf("$$");
+        if (close >= 0) cur.appendChild(renderMath(rest.slice(0, close), true));
+        else mathBuf = [rest];
+        return;
+      }
+      var pm = t.match(PART_RE);
+      if (pm) {
+        list = null;
+        var nested = ROMAN_RE.test(pm[1]) && part1;
+        var part = el("div", { className: "q-part" + (nested ? " q-part-sub" : "") });
+        part.appendChild(el("span", { className: "q-part-label", text: "(" + pm[1] + ")" }));
+        var body = el("div", { className: "q-part-body" });
+        if (pm[2]) body.appendChild(lineWithMark("p", "q-line", pm[2]));
+        part.appendChild(body);
+        if (nested) { part1.appendChild(part); }
+        else { root.appendChild(part); part1 = body; }
+        cur = body;
+        return;
+      }
+      var im = t.match(ITEM_RE);
+      if (im) {
+        if (!list) { list = el("ul", { className: "q-list" }); cur.appendChild(list); }
+        list.appendChild(el("li", null, [lineWithMark("div", "q-line", im[1])]));
+        return;
+      }
+      list = null;
+      cur.appendChild(lineWithMark("p", "q-line", t));
+    });
+    if (mathBuf !== null) cur.appendChild(renderMath(mathBuf.join("\n"), true));
+    return container;
+  }
+
   function formatDate(d) {
     var p = d.split("-").map(Number);
     var wd = new Date(Date.UTC(p[0], p[1] - 1, p[2])).getUTCDay();
@@ -142,8 +249,9 @@
     var q = currentQ || {};
     var zh = lang === "zh";
     var langAttr = zh ? "zh-Hant-HK" : "en";
-    var qText = setText("qText", str(zh ? (q.question_zh || q.question_en) : (q.question_en || q.question_zh)));
-    var qAns = setText("qAns", str(zh ? (q.answer_zh || q.answer || q.answer_en) : (q.answer_en || q.answer || q.answer_zh)));
+    var qText = $("qText"), qAns = $("qAns");
+    if (qText) safely("question text", function () { renderRich(qText, zh ? (q.question_zh || q.question_en) : (q.question_en || q.question_zh)); });
+    if (qAns) safely("answer text", function () { renderRich(qAns, zh ? (q.answer_zh || q.answer || q.answer_en) : (q.answer_en || q.answer || q.answer_zh)); });
     if (qText) qText.setAttribute("lang", langAttr);
     if (qAns) qAns.setAttribute("lang", langAttr);
     setText("qLangLabel", zh ? "中文" : "English");

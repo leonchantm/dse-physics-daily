@@ -82,7 +82,7 @@ body {
 .question h3 { margin: 0 0 6px; font-size: 1.15rem; }
 .q-story { margin: 0 0 12px; color: var(--muted); font-size: .92rem; }
 .answer h4 { margin: 14px 0 4px; font-size: .82rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
-.q-text { white-space: pre-line; overflow-wrap: anywhere; }
+.q-text { overflow-wrap: break-word; min-width: 0; }
 .answer-btn {
   margin-top: 16px; font: inherit; font-weight: 700; color: #fff; background: var(--primary);
   border: 0; border-radius: 999px; padding: 10px 20px; cursor: pointer;
@@ -112,3 +112,43 @@ body {
   border: 2px solid var(--primary); border-radius: 999px; padding: 4px 14px; cursor: pointer;
 }
 .lang-btn:hover { background: var(--primary); color: #fff; }
+
+/* Structured question / answer text */
+.q-text p.q-line { margin: 0 0 8px; }
+.q-line { display: flex; align-items: baseline; gap: 12px; }
+.q-line-text { flex: 1; min-width: 0; }
+.q-mark {
+  flex: none; margin-left: auto; font-size: .78rem; font-weight: 700; white-space: nowrap;
+  color: var(--primary); background: rgba(41, 82, 227, .1); border-radius: 999px; padding: 1px 9px;
+}
+.q-part { display: grid; grid-template-columns: 2.1em minmax(0, 1fr); column-gap: 4px; margin: 14px 0 6px; }
+.q-part-label { font-weight: 700; color: var(--primary); line-height: inherit; }
+.q-part-sub { margin: 8px 0 4px; }
+.q-part-body { min-width: 0; }
+.q-list { margin: 4px 0 10px; padding-left: 1.2em; }
+.q-list li { margin: 5px 0; }
+.q-list li::marker { color: var(--muted); }
+.math-display {
+  overflow-x: auto; overflow-y: hidden; text-align: center; margin: 8px 0 12px;
+  padding: 4px 2px; -webkit-overflow-scrolling: touch; max-width: 100%;
+}
+.math-display .katex-display { margin: 0; }
+.math-display .katex { font-size: 1.25em; }
+.math-inline .katex { font-size: 1.04em; }
+.math-fallback { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .92em; }
+div.math-fallback { white-space: pre-wrap; }
+.answer .q-part:first-child { margin-top: 4px; }
+.nav-btn { white-space: nowrap; }
+@media (max-width: 480px) {
+  .date-nav { gap: 6px; }
+  .nav-btn { padding: 7px 10px; font-size: .9rem; }
+  .date-select select { min-width: 0; padding: 7px 10px; font-size: .95rem; }
+}
+@media (max-width: 480px) {
+  .card { padding: 14px 13px 13px; }
+  .answer { padding: 10px 10px; }
+  .q-part { grid-template-columns: 1.8em minmax(0, 1fr); column-gap: 2px; }
+  .q-list { padding-left: 1.05em; }
+  .q-line { gap: 8px; }
+  .q-mark { padding: 1px 7px; }
+}
