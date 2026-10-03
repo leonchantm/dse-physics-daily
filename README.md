@@ -79,6 +79,17 @@ array in `data/index.json`.
 
 GitHub Pages usually updates within a minute or two of the push.
 
+## Caching notes
+
+GitHub Pages sends `Cache-Control: max-age=600`. To avoid a stale mix of old and new files:
+
+- `index.html` loads `assets/style.css?v=…` and `assets/app.js?v=…`. **When you change CSS/JS,
+  bump the `v=` value in `index.html`** (daily data updates don't need this).
+- Data files are fetched with `cache: "no-cache"` plus a per-minute `?t=` query, so a new day
+  appears as soon as Pages has deployed it.
+- `app.js` rebuilds the question box if any expected element is missing, and renders the title,
+  news and question independently, so one missing element can't break the whole page.
+
 ## Local preview
 
 ```bash

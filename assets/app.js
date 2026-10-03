@@ -50,7 +50,9 @@
   }
 
   function fetchJson(path) {
-    return fetch(path, { cache: "no-cache" }).then(function (r) {
+    // no-cache + a per-minute query string so new daily data shows up promptly
+    var url = path + (path.indexOf("?") < 0 ? "?" : "&") + "t=" + Math.floor(Date.now() / 60000);
+    return fetch(url, { cache: "no-cache" }).then(function (r) {
       if (!r.ok) throw new Error(path + " → HTTP " + r.status);
       return r.json();
     });
@@ -58,6 +60,7 @@
 
   function setStatus(msg, isError) {
     var s = $("status");
+    if (!s) return;
     s.textContent = msg || "";
     s.hidden = !msg;
     s.classList.toggle("error", !!isError);
@@ -65,6 +68,7 @@
 
   function renderNews(news) {
     var box = $("news");
+    if (!box) return;
     box.replaceChildren();
     (Array.isArray(news) ? news : []).forEach(function (item, i) {
       item = item || {};
@@ -83,13 +87,48 @@
     });
   }
 
-  function renderQuestion(q, news) {
+  /* Make sure the question box has every element this script needs.
+   * If the page HTML is an older/different version (e.g. a stale cached index.html),
+   * (re)build the box contents instead of throwing. */
+  var Q_IDS = ["qStory", "qLangLabel", "langBtn", "qText", "answerBtn", "answer", "answerTitle", "qAns"];
+  function ensureQuestionDom() {
     var card = $("questionCard");
+    if (!card) {
+      var day = $("day") || $("main") || document.body;
+      card = el("section", { className: "question card", attrs: { id: "questionCard", "aria-labelledby": "qHeading" } });
+      day.appendChild(card);
+    }
+    var missing = Q_IDS.some(function (id) { return !$(id) || !card.contains($(id)); });
+    if (!missing) return card;
+    Q_IDS.concat(["qHeading", "qEn", "qZh"]).forEach(function (id) {
+      var old = $(id); if (old && !card.contains(old) && old.parentNode) old.parentNode.removeChild(old);
+    });
+    card.replaceChildren(
+      el("h3", { text: "📝 每日一題 Question of the Day", attrs: { id: "qHeading" } }),
+      el("p", { className: "q-story", attrs: { id: "qStory" } }),
+      el("div", { className: "q-toolbar" }, [
+        el("span", { className: "q-lang-label", text: "English", attrs: { id: "qLangLabel" } }),
+        el("button", { className: "lang-btn", text: "中文", attrs: { type: "button", id: "langBtn" } })
+      ]),
+      el("div", { className: "q-text", attrs: { id: "qText", lang: "en" } }),
+      el("button", { className: "answer-btn", text: "Show answer", attrs: { type: "button", id: "answerBtn", "aria-expanded": "false", "aria-controls": "answer" } }),
+      el("div", { className: "answer", attrs: { id: "answer", hidden: "" } }, [
+        el("h4", { text: "Suggested answer", attrs: { id: "answerTitle" } }),
+        el("div", { className: "q-text", attrs: { id: "qAns", lang: "en" } })
+      ])
+    );
+    return card;
+  }
+
+  function setText(id, text) { var n = $(id); if (n) n.textContent = text; return n; }
+
+  function renderQuestion(q, news) {
+    var card = ensureQuestionDom();
     if (!q) { card.hidden = true; return; }
     card.hidden = false;
     var story = str(q.story);
     if (!story && q.based_on && news && news[q.based_on - 1]) story = str(news[q.based_on - 1].title);
-    $("qStory").textContent = story ? "根據新聞" + (q.based_on ? " " + q.based_on : "") + "：" + story : "";
+    setText("qStory", story ? "根據新聞" + (q.based_on ? " " + q.based_on : "") + "：" + story : "");
     currentQ = q;
     renderLang();
     setAnswer(false);
@@ -102,23 +141,24 @@
   function renderLang() {
     var q = currentQ || {};
     var zh = lang === "zh";
-    var qText = $("qText"), qAns = $("qAns");
-    qText.textContent = str(zh ? (q.question_zh || q.question_en) : (q.question_en || q.question_zh));
-    var ans = zh ? (q.answer_zh || q.answer || q.answer_en) : (q.answer_en || q.answer || q.answer_zh);
-    qAns.textContent = str(ans);
-    qText.setAttribute("lang", zh ? "zh-Hant-HK" : "en");
-    qAns.setAttribute("lang", zh ? "zh-Hant-HK" : "en");
-    $("qLangLabel").textContent = zh ? "中文" : "English";
-    var btn = $("langBtn");
-    btn.textContent = zh ? "English" : "中文";
-    btn.setAttribute("aria-label", zh ? "Switch to English 轉做英文" : "Switch to Chinese 轉做中文");
-    $("answerTitle").textContent = zh ? "參考答案" : "Suggested answer";
-    setAnswer(!$("answer").hidden);
+    var langAttr = zh ? "zh-Hant-HK" : "en";
+    var qText = setText("qText", str(zh ? (q.question_zh || q.question_en) : (q.question_en || q.question_zh)));
+    var qAns = setText("qAns", str(zh ? (q.answer_zh || q.answer || q.answer_en) : (q.answer_en || q.answer || q.answer_zh)));
+    if (qText) qText.setAttribute("lang", langAttr);
+    if (qAns) qAns.setAttribute("lang", langAttr);
+    setText("qLangLabel", zh ? "中文" : "English");
+    var btn = setText("langBtn", zh ? "English" : "中文");
+    if (btn) btn.setAttribute("aria-label", zh ? "Switch to English 轉做英文" : "Switch to Chinese 轉做中文");
+    setText("answerTitle", zh ? "參考答案" : "Suggested answer");
+    var ans = $("answer");
+    setAnswer(ans ? !ans.hidden : false);
   }
 
   function setAnswer(show) {
-    $("answer").hidden = !show;
+    var ans = $("answer");
+    if (ans) ans.hidden = !show;
     var btn = $("answerBtn");
+    if (!btn) return;
     btn.setAttribute("aria-expanded", show ? "true" : "false");
     var zh = lang === "zh";
     btn.textContent = show ? (zh ? "隱藏答案" : "Hide answer") : (zh ? "顯示答案" : "Show answer");
@@ -126,11 +166,12 @@
 
   function renderNav() {
     var sel = $("dateSelect");
-    sel.replaceChildren();
-    dates.forEach(function (d, i) {
+    if (sel) sel.replaceChildren();
+    if (sel) dates.forEach(function (d, i) {
       sel.appendChild(el("option", { text: d + (i === 0 ? "（最新）" : ""), attrs: { value: d } }));
     });
     var list = $("archiveList");
+    if (!list) return;
     list.replaceChildren();
     dates.forEach(function (d) {
       list.appendChild(el("li", null, [el("a", { text: d, attrs: { href: "#" + d } })]));
@@ -139,10 +180,11 @@
 
   function updateNavState() {
     var i = dates.indexOf(current);
-    $("dateSelect").value = current;
-    $("prevBtn").disabled = i < 0 || i >= dates.length - 1; // older
-    $("nextBtn").disabled = i <= 0;                          // newer
-    Array.prototype.forEach.call($("archiveList").querySelectorAll("a"), function (a) {
+    if ($("dateSelect")) $("dateSelect").value = current;
+    if ($("prevBtn")) $("prevBtn").disabled = i < 0 || i >= dates.length - 1; // older
+    if ($("nextBtn")) $("nextBtn").disabled = i <= 0;                          // newer
+    var list = $("archiveList");
+    if (list) Array.prototype.forEach.call(list.querySelectorAll("a"), function (a) {
       if (a.getAttribute("href") === "#" + current) a.setAttribute("aria-current", "page");
       else a.removeAttribute("aria-current");
     });
@@ -157,18 +199,26 @@
     p.then(function (day) {
       if (current !== date) return;
       cache[date] = day;
-      var title = $("dayTitle");
-      title.replaceChildren(document.createTextNode("📅 " + formatDate(date)));
-      if (dates[0] === date) title.appendChild(el("small", { text: "最新 Latest" }));
-      renderNews(day.news);
-      renderQuestion(day.question, day.news);
-      $("day").hidden = false;
+      safely("title", function () {
+        var title = $("dayTitle");
+        if (!title) return;
+        title.replaceChildren(document.createTextNode("📅 " + formatDate(date)));
+        if (dates[0] === date) title.appendChild(el("small", { text: "最新 Latest" }));
+      });
+      safely("news", function () { renderNews(day.news); });
+      safely("question", function () { renderQuestion(day.question, day.news); });
+      if ($("day")) $("day").hidden = false;
       setStatus("");
     }).catch(function (err) {
       if (current !== date) return;
-      $("day").hidden = true;
+      if ($("day")) $("day").hidden = true;
       setStatus("載入失敗 Failed to load " + date + ": " + err.message, true);
     });
+  }
+
+  // Run one rendering step; a problem in one section must not break the rest of the page.
+  function safely(name, fn) {
+    try { fn(); } catch (e) { if (window.console) console.warn("[dse-physics-daily] could not render " + name + ":", e); }
   }
 
   function fromHash() {
@@ -183,18 +233,25 @@
 
   function init() {
     lang = loadLang();
-    $("langBtn").addEventListener("click", function () {
-      lang = lang === "zh" ? "en" : "zh";
-      try { localStorage.setItem(LANG_KEY, lang); } catch (e) { /* ignore */ }
-      renderLang();
+    // Delegated listeners: keep working even if the question box is rebuilt.
+    document.addEventListener("click", function (e) {
+      var t = e.target && e.target.closest ? e.target : null;
+      if (!t) return;
+      if (t.closest("#langBtn")) {
+        lang = lang === "zh" ? "en" : "zh";
+        try { localStorage.setItem(LANG_KEY, lang); } catch (err) { /* ignore */ }
+        renderLang();
+      } else if (t.closest("#answerBtn")) {
+        var ans = $("answer");
+        setAnswer(ans ? ans.hidden : true);
+      } else if (t.closest("#prevBtn")) {
+        var i = dates.indexOf(current); if (i >= 0 && i < dates.length - 1) go(dates[i + 1]);
+      } else if (t.closest("#nextBtn")) {
+        var j = dates.indexOf(current); if (j > 0) go(dates[j - 1]);
+      }
     });
-    $("answerBtn").addEventListener("click", function () { setAnswer($("answer").hidden); });
-    $("dateSelect").addEventListener("change", function (e) { go(e.target.value); });
-    $("prevBtn").addEventListener("click", function () {
-      var i = dates.indexOf(current); if (i < dates.length - 1) go(dates[i + 1]);
-    });
-    $("nextBtn").addEventListener("click", function () {
-      var i = dates.indexOf(current); if (i > 0) go(dates[i - 1]);
+    document.addEventListener("change", function (e) {
+      if (e.target && e.target.id === "dateSelect") go(e.target.value);
     });
     window.addEventListener("hashchange", fromHash);
 
