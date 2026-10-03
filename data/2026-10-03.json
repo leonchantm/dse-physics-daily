@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-03",
+  "news": [
+    {
+      "title": "首次收到系外行星嘅無線電訊號",
+      "summary": "南非 MeerKAT 電波望遠鏡收到 63 光年外氣體巨行星 β Pictoris b 發出嘅極光無線電爆發，係第一次確認訊號來自行星本身，而唔係佢嘅恆星。科學家由最高頻率推算出呢粒行星嘅磁場至少有 1.25 kG（0.125 T），比地球磁場強幾千倍。",
+      "topic": "電和磁（磁場、運動電荷受磁力）、電磁波、天文學",
+      "source_name": "The Daily Galaxy",
+      "source_url": "https://dailygalaxy.com/2026/10/first-radio-signal-traced-to-exoplanet/",
+      "source_date": "2/10",
+      "links": [
+        {
+          "label": "arXiv paper",
+          "url": "https://arxiv.org/abs/2609.16720"
+        }
+      ]
+    },
+    {
+      "title": "中國「人造太陽」BEST 進入關鍵建造階段",
+      "summary": "合肥嘅 BEST 超導托卡馬克（tokamak）已經完成一半以上組裝，而家開始安裝真空室、冷屏同環向場磁體。計劃 2027 年建成，大約 2030 年示範用氘氚聚變發電。",
+      "topic": "放射現象和核能（核聚變、質能關係 E = mc²）、電和磁（用磁場約束等離子體）",
+      "source_name": "CGTN",
+      "source_url": "https://news.cgtn.com/news/2026-10-01/China-s-artificial-sun-project-enters-key-construction-phase-1QSYBsXj0d2/p.html",
+      "source_date": "1/10",
+      "links": []
+    },
+    {
+      "title": "「原子大炮」測試愛因斯坦嘅重力理論",
+      "summary": "ETH Zurich 同瑞士 PSI 造出一條高強度嘅 muonium 原子束（muonium 由一粒電子同一粒反緲子組成）。下一步會用干涉儀量度佢喺重力下面嘅加速度，睇吓係咪同普通物質一樣係 g。如果唔一樣，可能代表有「第五種力」。",
+      "topic": "力和運動（自由落體、g）、波動（干涉）",
+      "source_name": "SciTechDaily",
+      "source_url": "https://scitechdaily.com/this-atomic-cannon-could-challenge-einsteins-theory-of-gravity/",
+      "source_date": "3/10",
+      "links": []
+    },
+    {
+      "title": "歐洲 2026 年夏天熱壓力創新高",
+      "summary": "Copernicus 報告指，今個夏天有破紀錄 52% 嘅歐洲地區出現「非常強」熱壓力（體感溫度 ≥ 38°C）。西歐經歷有紀錄以來最熱嘅夏天，平均氣溫比 1991–2020 年平均高 2.5°C。河流水位係 30 幾年嚟最低，連核電站嘅冷卻都受影響。",
+      "topic": "熱和氣體（溫度、熱傳遞、比熱容）、能源（發電廠冷卻）",
+      "source_name": "Copernicus",
+      "source_url": "https://climate.copernicus.eu/copernicus-record-heat-stress-and-low-river-flows-marked-europes-2026-summer",
+      "source_date": "2/10",
+      "links": []
+    }
+  ],
+  "question": {
+    "based_on": 2,
+    "story": "中國「人造太陽」BEST 進入關鍵建造階段",
+    "question_en": "China's BEST tokamak aims to demonstrate the fusion reaction ²₁H + ³₁H → ⁴₂He + ¹₀n.\n(a) Calculate the energy released in one reaction, in MeV. Given: m(²H) = 2.014102 u, m(³H) = 3.016049 u, m(⁴He) = 4.002603 u, m(n) = 1.008665 u, 1 u = 931 MeV. (3 marks)\n(b) Explain why the fuel must be heated to about 100 million °C, and why a strong magnetic field (not a solid container) is used to hold the hot plasma. (3 marks)",
+    "question_zh": "中國 BEST 托卡馬克（tokamak）目標係示範以下核聚變反應：²₁H + ³₁H → ⁴₂He + ¹₀n。\n(a) 計算每次反應釋放嘅能量（以 MeV 表示）。已知：m(²H) = 2.014102 u，m(³H) = 3.016049 u，m(⁴He) = 4.002603 u，m(n) = 1.008665 u，1 u = 931 MeV。（3 分）\n(b) 解釋點解燃料要加熱到大約 1 億 °C，同埋點解要用強磁場（而唔係實心容器）去約束高溫等離子體。（3 分）",
+    "answer": "(a) 反應前總質量 = 5.030151 u；反應後總質量 = 5.011268 u（1M）；質量虧損 Δm = 0.018883 u（1M）；E = 0.018883 × 931 ≈ 17.6 MeV（1A）（≈ 2.8 × 10⁻¹² J）。\n(b) 兩個原子核都帶正電，彼此有好強嘅靜電斥力（1）；要極高溫度，原子核先有足夠大嘅動能克服斥力、靠得夠近發生聚變（1）；等離子體由帶電粒子組成，喺磁場入面受磁力，會繞住磁場線運動，唔會掂到容器壁；而任何實心容器遇到咁高溫都會熔化或者令等離子體冷卻（1）。"
+  }
+}

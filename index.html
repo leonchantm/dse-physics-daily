@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>每日物理新聞 Daily Physics News</title>
+  <meta name="description" content="每日物理新聞同 DSE 物理練習題 — Daily physics news and HKDSE Physics practice questions.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚛️</text></svg>">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1><span class="logo" aria-hidden="true">⚛</span> 每日物理新聞 <span class="en">Daily Physics News</span></h1>
+      <p class="tagline">最新物理新聞 × HKDSE 物理課題 × 每日一題</p>
+    </div>
+  </header>
+
+  <nav class="date-nav wrap" aria-label="選擇日期 Choose a date">
+    <button type="button" id="prevBtn" class="nav-btn" aria-label="前一日 Previous day">‹ 前一日</button>
+    <label class="date-select">
+      <span class="sr-only">日期 Date</span>
+      <select id="dateSelect"></select>
+    </label>
+    <button type="button" id="nextBtn" class="nav-btn" aria-label="後一日 Next day">後一日 ›</button>
+  </nav>
+
+  <main class="wrap" id="main">
+    <p id="status" class="status" role="status">載入中… Loading…</p>
+    <section id="day" hidden>
+      <h2 id="dayTitle" class="day-title"></h2>
+      <div id="news" class="cards"></div>
+
+      <section class="question card" id="questionCard" aria-labelledby="qHeading">
+        <h3 id="qHeading">📝 每日一題 Question of the Day</h3>
+        <p class="q-story" id="qStory"></p>
+        <div class="q-lang">
+          <h4>English</h4>
+          <div class="q-text" id="qEn" lang="en"></div>
+        </div>
+        <div class="q-lang">
+          <h4>中文</h4>
+          <div class="q-text" id="qZh" lang="zh-Hant-HK"></div>
+        </div>
+        <button type="button" id="answerBtn" class="answer-btn" aria-expanded="false" aria-controls="answer">顯示答案 Show answer</button>
+        <div id="answer" class="answer" hidden>
+          <h4>參考答案 Suggested answer</h4>
+          <div class="q-text" id="qAns"></div>
+        </div>
+      </section>
+    </section>
+
+    <section class="archive" aria-labelledby="archiveHeading">
+      <h3 id="archiveHeading">🗂 過往日子 Archive</h3>
+      <ul id="archiveList" class="archive-list"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>為 HKDSE 物理科同學整理 · 新聞摘要以廣東話撰寫，詳情請參閱原文來源。</p>
+    </div>
+  </footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>
