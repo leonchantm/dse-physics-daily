@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-05",
+  "news": [
+    {
+      "title": "JUICE 掠過地球，「重力助推」加速 3.5 km/s",
+      "summary": "歐洲太空總署嘅木星冰月探測器 JUICE 喺 9 月 28 日喺印度洋上空 8640 km 掠過地球，靠地球引力將速率提升 3.5 km/s、路線轉咗 20°，差唔多冇用燃料。佢仲趁機測試咗儀器，計劃 2031 年到達木星。",
+      "topic": "力和運動（萬有引力、圓周運動、相對速度）、天文學",
+      "source_name": "OrbitalHub",
+      "source_url": "https://orbitalhub.com/2026/10/03/juice-picked-up-3-5-km-s-skimming-earths-atmosphere-edge/",
+      "source_date": "3/10",
+      "links": []
+    },
+    {
+      "title": "美國首座小型模組化核反應堆獲批建造",
+      "summary": "美國核管會（NRC）9 月 29 日批出建造許可證，俾 TVA 喺田納西州起一座 300 MW 嘅沸水式小型模組化反應堆（SMR），審批比預期早咗四個月。不過要正式運作同裝燃料，仲要另外申請運作牌照。",
+      "topic": "放射現象和核能（核裂變、核電站）",
+      "source_name": "Morning Overview",
+      "source_url": "https://morningoverview.com/regulators-cleared-the-first-u-s-small-modular-reactor-4-months-early/",
+      "source_date": "4/10",
+      "links": []
+    },
+    {
+      "title": "MIT 造出食得落肚、會自己溶解嘅紙電池",
+      "summary": "MIT 團隊用纖維素奈米纖維（即係紙）做出藥丸咁大嘅電池，可以喺腸胃入面為感應器供電，之後自行分解。喺豬隻實驗入面，電池最高電壓達 1.84 V，喺胃入面可以運作最多三日。",
+      "topic": "電和磁（電動勢、電路、電功率）",
+      "source_name": "Energies Media",
+      "source_url": "https://energiesmedia.com/mit-paper-battery-ingestible-sensors/",
+      "source_date": "4/10",
+      "links": []
+    },
+    {
+      "title": "首次直接觀察到氣體跌落中子星",
+      "summary": "天文學家用 XRISM X 射線太空望遠鏡觀察中子星 GX 301–2，見到鐵嘅譜線出現紅移、由吸收線變成發射線，係第一次用光譜直接睇到物質跌向中子星。譜線紅移嘅程度話俾科學家知氣體跌落嘅速度。",
+      "topic": "波動（電磁波譜、多普勒效應）、天文學（恆星、光譜）",
+      "source_name": "The Times of India",
+      "source_url": "https://timesofindia.indiatimes.com/science/space/astronomers-spot-gas-falling-onto-a-neutron-star-for-the-first-time-revealing-how-matter-flows-towards-the-star/articleshow/134594156.cms",
+      "source_date": "4/10",
+      "links": []
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "JUICE 掠過地球，「重力助推」加速 3.5 km/s",
+    "question_en": "On 28 September 2026, ESA's JUICE spacecraft flew past Earth at an altitude of $8640\\ \\mathrm{km}$ above the surface. The gravity assist increased its speed by $3.5\\ \\mathrm{km\\,s^{-1}}$ on its way to Jupiter.\nGiven:\n- Mass of Earth $M = 6.0 \\times 10^{24}\\ \\mathrm{kg}$\n- Radius of Earth $R = 6.37 \\times 10^{6}\\ \\mathrm{m}$\n- $G = 6.67 \\times 10^{-11}\\ \\mathrm{N\\,m^{2}\\,kg^{-2}}$\n(a) Calculate the gravitational field strength due to Earth at JUICE's closest approach. (2 marks)\n(b)\n(i) Calculate the speed a satellite would need to move in a circular orbit at this distance from Earth's centre. (2 marks)\n(ii) JUICE was moving faster than this speed at closest approach. State what happens to its path, and explain briefly. (1 mark)\n(c) Relative to Earth, JUICE leaves with about the same speed as it arrives. Explain how the flyby can still increase JUICE's speed relative to the Sun. (2 marks)",
+    "question_zh": "2026 年 9 月 28 日，歐洲太空總署（ESA）嘅 JUICE 太空船喺離地面 $8640\\ \\mathrm{km}$ 高度掠過地球。呢次「重力助推」令佢飛往木星嘅速率增加咗 $3.5\\ \\mathrm{km\\,s^{-1}}$。\n已知：\n- 地球質量 $M = 6.0 \\times 10^{24}\\ \\mathrm{kg}$\n- 地球半徑 $R = 6.37 \\times 10^{6}\\ \\mathrm{m}$\n- $G = 6.67 \\times 10^{-11}\\ \\mathrm{N\\,m^{2}\\,kg^{-2}}$\n(a) 計算 JUICE 最接近地球時，該處由地球產生嘅引力場強度。（2 分）\n(b)\n(i) 計算一粒人造衞星要喺離地心同一距離做圓周軌道運動所需嘅速率。（2 分）\n(ii) JUICE 最接近地球時嘅速率大過呢個數值。說明佢嘅路徑會點，並簡單解釋。（1 分）\n(c) 相對地球嚟講，JUICE 離開時嘅速率同到達時差唔多。解釋點解呢次掠過仍然可以增加 JUICE 相對太陽嘅速率。（2 分）",
+    "answer_en": "(a)\n- $r = R + h = 6.37 \\times 10^{6} + 8.64 \\times 10^{6} = 1.501 \\times 10^{7}\\ \\mathrm{m}$ (1M)\n- $g = \\dfrac{GM}{r^{2}} = \\dfrac{6.67 \\times 10^{-11} \\times 6.0 \\times 10^{24}}{(1.501 \\times 10^{7})^{2}} \\approx 1.78\\ \\mathrm{N\\,kg^{-1}}$ (1A)\n(b)\n(i)\n- Gravitational force provides the centripetal force: $\\dfrac{GMm}{r^{2}} = \\dfrac{mv^{2}}{r}$ (1M)\n- $v = \\sqrt{\\dfrac{GM}{r}} = \\sqrt{\\dfrac{4.002 \\times 10^{14}}{1.501 \\times 10^{7}}} \\approx 5.16 \\times 10^{3}\\ \\mathrm{m\\,s^{-1}}$ (about $5.2\\ \\mathrm{km\\,s^{-1}}$) (1A)\n(ii)\n- Earth's gravity is not large enough to provide the centripetal force needed at that speed, so JUICE cannot stay in orbit; its path only bends and it moves away from Earth (escapes). (1)\n(c)\n- Earth itself is moving around the Sun. During the flyby, Earth's gravity changes the direction of JUICE's velocity relative to Earth. (1)\n- Turning JUICE towards the direction of Earth's orbital motion makes its velocity relative to the Sun (= JUICE's velocity relative to Earth + Earth's velocity) larger; the extra kinetic energy comes from Earth's orbital motion (Earth slows down by a negligible amount). (1)",
+    "answer_zh": "(a)\n- $r = R + h = 6.37 \\times 10^{6} + 8.64 \\times 10^{6} = 1.501 \\times 10^{7}\\ \\mathrm{m}$（1M）\n- $g = \\dfrac{GM}{r^{2}} = \\dfrac{6.67 \\times 10^{-11} \\times 6.0 \\times 10^{24}}{(1.501 \\times 10^{7})^{2}} \\approx 1.78\\ \\mathrm{N\\,kg^{-1}}$（1A）\n(b)\n(i)\n- 萬有引力提供向心力：$\\dfrac{GMm}{r^{2}} = \\dfrac{mv^{2}}{r}$（1M）\n- $v = \\sqrt{\\dfrac{GM}{r}} = \\sqrt{\\dfrac{4.002 \\times 10^{14}}{1.501 \\times 10^{7}}} \\approx 5.16 \\times 10^{3}\\ \\mathrm{m\\,s^{-1}}$（約 $5.2\\ \\mathrm{km\\,s^{-1}}$）（1A）\n(ii)\n- 地球引力唔夠提供咁高速率所需嘅向心力，所以 JUICE 唔會留喺軌道上；佢嘅路徑只係被拗彎，然後離開地球（逃逸）。（1）\n(c)\n- 地球本身繞住太陽運動。掠過期間，地球引力改變咗 JUICE 相對地球嘅速度方向。（1）\n- 將 JUICE 轉向地球公轉運動嘅方向，佢相對太陽嘅速度（＝ JUICE 相對地球嘅速度 ＋ 地球嘅速度）就會增大；多出嚟嘅動能來自地球嘅公轉運動（地球減慢嘅程度微不足道）。（1）"
+  }
+}
