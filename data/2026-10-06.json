@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-06",
+  "news": [
+    {
+      "title": "日本水浸太陽能發電場，水退之後起火",
+      "summary": "颱風過後，千葉縣成田一段湖堤崩咗，附近一個太陽能發電場被水浸。9 月 24 日水位回落之後發電場起火，消防估計係浸過水嘅匯流箱（combiner box）重新露出嚟之後短路。日本經產省提醒市民唔好接近浸過水嘅太陽能板同電器設備，因為只要有陽光，太陽能板都會繼續發電，可能觸電或者起火。",
+      "topic": "電和磁（電路、電動勢和內阻、電流熱效應）、家居用電（用電安全）",
+      "source_name": "pv magazine",
+      "source_url": "https://www.pv-magazine.com/2026/10/05/flooded-solar-plant-in-japan-catches-fire-after-typhoon/",
+      "source_date": "5/10",
+      "links": []
+    },
+    {
+      "title": "普魯士藍令鈣鈦礦太陽能電池效率達 26.9%",
+      "summary": "中國研究團隊喺鈣鈦礦（perovskite）太陽能電池加入普魯士藍納米粒子，令電荷分離同抽取更有效、離子遷移減少，細電池效率最高去到 26.9%。一塊 30 cm × 30 cm 嘅大組件認證效率有 22.9%，喺珠海戶外測試 5 個月都冇明顯衰退。研究刊登喺《Science》。",
+      "topic": "能量和能源的使用（太陽能電池、能量轉換效率）",
+      "source_name": "pv magazine",
+      "source_url": "https://www.pv-magazine.com/2026/10/05/perovskite-solar-cell-based-on-prussian-blue-achieves-26-9-efficiency/",
+      "source_date": "5/10",
+      "links": []
+    },
+    {
+      "title": "美國 1 MWe 微型核反應堆 2027 年做全功率測試",
+      "summary": "美國能源部揀咗初創公司 Deployable Energy，2027 年喺愛達荷國家實驗室嘅 DOME 測試設施，為佢哋 1 MWe 嘅「Nuclear Unity Battery」微型反應堆做全功率測試。呢個可運輸式反應堆用輕水做減速劑、用氦氣冷卻，示範堆今年 7 月已經達到臨界（即連鎖反應可以自己維持）。",
+      "topic": "放射現象和核能（核裂變、連鎖反應、減速劑）",
+      "source_name": "Nuclear Engineering International",
+      "source_url": "https://www.neimagazine.com/news/nub-to-begin-full-power-dome-testing/",
+      "source_date": "5/10",
+      "links": []
+    },
+    {
+      "title": "「鳳凰行星」：喺死亡恆星嘅灰燼入面重生",
+      "summary": "天文學家發現約 790 光年外嘅白矮星 HS 0209+0832，大氣含有異常多嘅鋅、銅同鈮，推斷佢正吸收一粒「第二代」氣體巨行星蒸發出嚟嘅大氣。呢粒行星由恆星臨死時拋出嘅物質形成，軌道週期約 4.4 日，係第一次喺白矮星附近搵到第二代行星。研究刊登喺《Nature Astronomy》。",
+      "topic": "天文學和航天科學（恆星演化、行星軌道）",
+      "source_name": "Space.com",
+      "source_url": "https://www.space.com/astronomy/exoplanets/completely-unexpected-phoenix-planet-was-born-from-the-ashes-of-a-dying-star",
+      "source_date": "5/10",
+      "links": [
+        {
+          "label": "Nature Astronomy paper",
+          "url": "https://www.nature.com/articles/s41550-026-02983-7"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "日本水浸太陽能發電場，水退之後起火",
+    "question_en": "After a typhoon flood near Tokyo, a solar plant caught fire once the water level fell. Fire officials suspect that combiner boxes, which had been under water, short-circuited when they were exposed again. Japan's government warns that solar panels keep generating electricity whenever light falls on them.\nA string of solar panels feeding one combiner box can be modelled as a source with:\nGiven:\n- e.m.f. $\\varepsilon = 600\\ \\mathrm{V}$\n- internal resistance $r = 40\\ \\Omega$\n(a) Dirty flood water left inside the combiner box connects the two output terminals of the string, forming a conducting path of resistance $R = 10\\ \\Omega$. Calculate\n(i) the current through the water path; (2 marks)\n(ii) the rate at which heat is produced in the water path. (2 marks)\n(b) Explain how this short circuit can lead to a fire, even though the plant is no longer under water. (2 marks)\n(c) The plant has been disconnected from the grid. Explain why people are still told not to touch the flooded panels or combiner boxes. (2 marks)",
+    "question_zh": "颱風令東京附近一個太陽能發電場水浸，水位回落之後發電場起火。消防懷疑浸過水嘅匯流箱（combiner box）重新露出水面之後短路。日本政府警告：只要有光照落太陽能板，佢就會繼續發電。\n接去一個匯流箱嘅一串太陽能板，可以當作一個電源：\n已知：\n- 電動勢 $\\varepsilon = 600\\ \\mathrm{V}$\n- 內阻 $r = 40\\ \\Omega$\n(a) 匯流箱入面殘留嘅污水接通咗呢串太陽能板嘅兩個輸出端，形成一條電阻 $R = 10\\ \\Omega$ 嘅導電通路。計算\n(i) 流過污水通路嘅電流；（2 分）\n(ii) 污水通路產生熱嘅速率。（2 分）\n(b) 解釋點解發電場已經唔再浸喺水入面，呢個短路都可以引致火警。（2 分）\n(c) 發電場已經同電網斷開。解釋點解仍然要叫市民唔好掂浸過水嘅太陽能板或者匯流箱。（2 分）",
+    "answer_en": "(a)\n(i)\n- $I = \\dfrac{\\varepsilon}{R + r} = \\dfrac{600}{10 + 40}$ (1M)\n- $I = 12\\ \\mathrm{A}$ (1A)\n(ii)\n- $P = I^{2}R = 12^{2} \\times 10$ (1M)\n- $P = 1440\\ \\mathrm{W} \\approx 1.4\\ \\mathrm{kW}$ (1A)\n(b)\n- The large current produces heat at about 1.4 kW in a small volume (the water path and nearby wires), so the temperature rises quickly. (1)\n- Nearby materials such as plastic casings and cable insulation reach their ignition temperature and burn; the heating continues as long as light keeps the panels generating. (1)\n(c)\n- The panels still produce an e.m.f. of hundreds of volts whenever light falls on them, even when disconnected from the grid. (1)\n- Touching a live part (especially with wet hands or standing on wet ground) lets a current flow through the body, causing an electric shock or electrocution. (1)",
+    "answer_zh": "(a)\n(i)\n- $I = \\dfrac{\\varepsilon}{R + r} = \\dfrac{600}{10 + 40}$（1M）\n- $I = 12\\ \\mathrm{A}$（1A）\n(ii)\n- $P = I^{2}R = 12^{2} \\times 10$（1M）\n- $P = 1440\\ \\mathrm{W} \\approx 1.4\\ \\mathrm{kW}$（1A）\n(b)\n- 大電流喺好細嘅空間（污水通路同附近電線）以大約 1.4 kW 嘅速率產生熱，溫度好快上升。（1）\n- 附近嘅膠外殼、電線絕緣層等物料去到着火溫度就會燒起嚟；只要有光照住太陽能板，佢就會繼續發電、繼續發熱。（1）\n(c)\n- 就算同電網斷開，只要有光照落太陽能板，佢仍然會產生幾百伏特嘅電動勢。（1）\n- 掂到帶電部分（尤其係手濕或者企喺濕地上）會令電流流過身體，引致觸電甚至電死。（1）"
+  }
+}
