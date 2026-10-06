@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-07",
+  "news": [
+    {
+      "title": "2026 諾貝爾物理學獎：南極冰入面捕捉「鬼魅粒子」中微子",
+      "summary": "比利時物理學家 Francis Halzen 獨得今年諾貝爾物理學獎，表揚佢主導南極 IceCube 中微子天文台，並發現來自宇宙深處嘅高能中微子。IceCube 喺 1450 至 2450 米深嘅冰入面放咗 5160 個光感應器，中微子撞到原子核會產生高速帶電粒子，佢哋喺冰入面行得比光仲快，就會發出藍色嘅切倫科夫（Cherenkov）光。",
+      "topic": "波動（光嘅折射、折射率 n = c/v）、放射現象和核能（次原子粒子）、天文學",
+      "source_name": "Nature",
+      "source_url": "https://www.nature.com/articles/d41586-026-03092-1",
+      "source_date": "6/10",
+      "links": [
+        {
+          "label": "Nobel Prize 簡介 Popular information",
+          "url": "https://www.nobelprize.org/prizes/physics/2026/popular-information/"
+        },
+        {
+          "label": "IceCube FAQ",
+          "url": "https://icecube.wisc.edu/about-us/faq/"
+        }
+      ]
+    },
+    {
+      "title": "太陽爆發日冕物質拋射，極光可能加強",
+      "summary": "太陽黑子區 AR4549 喺 10 月 6 日爆發，射出一團日冕物質拋射（CME）飛向地球。NOAA 模型預計佢大約 10 月 9 日（香港時間下晝 1 點左右）到達，可能引發輕微至中等嘅地磁風暴，令極光出現喺比平時更低嘅緯度。",
+      "topic": "電和磁（帶電粒子喺磁場中受力、地球磁場）、天文學（太陽）",
+      "source_name": "Space.com",
+      "source_url": "https://www.space.com/stargazing/auroras/powerful-solar-eruption-could-supercharge-the-northern-lights-this-week",
+      "source_date": "6/10",
+      "links": []
+    },
+    {
+      "title": "ITER 聚變反應堆收到最後一件真空室組件",
+      "summary": "法國南部嘅國際熱核聚變實驗堆 ITER 收到第九件、亦係最後一件真空室（等離子體室）組件。每件大約 14 米高、重 440 公噸；砌好之後真空室直徑 19.4 米、容積大約 1400 m³。至此 ITER 所有核心托卡馬克組件，包括各種超導磁體，都已經運到現場。",
+      "topic": "放射現象和核能（核聚變）、電和磁（用磁場約束等離子體）",
+      "source_name": "Interesting Engineering",
+      "source_url": "https://interestingengineering.com/energy/iter-fusion-reactor-vacuum-vessel-delivery",
+      "source_date": "6/10",
+      "links": []
+    },
+    {
+      "title": "韋伯望遠鏡影到恆星「育嬰室」NGC 7129",
+      "summary": "NASA 韋伯太空望遠鏡拍到 3300 光年外嘅恆星形成區 NGC 7129，睇到好多以前俾塵埃遮住嘅年輕恆星同噴流。中央最光嘅恆星 LkHα 234 質量係太陽嘅 5 至 8 倍，佢喺重力作用下收縮、溫度上升，將來會好似太陽咁開始核聚變燒氫。",
+      "topic": "天文學（恆星形成同演化）、放射現象和核能（核聚變）",
+      "source_name": "NASA Science",
+      "source_url": "https://science.nasa.gov/missions/webb/nasas-webb-captures-commotion-from-nebulas-stellar-jets/",
+      "source_date": "6/10",
+      "links": []
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "2026 諾貝爾物理學獎：南極冰入面捕捉「鬼魅粒子」中微子",
+    "question_en": "The IceCube Neutrino Observatory, honoured by the 2026 Nobel Prize in Physics, uses a cubic kilometre of Antarctic ice as a detector. When a neutrino hits a nucleus in the ice, it can produce a fast charged particle such as a muon. If this particle travels faster than light does in ice, it gives off a faint blue flash called Cherenkov light, which is picked up by light sensors.\nGiven:\n- refractive index of ice $n = 1.31$\n- speed of light in vacuum $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n- light sensors on each cable are $17\\ \\mathrm{m}$ apart vertically\n- the sensors are buried between $1450\\ \\mathrm{m}$ and $2450\\ \\mathrm{m}$ below the ice surface\n(a) Calculate the speed of light in ice. (2 marks)\n(b) A muon moves through the ice at $0.99c$. Show, with a calculation, whether it can emit Cherenkov light. (2 marks)\n(c) Find the time taken for light to travel from one sensor to the next sensor on the same cable. Hence suggest why the sensors must record arrival times very precisely. (2 marks)\n(d) Suggest two reasons why the sensors are buried deep in the ice instead of near the surface. (2 marks)",
+    "question_zh": "今年（2026 年）諾貝爾物理學獎表揚嘅 IceCube 中微子天文台，用一立方公里嘅南極冰做探測器。當中微子撞到冰入面嘅原子核，可以產生高速帶電粒子，例如緲子（muon）。如果呢粒粒子喺冰入面嘅速率大過光喺冰入面嘅速率，就會發出微弱嘅藍光，叫做切倫科夫光（Cherenkov light），由光感應器偵測。\n已知：\n- 冰嘅折射率 $n = 1.31$\n- 真空中光速 $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n- 每條電纜上嘅光感應器垂直相隔 $17\\ \\mathrm{m}$\n- 感應器埋喺冰面以下 $1450\\ \\mathrm{m}$ 至 $2450\\ \\mathrm{m}$ 深\n(a) 計算光喺冰入面嘅速率。（2 分）\n(b) 一粒緲子以 $0.99c$ 喺冰入面運動。用計算說明佢能否發出切倫科夫光。（2 分）\n(c) 求光由一個感應器傳到同一條電纜上下一個感應器所需嘅時間。由此提出點解感應器要非常準確噉記錄光到達嘅時間。（2 分）\n(d) 提出兩個原因，解釋點解感應器要埋喺冰嘅深處，而唔係近冰面。（2 分）",
+    "answer_en": "(a)\n- $n = \\dfrac{c}{v} \\Rightarrow v = \\dfrac{3.00 \\times 10^{8}}{1.31}$ (1M)\n- $v \\approx 2.29 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$ (1A)\n(b)\n- Speed of muon $= 0.99 \\times 3.00 \\times 10^{8} \\approx 2.97 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$ (1M)\n- This is greater than the speed of light in ice ($2.29 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$), so the muon can emit Cherenkov light. (1A)\n(c)\n- $t = \\dfrac{17}{2.29 \\times 10^{8}} \\approx 7.4 \\times 10^{-8}\\ \\mathrm{s}$ (about 74 ns) (1A)\n- The time differences between sensors are only tens of nanoseconds, so very precise timing is needed to work out the direction the particle (and hence the neutrino) came from. (1)\n(d) Any two:\n- The thick layer of ice above shields the sensors from radiation / cosmic-ray particles at the surface, reducing unwanted background signals. (1)\n- Deep ice is very clear because the great pressure has squeezed out the air bubbles, so the light can travel far without being scattered or absorbed. (1)\n- Deep ice is dark, so no sunlight or other stray light reaches the sensors. (1)",
+    "answer_zh": "(a)\n- $n = \\dfrac{c}{v} \\Rightarrow v = \\dfrac{3.00 \\times 10^{8}}{1.31}$（1M）\n- $v \\approx 2.29 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$（1A）\n(b)\n- 緲子速率 $= 0.99 \\times 3.00 \\times 10^{8} \\approx 2.97 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$（1M）\n- 呢個速率大過光喺冰入面嘅速率（$2.29 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$），所以緲子可以發出切倫科夫光。（1A）\n(c)\n- $t = \\dfrac{17}{2.29 \\times 10^{8}} \\approx 7.4 \\times 10^{-8}\\ \\mathrm{s}$（大約 74 ns）（1A）\n- 光到達唔同感應器嘅時間差只係幾十納秒，所以要非常準確噉計時，先可以推算粒子（即中微子）嚟自邊個方向。（1）\n(d) 任答兩項：\n- 上面厚厚嘅冰層可以阻擋地面嘅輻射／宇宙射線粒子，減少干擾訊號。（1）\n- 深處嘅冰受極大壓力，氣泡已經俾擠走，所以好透明，光可以行好遠都唔會俾散射或者吸收。（1）\n- 深處嘅冰好黑，冇陽光或者其他雜光照到感應器。（1）"
+  }
+}
