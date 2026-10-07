@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-08",
+  "news": [
+    {
+      "title": "法國最大電池儲能站投入運作",
+      "summary": "TagEnergy 喺法國東北部 Cernay-lès-Reims 啟用一個 240 MW / 480 MWh 嘅電池儲能系統，由 140 個 Tesla Megapack 組成，接駁 225 kV 電網，幫電網穩定頻率同電壓。頭四個月已經向電網送返 70.5 GWh 電能，125 日內完成 145 次完整充放電。",
+      "topic": "電和磁（電功率 P = IV、高壓輸電、功率損耗 I²R）、家居用電（kWh）",
+      "source_name": "pv magazine",
+      "source_url": "https://www.pv-magazine.com/2026/10/07/frances-largest-battery-goes-online/",
+      "source_date": "7/10",
+      "links": []
+    },
+    {
+      "title": "第一部「自己穩定自己」嘅核鐘喺維也納開始運作",
+      "summary": "TU Wien 團隊用 148.4 nm 嘅真空紫外激光照射摻咗釷-229 嘅晶體，利用原子核（而唔係電子）嘅能級躍遷嚟穩定激光頻率，造出第一部獨立運作嘅核鐘。佢連續穩定運作超過 24 小時，一日內精確度大約 10⁻¹⁵，即係 3000 萬年先差一秒左右。",
+      "topic": "放射現象和核能（同位素、原子核）、波動（電磁波譜、頻率）",
+      "source_name": "TU Wien",
+      "source_url": "https://www.tuwien.at/en/all-news/news/die-erste-selbststabilisierende-atomkernuhr-tickt-in-wien",
+      "source_date": "7/10",
+      "links": [
+        {
+          "label": "Nature paper",
+          "url": "https://www.nature.com/articles/s41586-026-11122-1"
+        },
+        {
+          "label": "Phys.org",
+          "url": "https://phys.org/news/2026-10-nuclear-clock-vienna.html"
+        }
+      ]
+    },
+    {
+      "title": "史上最遠嘅「耀變體」：80 億年前嘅宇宙燈塔",
+      "summary": "天文學家用 La Palma 嘅 LST-1 同 MAGIC 望遠鏡，偵測到耀變體 OP 313 發出嘅極高能伽馬射線。耀變體係超大質量黑洞噴出等離子體噴流、而噴流正正對住地球；呢啲光行咗 80 億年先到地球，係目前發現最遠嘅同類天體。",
+      "topic": "天文學（光年、觀測宇宙）、波動（電磁波譜：伽馬射線）",
+      "source_name": "Space.com",
+      "source_url": "https://www.space.com/astronomy/black-holes/astronomers-detect-most-distant-supermassive-black-hole-powered-blazar-ever-a-cosmic-beacon-from-the-dawn-of-time",
+      "source_date": "7/10",
+      "links": []
+    },
+    {
+      "title": "韋伯望遠鏡搵到火星咁大嘅天體互相撞擊嘅證據",
+      "summary": "研究團隊分析 21 個年輕恆星周圍嘅「極端碎屑盤」，發現大約三分之一富含二氧化矽，相信係火星大小嘅天體高能碰撞、令岩石汽化而成；其餘就似係較低能量、擦身而過嘅碰撞。呢類碰撞同月球形成嘅「大碰撞」理論好似。",
+      "topic": "天文學（行星形成、重力）、力和運動（碰撞、能量轉換）",
+      "source_name": "ScienceDaily",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261007042108.htm",
+      "source_date": "7/10",
+      "links": []
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "法國最大電池儲能站投入運作",
+    "question_en": "France's largest battery storage facility at Cernay-lès-Reims has a maximum power output of 240 MW and an energy storage capacity of 480 MWh. It is connected to a 225 kV transmission grid.\nGiven:\n- Maximum output power $P = 240\\ \\mathrm{MW}$\n- Energy capacity $E = 480\\ \\mathrm{MWh}$\n- Grid voltage $V = 225\\ \\mathrm{kV}$ (treat as an r.m.s. value in a simple circuit)\n(a)\n(i) Express the energy capacity of the facility in joules. (2 marks)\n(ii) Find the time taken for a fully charged facility to discharge completely at maximum power. (1 mark)\n(b) Using $P = IV$, calculate the current supplied to the grid when the facility delivers its maximum power. (2 marks)\n(c) Explain why the facility is connected to the grid at a very high voltage. If the same power were delivered at 25 kV through the same cables, by what factor would the power loss in the cables change? (3 marks)",
+    "question_zh": "法國最大嘅電池儲能站（位於 Cernay-lès-Reims）最大輸出功率係 240 MW，儲能容量係 480 MWh，並接駁到 225 kV 嘅輸電網絡。\n已知：\n- 最大輸出功率 $P = 240\\ \\mathrm{MW}$\n- 儲能容量 $E = 480\\ \\mathrm{MWh}$\n- 電網電壓 $V = 225\\ \\mathrm{kV}$（當作簡單電路中嘅方均根值）\n(a)\n(i) 以焦耳表示儲能站嘅儲能容量。（2 分）\n(ii) 求充滿電嘅儲能站以最大功率完全放電所需嘅時間。（1 分）\n(b) 利用 $P = IV$，計算儲能站以最大功率供電時輸送到電網嘅電流。（2 分）\n(c) 解釋點解儲能站要以極高電壓接駁電網。如果用同一組電纜、以 25 kV 輸送同樣功率，電纜嘅功率損耗會變成原來嘅幾多倍？（3 分）",
+    "answer_en": "(a)\n(i)\n- $E = 480 \\times 10^{6}\\ \\mathrm{W} \\times 3600\\ \\mathrm{s}$ (1M)\n- $E \\approx 1.73 \\times 10^{12}\\ \\mathrm{J}$ (1A)\n(ii)\n- $t = \\dfrac{E}{P} = \\dfrac{480\\ \\mathrm{MWh}}{240\\ \\mathrm{MW}} = 2\\ \\mathrm{h}$ (1A)\n(b)\n- $I = \\dfrac{P}{V} = \\dfrac{240 \\times 10^{6}}{225 \\times 10^{3}}$ (1M)\n- $I \\approx 1.07 \\times 10^{3}\\ \\mathrm{A}$ (1A)\n(c)\n- For the same power, a higher voltage means a smaller current, since $I = P/V$. (1)\n- Power loss in the cables is $P_{\\mathrm{loss}} = I^{2}R$, so a smaller current gives a much smaller power loss. (1)\n- At 25 kV the current is $225/25 = 9$ times larger, so the power loss becomes $9^{2} = 81$ times larger. (1)",
+    "answer_zh": "(a)\n(i)\n- $E = 480 \\times 10^{6}\\ \\mathrm{W} \\times 3600\\ \\mathrm{s}$（1M）\n- $E \\approx 1.73 \\times 10^{12}\\ \\mathrm{J}$（1A）\n(ii)\n- $t = \\dfrac{E}{P} = \\dfrac{480\\ \\mathrm{MWh}}{240\\ \\mathrm{MW}} = 2\\ \\mathrm{h}$（1A）\n(b)\n- $I = \\dfrac{P}{V} = \\dfrac{240 \\times 10^{6}}{225 \\times 10^{3}}$（1M）\n- $I \\approx 1.07 \\times 10^{3}\\ \\mathrm{A}$（1A）\n(c)\n- 輸送同樣功率時，電壓越高，電流越細（$I = P/V$）。（1）\n- 電纜嘅功率損耗係 $P_{\\mathrm{loss}} = I^{2}R$，所以電流細咗，損耗會大大減少。（1）\n- 用 25 kV 時電流係原來嘅 $225/25 = 9$ 倍，所以功率損耗變成 $9^{2} = 81$ 倍。（1）"
+  }
+}
