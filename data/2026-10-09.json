@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-09",
+  "news": [
+    {
+      "title": "韋伯望遠鏡確認史上最遠嘅快速電波爆",
+      "summary": "MeerKAT 喺 2024 年 3 月 4 日收到一次只維持毫秒嘅電波閃光 FRB 20240304B。韋伯望遠鏡搵到宿主星系，紅移係 2.148，即係大爆炸之後大約 30 億年。呢個星系比預期細一千倍，而且大部分恆星可能喺 3000 萬年內形成，所以今次爆比較似係年輕磁星，而唔係兩粒中子星慢慢撞埋。訊號途中經過室女座星系團（離地球大約 5400 萬光年），同埋一個紅移 0.3、大約 35 億光年外、之前未知嘅星系團。",
+      "topic": "波動（電磁波、電波以光速傳播）、天文學（光年、紅移、中子星）",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/missions/webb/webb-measures-distance-to-farthest-fast-radio-burst-suggesting-origin/",
+      "source_date": "8/10",
+      "links": [
+        {
+          "label": "ESA/Webb",
+          "url": "https://esawebb.org/news/weic2621/"
+        }
+      ]
+    },
+    {
+      "title": "磁化靶聚變機 LM26 電子溫度超過 1 keV",
+      "summary": "General Fusion 同英國原子能管理局（UKAEA）公布，Lawson Machine 26 用磁化靶聚變，喺金屬壁以毫秒級壓縮等離子體，電子溫度去到 1.1 keV（大約 1260 萬 °C）。溫度用湯姆遜散射量度。呢部機係首部用低速壓縮做到 1 keV 嘅聚變裝置。下一步目標係 10 keV，之後先至追勞森條件；公司希望大約 2035 年有第一座示範電廠。",
+      "topic": "放射現象和核能（核聚變）、熱和氣體（溫度）",
+      "source_name": "GOV.UK（UKAEA）",
+      "source_url": "https://www.gov.uk/government/news/ukaea-general-fusion-announce-magnetised-target-fusion-milestone",
+      "source_date": "8/10",
+      "links": [
+        {
+          "label": "General Fusion",
+          "url": "https://generalfusion.com/post/1-kev-a-milestone-achieved-and-why-it-matters/"
+        }
+      ]
+    },
+    {
+      "title": "NASA 為 LISA 引力波任務造新測試望遠鏡",
+      "summary": "NASA 委託 L3Harris 製造 LISA 嘅工程測試望遠鏡，係交畀歐洲太空總署之前最後一件飛行前光學樣機。LISA 預計 2030 年代中發射，三粒衛星排成每邊 250 萬公里嘅三角形，用紅外激光互相量度距離。引力波引起嘅距離變化比一個氦原子嘅直徑仲細，但係波本身以光速傳播。每粒衛星有一粒自由漂浮嘅金–鉑立方體做檢驗質量。",
+      "topic": "波動（波以光速傳播、干涉）、天文學（引力、黑洞）",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/missions/lisa/nasa-advances-lisa-mission-contributions-with-new-test-telescope/",
+      "source_date": "8/10",
+      "links": []
+    },
+    {
+      "title": "NASA 同美國能源部簽約發展太空核電",
+      "summary": "NASA 同美國能源部 10 月 8 日簽訂合作備忘錄，一齊做太空用嘅核裂變同放射性同位素電源，協議 11 月 1 日生效。計劃包括 2028 年發射嘅太空反應堆 Space Reactor-1 Freedom，同埋 2030 年前做好可發射嘅月球表面反應堆。去土衛六嘅 Dragonfly 任務（2028 年發射）會用放射性同位素熱電發電機，再加 24 個輕量加熱器保溫。",
+      "topic": "放射現象和核能（核裂變、放射性同位素）、能量轉換",
+      "source_name": "NASA",
+      "source_url": "https://www.nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration/",
+      "source_date": "8/10",
+      "links": []
+    },
+    {
+      "title": "SPHEREx 望遠鏡睇到大批褐矮星",
+      "summary": "NASA 嘅 SPHEREx 紅外望遠鏡分析咗 37 粒附近嘅褐矮星，溫度由大約 2200 °C 到 −20 °C。佢喺 102 個紅外波段量亮度，光譜入面見到水、二氧化碳、一氧化碳同甲烷。褐矮星由氣體雲塌縮而成，但質量唔夠維持核心嘅氫聚變，所以唔算恆星。團隊話仲有數以千計同類天體等緊分析。",
+      "topic": "天文學（恆星形成）、放射現象和核能（氫聚變）、波動（紅外光譜）",
+      "source_name": "NASA",
+      "source_url": "https://www.nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/",
+      "source_date": "8/10",
+      "links": []
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "韋伯望遠鏡確認史上最遠嘅快速電波爆",
+    "question_en": "The MeerKAT telescope detected FRB 20240304B, a millisecond flash of radio waves. On the way to Earth the signal passed through the Virgo Cluster, about 54 million light-years away.\nGiven:\n- Radio waves travel in vacuum at $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n- Take the duration of the flash as $\\Delta t = 1.00\\ \\mathrm{ms}$\n- Distance of the Virgo Cluster $d = 5.4 \\times 10^{7}$ light-years\n- $1$ light-year $= 9.46 \\times 10^{15}\\ \\mathrm{m}$\n(a) Calculate the distance travelled by the radio waves during the flash. (2 marks)\n(b)\n(i) Express the distance of the Virgo Cluster in metres. (2 marks)\n(ii) State the time, in years, for the radio waves to travel from the Virgo Cluster to Earth. (1 mark)\n(c) Webb found that the host galaxy has redshift 2.148, and that most of its stars may have formed within only 30 million years. One theory says an FRB comes from two neutron stars slowly spiralling together, which takes billions of years. Another says it comes from a young magnetar soon after a supernova. Which theory fits this host galaxy better? Explain. (3 marks)",
+    "question_zh": "MeerKAT 望遠鏡偵測到 FRB 20240304B，係一次只維持毫秒嘅電波閃光。訊號去地球途中經過室女座星系團，距離大約 5400 萬光年。\n已知：\n- 電波喺真空以 $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$ 傳播\n- 取閃光持續時間 $\\Delta t = 1.00\\ \\mathrm{ms}$\n- 室女座星系團距離 $d = 5.4 \\times 10^{7}$ 光年\n- $1$ 光年 $= 9.46 \\times 10^{15}\\ \\mathrm{m}$\n(a) 計算電波喺呢次閃光期間行咗嘅距離。（2 分）\n(b)\n(i) 以米表示室女座星系團嘅距離。（2 分）\n(ii) 寫出電波由室女座星系團行到地球所需嘅時間，單位用年。（1 分）\n(c) 韋伯望遠鏡發現宿主星系嘅紅移係 2.148，而且大部分恆星可能只係喺 3000 萬年內形成。一個理論話快速電波爆來自兩粒中子星慢慢旋近至相撞，過程要幾十億年。另一個理論話佢來自超新星之後不久形成嘅年輕磁星。邊個理論較符合呢個宿主星系？解釋。（3 分）",
+    "answer_en": "(a)\n- $s = c\\,\\Delta t = (3.00 \\times 10^{8})(1.00 \\times 10^{-3})$ (1M)\n- $s = 3.00 \\times 10^{5}\\ \\mathrm{m}$ (1A)\n(b)\n(i)\n- $d = (5.4 \\times 10^{7})(9.46 \\times 10^{15})$ (1M)\n- $d = 5.11 \\times 10^{23}\\ \\mathrm{m}$ (1A)\n(ii)\n- Light travels one light-year in one year, so the time is $5.4 \\times 10^{7}$ years. (1A)\n(c)\n- A neutron-star merger needs billions of years, but most stars here formed within about 30 million years, so the galaxy is too young for that theory. (1)\n- A magnetar can form soon after a massive star explodes as a supernova, so an FRB can happen with little delay. (1)\n- The young, star-forming host galaxy therefore supports the magnetar theory better. (1)",
+    "answer_zh": "(a)\n- $s = c\\,\\Delta t = (3.00 \\times 10^{8})(1.00 \\times 10^{-3})$（1M）\n- $s = 3.00 \\times 10^{5}\\ \\mathrm{m}$（1A）\n(b)\n(i)\n- $d = (5.4 \\times 10^{7})(9.46 \\times 10^{15})$（1M）\n- $d = 5.11 \\times 10^{23}\\ \\mathrm{m}$（1A）\n(ii)\n- 光行一光年要一年，所以時間係 $5.4 \\times 10^{7}$ 年。（1A）\n(c)\n- 兩粒中子星相撞要幾十億年，但呢度大部分恆星只係喺大約 3000 萬年內形成，星系太年輕，唔符合呢個理論。（1）\n- 磁星可以喺大質量恆星爆發成超新星之後不久形成，所以快速電波爆可以好快出現。（1）\n- 呢個年輕、仍然造緊恆星嘅宿主星系，因此較支持磁星理論。（1）"
+  }
+}
