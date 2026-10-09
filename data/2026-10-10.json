@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-10",
+  "news": [
+    {
+      "title": "愛因斯坦探針捕捉中子星撞擊後長達 10 分鐘嘅 X 射線",
+      "summary": "歐中合作嘅愛因斯坦探針（Einstein Probe）錄到事件 EP250704a：先有約 0.5 秒嘅伽馬射線閃光，之後再有長達約 10 分鐘嘅軟 X 射線。跟進觀測顯示呢次極可能係兩粒中子星合併，形成磁星（magnetar）繼續注入能量；訊號已經飛咗大約 60 億年先到地球。呢啲碰撞仲被認為可以製造金、銀等重元素。",
+      "topic": "放射現象和核能、波動（電磁波譜）、天文學、電和磁（磁場）",
+      "source_name": "Space",
+      "source_url": "https://www.space.com/astronomy/stars/mysterious-10-minute-x-ray-burst-from-a-distant-galaxy-may-have-come-from-2-dead-stars-colliding",
+      "source_date": "9/10",
+      "links": [
+        {
+          "label": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261006234511.htm"
+        }
+      ]
+    },
+    {
+      "title": "CHIME 首次單靠自己數據偵測到遠古氫氣嘅 21 cm 訊號",
+      "summary": "加拿大 CHIME 電波望遠鏡證明，可以單靠自己嘅觀測，喺嘈雜背景入面抽出宇宙早期氫氣發出嘅極微弱 21 cm 無線電波。訊號對應宇宙約 50 億歲嗰陣（光飛咗大約 90 億年），大約 2% 氫仍然係中性原子態。呢套「氫強度繪圖」方法可以用嚟量度宇宙膨脹，幫手研究暗能量。",
+      "topic": "波動（電磁波、無線電波）、天文學",
+      "source_name": "ScienceDaily",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261007042102.htm",
+      "source_date": "9/10",
+      "links": []
+    },
+    {
+      "title": "激光造出「光劍」等離子體天線，成功發射 30 MHz 電波",
+      "summary": "北卡羅萊納州立大學用激光電離空氣，造出一條好似光劍嘅等離子絲，再經接觸less 電容耦合，成功以 30 MHz（VHF）發射無線電波。因為長度同方向可以由激光調校，將來可能用喺衛星、雷達同太空通訊，減少機械伸縮天線。",
+      "topic": "波動（電磁波、波長）、電和磁（等離子體、天線）、熱和氣體（物質態）",
+      "source_name": "ScienceDaily",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261008005239.htm",
+      "source_date": "9/10",
+      "links": []
+    },
+    {
+      "title": "DESI 最大二維天圖確認 70 個新引力透鏡",
+      "summary": "科學家用 DESI Legacy Imaging Surveys 嘅 5.6 萬億像素天圖，配合人工智能篩選候選體，再用 VLT/MUSE 光譜確認咗 70 個新引力透鏡。前景大質量星系彎曲時空，令背景星系放大成弧同環，可以用嚟研究暗物質同宇宙結構。",
+      "topic": "天文學、力和運動（萬有引力）、波動（光嘅傳播）",
+      "source_name": "phys.org",
+      "source_url": "https://phys.org/news/2026-10-largest-2d-universe-scientists-gravitational.html",
+      "source_date": "8/10",
+      "links": []
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "愛因斯坦探針捕捉中子星撞擊後長達 10 分鐘嘅 X 射線",
+    "question_en": "Astronomers using the Einstein Probe recorded event EP250704a, thought to be two neutron stars merging. A typical neutron star has a mass comparable to the Sun packed into a sphere only about the size of a city.\n(a) Take the mass and radius of a neutron star as\nGiven:\n- $M = 2.80 \\times 10^{30}\\ \\mathrm{kg}$\n- $R = 1.00 \\times 10^{4}\\ \\mathrm{m}$\n- Volume of a sphere $V = \\dfrac{4}{3}\\pi R^{3}$; use $\\pi = 3.14$\nCalculate the average density of the neutron star in $\\mathrm{kg\\ m^{-3}}$. (3 marks)\n(b) The merger produced a gamma-ray flash lasting $0.5\\ \\mathrm{s}$, followed by soft X-ray emission lasting about $10\\ \\mathrm{min}$. Both travelled through space for roughly 6 billion years to reach Earth.\n(i) Which has the higher frequency: gamma rays or X-rays? (1 mark)\n(ii) Explain why these electromagnetic waves can travel through the vacuum of space. (1 mark)\n(c) The remnant may be a magnetar (a neutron star with an extremely strong magnetic field). Explain why shrinking a star's core into a much smaller neutron star can greatly increase the magnetic field strength at its surface. (2 marks)",
+    "question_zh": "天文學家用愛因斯坦探針（Einstein Probe）錄到事件 EP250704a，估計係兩粒中子星合併。典型中子星嘅質量大約同太陽相若，但半徑只有一座城市咁大。\n(a) 取一粒中子星嘅質量同半徑為\n已知：\n- $M = 2.80 \\times 10^{30}\\ \\mathrm{kg}$\n- $R = 1.00 \\times 10^{4}\\ \\mathrm{m}$\n- 球體體積 $V = \\dfrac{4}{3}\\pi R^{3}$；取 $\\pi = 3.14$\n計算呢粒中子星嘅平均密度（以 $\\mathrm{kg\\ m^{-3}}$ 表示）。（3 分）\n(b) 合併時產生長約 $0.5\\ \\mathrm{s}$ 嘅伽馬射線閃光，之後再有約 $10\\ \\mathrm{min}$ 嘅軟 X 射線。兩種輻射都喺太空飛咗大約 60 億年先到地球。\n(i) 伽馬射線同 X 射線邊種頻率較高？（1 分）\n(ii) 解釋點解呢啲電磁波可以喺真空嘅太空入面傳播。（1 分）\n(c) 合併後剩餘體可能係磁星（磁場極強嘅中子星）。解釋點解恆星核心收縮成細得多嘅中子星，可以令表面磁場強度大幅增加。（2 分）",
+    "answer_en": "(a)\n- $V = \\dfrac{4}{3}\\pi R^{3} = \\dfrac{4}{3} \\times 3.14 \\times (1.00 \\times 10^{4})^{3} = 4.19 \\times 10^{12}\\ \\mathrm{m^{3}}$ (1M)\n- $\\rho = \\dfrac{M}{V} = \\dfrac{2.80 \\times 10^{30}}{4.19 \\times 10^{12}}$ (1M)\n- $\\rho = 6.68 \\times 10^{17}\\ \\mathrm{kg\\ m^{-3}}$ (1A)\n(b)\n(i)\n- Gamma rays have the higher frequency. (1)\n(ii)\n- Electromagnetic waves are oscillating electric and magnetic fields; they do not need a material medium, so they can travel through vacuum. (1)\n(c)\n- Magnetic field lines are \"frozen\" into the conducting plasma / magnetic flux through the surface is roughly conserved. (1)\n- When the core radius decreases greatly, the same flux is concentrated into a much smaller area, so the surface magnetic field strength $B$ increases sharply. (1)",
+    "answer_zh": "(a)\n- $V = \\dfrac{4}{3}\\pi R^{3} = \\dfrac{4}{3} \\times 3.14 \\times (1.00 \\times 10^{4})^{3} = 4.19 \\times 10^{12}\\ \\mathrm{m^{3}}$（1M）\n- $\\rho = \\dfrac{M}{V} = \\dfrac{2.80 \\times 10^{30}}{4.19 \\times 10^{12}}$（1M）\n- $\\rho = 6.68 \\times 10^{17}\\ \\mathrm{kg\\ m^{-3}}$（1A）\n(b)\n(i)\n- 伽馬射線頻率較高。（1）\n(ii)\n- 電磁波係振盪嘅電場同磁場，唔需要物質介質，所以可以喺真空傳播。（1）\n(c)\n- 磁場線大致「凍結」喺導電等離子體入面／穿過表面嘅磁通量大致守恆。（1）\n- 核心半徑大幅縮小之後，同樣嘅磁通量集中喺細好多嘅面積，所以表面磁場強度 $B$ 急升。（1）"
+  }
+}
