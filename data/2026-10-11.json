@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-11",
+  "news": [
+    {
+      "title": "普林斯頓實驗室提出「先加熱、後增密」聚變捷徑",
+      "summary": "美國普林斯頓等離子體物理實驗室（PPPL）喺 Physical Review Letters 發表計算，指出達到聚變點火未必一定要先提高等離子體密度再狂加熱。佢哋擴充經典 Lawson 準則，加埋氦灰、雜質、同步輻射同熱流失等因素，發現「先加熱、後增密」可能用少好多能量，避開能量需求最高嘅「山峰」。計算仲顯示，鎢雜質只需約萬分之一，就可能令點火所需壓力大約加倍；呢套方法仍屬理論，未有實驗驗證。",
+      "topic": "放射現象和核能、熱和氣體（等離子體）、電和磁（磁場約束）",
+      "source_name": "ScienceDaily",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
+      "source_date": "10/10",
+      "links": [
+        {
+          "label": "PRL paper",
+          "url": "https://doi.org/10.1103/mmc9-nzfx"
+        }
+      ]
+    },
+    {
+      "title": "Solar Orbiter 飛過磁場「折返」並追溯到太陽表面",
+      "summary": "ESA 嘅 Solar Orbiter 穿過一個巨大嘅太陽風磁場 switchback（磁場線突然折返成 S 形），用 Solar Wind Analyser 測到氧同碳離子嘅獨特成分。呢啲粒子衹會喺太陽表面熱磁環入面形成，成為「互換重聯」（interchange reconnection）嘅直接證據。研究團隊指，折返喺日冕誕生後，波同湍流先至主導佢喺太空入面點樣傳播；結果發表喺 Nature Astronomy，有助預測影響地球嘅太空天氣。",
+      "topic": "電和磁（磁場、等離子體）、天文學、波動",
+      "source_name": "Planck Standard / ESA",
+      "source_url": "https://planckstandard.com/article/solar-orbiter-flies-through-a-magnetic-switchback-and-traces.html",
+      "source_date": "10/10",
+      "links": []
+    },
+    {
+      "title": "ATLAS 用質子撞氧核，喺實驗室重現宇宙射線大氣淋浴",
+      "summary": "CERN ATLAS 團隊首次報道質子–氧核碰撞結果：喺 LHC 把氧核同質子加速到接近光速再對撞，模擬星際宇宙射線撞入大氣中氧原子時產生嘅粒子淋浴。地面探測器對大氣模型嘅預測可以相差高達約 100 倍；新數據顯示現有模型誤差都好大，有望把誤差縮小至少一個數量級，幫天體物理學家解讀 Telescope Array 等觀測站收到嘅超高能宇宙射線訊息。",
+      "topic": "放射現象和核能、天文學、力和運動",
+      "source_name": "ATLAS / CERN",
+      "source_url": "https://www.atlas.cern/Updates/Blog/Cosmic-Collider",
+      "source_date": "9/10",
+      "links": []
+    },
+    {
+      "title": "量子電腦首次模擬粒子碰撞並見到 E = mc² 造質量",
+      "summary": "加州理工同華盛頓大學團隊喺 IBM 104 qubit 量子處理器上，用新算法高效準備運動波包，模擬一維場論入面兩個輕粒子對撞。低能量時撞完仍然係兩個輕粒子；高能量時有部分動能轉成質量，產生較重粒子，能量密度分佈出現額外峰值。呢次係喺嘈雜硬件上直接見到能量轉質量（E = mc²）嘅跡象，結果刊於 Nature Physics。",
+      "topic": "放射現象和核能（質能互換）、原子世界",
+      "source_name": "phys.org",
+      "source_url": "https://phys.org/news/2026-10-quantum-shortcut-particle-collisions-easier.html",
+      "source_date": "7/10",
+      "links": [
+        {
+          "label": "Nature Physics",
+          "url": "https://doi.org/10.1038/s41567-026-03436-8"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "普林斯頓實驗室提出「先加熱、後增密」聚變捷徑",
+    "question_en": "PPPL researchers studied how to reach fusion ignition more efficiently. Many fusion designs aim to use the deuterium–tritium reaction\n$${}^{2}_{1}\\mathrm{H} + {}^{3}_{1}\\mathrm{H} \\rightarrow {}^{4}_{2}\\mathrm{He} + {}^{1}_{0}\\mathrm{n}$$\n(a) Calculate the energy released in one such reaction, in MeV. (3 marks)\nGiven:\n- $m({}^{2}_{1}\\mathrm{H}) = 2.014102\\ \\mathrm{u}$\n- $m({}^{3}_{1}\\mathrm{H}) = 3.016049\\ \\mathrm{u}$\n- $m({}^{4}_{2}\\mathrm{He}) = 4.002603\\ \\mathrm{u}$\n- $m({}^{1}_{0}\\mathrm{n}) = 1.008665\\ \\mathrm{u}$\n- $1\\ \\mathrm{u} = 931\\ \\mathrm{MeV}$\n(b) Express this energy in joules. (2 marks)\nGiven:\n- $1\\ \\mathrm{MeV} = 1.60 \\times 10^{-13}\\ \\mathrm{J}$\n(c) Explain why the fuel nuclei must be heated to an extremely high temperature before fusion can occur readily. (2 marks)\n(d) The gain factor is defined as $Q = \\dfrac{P_{\\mathrm{fusion}}}{P_{\\mathrm{heat}}}$, where $P_{\\mathrm{fusion}}$ is the power from fusion reactions and $P_{\\mathrm{heat}}$ is the external heating power.\n(i) What does $Q = 5$ mean? (1 mark)\n(ii) The paper argues that heating the plasma before raising its density may reach ignition with less energy. In terms of the states of matter, what is plasma? (1 mark)",
+    "question_zh": "普林斯頓等離子體物理實驗室（PPPL）研究點樣更有效率噉達到聚變點火。好多聚變設計目標係利用氘–氚反應\n$${}^{2}_{1}\\mathrm{H} + {}^{3}_{1}\\mathrm{H} \\rightarrow {}^{4}_{2}\\mathrm{He} + {}^{1}_{0}\\mathrm{n}$$\n(a) 計算一次呢類反應釋放嘅能量（以 MeV 表示）。（3 分）\n已知：\n- $m({}^{2}_{1}\\mathrm{H}) = 2.014102\\ \\mathrm{u}$\n- $m({}^{3}_{1}\\mathrm{H}) = 3.016049\\ \\mathrm{u}$\n- $m({}^{4}_{2}\\mathrm{He}) = 4.002603\\ \\mathrm{u}$\n- $m({}^{1}_{0}\\mathrm{n}) = 1.008665\\ \\mathrm{u}$\n- $1\\ \\mathrm{u} = 931\\ \\mathrm{MeV}$\n(b) 將呢個能量以焦耳表示。（2 分）\n已知：\n- $1\\ \\mathrm{MeV} = 1.60 \\times 10^{-13}\\ \\mathrm{J}$\n(c) 解釋點解燃料原子核要加熱到極高溫度，聚變先至容易發生。（2 分）\n(d) 增益因數定義為 $Q = \\dfrac{P_{\\mathrm{fusion}}}{P_{\\mathrm{heat}}}$，其中 $P_{\\mathrm{fusion}}$ 係聚變反應產生嘅功率，$P_{\\mathrm{heat}}$ 係外加加熱功率。\n(i) $Q = 5$ 代表咩意思？（1 分）\n(ii) 論文指先加熱等離子體再提高密度，可能用少啲能量達到點火。就物質態嚟講，等離子體係咩？（1 分）",
+    "answer_en": "(a)\n- Total mass of reactants $= 2.014102 + 3.016049 = 5.030151\\ \\mathrm{u}$ (1M)\n- Total mass of products $= 4.002603 + 1.008665 = 5.011268\\ \\mathrm{u}$; $\\Delta m = 5.030151 - 5.011268 = 0.018883\\ \\mathrm{u}$ (1M)\n- $E = 0.018883 \\times 931 \\approx 17.6\\ \\mathrm{MeV}$ (1A)\n(b)\n- $E = 17.6 \\times 1.60 \\times 10^{-13}$ (1M)\n- $E = 2.82 \\times 10^{-12}\\ \\mathrm{J}$ (1A)\n(c)\n- Both nuclei are positively charged, so they repel each other strongly (Coulomb repulsion). (1)\n- Very high temperature gives the nuclei enough kinetic energy to get close enough for the short-range strong nuclear force to bind them. (1)\n(d)\n(i) Fusion power is five times the external heating power. (1)\n(ii) Plasma is an ionised gas (a mixture of free electrons and positive ions); the fourth state of matter. (1)",
+    "answer_zh": "(a)\n- 反應物總質量 $= 2.014102 + 3.016049 = 5.030151\\ \\mathrm{u}$（1M）\n- 生成物總質量 $= 4.002603 + 1.008665 = 5.011268\\ \\mathrm{u}$；$\\Delta m = 5.030151 - 5.011268 = 0.018883\\ \\mathrm{u}$（1M）\n- $E = 0.018883 \\times 931 \\approx 17.6\\ \\mathrm{MeV}$（1A）\n(b)\n- $E = 17.6 \\times 1.60 \\times 10^{-13}$（1M）\n- $E = 2.82 \\times 10^{-12}\\ \\mathrm{J}$（1A）\n(c)\n- 兩個原子核都帶正電，互相強烈排斥（庫侖斥力）。（1）\n- 極高溫度令原子核有足夠動能靠近，短程強力先至可以把它們結合。（1）\n(d)\n(i) 聚變功率係外加加熱功率嘅五倍。（1）\n(ii) 等離子體係電離氣體（自由電子同正離子嘅混合物）；物質嘅第四態。（1）"
+  }
+}
