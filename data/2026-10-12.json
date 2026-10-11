@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-12",
+  "news": [
+    {
+      "title": "MeerKAT 單獨用射電數據，聽到數十億光年外嘅氫氣「細聲」",
+      "summary": "曼徹斯特大學同西開普大學團隊用南非 MeerKAT 射電望遠鏡，分析大約 96 小時觀測，首次喺唔靠光學星系巡天交叉驗證嘅情況下，直接偵測到遙遠宇宙中性氫嘅 21 cm 強度映射訊號，並喺兩個紅移值見到。訊號嚟自大約 40 至 50 億年前發出嘅電波；以前同類偵測多數要同光學星系圖對照。結果刊於 The Astrophysical Journal Letters，為將來 SKA 用氫氣畫宇宙大尺度結構鋪路。",
+      "topic": "波動（電磁波、波長同頻率）、天文學、原子世界（氫原子）",
+      "source_name": "Scienmag / University of Manchester",
+      "source_url": "https://scienmag.com/meerkat-telescope-catches-faint-hydrogen-whisper-from-billions-of-light-years-away/",
+      "source_date": "11/10",
+      "links": []
+    },
+    {
+      "title": "紫外激光脈衝改寫鑽石缺陷，NV 量子位元大致不受影響",
+      "summary": "研究人員用波長 266 nm、納秒級紫外激光脈衝照射單晶 CVD 鑽石局部區域，之後光致發光譜出現原本冇嘅約 563 nm 同 579 nm 發射線，相信同碳自填隙缺陷有關。鑽石入面原有嘅氮–空位（NV）中心訊號，同未照射區域相比大致不變，顯示可以選擇性改造一類缺陷、同時保留量子相關缺陷。結果刊於 Diamond and Related Materials。",
+      "topic": "波動（光、光子能量）、原子世界、電和磁（量子感測）",
+      "source_name": "phys.org",
+      "source_url": "https://phys.org/news/2026-10-ultraviolet-laser-pulses-diamond-defects.html",
+      "source_date": "10/10",
+      "links": [
+        {
+          "label": "Diamond and Related Materials",
+          "url": "https://doi.org/10.1016/j.diamond.2026.114126"
+        }
+      ]
+    },
+    {
+      "title": "量子「胎記」：孤立量子系統永遠記住自己點樣開始",
+      "summary": "哈佛等機構喺 Physical Review X 提出「量子胎記」（quantum birthmark）概念：同經典混沌系統會「忘記」初始條件唔同，唔同環境交換訊息嘅量子系統，長期統計行為仍然保留初始態同早期演化嘅痕跡。團隊用體育場形勢阱入面粒子嘅數值計算示範，並指量子疤痕（quantum scars）係呢種更廣泛現象嘅特例，有助重新理解量子熱化同量子–經典對應。",
+      "topic": "原子世界、波動（量子）、力和運動（混沌）",
+      "source_name": "phys.org",
+      "source_url": "https://phys.org/news/2026-10-quantum-birthmarks.html",
+      "source_date": "11/10",
+      "links": [
+        {
+          "label": "Physical Review X",
+          "url": "https://doi.org/10.1103/dhzb-28rb"
+        }
+      ]
+    },
+    {
+      "title": "用同一把尺量「自然度」：粒子暗物質同原初黑洞各有高低",
+      "summary": "加州大學聖克魯茲分校 Stefano Profumo 用 Barbieri–Giudice 微調度量，把十二個主流暗物質方案（包括 WIMP 等粒子候選同多種原初黑洞形成機制）放喺同一標準比較。結果顯示「自然度」取決於具體產生機制，而唔係「粒子就自然、黑洞就古怪」：有啲域壁塌縮形成嘅黑洞模型好自然，有啲經希格斯共振湮滅嘅粒子模型反而極需要微調。論文刊於 Physical Review D。",
+      "topic": "天文學（暗物質）、放射現象和核能、力和運動（引力）",
+      "source_name": "SciTechDaily / UC Santa Cruz",
+      "source_url": "https://scitechdaily.com/a-new-test-upends-a-long-held-assumption-about-dark-matter/",
+      "source_date": "11/10",
+      "links": [
+        {
+          "label": "Physical Review D",
+          "url": "https://doi.org/10.1103/nk1q-5k51"
+        }
+      ]
+    },
+    {
+      "title": "扭轉二硒化鈮造出超導量子二極管，效率達 27.6%",
+      "summary": "團隊喺扭轉約 1° 嘅 NbSe₂ 上，加平面同垂直磁場，製成超導量子二極管，整流效率由接近零提升至 27.6%。量子模擬顯示呢個「中等」效率反而有利保持量子位元非諧性同穩定二能級系統；追求接近 100% 整流未必對量子電路最好。結果刊於 Nature Communications，為低功耗、高保真超導量子線路提供設計原則。",
+      "topic": "電和磁（超導、磁場）、原子世界",
+      "source_name": "Nature Communications",
+      "source_url": "https://www.nature.com/articles/s41467-026-78376-1",
+      "source_date": "10/10",
+      "links": []
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "MeerKAT 單獨用射電數據，聽到數十億光年外嘅氫氣「細聲」",
+    "question_en": "Astronomers used the MeerKAT radio telescope to detect the faint 21 cm radio emission from neutral hydrogen in the distant Universe.\nNeutral hydrogen atoms emit radio waves at a rest-frame wavelength\n$$\\lambda_0 = 21.0\\ \\mathrm{cm}$$\n(a) Calculate the rest-frame frequency $f_0$ of this emission. (2 marks)\nGiven:\n- $c = 3.00 \\times 10^8\\ \\mathrm{m}\\,\\mathrm{s}^{-1}$\n(b) At one redshift studied, the observed wavelength is $\\lambda_{\\mathrm{obs}} = 29.4\\ \\mathrm{cm}$.\n(i) Calculate the redshift $z$, where $z = \\dfrac{\\lambda_{\\mathrm{obs}} - \\lambda_0}{\\lambda_0}$. (2 marks)\n(ii) Calculate the observed frequency $f_{\\mathrm{obs}}$. (2 marks)\n(c) Explain why tuning the radio receivers to different frequencies allows astronomers to map hydrogen at different cosmic epochs. (2 marks)\n(d) State one reason why radio waves are useful for surveying large volumes of the distant Universe. (1 mark)",
+    "question_zh": "天文學家用 MeerKAT 射電望遠鏡，偵測遙遠宇宙中性氫發出嘅微弱 21 cm 射電輻射。\n中性氫原子喺靜止參考系嘅發射波長為\n$$\\lambda_0 = 21.0\\ \\mathrm{cm}$$\n(a) 計算呢個發射嘅靜止頻率 $f_0$。（2 分）\n已知：\n- $c = 3.00 \\times 10^8\\ \\mathrm{m}\\,\\mathrm{s}^{-1}$\n(b) 喺研究嘅其中一個紅移，觀測波長為 $\\lambda_{\\mathrm{obs}} = 29.4\\ \\mathrm{cm}$。\n(i) 計算紅移 $z$，其中 $z = \\dfrac{\\lambda_{\\mathrm{obs}} - \\lambda_0}{\\lambda_0}$。（2 分）\n(ii) 計算觀測頻率 $f_{\\mathrm{obs}}$。（2 分）\n(c) 解釋點解將射電接收器調校到唔同頻率，可以令天文學家描繪唔同宇宙紀元嘅氫氣分佈。（2 分）\n(d) 寫出一個用電波巡天遙遠宇宙大體積嘅理由。（1 分）",
+    "answer_en": "(a)\n- $\\lambda_0 = 0.210\\ \\mathrm{m}$; $f_0 = \\dfrac{c}{\\lambda_0} = \\dfrac{3.00 \\times 10^8}{0.210}$ (1M)\n- $f_0 = 1.43 \\times 10^9\\ \\mathrm{Hz}$ (1A)\n(b)\n(i) $z = \\dfrac{29.4 - 21.0}{21.0} = \\dfrac{8.4}{21.0}$ (1M)\n- $z = 0.400$ (1A)\n(ii) $f_{\\mathrm{obs}} = \\dfrac{c}{\\lambda_{\\mathrm{obs}}} = \\dfrac{3.00 \\times 10^8}{0.294}$ (1M)\n- $f_{\\mathrm{obs}} = 1.02 \\times 10^9\\ \\mathrm{Hz}$ (1A)\n(c)\n- Cosmic expansion stretches the wavelength (redshift), so emission from earlier epochs arrives at longer wavelength / lower frequency. (1)\n- Different receiver frequencies therefore select hydrogen at different look-back times / distances. (1)\n(d)\n- Radio waves can pass through dust that blocks visible light / intensity mapping surveys huge volumes without resolving every galaxy / the 21 cm line uniquely traces neutral hydrogen. (1)",
+    "answer_zh": "(a)\n- $\\lambda_0 = 0.210\\ \\mathrm{m}$；$f_0 = \\dfrac{c}{\\lambda_0} = \\dfrac{3.00 \\times 10^8}{0.210}$（1M）\n- $f_0 = 1.43 \\times 10^9\\ \\mathrm{Hz}$（1A）\n(b)\n(i) $z = \\dfrac{29.4 - 21.0}{21.0} = \\dfrac{8.4}{21.0}$（1M）\n- $z = 0.400$（1A）\n(ii) $f_{\\mathrm{obs}} = \\dfrac{c}{\\lambda_{\\mathrm{obs}}} = \\dfrac{3.00 \\times 10^8}{0.294}$（1M）\n- $f_{\\mathrm{obs}} = 1.02 \\times 10^9\\ \\mathrm{Hz}$（1A）\n(c)\n- 宇宙膨脹拉伸波長（紅移），較早紀元發出嘅波會以較長波長／較低頻率到達。（1）\n- 唔同接收頻率因此對應唔同回望時間／距離嘅氫氣。（1）\n(d)\n- 電波可以穿過遮擋可見光嘅塵埃／強度映射唔使逐個分辨星系就可以巡大體積／21 cm 譜線專門追蹤中性氫。（1）"
+  }
+}
