@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-13",
+  "news": [
+    {
+      "title": "「停住嘅光」加強扭秤，量到毫米級物體嘅引力",
+      "summary": "上海交通大學等團隊喺 Nature Nanotechnology 發表新感測器：用扭秤（torsion pendulum）加光學微腔，喺接近「停光」工作點時，光相位對極細微位移變得極敏感。佢哋成功偵測到直徑約 6 mm、質量約 1.2 g 嘅源質量產生嘅引力訊號，可分辨嘅最小引力變化約為 3.02 × 10⁻¹⁶ N。實驗用不同密度、相同體積嘅球做對照，訊號隨質量增加，符合牛頓萬有引力，而唔係表面效應。方法有助研究微觀尺度引力同重力同量子物理嘅交界。",
+      "topic": "力和運動（萬有引力）、波動（光、光學微腔）",
+      "source_name": "phys.org / Nature Nanotechnology",
+      "source_url": "https://phys.org/news/2026-10-sensor-gravitational-tiny.html",
+      "source_date": "12/10",
+      "links": [
+        {
+          "label": "Nature Nanotechnology",
+          "url": "https://doi.org/10.1038/s41565-026-02298-8"
+        }
+      ]
+    },
+    {
+      "title": "英仙座星系團黑洞「大食」之後，約 300 日先噴出射電噴流",
+      "summary": "天文學家用 NASA Swift X 射線衛星配合射電觀測，追蹤英仙座星系團中心星系 NGC 1275 入面嘅超大質量黑洞。X 射線突然增亮顯示吸積率上升；之後約 300 日先喺射電見到噴流增強，估計係等離子體由噴流底部傳到同周圍氣體碰撞嘅結點所需時間。團隊亦由輻射區尺度推斷黑洞質量大約喺 1 億至 10 億個太陽質量之間，有助理解活躍星系核點樣影響宿主星系。",
+      "topic": "天文學（黑洞、電磁波）、放射現象",
+      "source_name": "Space.com",
+      "source_url": "https://www.space.com/astronomy/black-holes/nasa-spacecraft-sees-supermassive-black-hole-gorge-on-a-cosmic-meal-before-burping-radio-jets-300-days-later",
+      "source_date": "12/10",
+      "links": []
+    },
+    {
+      "title": "156 量子位元機即時檢查同重置，令量子混沌轉為可控",
+      "summary": "羅格斯大學、IBM 等團隊喺 156 量子位元 IBM Quantum Heron 處理器上，揀最多 100 個相連量子位元，交替做「打亂」同「檢查／重置」。當重置多過約一半時間，系統由混沌突然轉入可控有序態，類似相變。整體做咗近 5000 次雙量子位元操作同近 5000 次檢查重置，係至今最大規模即時量子回饋控制示範之一，朝向可容錯量子電腦邁進一步。結果刊於 Nature Physics。",
+      "topic": "原子世界、電和磁（量子位元）",
+      "source_name": "phys.org / Rutgers / IBM",
+      "source_url": "https://phys.org/news/2026-10-closer-quantum.html",
+      "source_date": "12/10",
+      "links": [
+        {
+          "label": "Nature Physics",
+          "url": "https://doi.org/10.1038/s41567-026-03470-6"
+        }
+      ]
+    },
+    {
+      "title": "PPPL 參與為 SPARC 聚變裝置造「數碼孿生」",
+      "summary": "美國能源部創世紀任務第二期公佈：普林斯頓等離子體物理實驗室（PPPL）將同 Commonwealth Fusion Systems 等合作，為興建中嘅 SPARC 托卡馬克聚變示範裝置建立連接真實實驗嘅數碼孿生。PPPL 會提供 M3D-C1、TRANSP、XGC 等模擬程式、歷史數據同高效能運算，目標係喺少於 20 分鐘內做出完整脈衝預測，夠快配合兩次等離子體脈衝之間嘅間隔，加快之後商業電廠 ARC 嘅設計。",
+      "topic": "放射現象和核能（核聚變）、電和磁（磁場約束）",
+      "source_name": "Princeton Plasma Physics Laboratory",
+      "source_url": "https://www.newswise.com/doescience/pppl-data-simulation-codes-and-compute-power-will-be-used-in-phase-ii-genesis-mission-project-to-build-digital-twin-of-fusion-energy-system/?article_id=856350",
+      "source_date": "12/10",
+      "links": []
+    },
+    {
+      "title": "混合量子電腦：用腔體直接模擬光同物質互動",
+      "summary": "MIT Eleanor Crane 團隊喺 Physical Review X 提出混合量子處理器工具：用量子位元代表費米子（如電子），用超導微波腔代表玻色子（如光子）。控制腔體所需步驟大致唔隨玻色子數目急增。估算顯示，錯誤率約千分之一嘅混合硬件，可以達到錯誤率約百萬分之一嘅純量子位元機嘅準確度，有望模擬超導體電子–晶格振動、光化學反應同粒子物理中嘅強相互作用。",
+      "topic": "原子世界、波動（電磁波、光子）、電和磁",
+      "source_name": "phys.org / Physical Review X",
+      "source_url": "https://phys.org/news/2026-10-hybrid-quantum.html",
+      "source_date": "12/10",
+      "links": [
+        {
+          "label": "Physical Review X",
+          "url": "https://doi.org/10.1103/s5bn-z4jq"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "「停住嘅光」加強扭秤，量到毫米級物體嘅引力",
+    "question_en": "Researchers used a torsion pendulum and an optical microcavity to detect the gravitational pull of a millimetre-sized source mass\n$$m = 1.20 \\times 10^{-3}\\ \\mathrm{kg}$$\nof diameter $6.00\\ \\mathrm{mm}$.\n(a) Treating the source mass as a sphere, calculate its volume $V$. (2 marks)\nGiven:\n- $V = \\dfrac{4}{3}\\pi r^{3}$\n- Take $\\pi = 3.14$\n(b) Calculate the density $\\rho$ of the source mass. (2 marks)\n(c) A test mass $M = 5.00 \\times 10^{-4}\\ \\mathrm{kg}$ is placed so that the centres of the two masses are $r = 1.00 \\times 10^{-2}\\ \\mathrm{m}$ apart.\n(i) Calculate the gravitational force $F$ between them. (3 marks)\nGiven:\n- $G = 6.67 \\times 10^{-11}\\ \\mathrm{N}\\,\\mathrm{m}^{2}\\,\\mathrm{kg}^{-2}$\n- $F = \\dfrac{GMm}{r^{2}}$\n(ii) The sensor can resolve a minimum force change of $3.02 \\times 10^{-16}\\ \\mathrm{N}$. By comparing $F$ with this value, comment on whether such a gravitational force could in principle be detected by the sensor. (1 mark)\n(d) Explain why the gravitational attraction between two ordinary classroom objects is usually too small to notice. (2 marks)\n(e) State one reason why using light (an optical readout) helps measure the tiny twist of the torsion pendulum. (1 mark)",
+    "question_zh": "研究人員用扭秤同光學微腔，偵測一個毫米級源質量產生嘅引力。源質量為\n$$m = 1.20 \\times 10^{-3}\\ \\mathrm{kg}$$\n直徑 $6.00\\ \\mathrm{mm}$。\n(a) 將源質量視為球體，計算其體積 $V$。（2 分）\n已知：\n- $V = \\dfrac{4}{3}\\pi r^{3}$\n- 取 $\\pi = 3.14$\n(b) 計算源質量嘅密度 $\\rho$。（2 分）\n(c) 將測試質量 $M = 5.00 \\times 10^{-4}\\ \\mathrm{kg}$ 放喺兩質量中心相距 $r = 1.00 \\times 10^{-2}\\ \\mathrm{m}$ 嘅位置。\n(i) 計算兩者之間嘅萬有引力 $F$。（3 分）\n已知：\n- $G = 6.67 \\times 10^{-11}\\ \\mathrm{N}\\,\\mathrm{m}^{2}\\,\\mathrm{kg}^{-2}$\n- $F = \\dfrac{GMm}{r^{2}}$\n(ii) 感測器可分辨嘅最小力變化為 $3.02 \\times 10^{-16}\\ \\mathrm{N}$。將 $F$ 同呢個數值比較，評論呢種引力原則上可唔可以俾感測器偵測到。（1 分）\n(d) 解釋點解兩件普通課室物件之間嘅引力通常細到察覺唔到。（2 分）\n(e) 指出用光（光學讀出）量度扭秤極細微扭轉嘅一個理由。（1 分）",
+    "answer_en": "(a)\n- Radius $r = 3.00 \\times 10^{-3}\\ \\mathrm{m}$ (1M)\n- $V = \\dfrac{4}{3}\\times 3.14 \\times (3.00 \\times 10^{-3})^{3} = 1.13 \\times 10^{-7}\\ \\mathrm{m}^{3}$ (1A)\n(b)\n- $\\rho = \\dfrac{m}{V} = \\dfrac{1.20 \\times 10^{-3}}{1.13 \\times 10^{-7}}$ (1M)\n- $\\rho = 1.06 \\times 10^{4}\\ \\mathrm{kg}\\,\\mathrm{m}^{-3}$ (1A)\n(c)\n(i)\n- $F = \\dfrac{(6.67 \\times 10^{-11})(5.00 \\times 10^{-4})(1.20 \\times 10^{-3})}{(1.00 \\times 10^{-2})^{2}}$ (1M)\n- Numerator $= 4.00 \\times 10^{-17}$；denominator $= 1.00 \\times 10^{-4}$ (1M)\n- $F = 4.00 \\times 10^{-13}\\ \\mathrm{N}$ (1A)\n(ii)\n- $4.00 \\times 10^{-13}\\ \\mathrm{N} \\gg 3.02 \\times 10^{-16}\\ \\mathrm{N}$, so yes, $F$ is large enough in principle to be resolved. (1)\n(d)\n- $F \\propto Mm/r^{2}$; classroom masses are small and $G$ is very small, so $F$ is tiny. (1)\n- Everyday forces (friction, weight, electromagnetic contact forces) are much larger and mask gravity between small objects. (1)\n(e)\n- A small mechanical displacement changes the optical coupling / phase strongly, so a tiny twist becomes a measurable light signal. (1)\n(Accept: optical methods can resolve very small length / phase changes; non-contact readout reduces mechanical disturbance.)",
+    "answer_zh": "(a)\n- 半徑 $r = 3.00 \\times 10^{-3}\\ \\mathrm{m}$（1M）\n- $V = \\dfrac{4}{3}\\times 3.14 \\times (3.00 \\times 10^{-3})^{3} = 1.13 \\times 10^{-7}\\ \\mathrm{m}^{3}$（1A）\n(b)\n- $\\rho = \\dfrac{m}{V} = \\dfrac{1.20 \\times 10^{-3}}{1.13 \\times 10^{-7}}$（1M）\n- $\\rho = 1.06 \\times 10^{4}\\ \\mathrm{kg}\\,\\mathrm{m}^{-3}$（1A）\n(c)\n(i)\n- $F = \\dfrac{(6.67 \\times 10^{-11})(5.00 \\times 10^{-4})(1.20 \\times 10^{-3})}{(1.00 \\times 10^{-2})^{2}}$（1M）\n- 分子 $= 4.00 \\times 10^{-17}$；分母 $= 1.00 \\times 10^{-4}$（1M）\n- $F = 4.00 \\times 10^{-13}\\ \\mathrm{N}$（1A）\n(ii)\n- $4.00 \\times 10^{-13}\\ \\mathrm{N} \\gg 3.02 \\times 10^{-16}\\ \\mathrm{N}$，因此原則上 $F$ 夠大，感測器可以分辨。（1）\n(d)\n- $F \\propto Mm/r^{2}$；課室物件質量細，而且 $G$ 極細，所以 $F$ 好細。（1）\n- 日常力（摩擦力、重量、接觸電磁力）大好多，掩蓋咗細物件之間嘅引力。（1）\n(e)\n- 極細微嘅機械位移會大幅改變光學耦合／相位，令細扭轉變成可量度嘅光訊號。（1）\n（接受：光學方法可分辨好細嘅長度／相位變化；非接觸讀出減少機械干擾。）"
+  }
+}
