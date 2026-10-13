@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-14",
+  "news": [
+    {
+      "title": "牛津用混合量子電腦重現 Aharonov–Bohm 效應，磁場令粒子「停步」",
+      "summary": "牛津大學團隊喺 Nature Physics 發表：用囚禁離子量子位元代表規範場、離子振動振盪器代表物質，喺混合量子電腦上模擬格子規範理論入面一個細環路。佢哋把磁場通量編入糾纏態，重現 Aharonov–Bohm 效應——帶電粒子就算路徑完全唔經過磁場區，量子相位仍然會受磁通量影響。冇通量時粒子可以量子穿隧；有通量時兩條路徑相消干涉，穿隧完全被壓低，粒子好似被「凍結」。實驗顯示物質同動態場可以一齊參與呢種干涉。",
+      "topic": "電和磁（磁場、磁通量）、波動（干涉、量子穿隧）、原子世界",
+      "source_name": "ScienceDaily / University of Oxford",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261011211554.htm",
+      "source_date": "13/10",
+      "links": [
+        {
+          "label": "Nature Physics",
+          "url": "https://doi.org/10.1038/s41567-026-03400-6"
+        }
+      ]
+    },
+    {
+      "title": "General Fusion LM26 電子溫度超過約 1200 萬 °C，達 1 keV 基準",
+      "summary": "加拿大 General Fusion 嘅 Lawson Machine 26（LM26）宣布，喺磁化靶聚變（MTF）實驗入面，電子溫度超過約 1200 萬 °C（約 1.1 keV），並獲英國原子能管理局（UKAEA）用 Thomson 散射診斷共同量度同核實。呢個係行業公認嘅 1 keV 加熱里程碑；公司用金屬襯套機械壓縮帶磁場嘅等離子體，而唔係靠超導磁體或高功率激光。下一步目標約 10 keV，朝 Lawson 準則同淨能量增益前進。",
+      "topic": "放射現象和核能（核聚變）、熱和氣體（等離子體）、電和磁（磁場約束）",
+      "source_name": "New Civil Engineer / General Fusion",
+      "source_url": "https://www.newcivilengineer.com/latest/general-fusion-reaches-technical-magnetised-heating-milestone-verified-by-ukaea-12-10-2026/",
+      "source_date": "12/10",
+      "links": []
+    },
+    {
+      "title": "Parker Solar Probe：太陽風湍流磁場旋轉方向喺某尺度會反轉",
+      "summary": "國際團隊用 NASA Parker Solar Probe 高精度磁場同粒子數據，首次直接顯示太空等離子體湍流入面，磁場旋轉方向會喺某個波長尺度反轉：大尺度（流體式）睇上去偏向某一轉，細尺度（粒子式）則轉另一邊。反轉位置大約對應磁流體力學過渡到動能學尺度，而且隨住離開太陽，反轉會增強並移向較長波長。結果刊於 The Astrophysical Journal Letters，有助理解太陽風湍流同預報地磁暴。",
+      "topic": "電和磁（磁場）、天文學（太陽風）、熱和氣體（等離子體）",
+      "source_name": "Nanowerk / University of Tokyo",
+      "source_url": "https://www.nanowerk.com/news2/space/newsid=70401.php",
+      "source_date": "13/10",
+      "links": []
+    },
+    {
+      "title": "Fermilab 開建 MAGNES：15 特斯拉背景場測試聚變用超導電纜",
+      "summary": "費米實驗室啟動 MAGNet Environment Simulator（MAGNES），專門喺接近真實磁體環境下測試未來聚變反應堆用嘅超導電纜。核心係柏克萊實驗室造嘅約 15 T 偶極磁體（大約係地球磁場嘅 30 萬倍；醫院 MRI 通常只有 1.5–3 T），測試電流可高達約 10 萬安培，並研究失超（quench）同較高工作溫度。首批電纜測試預計 2028 年夏天開始，為托卡馬克等強磁場聚變裝置提供設計數據。",
+      "topic": "電和磁（磁場、超導）、放射現象和核能（核聚變）",
+      "source_name": "Fermilab",
+      "source_url": "https://news.fnal.gov/2026/10/physics-and-fusion-research-advances-through-fermilabs-magnes/",
+      "source_date": "12/10",
+      "links": []
+    },
+    {
+      "title": "用量子相對熵由資訊推導出半經典愛因斯坦方程",
+      "summary": "萊比錫大學等研究者喺 Physical Review Letters 提出：喺時空視界上計算量子相對熵（兩個量子態有幾易分辨），可以等於穿過視界嘅能量流；再結合熵同視界面積嘅關係，就可以推導出描述物質點樣彎曲時空嘅半經典愛因斯坦方程。工作把早期靠經典熱力學類比嘅論證，換成更嚴謹嘅量子資訊語言，支持「引力／時空可能由量子資訊湧現」嘅方向，但暫時未有即時應用。",
+      "topic": "力和運動（萬有引力）、原子世界（量子資訊）",
+      "source_name": "phys.org / Physical Review Letters",
+      "source_url": "https://phys.org/news/2026-10-gravity-quantum-linked-derivation-einstein.html",
+      "source_date": "12/10",
+      "links": [
+        {
+          "label": "Physical Review Letters",
+          "url": "https://doi.org/10.1103/lmq8-nsty"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "牛津用混合量子電腦重現 Aharonov–Bohm 效應，磁場令粒子「停步」",
+    "question_en": "Oxford researchers recreated the Aharonov–Bohm effect on a hybrid quantum computer: a charged particle can be influenced by magnetic flux even when its path never enters the magnetic-field region.\nA long thin solenoid produces a uniform field $B = 0.080\\ \\mathrm{T}$ inside a circular cross-section of radius\n$$r = 5.00 \\times 10^{-3}\\ \\mathrm{m}$$\nand $B \\approx 0$ outside.\n(a) Calculate the magnetic flux $\\Phi$ through the cross-section of the solenoid. (2 marks)\nGiven:\n- $\\Phi = BA$\n- $A = \\pi r^{2}$\n- Take $\\pi = 3.14$\n(b) An electron moves on a circular path of radius $R = 2.00 \\times 10^{-2}\\ \\mathrm{m}$ centred on the solenoid axis, entirely outside the solenoid.\n(i) State the magnetic force on the electron due to the field outside the solenoid. (1 mark)\n(ii) Explain briefly why, classically, one might expect no magnetic effect on this electron. (1 mark)\n(c) In the quantum simulation, two paths around the loop can interfere. Without flux the particle tunnels freely; with flux the paths interfere destructively and tunnelling is suppressed.\n(i) State what is meant by destructive interference of waves. (2 marks)\n(ii) Hence explain, in terms of wave behaviour, how the particle can be \"stopped\" without experiencing a classical magnetic force on its path. (2 marks)\n(d) Calculate the magnetic field strength $B'$ that would give flux $\\Phi' = 2.00 \\times 10^{-6}\\ \\mathrm{Wb}$ through the same solenoid cross-section. (2 marks)",
+    "question_zh": "牛津研究人員喺混合量子電腦上重現 Aharonov–Bohm 效應：帶電粒子就算路徑完全唔經過磁場區，仍然可以受磁通量影響。\n一條長而幼嘅螺線管，喺圓形截面內產生均勻磁場 $B = 0.080\\ \\mathrm{T}$，截面半徑為\n$$r = 5.00 \\times 10^{-3}\\ \\mathrm{m}$$\n而管外 $B \\approx 0$。\n(a) 計算穿過螺線管截面嘅磁通量 $\\Phi$。（2 分）\n已知：\n- $\\Phi = BA$\n- $A = \\pi r^{2}$\n- 取 $\\pi = 3.14$\n(b) 一粒電子沿半徑 $R = 2.00 \\times 10^{-2}\\ \\mathrm{m}$、以螺線管軸為圓心嘅圓形路徑運動，整條路徑完全喺螺線管外面。\n(i) 寫出電子因螺線管外磁場而受到嘅磁力。（1 分）\n(ii) 簡短解釋點解按經典觀點，或會預期呢粒電子唔受磁場影響。（1 分）\n(c) 喺量子模擬入面，環路兩條路徑可以干涉。冇通量時粒子可以自由穿隧；有通量時兩條路徑相消干涉，穿隧被壓低。\n(i) 說明波動嘅相消干涉係咩意思。（2 分）\n(ii) 因此從波動行為解釋，點解粒子可以喺路徑上冇受到經典磁力嘅情況下被「停住」。（2 分）\n(d) 計算要令穿過同一螺線管截面嘅磁通量為 $\\Phi' = 2.00 \\times 10^{-6}\\ \\mathrm{Wb}$ 所需嘅磁場強度 $B'$。（2 分）",
+    "answer_en": "(a)\n- $A = \\pi r^{2} = 3.14 \\times (5.00 \\times 10^{-3})^{2} = 7.85 \\times 10^{-5}\\ \\mathrm{m}^{2}$ (1M)\n- $\\Phi = BA = 0.080 \\times 7.85 \\times 10^{-5} = 6.28 \\times 10^{-6}\\ \\mathrm{Wb}$ (1A)\n(b)\n(i)\n- Zero / $F = 0$ (because $B \\approx 0$ outside). (1)\n(ii)\n- Classically $F = qvB$ (or $\\mathbf{F} = q\\mathbf{v}\\times\\mathbf{B}$); with $B = 0$ on the path, the magnetic force is zero. (1)\n(c)\n(i)\n- When two waves meet out of phase (e.g. phase difference of $\\pi$ / path difference of $\\lambda/2$), their displacements cancel and the resultant amplitude is reduced (ideally to zero). (2)\n(ii)\n- The electron / matter has wave nature; the flux changes the relative phase of the two paths so they cancel, reducing the probability of tunnelling even though no classical magnetic force acts on the path. (2)\n(d)\n- $B' = \\Phi'/A = 2.00\\times10^{-6}/7.85\\times10^{-5}$ (1M)\n- $B' = 2.55 \\times 10^{-2}\\ \\mathrm{T}$ (1A)",
+    "answer_zh": "(a)\n- $A = \\pi r^{2} = 3.14 \\times (5.00 \\times 10^{-3})^{2} = 7.85 \\times 10^{-5}\\ \\mathrm{m}^{2}$（1M）\n- $\\Phi = BA = 0.080 \\times 7.85 \\times 10^{-5} = 6.28 \\times 10^{-6}\\ \\mathrm{Wb}$（1A）\n(b)\n(i)\n- 零 / $F = 0$（因為管外 $B \\approx 0$）。（1）\n(ii)\n- 經典上 $F = qvB$（或 $\\mathbf{F} = q\\mathbf{v}\\times\\mathbf{B}$）；路徑上 $B = 0$，磁力為零。（1）\n(c)\n(i)\n- 兩列波以反相相遇（例如相位差為 $\\pi$ / 路程差為 $\\lambda/2$），位移互相抵消，合振幅減小（理想情況減至零）。（2）\n(ii)\n- 電子／物質具有波動性；磁通量改變兩條路徑嘅相對相位，令佢哋相消，穿隧概率因而降低，即使路徑上並無經典磁力作用。（2）\n(d)\n- $B' = \\Phi'/A = 2.00\\times10^{-6}/7.85\\times10^{-5}$（1M）\n- $B' = 2.55 \\times 10^{-2}\\ \\mathrm{T}$（1A）"
+  }
+}
