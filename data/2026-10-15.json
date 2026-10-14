@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-15",
+  "news": [
+    {
+      "title": "磁力「萬能轉換」：軟磁同超導層把任意磁場變成指定形狀",
+      "summary": "巴塞羅那自治大學同瑞典查爾默斯理工研究人員喺 Science Advances 提出「磁力萬能轉換」（magnetic omniconversion）：用精確幾何排布嘅軟磁材料（例如軟鐵，好似近乎完美嘅磁導體）同超導體（傾向排出磁場）層包圍目標區域，就可以把線圈或永久磁鐵嘅磁場，喺區內轉成幾乎任意預設形狀，而且同外來來源無關。佢哋造咗裝置，把扁平線圈嘅唔均勻場轉成細圓柱腔入面高度均勻嘅場；冷卻至 1 K 以下並啟動鋁超導管之後，量度結果同模擬吻合。方法推廣咗磁屏蔽概念，有望用於 MRI、質譜、粒子物理同磁約束聚變。",
+      "topic": "電和磁（磁場、磁導率、磁屏蔽）、原子世界（超導體／邁斯納效應）",
+      "source_name": "Universitat Autònoma de Barcelona / Chalmers",
+      "source_url": "https://www.uab.cat/web/newsroom/news-detail/convert-any-magnet-into-any-field-the-uab-and-chalmers-university-of-technology-present-the-magnetic-omniconversion-1345830290613.html?detid=1346002403279",
+      "source_date": "13/10",
+      "links": [
+        {
+          "label": "Science Advances (DOI)",
+          "url": "https://doi.org/10.1126/sciadv.aeh5747"
+        }
+      ]
+    },
+    {
+      "title": "超導渦旋記憶位接近朗道爾極限，能耗約只有理論下限 5 倍",
+      "summary": "希伯來大學團隊喺 Nature Communications 示範：用單一超導渦旋（超導材料入面嘅細微磁場「漩渦」）做記憶位，喺兩個穩定位置之間代表 0 同 1。操作能耗大約只有朗道爾極限（擦除 1 bit 嘅理論最低能量）嘅 5 倍；現代電腦同類操作通常要超過一百萬倍。裝置喺約 4 K（−269 °C）運作，唔適合日常電腦，但量子電腦本來就喺相近低溫，未來或可做超低能耗經典記憶。能量靠超灵敏 SQUID-on-tip 跟蹤渦旋磁響應來量度，而唔係靠極微熱量。",
+      "topic": "電和磁（超導、磁場）、熱和氣體（能量同溫度）、原子世界",
+      "source_name": "phys.org / Hebrew University",
+      "source_url": "https://phys.org/news/2026-10-tiny-magnetic-whirlpool-kind-ultra.html",
+      "source_date": "14/10",
+      "links": [
+        {
+          "label": "Nature Communications",
+          "url": "https://doi.org/10.1038/s41467-026-77988-x"
+        }
+      ]
+    },
+    {
+      "title": "加電壓令石墨烯層「滑動」，可逆開關磁性狀態",
+      "summary": "康奈爾大學 Yasuda 實驗室喺 Nature Nanotechnology 報告：對四層石墨烯加電壓，層與層之間較弱嘅范德華鍵令原子堆疊「滑動」，可以由常見嘅 Bernal 堆疊（非磁性）轉去菱面體堆疊（同磁性、超導等量子現象相關）。狀態喺電壓關掉之後仍然維持（非揮發），而且可以來回切換，有望做可重寫量子材料同新型非揮發記憶。呢種做法唔使斷開強化學鍵，比高溫高壓改結構慳得多能量。",
+      "topic": "電和磁（磁性）、原子世界（晶體結構、二維材料）",
+      "source_name": "Cornell Chronicle",
+      "source_url": "https://news.cornell.edu/stories/2026/10/electrical-sliding-switches-graphene-between-magnetic-states",
+      "source_date": "14/10",
+      "links": []
+    },
+    {
+      "title": "40 年後首次喺量子模擬器睇到臨界點「能量梯」",
+      "summary": "加州理工主導嘅國際團隊喺 Nature 發表：用激光囚禁鍶原子鏈（最多約 35 粒），激發到里德堡態加強相互作用，調到臨界「 tipping point」，再用唔同頻率調制激光「搖動」原子，量到吸收能量嘅固定階梯圖案。結果符合 1984 年 Cardy 用共形場論預測嘅 Ising 同 tricritical 點能量譜——放大尺寸之後光譜塌縮到同一條普適曲線。工作證明量子計算平台元件已經可以做基礎物理實驗，下一步會指向經典電腦計唔到嘅未知臨界點。",
+      "topic": "原子世界（能級、量子模擬）、波動（激光）、熱和氣體（相變臨界點）",
+      "source_name": "ScienceAlert / Caltech / Nature",
+      "source_url": "https://www.sciencealert.com/after-40-years-physicists-finally-observe-the-energy-ladder-at-quantum-tipping-points",
+      "source_date": "14/10",
+      "links": [
+        {
+          "label": "Nature",
+          "url": "https://doi.org/10.1038/s41586-026-10904-x"
+        }
+      ]
+    },
+    {
+      "title": "飛秒激光脈衝測到單層半導體電子嘅 Berry 曲率",
+      "summary": "德國耶拿大學同雷根斯堡大學團隊喺 Nature Photonics 報告：用兩束超短激光脈衝打喺少過 1 nm 厚嘅二硒化鎢（WSe₂）上——第一束短暫改變電子態，第二束探測，產生倍頻光；由倍頻光嘅偏振讀出 Berry 曲率（描述電子量子態幾何性質嘅量）。過程只歷時幾百飛秒（10⁻¹⁵ s）；改變圓偏振旋轉方向，訊號符號會反轉，量度結果同理論一致。方法令難以直接量嘅量子幾何可以用光學喺極短時間尺度追蹤。",
+      "topic": "波動（激光、偏振、倍頻）、電和磁（半導體）、原子世界",
+      "source_name": "phys.org / University of Jena",
+      "source_url": "https://phys.org/news/2026-10-ultrashort-laser-pulses-probe-electrons.html",
+      "source_date": "13/10",
+      "links": [
+        {
+          "label": "Nature Photonics",
+          "url": "https://doi.org/10.1038/s41566-026-02025-8"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "磁力「萬能轉換」：軟磁同超導層把任意磁場變成指定形狀",
+    "question_en": "UAB and Chalmers researchers showed that soft-magnetic layers (which channel magnetic field lines) and superconducting layers (which tend to expel magnetic fields) can reshape an external magnetic field into a chosen pattern inside a region.\nA long air-cored solenoid has $n = 500$ turns per metre and carries a steady current $I = 2.00\\ \\mathrm{A}$.\n(a) Calculate the magnetic field strength $B$ inside the solenoid. (2 marks)\nGiven:\n- $B = \\mu_{0} n I$\n- $\\mu_{0} = 4\\pi \\times 10^{-7}\\ \\mathrm{H\\ m^{-1}}$\n- Take $\\pi = 3.14$\n(b) A soft-iron core of relative permeability $\\mu_{\\mathrm{r}} = 200$ completely fills the solenoid.\n(i) Calculate the new field strength $B'$ inside the core. (2 marks)\nGiven:\n- $B' = \\mu_{\\mathrm{r}} \\mu_{0} n I$\n(ii) Briefly explain why inserting soft iron increases the magnetic field for the same current. (2 marks)\n(c) The cross-section of the core is a circle of radius $r = 1.00 \\times 10^{-2}\\ \\mathrm{m}$.\nCalculate the magnetic flux $\\Phi$ through this cross-section when the soft-iron core is in place. (2 marks)\nGiven:\n- $\\Phi = B' A$\n- $A = \\pi r^{2}$\n(d) In the omniconversion device, a superconducting tube is cooled below its critical temperature.\n(i) State what is meant by the Meissner effect. (1 mark)\n(ii) Hence explain why a superconducting layer can help to \"mould\" magnetic field lines into a chosen shape, rather than only weakening them. (2 marks)",
+    "question_zh": "巴塞羅那自治大學同查爾默斯理工研究人員示範：軟磁層（可引導磁力線）同超導層（傾向排出磁場）可以把外來磁場喺某區域內重塑成指定形狀。\n一條長嘅空心電感螺線管，每米有 $n = 500$ 匝，通過穩恒電流 $I = 2.00\\ \\mathrm{A}$。\n(a) 計算螺線管內部嘅磁場強度 $B$。（2 分）\n已知：\n- $B = \\mu_{0} n I$\n- $\\mu_{0} = 4\\pi \\times 10^{-7}\\ \\mathrm{H\\ m^{-1}}$\n- 取 $\\pi = 3.14$\n(b) 將相對磁導率 $\\mu_{\\mathrm{r}} = 200$ 嘅軟鐵芯完全填滿螺線管。\n(i) 計算鐵芯內部嘅新磁場強度 $B'$。（2 分）\n已知：\n- $B' = \\mu_{\\mathrm{r}} \\mu_{0} n I$\n(ii) 簡短解釋點解喺同一電流下插入軟鐵會令磁場增強。（2 分）\n(c) 鐵芯截面係半徑 $r = 1.00 \\times 10^{-2}\\ \\mathrm{m}$ 嘅圓。\n計算放入軟鐵芯之後穿過呢個截面嘅磁通量 $\\Phi$。（2 分）\n已知：\n- $\\Phi = B' A$\n- $A = \\pi r^{2}$\n(d) 喺萬能轉換裝置入面，一條超導管被冷卻至低於臨界溫度。\n(i) 說明邁斯納效應係咩意思。（1 分）\n(ii) 因此解釋點解超導層可以幫手把磁力線「塑造」成指定形狀，而唔只係削弱磁場。（2 分）",
+    "answer_en": "(a)\n- $B = \\mu_{0} n I = 4\\pi \\times 10^{-7} \\times 500 \\times 2.00$ (1M)\n- $B = 4 \\times 3.14 \\times 10^{-4} = 1.26 \\times 10^{-3}\\ \\mathrm{T}$ (1A)\n(b)\n(i)\n- $B' = 200 \\times 1.26 \\times 10^{-3} = 0.252\\ \\mathrm{T}$ (1M+1A)\n(ii)\n- Soft iron has high permeability / many magnetic domains align with the field. (1)\n- Field lines are concentrated inside the core, so $B$ increases for the same current. (1)\n(c)\n- $A = \\pi r^{2} = 3.14 \\times (1.00 \\times 10^{-2})^{2} = 3.14 \\times 10^{-4}\\ \\mathrm{m}^{2}$ (1M)\n- $\\Phi = 0.252 \\times 3.14 \\times 10^{-4} = 7.91 \\times 10^{-5}\\ \\mathrm{Wb}$ (1A)\n(d)\n(i)\n- A superconductor below its critical temperature expels magnetic field from its interior. (1)\n(ii)\n- Soft-magnetic layers guide / channel field lines like a magnetic conductor. (1)\n- Superconducting layers block / exclude field from certain regions, so together the geometry can force the remaining field into a chosen pattern (not merely a weaker version of the original). (1)",
+    "answer_zh": "(a)\n- $B = \\mu_{0} n I = 4\\pi \\times 10^{-7} \\times 500 \\times 2.00$（1M）\n- $B = 4 \\times 3.14 \\times 10^{-4} = 1.26 \\times 10^{-3}\\ \\mathrm{T}$（1A）\n(b)\n(i)\n- $B' = 200 \\times 1.26 \\times 10^{-3} = 0.252\\ \\mathrm{T}$（1M+1A）\n(ii)\n- 軟鐵磁導率高／磁疇沿外場排列。（1）\n- 磁力線集中喺鐵芯內，所以同一電流下 $B$ 增大。（1）\n(c)\n- $A = \\pi r^{2} = 3.14 \\times (1.00 \\times 10^{-2})^{2} = 3.14 \\times 10^{-4}\\ \\mathrm{m}^{2}$（1M）\n- $\\Phi = 0.252 \\times 3.14 \\times 10^{-4} = 7.91 \\times 10^{-5}\\ \\mathrm{Wb}$（1A）\n(d)\n(i)\n- 超導體喺臨界溫度以下會把磁場排出體內。（1）\n(ii)\n- 軟磁層好似磁導體咁引導／集中磁力線。（1）\n- 超導層阻擋／排除某些區域嘅場，兩者幾何一齊可以把剩餘場逼成指定形狀（唔只係原本場嘅削弱版）。（1）"
+  }
+}
