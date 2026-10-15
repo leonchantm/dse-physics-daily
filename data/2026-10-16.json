@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-16",
+  "news": [
+    {
+      "title": "晶片級光學陀螺儀：量到每小時只轉 37° 嘅極慢旋轉",
+      "summary": "加州理工同加州大學聖塔芭芭拉分校團隊喺 Optics Letters 報告：用氮化矽光子積體電路造出 Brillouin 環形激光陀螺儀，可以量度低至每小時 37° 嘅旋轉，接近地球自轉約每小時 15°，比佢哋舊款裝置靈敏約 2000 倍。感應環直徑約 24 mm，兩束反向光喺高 Q 值（超過 1.63 億）環內形成穩定激光；裝置靜止時兩束訊號一樣，旋轉時頻率出現微差，從而讀出角速度。晶片可用標準 CMOS 製程，光學功率只需毫瓦級，有望用於無 GPS 環境嘅精密導航。",
+      "topic": "波動（激光、干涉／頻率差）、力學（角速度、圓周運動）",
+      "source_name": "phys.org / Optica / Caltech / UCSB",
+      "source_url": "https://phys.org/news/2026-10-chip-scale-gyroscope-rotation-unprecedented.html",
+      "source_date": "14/10",
+      "links": [
+        {
+          "label": "Optics Letters (DOI)",
+          "url": "https://doi.org/10.1364/ol.589952"
+        }
+      ]
+    },
+    {
+      "title": "超流氦陀螺儀方案：實驗室量地球「拖曳時空」",
+      "summary": "UC Berkeley、奧地利科學院同 Caltech 研究人員喺 Physical Review Letters 提出：用冷卻至超流態（低於 2.17 K）嘅氦-4 填入環形管，經 Josephson 接面讀取相位差，有望喺地面實驗室量度廣義相對論預測嘅「參考系拖曳」（frame-dragging）——地球自轉輕微拖曳周圍時空。分析顯示喺約 10 mK 運作可大幅減低熱噪聲，靈敏度有望媲美甚至超越過往太空任務，而且唔使飛上太空。下一步要喺毫開爾文溫度造出可用嘅超流氦 Josephson 接面。",
+      "topic": "力學／宇宙學入門（重力、自轉）、熱和氣體（低溫、超流體）、原子世界",
+      "source_name": "phys.org / UC Berkeley / PRL",
+      "source_url": "https://phys.org/news/2026-10-quantum-sensor-earth-spacetime.html",
+      "source_date": "15/10",
+      "links": [
+        {
+          "label": "Physical Review Letters (DOI)",
+          "url": "https://doi.org/10.1103/q3v9-rjm9"
+        }
+      ]
+    },
+    {
+      "title": "CMS：重魅夸克都跟住夸克–膠子等離子體「橢圓流動」",
+      "summary": "CERN CMS 合作組首次用「事件形狀工程」分析鉛核–鉛核對撞數據，研究比最輕夸克重約 400 倍嘅魅夸克，會唔會跟住夸克–膠子等離子體（QGP）嘅集體流動。對撞重疊區多數呈杏仁形，壓力唔均勻會令等離子體沿某方向膨脹更快（橢圓流）。量度含魅夸克嘅 D⁰ 介子嘅橢圓流係數 v₂，發現佢同碰撞初始幾何有強線性相關：重疊區愈橢圓，D⁰ 流動亦愈橢圓。結果顯示連又重又高動量嘅粒子都強烈受 QGP 初始形狀影響，有助理解大爆炸後極早期物質。",
+      "topic": "原子世界（夸克、粒子物理）、能量、宇宙學入門",
+      "source_name": "CMS Experiment / CERN",
+      "source_url": "https://cms.cern/news/carried-current-how-charm-quarks-probe-quark-gluon-plasma",
+      "source_date": "15/10",
+      "links": []
+    },
+    {
+      "title": "Google Willow：魔法態「栽培」令錯誤減約 40 倍",
+      "summary": "Google Quantum AI 喺 Science 發表：喺 Willow 超導量子處理器上首次實驗示範「魔法態栽培」（magic state cultivation）。要做通用容錯量子計算，需要高質「魔法態」嚟實現非 Clifford 閘，但傳統蒸餾極耗資源。栽培方法把嘈雜態注入細區域，再用一連串量度篩走錯誤，同時放大到有用編碼；結果相對未栽培狀態錯誤約減 40 倍，T 態邏輯保真度至少達 99.99%（保留約 8% 嘗試）。工作亦示範由色碼嫁接到表面碼，係解決量子運算資源樽頸嘅重要一步。",
+      "topic": "原子世界（量子位元、量子資訊）",
+      "source_name": "Google Quantum AI / Science",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
+      "source_date": "15/10",
+      "links": [
+        {
+          "label": "Science (DOI)",
+          "url": "https://doi.org/10.1126/science.aee7961"
+        }
+      ]
+    },
+    {
+      "title": "自旋波直連超導諧振器：晶片上「單向」傳遞量子訊號",
+      "summary": "阿貢國家實驗室同伊利諾大學厄巴納–香檳分校團隊喺 Physical Review Letters 示範：喺釔鐵石榴石（YIG）磁性薄膜上直接造氮化鈮超導共面波導諧振器，令傳播中嘅自旋波（磁振子）同微波光子強耦合。自旋波喺特定條件下自然偏向單向傳播，可減少訊號回漏，有助保護脆弱量子電路。關鍵係改用無稀土嘅 YSGG 基板，避免低溫下微波被吸收。呢個混合平台首次把傳播自旋波同晶片超導電路接上，為片上微波隔離器同量子互連開路。",
+      "topic": "電和磁（磁場、微波）、波動（波嘅傳播）、原子世界",
+      "source_name": "University of Illinois / Argonne",
+      "source_url": "https://matse.illinois.edu/news/92328",
+      "source_date": "12/10",
+      "links": [
+        {
+          "label": "Physical Review Letters (DOI)",
+          "url": "https://doi.org/10.1103/8t91-w9nn"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "晶片級光學陀螺儀：量到每小時只轉 37° 嘅極慢旋轉",
+    "question_en": "Researchers built a chip-scale optical ring gyroscope that can measure rotation as slow as $37^{\\circ}$ per hour (approaching Earth's rotation rate of about $15^{\\circ}$ per hour).\n\n(a) Take Earth's angular speed as $15.0^{\\circ}$ per hour. Convert this to $\\mathrm{rad\\,s^{-1}}$. (2 marks)\nGiven:\n- $360^{\\circ} = 2\\pi\\ \\mathrm{rad}$\n- $1\\ \\mathrm{h} = 3600\\ \\mathrm{s}$\n- Take $\\pi = 3.14$\n\n(b) The sensing ring has diameter $d = 24.0\\ \\mathrm{mm}$.\nCalculate\n(i) the circumference $C$ of the ring, and\n(ii) the area $A$ enclosed by the ring. (3 marks)\nGiven:\n- $C = 2\\pi r$\n- $A = \\pi r^{2}$\n\n(c) Two light beams travel in opposite directions around the ring at speed $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$.\nUsing your value of $C$ from (b), calculate the time $t$ for light to make one trip around the ring when the chip is stationary. (2 marks)\nGiven:\n- $t = C/c$\n\n(d) The optical signal has frequency $f = 2.00 \\times 10^{14}\\ \\mathrm{Hz}$.\nCalculate the wavelength $\\lambda$ in vacuum. (2 marks)\nGiven:\n- $c = f\\lambda$\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n\n(e) Optical ring gyroscopes become more sensitive when the enclosed ring area is larger.\nExplain why a larger enclosed area helps the device detect smaller rotation rates. (2 marks)",
+    "question_zh": "研究人員造出晶片級光學環形陀螺儀，可以量到低至每小時 $37^{\\circ}$ 嘅旋轉（接近地球自轉約每小時 $15^{\\circ}$）。\n\n(a) 取地球角速度為每小時 $15.0^{\\circ}$。把呢個數值轉換為 $\\mathrm{rad\\,s^{-1}}$。（2 分）\n已知：\n- $360^{\\circ} = 2\\pi\\ \\mathrm{rad}$\n- $1\\ \\mathrm{h} = 3600\\ \\mathrm{s}$\n- 取 $\\pi = 3.14$\n\n(b) 感應環直徑 $d = 24.0\\ \\mathrm{mm}$。\n計算\n(i) 環嘅周長 $C$，以及\n(ii) 環包圍嘅面積 $A$。（3 分）\n已知：\n- $C = 2\\pi r$\n- $A = \\pi r^{2}$\n\n(c) 兩束光以光速 $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$ 沿相反方向環繞感應環。\n用 (b) 得出嘅 $C$，計算晶片靜止時光走一圈所需時間 $t$。（2 分）\n已知：\n- $t = C/c$\n\n(d) 光學訊號頻率 $f = 2.00 \\times 10^{14}\\ \\mathrm{Hz}$。\n計算真空中嘅波長 $\\lambda$。（2 分）\n已知：\n- $c = f\\lambda$\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n\n(e) 光學環形陀螺儀包圍面積愈大，對旋轉愈靈敏。\n解釋點解較大包圍面積有助偵測較細嘅旋轉速率。（2 分）",
+    "answer_en": "(a)\n- $\\omega = 15.0 \\times (2\\pi/360)/3600 = 15.0 \\times 3.14/180/3600$ (1M)\n- $\\omega = 7.27 \\times 10^{-5}\\ \\mathrm{rad\\,s^{-1}}$ (1A)\n\n(b)\n- $r = d/2 = 1.20 \\times 10^{-2}\\ \\mathrm{m}$ (1A)\n- $C = 2\\pi r = 2 \\times 3.14 \\times 1.20 \\times 10^{-2} = 7.54 \\times 10^{-2}\\ \\mathrm{m}$ (1A)\n- $A = \\pi r^{2} = 3.14 \\times (1.20 \\times 10^{-2})^{2} = 4.52 \\times 10^{-4}\\ \\mathrm{m}^{2}$ (1A)\n\n(c)\n- $t = C/c = 7.54 \\times 10^{-2}/(3.00 \\times 10^{8})$ (1M)\n- $t = 2.51 \\times 10^{-10}\\ \\mathrm{s}$ (1A)\n\n(d)\n- $\\lambda = c/f = 3.00 \\times 10^{8}/(2.00 \\times 10^{14})$ (1M)\n- $\\lambda = 1.50 \\times 10^{-6}\\ \\mathrm{m}$ (1A)\n\n(e)\n- For the same angular speed, a larger enclosed area produces a larger path / time / phase (or frequency) difference between the two opposite beams. (1)\n- A larger difference is easier to measure, so smaller rotation rates can still be detected. (1)",
+    "answer_zh": "(a)\n- $\\omega = 15.0 \\times (2\\pi/360)/3600 = 15.0 \\times 3.14/180/3600$（1M）\n- $\\omega = 7.27 \\times 10^{-5}\\ \\mathrm{rad\\,s^{-1}}$（1A）\n\n(b)\n- $r = d/2 = 1.20 \\times 10^{-2}\\ \\mathrm{m}$（1A）\n- $C = 2\\pi r = 2 \\times 3.14 \\times 1.20 \\times 10^{-2} = 7.54 \\times 10^{-2}\\ \\mathrm{m}$（1A）\n- $A = \\pi r^{2} = 3.14 \\times (1.20 \\times 10^{-2})^{2} = 4.52 \\times 10^{-4}\\ \\mathrm{m}^{2}$（1A）\n\n(c)\n- $t = C/c = 7.54 \\times 10^{-2}/(3.00 \\times 10^{8})$（1M）\n- $t = 2.51 \\times 10^{-10}\\ \\mathrm{s}$（1A）\n\n(d)\n- $\\lambda = c/f = 3.00 \\times 10^{8}/(2.00 \\times 10^{14})$（1M）\n- $\\lambda = 1.50 \\times 10^{-6}\\ \\mathrm{m}$（1A）\n\n(e)\n- 同一角速度下，較大包圍面積令兩束反向光之間嘅路程／時間／相位（或頻率）差更大。（1）\n- 差值愈大愈易量度，所以仍然可以偵測到較細嘅旋轉速率。（1）"
+  }
+}
