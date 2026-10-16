@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-17",
+  "news": [
+    {
+      "title": "紅外鎖定方案：幫 LIGO 升級避開鏡面綠光吸收",
+      "summary": "西澳大學、澳洲國立大學同阿德萊德大學（OzGrav）團隊喺 Physical Review D 報告：為下一代 LIGO 升級研發新嘅臂長穩定（鎖定）方案。新結晶鏡面塗層會吸收現行鎖定用嘅綠光，但唔吸收波長 1596 nm 嘅紅外光。研究用特殊晶體做頻率轉換，把鎖定紅外光（1596 nm）同主激光（1064 nm）都變成綠光，約 60 秒內完成由鎖定激光到主激光嘅穩定交接，比現行系統快好多；喺 4 km 臂上兩束激光量度誤差估計只有約原子寬度嘅十分之一。結果顯示即使改用低噪聲結晶塗層，依然有可行鎖定方法。",
+      "topic": "波動（光、波長／頻率、干涉儀）",
+      "source_name": "phys.org / University of Western Australia / OzGrav / PRD",
+      "source_url": "https://phys.org/news/2026-10-infrared-mirror-coating-obstacle-gravitational.html",
+      "source_date": "16/10",
+      "links": [
+        {
+          "label": "Physical Review D (DOI)",
+          "url": "https://doi.org/10.1103/6ygv-gxq2"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2606.24149"
+        }
+      ]
+    },
+    {
+      "title": "歐洲 XFEL：硬 X 射線阿秒脈衝強度破世界紀錄",
+      "summary": "歐洲 XFEL 團隊喺 Optica 報告：用先進 Kirkpatrick–Baez（AKB）鏡把硬 X 射線阿秒脈衝聚焦到約 180 × 330 nm 嘅極細光斑（約頭髮截面十萬分之一），脈衝時長約 300 as，峰值強度超過 10²⁰ W/cm²，創下同類脈衝強度同通量世界紀錄。用銅箔驗証：內層電子被踢走後出現放大自發發射（ASE），訊號先急升再飽和，獨立確認極高強度。方法有助喺原子同分子層面研究電子行為，長遠甚至可能操控化學反應中嘅電子。",
+      "topic": "波動（X 射線、脈衝）、原子世界（電子）",
+      "source_name": "phys.org / European XFEL / Optica",
+      "source_url": "https://phys.org/news/2026-10-world-intensity-attosecond-hard-ray.html",
+      "source_date": "16/10",
+      "links": [
+        {
+          "label": "Optica (DOI)",
+          "url": "https://doi.org/10.1364/optica.613284"
+        }
+      ]
+    },
+    {
+      "title": "鎵異常有新解：唔使靠惰性微中子都解釋到少約 20%",
+      "summary": "意大利多所大學同實驗室物理學家喺 Physical Review Letters 發表新計算：長年嚟鎵-71 捕捉電子微中子比預期少約 20%（「鎵異常」），有人解釋為電子微中子同假想「惰性微中子」振盪。團隊由零重算弱相互作用過程，把電子同核轉變一齊處理，並用守狹義相對論嘅 Dirac 方程，數值結果令預期捕捉率上升，剛好對上實驗觀測，唔使引入新粒子。反應係 νₑ 撞 ⁷¹Ga 內中子，變成電子同 ⁷¹Ge，屬帶電流弱相互作用。",
+      "topic": "原子世界（微中子、核反應）、放射性",
+      "source_name": "phys.org / Physical Review Letters",
+      "source_url": "https://phys.org/news/2026-10-gallium-anomaly-neutrino-shortfall-invoking.html",
+      "source_date": "16/10",
+      "links": []
+    },
+    {
+      "title": "馬克士威妖學識用「隱藏資訊」喺微觀系統做功",
+      "summary": "康斯坦茨大學同馬普動力學與自組織研究所團隊喺 Nature Physics 示範：喺複雜液體入面，用激光困住微觀粒子，環境微結構會影響粒子運動但肉眼／單次量度睇唔到。佢哋用兩次、隔開可控時間嘅位置量度，間接讀出隱藏自由度，令「資訊引擎」可以從隱藏環境動態攞多啲有用功。研究顯示資訊本身係熱力學資源，微觀引擎可以唔靠溫度差，而靠微觀漲落嘅資訊運作。",
+      "topic": "熱和氣體（熱力學、能量）、力學",
+      "source_name": "phys.org / University of Konstanz / Nature Physics",
+      "source_url": "https://phys.org/news/2026-10-maxwell-demon-concealed-usable-energy.html",
+      "source_date": "16/10",
+      "links": [
+        {
+          "label": "Nature Physics (DOI)",
+          "url": "https://doi.org/10.1038/s41567-026-03442-w"
+        }
+      ]
+    },
+    {
+      "title": "CERN 聯手 Mistral：要造對撞物理「大型物理模型」Flare",
+      "summary": "2026 年 10 月 15 日，歐洲核子研究組織 CERN 同歐洲 AI 公司 Mistral 簽署意向聲明，計劃長期合作開發科學發現用嘅基礎模型。核心目標係預訓練單一「大型物理模型」（報道稱為 Flare），用 LHC 數以十億計模擬質子–質子對撞數據訓練，支援重建對撞事件、辨認粒子、標示異常訊號同評估未來探測器設計。CERN 目前約有 1 EB（一百萬 TB）LHC 實驗數據；高亮度 LHC（HL-LHC）預計約 2030 年運作，對撞數會再增約十倍。",
+      "topic": "原子世界（粒子物理、對撞機）",
+      "source_name": "CERN / Mistral",
+      "source_url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+      "source_date": "15/10",
+      "links": [
+        {
+          "label": "Business Day coverage",
+          "url": "https://www.businessday.co.za/world/europe/2026-10-15-cern-and-mistral-partner-to-build-flare-a-new-ai-model-for-physics/"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "紅外鎖定方案：幫 LIGO 升級避開鏡面綠光吸收",
+    "question_en": "Researchers developed an infrared locking scheme for upgrades of gravitational-wave detectors such as LIGO. The locking laser uses infrared light of wavelength $\\lambda_{\\mathrm{IR}} = 1596\\ \\mathrm{nm}$. The detector's main science laser has wavelength $\\lambda_{\\mathrm{main}} = 1064\\ \\mathrm{nm}$. Each interferometer arm is $L = 4.00\\ \\mathrm{km}$ long.\n\nTake $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$.\n\n(a) Express $1596\\ \\mathrm{nm}$ in metres. Hence calculate the frequency $f_{\\mathrm{IR}}$ of the infrared locking laser. (3 marks)\nGiven:\n- $1\\ \\mathrm{nm} = 10^{-9}\\ \\mathrm{m}$\n- $c = f\\lambda$\n\n(b) Calculate the frequency $f_{\\mathrm{main}}$ of the main science laser. (2 marks)\n\n(c) Calculate the time $t$ for light to travel one way along a $4.00\\ \\mathrm{km}$ arm. (2 marks)\nGiven:\n- $t = L/c$\n\n(d) Special crystals are used so that frequency tripling of the infrared light and frequency doubling of the main laser both produce the same green light for control handover.\n(i) Calculate the wavelength of the light produced by frequency tripling of $1596\\ \\mathrm{nm}$ infrared light. (2 marks)\n(ii) Show that frequency doubling of $1064\\ \\mathrm{nm}$ light gives the same wavelength. (1 mark)\nGiven:\n- If frequency is multiplied by $n$, wavelength is divided by $n$.\n\n(e) The next LIGO upgrade will use new crystalline mirror coatings that absorb green light. Explain why switching the locking light to infrared (instead of green) helps the locking system work with these coatings. (2 marks)",
+    "question_zh": "研究人員為引力波探測器（例如 LIGO）升級研發紅外鎖定方案。鎖定激光波長 $\\lambda_{\\mathrm{IR}} = 1596\\ \\mathrm{nm}$；探測器主科學激光波長 $\\lambda_{\\mathrm{main}} = 1064\\ \\mathrm{nm}$。干涉儀每條臂長 $L = 4.00\\ \\mathrm{km}$。\n\n取 $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$。\n\n(a) 把 $1596\\ \\mathrm{nm}$ 換算成米，從而計算紅外鎖定激光嘅頻率 $f_{\\mathrm{IR}}$。（3 分）\n已知：\n- $1\\ \\mathrm{nm} = 10^{-9}\\ \\mathrm{m}$\n- $c = f\\lambda$\n\n(b) 計算主科學激光嘅頻率 $f_{\\mathrm{main}}$。（2 分）\n\n(c) 計算光沿 $4.00\\ \\mathrm{km}$ 臂單程傳播所需時間 $t$。（2 分）\n已知：\n- $t = L/c$\n\n(d) 特殊晶體令紅外光頻率三倍頻、同主激光頻率二倍頻，都產生同一綠光，方便控制交接。\n(i) 計算 $1596\\ \\mathrm{nm}$ 紅外光經頻率三倍頻後嘅波長。（2 分）\n(ii) 證明 $1064\\ \\mathrm{nm}$ 光經頻率二倍頻後得到相同波長。（1 分）\n已知：\n- 頻率乘以 $n$，波長就除以 $n$。\n\n(e) 下一代 LIGO 會用會吸收綠光嘅新結晶鏡面塗層。解釋點解把鎖定光改用紅外（而唔用綠光）有助鎖定系統喺呢啲塗層下運作。（2 分）",
+    "answer_en": "(a)\n- $\\lambda_{\\mathrm{IR}} = 1596 \\times 10^{-9} = 1.596 \\times 10^{-6}\\ \\mathrm{m}$ (1A)\n- $f_{\\mathrm{IR}} = c/\\lambda_{\\mathrm{IR}} = 3.00 \\times 10^{8}/(1.596 \\times 10^{-6})$ (1M)\n- $f_{\\mathrm{IR}} = 1.88 \\times 10^{14}\\ \\mathrm{Hz}$ (1A)\n\n(b)\n- $f_{\\mathrm{main}} = c/\\lambda_{\\mathrm{main}} = 3.00 \\times 10^{8}/(1.064 \\times 10^{-6})$ (1M)\n- $f_{\\mathrm{main}} = 2.82 \\times 10^{14}\\ \\mathrm{Hz}$ (1A)\n\n(c)\n- $L = 4.00 \\times 10^{3}\\ \\mathrm{m}$\n- $t = L/c = 4.00 \\times 10^{3}/(3.00 \\times 10^{8})$ (1M)\n- $t = 1.33 \\times 10^{-5}\\ \\mathrm{s}$ (1A)\n\n(d)\n(i)\n- $\\lambda_{\\mathrm{green}} = \\lambda_{\\mathrm{IR}}/3 = 1596/3$ (1M)\n- $\\lambda_{\\mathrm{green}} = 532\\ \\mathrm{nm}$ (1A)\n(ii)\n- $\\lambda_{\\mathrm{green}} = 1064/2 = 532\\ \\mathrm{nm}$ (same) (1A)\n\n(e)\n- The new coatings absorb green light, so a green locking beam would be weakened / could not lock the mirrors reliably. (1)\n- Infrared light is not absorbed by these coatings, so enough light remains for the locking / arm-length stabilisation system to work. (1)",
+    "answer_zh": "(a)\n- $\\lambda_{\\mathrm{IR}} = 1596 \\times 10^{-9} = 1.596 \\times 10^{-6}\\ \\mathrm{m}$（1A）\n- $f_{\\mathrm{IR}} = c/\\lambda_{\\mathrm{IR}} = 3.00 \\times 10^{8}/(1.596 \\times 10^{-6})$（1M）\n- $f_{\\mathrm{IR}} = 1.88 \\times 10^{14}\\ \\mathrm{Hz}$（1A）\n\n(b)\n- $f_{\\mathrm{main}} = c/\\lambda_{\\mathrm{main}} = 3.00 \\times 10^{8}/(1.064 \\times 10^{-6})$（1M）\n- $f_{\\mathrm{main}} = 2.82 \\times 10^{14}\\ \\mathrm{Hz}$（1A）\n\n(c)\n- $L = 4.00 \\times 10^{3}\\ \\mathrm{m}$\n- $t = L/c = 4.00 \\times 10^{3}/(3.00 \\times 10^{8})$（1M）\n- $t = 1.33 \\times 10^{-5}\\ \\mathrm{s}$（1A）\n\n(d)\n(i)\n- $\\lambda_{\\mathrm{green}} = \\lambda_{\\mathrm{IR}}/3 = 1596/3$（1M）\n- $\\lambda_{\\mathrm{green}} = 532\\ \\mathrm{nm}$（1A）\n(ii)\n- $\\lambda_{\\mathrm{green}} = 1064/2 = 532\\ \\mathrm{nm}$（相同）（1A）\n\n(e)\n- 新塗層會吸收綠光，綠光鎖定束會被削弱／難以可靠鎖定鏡面。（1）\n- 紅外光唔被呢啲塗層吸收，所以仍有足夠光令鎖定／臂長穩定系統運作。（1）"
+  }
+}
