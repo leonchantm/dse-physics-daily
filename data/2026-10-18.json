@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-18",
+  "news": [
+    {
+      "title": "史上首顆「綠色」白矮星：鈉吸收橙光，剩落幽靈綠光",
+      "summary": "華威大學天文學家喺 RAS Techniques and Instruments 報告：白矮星唔一定只係白／淡藍。佢哋用光譜再配合人眼色覺模型，發現有啲白矮星會呈現綠、粉紅、青、黃、紫等顏色。最矚目係 WD J1330+6435，距離約 326 光年、表面約 4000 °C，因為吸食行星系統嘅岩石碎屑，大氣有鈉、鈣、鋰；極高密度令鈉大幅吸收黃、橙、紅波段，剩餘光大約喺 500 nm 附近，模型上呈黃綠色（chartreuse）。團隊並指呢係目前已知、可信報導嘅首顆真正綠色恆星；附近約 65 光年內 151 顆白矮星中，約每 30 顆先有一顆顏色異常。",
+      "topic": "波動（電磁波譜、波長／頻率）、天文學（白矮星、光譜）",
+      "source_name": "phys.org / University of Warwick / Space.com",
+      "source_url": "https://phys.org/news/2026-10-green-pink-purple-astronomers-reveal.html",
+      "source_date": "14/10",
+      "links": [
+        {
+          "label": "Space.com coverage",
+          "url": "https://www.space.com/astronomy/stars/astronomers-discover-the-1st-ever-green-star-a-cosmic-zombie-just-in-time-for-halloween"
+        },
+        {
+          "label": "Warwick press release",
+          "url": "https://warwick.ac.uk/news/pressreleases/astronomers-reveal-true-colours-of-white-dwarf-stars/"
+        },
+        {
+          "label": "RAS Techniques and Instruments (DOI)",
+          "url": "https://doi.org/10.1093/rasti/rzag069"
+        }
+      ]
+    },
+    {
+      "title": "物理引導 AI：由外面磁場重建超薄磁體入面圖案",
+      "summary": "維也納大學聯同德累斯頓、新加坡、蔚山團隊喺 Physical Review Letters 發表：鑽石氮空位（NV）量子傳感器只能量到超薄磁體外面嘅雜散磁場，唔同內部磁化圖案可以產生幾乎相同嘅外場，逆向還原一向好難。佢哋把磁學能量定律直接寫入機器學習，令算法只保留符合物理、能量最低又吻合量度嘅磁化狀態，同時一併估出傳感器同樣品距離約 81 nm。方法用開源 NeuralMag，重建程式亦公開，有助開發未來節能電子同數據儲存用嘅納米磁性材料。",
+      "topic": "電和磁（磁場）、原子世界（量子傳感）",
+      "source_name": "phys.org / University of Vienna / Physical Review Letters",
+      "source_url": "https://phys.org/news/2026-10-physics-ai-reconstructs-hidden-patterns.html",
+      "source_date": "16/10",
+      "links": [
+        {
+          "label": "Physical Review Letters (DOI)",
+          "url": "https://doi.org/10.1103/nc5g-3yw9"
+        },
+        {
+          "label": "University of Vienna news",
+          "url": "https://physik.univie.ac.at/en/news/news-detail/news/finding-the-magnetic-pattern-behind-the-measurement/"
+        }
+      ]
+    },
+    {
+      "title": "一原子高「量子公路」：超導渦旋沿原子階梯走快逾千倍",
+      "summary": "日本物質・材料研究機構（NIMS）MANA 團隊喺 Physical Review B 報告：喺原子級厚超導體表面，規則排列、只有一個原子高嘅階梯可以好似鐵路咁引導約瑟夫森渦旋。用四端電阻量度，喺中等磁場下渦旋沿階梯方向移動比跨過階梯容易逾 1000 倍；約 0.10–0.20 T 時更出現「一維無釘扎」流動，渦旋可以沿階梯走而唔易被缺陷困住。調溫度同磁場可以調節呢種導引效果，有助設計更慳電嘅超導電子元件。",
+      "topic": "電和磁（磁場、超導）、原子世界",
+      "source_name": "ScienceDaily / MANA (NIMS) / Physical Review B",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261014072018.htm",
+      "source_date": "16/10",
+      "links": [
+        {
+          "label": "Physical Review B (DOI)",
+          "url": "https://doi.org/10.1103/b2j3-xj19"
+        }
+      ]
+    },
+    {
+      "title": "LLNL 3D 模擬：核裝置點樣令約 160 m 小行星碎散",
+      "summary": "美國勞倫斯利弗莫爾國家實驗室（LLNL）用 Spheral 流體動力學碼，喺 The Planetary Science Journal 發表三維模擬：近地表面核爆產生嘅 X 射線急速加熱並汽化小行星物料，可令威脅地球嘅小行星偏離軌道，或者碎散。研究模擬直徑約 160 m、外形唔規則嘅小行星；最長一次模擬中約 98% 物料完全受損，約 97% 移動速度快過逃逸速度，顯示正碎散。同 NASA DART 動能撞擊相比，核緩解可喺預警時間短或目標較大時提供更大能量；完整跟蹤碎片仍需更長計算時間。",
+      "topic": "放射現象和核能、力和運動（動量、逃逸速度）、天文學",
+      "source_name": "phys.org / Lawrence Livermore National Laboratory",
+      "source_url": "https://phys.org/news/2026-10-simulations-explore-nuclear-mitigation-asteroid.html",
+      "source_date": "17/10",
+      "links": [
+        {
+          "label": "The Planetary Science Journal (DOI)",
+          "url": "https://doi.org/10.3847/psj/ae8a49"
+        }
+      ]
+    },
+    {
+      "title": "納粹鈾立方體再審：B8 反應堆距離臨界仲差好遠",
+      "summary": "馬里蘭大學等學者喺 PNAS Nexus 用倖存天然鈾立方體同戰時文獻，重評納粹德國最後實驗反應堆 B8（海森堡主持，鈾立方體浸喺重水）。新計算顯示要達自持連鎖反應（臨界），需要約兩倍鈾同超過兩倍重水，遠超當時德國可取得嘅量；挪威維莫克重水廠被盟軍破壞後供應更斷。德國控制區石墨又含硼等雜質，唔適合做減速劑。結論係德國距離可運作反應堆仲差好遠，並非如海森堡事後所講「只差少少鈾」。",
+      "topic": "放射現象和核能（核裂變、連鎖反應、減速劑）",
+      "source_name": "ScienceDaily / PNAS Nexus / University of Maryland",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261015073218.htm",
+      "source_date": "16/10",
+      "links": [
+        {
+          "label": "PNAS Nexus (DOI)",
+          "url": "https://doi.org/10.1093/pnasnexus/pgag282"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "史上首顆「綠色」白矮星：鈉吸收橙光，剩落幽靈綠光",
+    "question_en": "Astronomers modelled the white dwarf WD J1330+6435 and found that, to the human eye, it would appear chartreuse green. Sodium in its dense atmosphere absorbs much of the yellow, orange and red light, so the remaining visible light peaks near wavelength $\\lambda_{\\mathrm{g}} = 500\\ \\mathrm{nm}$. The star is $d = 326\\ \\mathrm{ly}$ from Earth. Its surface temperature is about $4000\\ ^{\\circ}\\mathrm{C}$.\n\nTake $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$, $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$, $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$, and $1\\ \\mathrm{ly} = 9.46 \\times 10^{15}\\ \\mathrm{m}$.\n\n(a) Express $500\\ \\mathrm{nm}$ in metres. Hence calculate the frequency $f_{\\mathrm{g}}$ of green light of this wavelength. (3 marks)\nGiven:\n- $1\\ \\mathrm{nm} = 10^{-9}\\ \\mathrm{m}$\n- $c = f\\lambda$\n\n(b) Calculate the energy $E$ of one photon of this green light\n(i) in joules, and\n(ii) in electronvolts ($\\mathrm{eV}$). (3 marks)\nGiven:\n- $E = hf$\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n\n(c) Sodium strongly absorbs orange light of wavelength $\\lambda_{\\mathrm{o}} = 590\\ \\mathrm{nm}$.\n(i) Calculate the frequency $f_{\\mathrm{o}}$ of this orange light. (2 marks)\n(ii) Explain briefly why absorbing yellow, orange and red light can make the star appear green. (2 marks)\n\n(d) Calculate the distance $d$ in metres from Earth to WD J1330+6435. Hence find the time $t$ for light to travel from the star to Earth\n(i) in seconds, and\n(ii) in years. Take $1\\ \\mathrm{year} = 3.16 \\times 10^{7}\\ \\mathrm{s}$. (3 marks)\nGiven:\n- $t = d/c$\n\n(e) Convert the surface temperature $4000\\ ^{\\circ}\\mathrm{C}$ to kelvin. (1 mark)",
+    "question_zh": "天文學家為白矮星 WD J1330+6435 建模，發現對人眼嚟講佢會呈黃綠色。其高密度大氣入面嘅鈉大幅吸收黃、橙、紅光，剩餘可見光大約喺波長 $\\lambda_{\\mathrm{g}} = 500\\ \\mathrm{nm}$ 附近。該星距離地球 $d = 326\\ \\mathrm{ly}$，表面溫度約 $4000\\ ^{\\circ}\\mathrm{C}$。\n\n取 $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$，$h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$，$e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$，同 $1\\ \\mathrm{ly} = 9.46 \\times 10^{15}\\ \\mathrm{m}$。\n\n(a) 把 $500\\ \\mathrm{nm}$ 換算成米，從而計算呢個波長綠光嘅頻率 $f_{\\mathrm{g}}$。（3 分）\n已知：\n- $1\\ \\mathrm{nm} = 10^{-9}\\ \\mathrm{m}$\n- $c = f\\lambda$\n\n(b) 計算呢個綠光一個光子嘅能量 $E$\n(i) 以焦耳為單位，同\n(ii) 以電子伏特（$\\mathrm{eV}$）為單位。（3 分）\n已知：\n- $E = hf$\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n\n(c) 鈉強烈吸收波長 $\\lambda_{\\mathrm{o}} = 590\\ \\mathrm{nm}$ 嘅橙光。\n(i) 計算呢個橙光嘅頻率 $f_{\\mathrm{o}}$。（2 分）\n(ii) 簡述點解吸收黃、橙、紅光可以令恆星看起來呈綠色。（2 分）\n\n(d) 計算地球到 WD J1330+6435 嘅距離 $d$（以米為單位），從而求光由該星傳到地球所需時間 $t$\n(i) 以秒為單位，同\n(ii) 以年為單位。取 $1\\ \\mathrm{year} = 3.16 \\times 10^{7}\\ \\mathrm{s}$。（3 分）\n已知：\n- $t = d/c$\n\n(e) 把表面溫度 $4000\\ ^{\\circ}\\mathrm{C}$ 換算成開爾文。（1 分）",
+    "answer_en": "(a)\n- $\\lambda_{\\mathrm{g}} = 500 \\times 10^{-9} = 5.00 \\times 10^{-7}\\ \\mathrm{m}$ (1A)\n- $f_{\\mathrm{g}} = c/\\lambda_{\\mathrm{g}} = 3.00 \\times 10^{8}/(5.00 \\times 10^{-7})$ (1M)\n- $f_{\\mathrm{g}} = 6.00 \\times 10^{14}\\ \\mathrm{Hz}$ (1A)\n\n(b)\n(i)\n- $E = hf = 6.63 \\times 10^{-34} \\times 6.00 \\times 10^{14}$ (1M)\n- $E = 3.98 \\times 10^{-19}\\ \\mathrm{J}$ (1A)\n(ii)\n- $E = 3.98 \\times 10^{-19}/(1.60 \\times 10^{-19}) = 2.49\\ \\mathrm{eV}$ (1A)\n\n(c)\n(i)\n- $\\lambda_{\\mathrm{o}} = 5.90 \\times 10^{-7}\\ \\mathrm{m}$\n- $f_{\\mathrm{o}} = 3.00 \\times 10^{8}/(5.90 \\times 10^{-7}) = 5.08 \\times 10^{14}\\ \\mathrm{Hz}$ (2A)\n(ii)\n- Yellow/orange/red wavelengths are removed from the starlight (by sodium absorption). (1)\n- The remaining visible light is mainly around green ($\\sim 500\\ \\mathrm{nm}$), so the star appears green. (1)\n\n(d)\n- $d = 326 \\times 9.46 \\times 10^{15} = 3.08 \\times 10^{18}\\ \\mathrm{m}$ (1A)\n- $t = d/c = 3.08 \\times 10^{18}/(3.00 \\times 10^{8}) = 1.03 \\times 10^{10}\\ \\mathrm{s}$ (1A)\n- $t = 1.03 \\times 10^{10}/(3.16 \\times 10^{7}) = 326\\ \\mathrm{years}$ (1A)\n\n(e)\n- $T = 4000 + 273 = 4273\\ \\mathrm{K}$ (1A)",
+    "answer_zh": "(a)\n- $\\lambda_{\\mathrm{g}} = 500 \\times 10^{-9} = 5.00 \\times 10^{-7}\\ \\mathrm{m}$（1A）\n- $f_{\\mathrm{g}} = c/\\lambda_{\\mathrm{g}} = 3.00 \\times 10^{8}/(5.00 \\times 10^{-7})$（1M）\n- $f_{\\mathrm{g}} = 6.00 \\times 10^{14}\\ \\mathrm{Hz}$（1A）\n\n(b)\n(i)\n- $E = hf = 6.63 \\times 10^{-34} \\times 6.00 \\times 10^{14}$（1M）\n- $E = 3.98 \\times 10^{-19}\\ \\mathrm{J}$（1A）\n(ii)\n- $E = 3.98 \\times 10^{-19}/(1.60 \\times 10^{-19}) = 2.49\\ \\mathrm{eV}$（1A）\n\n(c)\n(i)\n- $\\lambda_{\\mathrm{o}} = 5.90 \\times 10^{-7}\\ \\mathrm{m}$\n- $f_{\\mathrm{o}} = 3.00 \\times 10^{8}/(5.90 \\times 10^{-7}) = 5.08 \\times 10^{14}\\ \\mathrm{Hz}$（2A）\n(ii)\n- 黃／橙／紅波長被鈉吸收而從星光中移除。（1）\n- 剩餘可見光主要喺綠色附近（$\\sim 500\\ \\mathrm{nm}$），所以恆星看起來呈綠色。（1）\n\n(d)\n- $d = 326 \\times 9.46 \\times 10^{15} = 3.08 \\times 10^{18}\\ \\mathrm{m}$（1A）\n- $t = d/c = 3.08 \\times 10^{18}/(3.00 \\times 10^{8}) = 1.03 \\times 10^{10}\\ \\mathrm{s}$（1A）\n- $t = 1.03 \\times 10^{10}/(3.16 \\times 10^{7}) = 326\\ \\mathrm{years}$（1A）\n\n(e)\n- $T = 4000 + 273 = 4273\\ \\mathrm{K}$（1A）"
+  }
+}
