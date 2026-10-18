@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-19",
+  "news": [
+    {
+      "title": "Mrk 501 雙超大質量黑洞：軌道約 121 日，或百年內合併",
+      "summary": "馬普射電天文研究所（MPIfR）Britzen 團隊喺 MNRAS 報告：活躍星系 Mrk 501 核心除咗已知指向地球嘅噴流，仲有第二條噴流可追蹤其移動。綜合約 23 年多頻射電觀測，兩顆超大質量黑洞互相環繞週期約 121 日，估計距離約 250–540 AU；質量約 1 億至 10 億個太陽質量。視乎實際質量，軌道或可喺短至約 100 年內收縮至合併。團隊亦記錄到類似愛因斯坦環嘅引力透鏡跡象，並指脈衝星計時陣列或可探測佢哋產生嘅極低頻引力波。",
+      "topic": "力和運動（圓周運動）、引力（開普勒第三定律）、波動（電磁波／射電）、天文學",
+      "source_name": "ScienceDaily / Max Planck Institute for Radio Astronomy / MNRAS",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261016070650.htm",
+      "source_date": "18/10",
+      "links": [
+        {
+          "label": "MNRAS (DOI)",
+          "url": "https://doi.org/10.1093/mnras/stag291"
+        }
+      ]
+    },
+    {
+      "title": "羅馬太空望遠鏡：微調鏡面後成像質素比預期好近 30%",
+      "summary": "NASA 為 Nancy Grace Roman 太空望遠鏡完成儀器測試同光學校準：次鏡只移動約人類頭髮直徑嘅十六分之一，就令廣域儀器（Wide Field Instrument）波前誤差由規格約 90 nm RMS 改善至約 63 nm RMS，成像質素比發射前預測好近 30%。團隊表徵 18 個探測器、濾光輪、LED 校準系統同溫控；日冕儀焦點亦已調好。更清晰影像有助其暗物質、暗能量等巡天任務。",
+      "topic": "波動（光學、波長／干涉量度）、天文學",
+      "source_name": "ScienceDaily / NASA",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm",
+      "source_date": "17/10",
+      "links": [
+        {
+          "label": "NASA Roman mission",
+          "url": "https://science.nasa.gov/mission/roman-space-telescope/"
+        }
+      ]
+    },
+    {
+      "title": "第三種磁性「交變磁性」獲歐洲物理獎，改寫百年教科書",
+      "summary": "美因茨大學 Sinova、Šmejkal 同捷克科學院 Jungwirth 因確立「交變磁性」（altermagnetism）獲 2026 Europhysics Prize。傳統共線磁性分鐵磁（有淨磁矩）同反鐵磁（磁矩互相抵消）；交變磁體磁矩亦抵消、淨磁化為零，但電子可表現類似鐵磁嘅自旋極化輸運，並有極快磁動力學，有望用於自旋電子學。團隊 2022 年發表對稱性分類並預測數百種候選材料，其後多國實驗以 ARPES 同電輸運證實。",
+      "topic": "電和磁（磁場、磁性材料）",
+      "source_name": "ScienceDaily / Johannes Gutenberg University Mainz",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261017230035.htm",
+      "source_date": "18/10"
+    },
+    {
+      "title": "光纖「公路」首度達光–聲強耦合，唔使諧振腔「跑道」",
+      "summary": "馬普光科學研究所（MPL）同漢諾威萊布尼茲大學 Stiller 團隊喺 Nature Physics 報告：喺約 4 K 冷卻嘅高非線性光纖入面，用受激布里淵散射，令光同長壽命聲波喺單次通過（「公路」）時已達強耦合，唔需要光學或機械諧振腔（「跑道」）令光繞行上百萬次。光譜出現以往只喺腔體先見到嘅能隙／避開交叉，顯示耦合強過光同聲損耗，有助用現有光纖做量子訊號處理同緩衝。",
+      "topic": "波動（光、聲波、頻率）、熱和氣體（低溫）",
+      "source_name": "phys.org / Max Planck Institute for the Science of Light / Nature Physics",
+      "source_url": "https://phys.org/news/2026-10-highway-racetrack-strong-coupling-optical.html",
+      "source_date": "16/10",
+      "links": [
+        {
+          "label": "MPL press release",
+          "url": "https://mpl.mpg.de/news/article/highway-instead-of-a-racetrack-strong-coupling-of-light-and-sound-in-an-optical-fiber"
+        },
+        {
+          "label": "Nature Physics (DOI)",
+          "url": "https://doi.org/10.1038/s41567-026-03458-2"
+        }
+      ]
+    },
+    {
+      "title": "量子熱化有普朗克界：再大力都唔可以無限加快",
+      "summary": "奧地利科學院 Abiuso 等喺 Nature Physics 用量子資訊理論證明：令不同量子系統達熱平衡嘅過程，有一條由溫度、約化普朗克常數同玻爾茲曼常數決定嘅普朗克界（Planckian bound），唔可以靠加大能量或更強操控去突破。高溫時最短熱化時間可以較短，但仍然受呢條界限制；極低溫則改由系統最低兩個能級差主導。結果有助理解量子計算入面 qubit 同環境點樣達平衡。",
+      "topic": "熱和氣體（溫度、熱平衡）、原子世界（量子）",
+      "source_name": "phys.org / Nature Physics / Austrian Academy of Sciences",
+      "source_url": "https://phys.org/news/2026-10-physicists-quantum-limit-thermalization.html",
+      "source_date": "18/10",
+      "links": [
+        {
+          "label": "Nature Physics (DOI)",
+          "url": "https://doi.org/10.1038/s41567-026-03397-y"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "Mrk 501 雙超大質量黑洞：軌道約 121 日，或百年內合併",
+    "question_en": "Astronomers report evidence that two supermassive black holes near the centre of galaxy Mrk 501 complete one mutual orbit every $T = 121$ days. Model their relative motion as a circular orbit of separation $r = 400\\ \\mathrm{AU}$.\n\nTake $G = 6.67 \\times 10^{-11}\\ \\mathrm{N\\,m^{2}\\,kg^{-2}}$, $1\\ \\mathrm{AU} = 1.50 \\times 10^{11}\\ \\mathrm{m}$, $M_{\\odot} = 1.99 \\times 10^{30}\\ \\mathrm{kg}$, and $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$. Take $\\pi = 3.14$.\n\n(a) Calculate the orbital period $T$ in seconds. (2 marks)\nGiven:\n- $1\\ \\mathrm{day} = 24 \\times 3600\\ \\mathrm{s}$\n\n(b) Express the separation $r$ in metres. Hence calculate the relative orbital speed\n$$v = \\frac{2\\pi r}{T}.$$ (3 marks)\n\n(c) For this circular relative orbit under Newtonian gravity, Kepler's third law may be written\n$$T^{2} = \\frac{4\\pi^{2} r^{3}}{GM},$$\nwhere $M$ is the total mass of the two black holes. Calculate $M$ in kilograms. (3 marks)\n\n(d) Express your value of $M$ as a multiple of the solar mass $M_{\\odot}$. (2 marks)\n\n(e) Calculate the ratio $v/c$. State whether the orbital motion itself is highly relativistic. (2 marks)\n\n(f) Explain briefly why such an orbiting pair is expected to emit gravitational waves. (2 marks)",
+    "question_zh": "天文學家報告證據顯示，星系 Mrk 501 中心附近兩顆超大質量黑洞互相環繞一圈需時 $T = 121$ 日。將佢哋嘅相對運動模型化為分離距離 $r = 400\\ \\mathrm{AU}$ 嘅圓周軌道。\n\n取 $G = 6.67 \\times 10^{-11}\\ \\mathrm{N\\,m^{2}\\,kg^{-2}}$，$1\\ \\mathrm{AU} = 1.50 \\times 10^{11}\\ \\mathrm{m}$，$M_{\\odot} = 1.99 \\times 10^{30}\\ \\mathrm{kg}$，同 $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$。取 $\\pi = 3.14$。\n\n(a) 計算軌道週期 $T$（以秒為單位）。（2 分）\n已知：\n- $1\\ \\mathrm{day} = 24 \\times 3600\\ \\mathrm{s}$\n\n(b) 把分離距離 $r$ 換算成米，從而計算相對軌道速率\n$$v = \\frac{2\\pi r}{T}.$$（3 分）\n\n(c) 喺牛頓引力下，呢個圓周相對軌道可用開普勒第三定律寫成\n$$T^{2} = \\frac{4\\pi^{2} r^{3}}{GM},$$\n其中 $M$ 係兩顆黑洞嘅總質量。計算 $M$（以千克為單位）。（3 分）\n\n(d) 把你求得嘅 $M$ 表示成太陽質量 $M_{\\odot}$ 嘅倍數。（2 分）\n\n(e) 計算比值 $v/c$，並說明軌道運動本身是否高度相對論性。（2 分）\n\n(f) 簡述點解呢對互相環繞嘅黑洞預期會發出引力波。（2 分）",
+    "answer_en": "(a)\n- $T = 121 \\times 24 \\times 3600$ (1M)\n- $T = 1.045 \\times 10^{7}\\ \\mathrm{s}$ (accept $1.05 \\times 10^{7}\\ \\mathrm{s}$) (1A)\n\n(b)\n- $r = 400 \\times 1.50 \\times 10^{11} = 6.00 \\times 10^{13}\\ \\mathrm{m}$ (1A)\n- $v = 2 \\times 3.14 \\times 6.00 \\times 10^{13}/(1.045 \\times 10^{7})$ (1M)\n- $v = 3.60 \\times 10^{7}\\ \\mathrm{m\\,s^{-1}}$ (1A)\n\n(c)\n- $M = 4\\pi^{2} r^{3}/(G T^{2})$ (1M)\n- $r^{3} = (6.00 \\times 10^{13})^{3} = 2.16 \\times 10^{41}$\n- $M = 39.4 \\times 2.16 \\times 10^{41}/[6.67 \\times 10^{-11} \\times (1.045 \\times 10^{7})^{2}]$ (1M)\n- $M = 1.17 \\times 10^{39}\\ \\mathrm{kg}$ (1A)\n\n(d)\n- $M/M_{\\odot} = 1.17 \\times 10^{39}/(1.99 \\times 10^{30})$ (1M)\n- $M = 5.88 \\times 10^{8}\\ M_{\\odot}$ (accept $5.9 \\times 10^{8}\\ M_{\\odot}$) (1A)\n\n(e)\n- $v/c = 3.60 \\times 10^{7}/(3.00 \\times 10^{8}) = 0.120$ (1A)\n- $v \\ll c$ (about $0.12c$), so the orbital motion is not highly relativistic. (1)\n\n(f)\n- Accelerating / orbiting masses disturb spacetime (produce ripples in spacetime). (1)\n- These ripples propagate outward as gravitational waves (carrying energy away from the orbit). (1)",
+    "answer_zh": "(a)\n- $T = 121 \\times 24 \\times 3600$（1M）\n- $T = 1.045 \\times 10^{7}\\ \\mathrm{s}$（接受 $1.05 \\times 10^{7}\\ \\mathrm{s}$）（1A）\n\n(b)\n- $r = 400 \\times 1.50 \\times 10^{11} = 6.00 \\times 10^{13}\\ \\mathrm{m}$（1A）\n- $v = 2 \\times 3.14 \\times 6.00 \\times 10^{13}/(1.045 \\times 10^{7})$（1M）\n- $v = 3.60 \\times 10^{7}\\ \\mathrm{m\\,s^{-1}}$（1A）\n\n(c)\n- $M = 4\\pi^{2} r^{3}/(G T^{2})$（1M）\n- $r^{3} = (6.00 \\times 10^{13})^{3} = 2.16 \\times 10^{41}$\n- $M = 39.4 \\times 2.16 \\times 10^{41}/[6.67 \\times 10^{-11} \\times (1.045 \\times 10^{7})^{2}]$（1M）\n- $M = 1.17 \\times 10^{39}\\ \\mathrm{kg}$（1A）\n\n(d)\n- $M/M_{\\odot} = 1.17 \\times 10^{39}/(1.99 \\times 10^{30})$（1M）\n- $M = 5.88 \\times 10^{8}\\ M_{\\odot}$（接受 $5.9 \\times 10^{8}\\ M_{\\odot}$）（1A）\n\n(e)\n- $v/c = 3.60 \\times 10^{7}/(3.00 \\times 10^{8}) = 0.120$（1A）\n- $v \\ll c$（約 $0.12c$），所以軌道運動本身並非高度相對論性。（1）\n\n(f)\n- 加速／環繞中嘅質量會擾動時空（產生時空漣漪）。（1）\n- 呢啲漣漪向外傳播成為引力波（帶走軌道能量）。（1）"
+  }
+}
