@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-20",
+  "news": [
+    {
+      "title": "極光細結構：電子可能「彈」離阿爾文波",
+      "summary": "Eos 報道 Brindley 同 Whiter（JGR: Space Physics）用斯瓦爾巴特 ASK 儀器嘅高時空解像度光學數據，觀測氧同氮發射線，推算極光弧上方垂直於地磁場嘅電場。兩種方法大致吻合「U 形」準靜電勢結構；差異可用電子喺電離層上方同低頻阿爾文波電場「一彈反射」加速來解釋。結果有助理解極光細結構同太空天氣。",
+      "topic": "電和磁（帶電粒子喺磁場／電場、F = qvB）、波動（電磁波／等離子體波）、天文學",
+      "source_name": "Eos / AGU / JGR: Space Physics",
+      "source_url": "https://eos.org/research-spotlights/auroral-structure-could-be-caused-by-bouncing-electrons",
+      "source_date": "19/10",
+      "links": [
+        {
+          "label": "JGR paper (DOI)",
+          "url": "https://doi.org/10.1029/2026JA035658"
+        }
+      ]
+    },
+    {
+      "title": "鍶原子 461 nm 躍遷頻率：88 年後重測，不確定度降逾 50 倍",
+      "summary": "韓國標準科學研究院（KRISS）用光子光柵晶片，首次自 1938 年以來重新測定鍶原子 461 nm 光學躍遷嘅絕對頻率，測量不確定度降至約 5 MHz，改善逾 50 倍。結果可追溯至韓國標準時間同 SI，有助光學晶格鐘、量子傳感器同中性原子量子電腦更精準冷卻同囚禁原子。研究刊於 Metrologia。",
+      "topic": "波動（頻率、波長、c = fλ）、原子世界（原子光譜／躍遷）",
+      "source_name": "phys.org / KRISS / Metrologia",
+      "source_url": "https://phys.org/news/2026-10-scientists-redetermine-key-strontium-frequency.html",
+      "source_date": "19/10",
+      "links": [
+        {
+          "label": "Metrologia (DOI)",
+          "url": "https://doi.org/10.1088/1681-7575/ae8bb5"
+        }
+      ]
+    },
+    {
+      "title": "SwissFEL X 射線：銅氧化物自旋波壽命長過預期",
+      "summary": "保羅謝勒研究所（PSI）團隊用 SwissFEL 同 ESRF，以泵浦–探測同時間分辨共振漫散射，追蹤反鐵磁銅氧化物入面磁振子（magnon）由飛秒到納秒嘅演化：激光先激發電子令自旋翻轉產生磁振子，皮秒尺度散射成非相干波，納秒尺度先把能量傳畀晶格聲子。磁振子壽命意外地長，有利自旋電子學邏輯操作；結果刊於 Nature Communications。",
+      "topic": "電和磁（磁性、自旋）、波動（波、能量傳遞）、原子世界",
+      "source_name": "phys.org / Paul Scherrer Institute / Nature Communications",
+      "source_url": "https://phys.org/news/2026-10-rays-reveal-copper-oxide.html",
+      "source_date": "19/10",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-77964-5"
+        }
+      ]
+    },
+    {
+      "title": "超導「超級智能」晶片：每秒分析百萬個聚變等離子體樣本",
+      "summary": "布魯克海文國家實驗室聯同 PPPL、DIII-D 同 Great Sky，示範首款用超導電路模擬神經網絡嘅 Super Intelligence 晶片：處理 DIII-D 托卡馬克數據達每秒約 100 萬個樣本，做異常分類同破裂預測；亦用 Google DeepMind 嘅 TORAX 模擬數據預測鋸齒不穩定性。下一步計劃造大 10 倍網絡嘅晶片，2027 年再喺 DIII-D 部署，協助磁場約束熱等離子體嘅實時控制。",
+      "topic": "電和磁（磁場約束）、原子世界（核能／聚變）、熱和氣體",
+      "source_name": "Brookhaven National Laboratory",
+      "source_url": "https://www.bnl.gov/newsroom/news.php?a=123222",
+      "source_date": "19/10"
+    },
+    {
+      "title": "Innsbruck：超冷銫原子造出「分數費米海」",
+      "summary": "因斯布魯克大學 Nägerl 團隊同理論合作者喺 Physical Review Letters 描述：一維超冷銫原子反覆喺強排斥同強吸引之間切換時，唔會單純變亂，而會重組為高度激發但仍有隱藏秩序嘅「分數費米海」，相關同 Friedel 振盪異於傳統 Tomonaga–Luttinger 液體圖像。結果展示量子模擬可造出超越既有範式嘅多體態；實驗實現論文仍在審稿。",
+      "topic": "原子世界（量子、費米子）、熱和氣體（低溫）",
+      "source_name": "ScienceDaily / University of Innsbruck / Physical Review Letters",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261018084644.htm",
+      "source_date": "18/10",
+      "links": [
+        {
+          "label": "PRL (DOI)",
+          "url": "https://doi.org/10.1103/j3s5-gjpf"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "極光細結構：電子可能「彈」離阿爾文波",
+    "question_en": "Near an aurora, electrons are accelerated by electric potential differences and then guided by Earth's magnetic field.\n\nTake $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$, $m_{e} = 9.11 \\times 10^{-31}\\ \\mathrm{kg}$, and $\\pi = 3.14$.\n\n(a) An electron is accelerated from rest through a potential difference of $500\\ \\mathrm{V}$. Calculate its kinetic energy in joules. Hence calculate its speed $v$. (3 marks)\nGiven:\n- kinetic energy gained $= eV$\n\n(b) The electron then enters a uniform magnetic field of magnitude $B = 5.00 \\times 10^{-5}\\ \\mathrm{T}$ with its velocity perpendicular to $\\mathbf{B}$. Calculate the magnitude of the magnetic force on the electron. (2 marks)\nGiven:\n- $F = qvB$\n\n(c) Show that the radius of the circular path is given by\n$$r = \\frac{m_{e} v}{e B}.$$\nHence calculate $r$. (3 marks)\n\n(d) Calculate the period of one revolution\n$$T = \\frac{2\\pi m_{e}}{e B}.$$ (2 marks)\n\n(e) Explain briefly why Earth's magnetic field can guide charged particles toward the polar regions, helping to produce aurorae. (2 marks)",
+    "question_zh": "喺極光附近，電子會被電勢差加速，之後再由地球磁場引導。\n\n取 $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$，$m_{e} = 9.11 \\times 10^{-31}\\ \\mathrm{kg}$，同 $\\pi = 3.14$。\n\n(a) 一粒電子由靜止開始，經過 $500\\ \\mathrm{V}$ 電勢差加速。計算佢嘅動能（以焦耳為單位），從而計算速率 $v$。（3 分）\n已知：\n- 獲得嘅動能 $= eV$\n\n(b) 之後電子以垂直於磁場 $\\mathbf{B}$ 嘅速度進入大小為 $B = 5.00 \\times 10^{-5}\\ \\mathrm{T}$ 嘅均勻磁場。計算作用喺電子上嘅磁力大小。（2 分）\n已知：\n- $F = qvB$\n\n(c) 證明圓周路徑半徑可寫成\n$$r = \\frac{m_{e} v}{e B}.$$\n從而計算 $r$。（3 分）\n\n(d) 計算轉一圈嘅週期\n$$T = \\frac{2\\pi m_{e}}{e B}.$$（2 分）\n\n(e) 簡述點解地球磁場可以把帶電粒子引導去極區，有助產生極光。（2 分）",
+    "answer_en": "(a)\n- $KE = eV = 1.60 \\times 10^{-19} \\times 500 = 8.00 \\times 10^{-17}\\ \\mathrm{J}$ (1A)\n- $\\frac{1}{2}m_{e}v^{2} = KE$ so $v = \\sqrt{2KE/m_{e}}$ (1M)\n- $v = \\sqrt{2 \\times 8.00 \\times 10^{-17}/(9.11 \\times 10^{-31})} = 1.33 \\times 10^{7}\\ \\mathrm{m\\,s^{-1}}$ (1A)\n\n(b)\n- $F = e v B = 1.60 \\times 10^{-19} \\times 1.33 \\times 10^{7} \\times 5.00 \\times 10^{-5}$ (1M)\n- $F = 1.06 \\times 10^{-16}\\ \\mathrm{N}$ (1A)\n\n(c)\n- Magnetic force provides centripetal force: $e v B = m_{e} v^{2}/r$ (1M)\n- Cancel $v$ ($v \\neq 0$): $r = m_{e} v/(e B)$ (1A)\n- $r = 9.11 \\times 10^{-31} \\times 1.33 \\times 10^{7}/(1.60 \\times 10^{-19} \\times 5.00 \\times 10^{-5}) = 1.51\\ \\mathrm{m}$ (1A)\n\n(d)\n- $T = 2\\pi m_{e}/(e B) = 2 \\times 3.14 \\times 9.11 \\times 10^{-31}/(1.60 \\times 10^{-19} \\times 5.00 \\times 10^{-5})$ (1M)\n- $T = 7.15 \\times 10^{-7}\\ \\mathrm{s}$ (1A)\n\n(e)\n- Charged particles spiral / move in helical paths along magnetic field lines ($F = qvB$ is perpendicular to $\\mathbf{v}$ and does no work). (1)\n- Earth's field lines converge toward the magnetic poles, so particles are guided into the upper atmosphere near the poles, where collisions excite atoms/molecules and produce light. (1)",
+    "answer_zh": "(a)\n- $KE = eV = 1.60 \\times 10^{-19} \\times 500 = 8.00 \\times 10^{-17}\\ \\mathrm{J}$（1A）\n- $\\frac{1}{2}m_{e}v^{2} = KE$，故 $v = \\sqrt{2KE/m_{e}}$（1M）\n- $v = \\sqrt{2 \\times 8.00 \\times 10^{-17}/(9.11 \\times 10^{-31})} = 1.33 \\times 10^{7}\\ \\mathrm{m\\,s^{-1}}$（1A）\n\n(b)\n- $F = e v B = 1.60 \\times 10^{-19} \\times 1.33 \\times 10^{7} \\times 5.00 \\times 10^{-5}$（1M）\n- $F = 1.06 \\times 10^{-16}\\ \\mathrm{N}$（1A）\n\n(c)\n- 磁力提供向心力：$e v B = m_{e} v^{2}/r$（1M）\n- 約去 $v$（$v \\neq 0$）：$r = m_{e} v/(e B)$（1A）\n- $r = 9.11 \\times 10^{-31} \\times 1.33 \\times 10^{7}/(1.60 \\times 10^{-19} \\times 5.00 \\times 10^{-5}) = 1.51\\ \\mathrm{m}$（1A）\n\n(d)\n- $T = 2\\pi m_{e}/(e B) = 2 \\times 3.14 \\times 9.11 \\times 10^{-31}/(1.60 \\times 10^{-19} \\times 5.00 \\times 10^{-5})$（1M）\n- $T = 7.15 \\times 10^{-7}\\ \\mathrm{s}$（1A）\n\n(e)\n- 帶電粒子沿磁場線螺旋／作螺旋運動（$F = qvB$ 垂直於 $\\mathbf{v}$，不做功）。（1）\n- 地球磁場線喺磁極附近收斂，所以粒子被引導入極區高層大氣，碰撞激發原子／分子而發光。（1）"
+  }
+}
