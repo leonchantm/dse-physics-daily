@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-21",
+  "news": [
+    {
+      "title": "單正電子量子迴旋加速器：可精確測正電子磁矩，考驗標準模型",
+      "summary": "西北大學 Gabrielse 團隊首次把單一正電子困喺 Penning 阱，令最低能量量子態可以完全分辨，裝置稱為「單正電子量子迴旋加速器」。強磁場令正電子做圓周運動，阱冷卻到約 300 mK；之後可用電磁驅動激發迴旋同自旋態躍遷。團隊期望將來量度正電子磁矩至約 10¹³ 分之一，同電子結果比較，對 CPT 不變性做極嚴格檢驗，有助理解宇宙物質多過反物質之謎。研究已獲 Physical Review Letters 接受。",
+      "topic": "電和磁（帶電粒子喺磁場、F = qvB、迴旋運動）、原子世界（反粒子／標準模型）",
+      "source_name": "Physics World / Northwestern University",
+      "source_url": "https://physicsworld.com/a/one-positron-quantum-cyclotron-could-put-the-standard-model-to-the-test/",
+      "source_date": "20/10"
+    },
+    {
+      "title": "RHIC 氧–氧對撞見到「噴注淬滅」：細系統都造到夸克–膠子等離子體",
+      "summary": "布魯克海文 STAR 實驗分析 √s_NN = 200 GeV 嘅氧核對撞數據，發現高能噴注穿越熱密物質時能量損失約 20%，即「噴注淬滅」——夸克–膠子等離子體（QGP）嘅標誌之一。氧核只有 8 個質子同 8 個中子，比金–金對撞系統細得多；結果為細碰撞系統同較低能量下仍可形成早期宇宙物質設下新下限。結果刊於 Physical Review Letters。",
+      "topic": "原子世界（核能／粒子對撞、E = mc²）、熱和氣體（極端高溫物質）",
+      "source_name": "phys.org / Brookhaven National Laboratory / STAR",
+      "source_url": "https://phys.org/news/2026-10-oxygen-collisions-evidence-jet-quenching.html",
+      "source_date": "20/10",
+      "links": [
+        {
+          "label": "PRL (DOI)",
+          "url": "https://doi.org/10.1103/9w2y-bz9n"
+        }
+      ]
+    },
+    {
+      "title": "白矮星「吞」自己生出嘅行星：首度線索指向第二代行星",
+      "summary": "華威大學團隊喺 Nature Astronomy 報道白矮星 HS 0209+0832 大氣含銅、鋅同鈮等異常元素，鈮含量約係太陽嘅 3 倍；結合 TESS 約 4.4 日亮度變化，推斷有一顆由死亡恆星拋出物質再凝聚而成嘅「第二代」熱木星候選體，白矮星紫外線正剝離其大氣並污染自身。若屬實，會係白矮星周圍第二代行星嘅首個有力證據。",
+      "topic": "天文學（恆星演化、白矮星）、原子世界（光譜／元素）",
+      "source_name": "Eos / University of Warwick / Nature Astronomy",
+      "source_url": "https://eos.org/articles/white-dwarf-spotted-devouring-the-planet-it-birthed",
+      "source_date": "20/10"
+    },
+    {
+      "title": "激光懸浮納米球：實驗室首次分辨氣體粒子「一撞一撞」動量傳遞",
+      "summary": "研究團隊用激光阱喺超高真空懸浮約 100 nm 二氧化矽球，引入氪、氙同六氟化硫，透過散射光追蹤運動，成功測到單次氣體碰撞嘅動量傳遞——氣體粒子質量約只有納米球嘅 10⁷ 分之一。動量分布同氣體理論吻合，碰撞推算壓力亦同真空計一致，可發展精密壓力標準同暗物質／中微子相關探測。結果刊於 Physical Review Letters。",
+      "topic": "力學（動量、碰撞）、熱和氣體（壓力、布朗運動）、波動（激光）",
+      "source_name": "phys.org / Physical Review Letters",
+      "source_url": "https://phys.org/news/2026-10-individual-atomic-collisions-lab-potentially.html",
+      "source_date": "20/10",
+      "links": [
+        {
+          "label": "PRL (DOI)",
+          "url": "https://doi.org/10.1103/xtzh-6t1f"
+        }
+      ]
+    },
+    {
+      "title": "實驗室首見新型超離子水冰：六方密排氧晶格，氫離子如液體擴散",
+      "summary": "法國 CEA 團隊用鑽石砧壓加激光加熱，喺 130–200 GPa、高於約 1800 K 條件下，以 ESRF 同步輻射 X 射線衍射首次觀測到六方密排（hcp）超離子水冰：氧原子成固態晶格，氫離子如液體般擴散，導電性接近金屬。結果刊於 Physical Review Letters，有助模擬天王星同海王星內部導電「暖密冰」如何產生偏斜磁場。",
+      "topic": "熱和氣體（物態、壓力、溫度）、電和磁（行星磁場）、天文學",
+      "source_name": "Physics World / CEA / Physical Review Letters",
+      "source_url": "https://physicsworld.com/a/new-type-of-superionic-water-ice-observed-for-the-first-time/",
+      "source_date": "16/10"
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "單正電子量子迴旋加速器：可精確測正電子磁矩，考驗標準模型",
+    "question_en": "In a Penning trap, a strong uniform magnetic field makes a positron move in a circular path (cyclotron motion).\n\nTake $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$, $m = 9.11 \\times 10^{-31}\\ \\mathrm{kg}$ (positron mass equals electron mass), and $\\pi = 3.14$.\n\n(a) The magnetic force provides the centripetal force:\n$$e v B = \\frac{m v^{2}}{r}.$$\nShow that the period of one revolution is\n$$T = \\frac{2\\pi m}{e B}.$$\nHence calculate $T$ when $B = 5.00\\ \\mathrm{T}$. (3 marks)\n\n(b) Calculate the cyclotron frequency $f = 1/T$. (1 mark)\n\n(c) The positron moves with speed $v = 2.00 \\times 10^{5}\\ \\mathrm{m\\,s^{-1}}$ perpendicular to $\\mathbf{B}$. Calculate the magnitude of the magnetic force on the positron. (2 marks)\nGiven:\n- $F = qvB$\n\n(d) Calculate the radius $r$ of the circular path. (2 marks)\nGiven:\n- $r = \\dfrac{m v}{e B}$\n\n(e) Explain briefly why a precise comparison of the positron and electron magnetic moments can test CPT invariance (matter–antimatter symmetry) in the Standard Model. (2 marks)",
+    "question_zh": "喺 Penning 阱入面，強均勻磁場令正電子做圓周運動（迴旋運動）。\n\n取 $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$，$m = 9.11 \\times 10^{-31}\\ \\mathrm{kg}$（正電子質量等於電子質量），同 $\\pi = 3.14$。\n\n(a) 磁力提供向心力：\n$$e v B = \\frac{m v^{2}}{r}.$$\n證明轉一圈嘅週期為\n$$T = \\frac{2\\pi m}{e B}.$$\n從而計算當 $B = 5.00\\ \\mathrm{T}$ 時嘅 $T$。（3 分）\n\n(b) 計算迴旋頻率 $f = 1/T$。（1 分）\n\n(c) 正電子以垂直於磁場 $\\mathbf{B}$ 嘅速率 $v = 2.00 \\times 10^{5}\\ \\mathrm{m\\,s^{-1}}$ 運動。計算作用喺正電子上嘅磁力大小。（2 分）\n已知：\n- $F = qvB$\n\n(d) 計算圓周路徑半徑 $r$。（2 分）\n已知：\n- $r = \\dfrac{m v}{e B}$\n\n(e) 簡述點解精確比較正電子同電子嘅磁矩，可以檢驗標準模型入面嘅 CPT 不變性（物質–反物質對稱）。（2 分）",
+    "answer_en": "(a)\n- From $e v B = m v^{2}/r$, cancel $v$ ($v \\neq 0$): $r = m v/(e B)$ (1M)\n- Period $T = 2\\pi r/v = 2\\pi m/(e B)$ (1A)\n- $T = 2 \\times 3.14 \\times 9.11 \\times 10^{-31}/(1.60 \\times 10^{-19} \\times 5.00) = 7.15 \\times 10^{-12}\\ \\mathrm{s}$ (1A)\n\n(b)\n- $f = 1/T = 1/(7.15 \\times 10^{-12}) = 1.40 \\times 10^{11}\\ \\mathrm{Hz}$ (1A)\n\n(c)\n- $F = e v B = 1.60 \\times 10^{-19} \\times 2.00 \\times 10^{5} \\times 5.00$ (1M)\n- $F = 1.60 \\times 10^{-13}\\ \\mathrm{N}$ (1A)\n\n(d)\n- $r = m v/(e B) = 9.11 \\times 10^{-31} \\times 2.00 \\times 10^{5}/(1.60 \\times 10^{-19} \\times 5.00)$ (1M)\n- $r = 2.28 \\times 10^{-7}\\ \\mathrm{m}$ (1A)\n\n(e)\n- CPT invariance requires a particle and its antiparticle to have magnetic moments equal in magnitude (and opposite in sign) / identical masses. (1)\n- Matching the positron magnetic moment to the electron's precision therefore tests whether this symmetry holds; any difference would signal physics beyond the Standard Model / help probe the matter–antimatter imbalance. (1)",
+    "answer_zh": "(a)\n- 由 $e v B = m v^{2}/r$，約去 $v$（$v \\neq 0$）：$r = m v/(e B)$（1M）\n- 週期 $T = 2\\pi r/v = 2\\pi m/(e B)$（1A）\n- $T = 2 \\times 3.14 \\times 9.11 \\times 10^{-31}/(1.60 \\times 10^{-19} \\times 5.00) = 7.15 \\times 10^{-12}\\ \\mathrm{s}$（1A）\n\n(b)\n- $f = 1/T = 1/(7.15 \\times 10^{-12}) = 1.40 \\times 10^{11}\\ \\mathrm{Hz}$（1A）\n\n(c)\n- $F = e v B = 1.60 \\times 10^{-19} \\times 2.00 \\times 10^{5} \\times 5.00$（1M）\n- $F = 1.60 \\times 10^{-13}\\ \\mathrm{N}$（1A）\n\n(d)\n- $r = m v/(e B) = 9.11 \\times 10^{-31} \\times 2.00 \\times 10^{5}/(1.60 \\times 10^{-19} \\times 5.00)$（1M）\n- $r = 2.28 \\times 10^{-7}\\ \\mathrm{m}$（1A）\n\n(e)\n- CPT 不變性要求粒子同其反粒子磁矩大小相等（符號相反）／質量相同。（1）\n- 把正電子磁矩量到同電子一樣精確，就可以檢驗呢種對稱；若有差異，可能意味超出標準模型嘅物理／有助探究物質–反物質不對稱。（1）"
+  }
+}
