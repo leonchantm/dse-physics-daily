@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-22",
+  "news": [
+    {
+      "title": "LCLS 硬 X 射線阿秒脈衝破紀錄：9 keV、短至約 100–400 阿秒",
+      "summary": "SLAC 國家加速器實驗室嘅 Linac Coherent Light Source（LCLS）團隊喺 Nature Photonics 報道，量到自由電子激光器有史以來最短嘅高能（硬）X 射線脈衝：光子能量約 9 keV，脈衝長度約 100–400 阿秒（10⁻¹⁸ s）。團隊用銅箔嘅放大自發發射（ASE）間接診斷脈衝時長。硬 X 射線可深入原子同稠密等離子體，而極短脈衝足以「凍結」電子運動，並趕在 X 射線本身造成破壞之前完成量度，對慣性聚變等離子體同納米成像尤其有用。",
+      "topic": "波動／電磁波（E = hf、c = fλ）、原子世界（X 射線、光電效應概念）",
+      "source_name": "phys.org / SLAC / Nature Photonics",
+      "source_url": "https://phys.org/news/2026-10-ray-free-electron-laser-shortest.html",
+      "source_date": "21/10",
+      "links": [
+        {
+          "label": "Nature Photonics (DOI)",
+          "url": "https://doi.org/10.1038/s41566-026-02026-7"
+        }
+      ]
+    },
+    {
+      "title": "超快激光唔靠加熱：飛秒級操控鐵磁半導體磁化",
+      "summary": "伊利諾大學團隊喺 Nature Communications 報道，用近紅外超快激光脈衝喺鐵磁半導體 Cr₂Ge₂Te₆（CGT）上產生太赫茲發射，顯示可以喺約萬億分之一秒尺度操控磁化，而且唔依賴加熱樣本。機制係非線性 Edelstein–Zeeman 效應：激光把電子激發到導電態後，自旋–軌道耦合等效產生磁場，再驅動磁化轉動。結果為高速磁儲存同光控磁性元件提供新路徑。",
+      "topic": "電和磁（磁化／磁場）、波動（激光、電磁波）",
+      "source_name": "phys.org / University of Illinois / Nature Communications",
+      "source_url": "https://phys.org/news/2026-10-ultrafast-ferromagnetism.html",
+      "source_date": "21/10",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-77965-4"
+        }
+      ]
+    },
+    {
+      "title": "鈣鈦礦分佈反饋激光：穩定超過 4 億次脈衝",
+      "summary": "維爾紐斯大學團隊喺 Advanced Optical Materials 示範用溶液製程、以鋅部分取代鉛嘅 CsZn₀.₄Pb₀.₆I₃ 鈣鈦礦，製成分佈反饋（DFB）激光器。室溫下激射閾值約 55 µJ cm⁻²，峰值波長約 709 nm（深紅），線寬約 0.35 nm；結構可穩定運作超過 4 × 10⁸ 次脈衝（若以 10 Hz 計約一年）。結果針對鈣鈦礦易受潮降解嘅痛點，向實用光子元件再進一步。",
+      "topic": "波動／光學（激光、波長、頻率）、原子世界（半導體發光）",
+      "source_name": "phys.org / Vilnius University / Advanced Optical Materials",
+      "source_url": "https://phys.org/news/2026-10-perovskite-laser-stable-million-pulses.html",
+      "source_date": "21/10",
+      "links": [
+        {
+          "label": "Advanced Optical Materials (DOI)",
+          "url": "https://doi.org/10.1002/adom.202501896"
+        }
+      ]
+    },
+    {
+      "title": "地球磁層邊界「開爾文–亥姆霍茲波」：太陽風磁場決定哪邊最易破口",
+      "summary": "芬蘭奧盧大學團隊用全球磁層模擬，喺 Geophysical Research Letters 解釋地球磁層外緣嘅開爾文–亥姆霍茲（Kelvin–Helmholtz）波點解唔對稱。太陽風磁場「披覆」磁層時唔均勻，阻尼效應左右、南北半球各異；最強波活動傾向出現喺背向太陽嘅冬季半球，並按行星際磁場方向集中喺晨側或昏側。呢啲波係太空天氣入面太陽風可能滲入磁層嘅關鍵通道之一。",
+      "topic": "電和磁（地球磁場、帶電粒子）、天文學／太空天氣",
+      "source_name": "phys.org / University of Oulu / Geophysical Research Letters",
+      "source_url": "https://phys.org/news/2026-10-space-reveal-earth-magnetic-shield.html",
+      "source_date": "13/10",
+      "links": [
+        {
+          "label": "GRL (DOI)",
+          "url": "https://doi.org/10.1029/2026gl124835"
+        }
+      ]
+    },
+    {
+      "title": "激光造光子晶格：暖銣蒸氣首次見到一維離散光孤子",
+      "summary": "薩格勒布物理研究所團隊喺暖銣蒸氣入面，用兩束耦合激光干涉調製折射率，形成可調諧光子晶格；再注入探測光束。低功率時光束呈離散衍射散開，功率升至約 6 mW 時自聚焦平衡衍射，首次實驗觀察到穩定嘅一維離散光孤子。結果刊於 Laser & Photonics Reviews，為非線性光學同量子光學提供可靈活調參嘅平台。",
+      "topic": "波動（衍射、干涉、非線性光學）、原子世界（原子能級／激光）",
+      "source_name": "phys.org / Institute of Physics Zagreb / Laser & Photonics Reviews",
+      "source_url": "https://phys.org/news/2026-10-laser-lattice-reveals-discrete-solitons.html",
+      "source_date": "21/10",
+      "links": [
+        {
+          "label": "Laser & Photonics Reviews (DOI)",
+          "url": "https://doi.org/10.1002/lpor.71994"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "LCLS 硬 X 射線阿秒脈衝破紀錄：9 keV、短至約 100–400 阿秒",
+    "question_en": "An X-ray free-electron laser produces hard X-ray pulses with photon energy $E = 9.00\\ \\mathrm{keV}$.\n\nTake $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$, $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$, $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$, and $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$.\n\n(a) Express $E$ in joules. Hence calculate the frequency $f$ of these X-ray photons. (3 marks)\nGiven:\n- $E = hf$\n\n(b) Calculate the wavelength $\\lambda$ of the photons. (2 marks)\nGiven:\n- $c = f\\lambda$\n\n(c) One measured pulse lasts $\\Delta t = 2.00 \\times 10^{-16}\\ \\mathrm{s}$ (200 attoseconds). Calculate the spatial length $L = c\\,\\Delta t$ of this pulse along its direction of travel. (2 marks)\n\n(d) Estimate how many wavelengths fit into this pulse length, using your answer from (b). (1 mark)\n\n(e) Soft X-rays (below about $5\\ \\mathrm{keV}$) mainly probe outer electrons, while hard X-rays (above about $5\\ \\mathrm{keV}$) penetrate denser matter. Explain briefly why an attosecond hard X-ray pulse is useful for studying hot dense plasmas. (2 marks)",
+    "question_zh": "自由電子激光器產生硬 X 射線脈衝，光子能量 $E = 9.00\\ \\mathrm{keV}$。\n\n取 $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$，$c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$，$e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$，同 $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$。\n\n(a) 把 $E$ 用焦耳表示，從而計算呢啲 X 射線光子嘅頻率 $f$。（3 分）\n已知：\n- $E = hf$\n\n(b) 計算光子波長 $\\lambda$。（2 分）\n已知：\n- $c = f\\lambda$\n\n(c) 其中一次量到嘅脈衝持續 $\\Delta t = 2.00 \\times 10^{-16}\\ \\mathrm{s}$（200 阿秒）。計算呢個脈衝沿傳播方向嘅空間長度 $L = c\\,\\Delta t$。（2 分）\n\n(d) 用 (b) 嘅答案，估算呢段脈衝長度入面大約有幾多個波長。（1 分）\n\n(e) 軟 X 射線（大約低於 $5\\ \\mathrm{keV}$）主要探測外層電子，硬 X 射線（大約高於 $5\\ \\mathrm{keV}$）可穿透更稠密物質。簡述點解阿秒級硬 X 射線脈衝有助研究熱稠密等離子體。（2 分）",
+    "answer_en": "(a)\n- $E = 9.00 \\times 10^{3} \\times 1.60 \\times 10^{-19} = 1.44 \\times 10^{-15}\\ \\mathrm{J}$ (1A)\n- $f = E/h = 1.44 \\times 10^{-15}/(6.63 \\times 10^{-34})$ (1M)\n- $f = 2.17 \\times 10^{18}\\ \\mathrm{Hz}$ (1A)\n\n(b)\n- $\\lambda = c/f = 3.00 \\times 10^{8}/(2.17 \\times 10^{18})$ (1M)\n- $\\lambda = 1.38 \\times 10^{-10}\\ \\mathrm{m}$ (1A)\n\n(c)\n- $L = c\\,\\Delta t = 3.00 \\times 10^{8} \\times 2.00 \\times 10^{-16}$ (1M)\n- $L = 6.00 \\times 10^{-8}\\ \\mathrm{m}$ (1A)\n\n(d)\n- $N = L/\\lambda = 6.00 \\times 10^{-8}/(1.38 \\times 10^{-10}) \\approx 435$ (accept 430–440) (1A)\n\n(e)\n- Hard X-rays are energetic enough to penetrate dense plasma / probe deep into atomic systems. (1)\n- Attosecond duration freezes / outruns fast electronic motion (and X-ray-induced damage), so the state can be measured before it evolves. (1)",
+    "answer_zh": "(a)\n- $E = 9.00 \\times 10^{3} \\times 1.60 \\times 10^{-19} = 1.44 \\times 10^{-15}\\ \\mathrm{J}$（1A）\n- $f = E/h = 1.44 \\times 10^{-15}/(6.63 \\times 10^{-34})$（1M）\n- $f = 2.17 \\times 10^{18}\\ \\mathrm{Hz}$（1A）\n\n(b)\n- $\\lambda = c/f = 3.00 \\times 10^{8}/(2.17 \\times 10^{18})$（1M）\n- $\\lambda = 1.38 \\times 10^{-10}\\ \\mathrm{m}$（1A）\n\n(c)\n- $L = c\\,\\Delta t = 3.00 \\times 10^{8} \\times 2.00 \\times 10^{-16}$（1M）\n- $L = 6.00 \\times 10^{-8}\\ \\mathrm{m}$（1A）\n\n(d)\n- $N = L/\\lambda = 6.00 \\times 10^{-8}/(1.38 \\times 10^{-10}) \\approx 435$（接受 430–440）（1A）\n\n(e)\n- 硬 X 射線能量夠高，可穿透稠密等離子體／深入探測原子系統。（1）\n- 阿秒時長可凍結／趕過快速電子運動（同 X 射線引起嘅破壞），令狀態喺演化前被量度到。（1）"
+  }
+}
