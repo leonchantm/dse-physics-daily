@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-23",
+  "news": [
+    {
+      "title": "藍寶石襯底鋁鎵氧化物：能隙逾 7 eV 破紀錄，室溫導電提升逾億倍",
+      "summary": "康奈爾大學 Schlom 團隊喺 Nature 報道，用分子束磊晶喺藍寶石襯底生長矽摻雜 α-(AlₓGa₁₋ₓ)₂O₃ 薄膜，喺能隙超過 7 eV 仍然保持可控導電；喺所謂「巨大能隙」（>6 eV）範圍，室溫導電率比以往報道高逾 1 億倍，並成功製成二極管同電晶體。鋁鎵氧化物能隙可調約 5.4–8.6 eV，寬能隙有助承受更強電場，有望用喺更高效嘅功率電子。",
+      "topic": "原子世界（能隙、半導體）、波動（電磁波／光電效應 E = hf）、電和磁（電場）",
+      "source_name": "phys.org / Cornell / Nature",
+      "source_url": "https://phys.org/news/2026-10-sapphire-grown-semiconductor-bandgap.html",
+      "source_date": "22/10",
+      "links": [
+        {
+          "label": "Nature (DOI)",
+          "url": "https://doi.org/10.1038/s41586-026-11085-3"
+        }
+      ]
+    },
+    {
+      "title": "鑽石 NV 激光磁力計：首次達 100% 光學對比度，性能比提升最多 590 倍",
+      "summary": "德國 Fraunhofer IAF 團隊喺 Nature Communications 報道激光閾值磁力測量：把鑽石氮－空位（NV）中心直接接入激光腔作磁場相關損耗通道，首次達 100% 光學對比度，激光讀出功率可達約 50 mW。若光子散粒噪聲主導，矢量磁場各分量靈敏度可低於約 400 fT/√Hz；相對傳統螢光 NV 同蒸氣池磁力計，靈敏度－動態範圍比最多提升約 590 倍，有助心臟／大腦生物磁訊號同導航應用。",
+      "topic": "電和磁（磁場量度）、波動（激光、光學對比度）、原子世界（量子傳感）",
+      "source_name": "phys.org / Fraunhofer IAF / Nature Communications",
+      "source_url": "https://phys.org/news/2026-10-diamond-laser-optical-contrast-magnetic.html",
+      "source_date": "22/10",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-78386-z"
+        }
+      ]
+    },
+    {
+      "title": "鐵膜愈薄激光去磁愈強：2 nm 層比 16 nm 強約 75%",
+      "summary": "杜伊斯堡－埃森大學同 Helmholtz-Zentrum Berlin 團隊用超快電子衍射研究鐵膜厚度對激光驅動超快去磁嘅影響：喺相同激光強度下，厚約 2 nm 嘅鐵層去磁效應比 16 nm 層大約強 75%。原因係更薄層有更大比例自旋位於界面，鄰近自旋較少，磁序較易被激光打亂；效應主要來自磁性而非吸光或晶格振動差異。結果刊於 Advanced Science，有助未來激光寫入磁儲存研究。",
+      "topic": "電和磁（磁性／磁化）、波動（激光）、原子世界",
+      "source_name": "phys.org / University of Duisburg-Essen / Advanced Science",
+      "source_url": "https://phys.org/news/2026-10-iron-laser-driven-demagnetization.html",
+      "source_date": "22/10",
+      "links": [
+        {
+          "label": "Advanced Science (DOI)",
+          "url": "https://doi.org/10.1002/advs.77058"
+        }
+      ]
+    },
+    {
+      "title": "精氨酸穩定二硫化鉭電荷密度波：量子態延至室溫以上約 57 °C",
+      "summary": "UCLA 領導嘅國際團隊喺 Nature Chemistry 報道，把氨基酸精氨酸夾入三原子厚嘅二硫化鉭（TaS₂）層之間，令本來只喺約 −93 °C 先穩定嘅共度電荷密度波（CCDW）延伸到高達約 57 °C（遠超室溫）。精氨酸尺寸同電子分佈似「砌圖」般吻合晶格；另外兩種氨基酸則未見室溫 CCDW。有序電子運動或有助未來節能量子記憶等應用。",
+      "topic": "原子世界（量子態、晶體）、熱和氣體（溫度、物態）",
+      "source_name": "phys.org / UCLA CNSI / Nature Chemistry",
+      "source_url": "https://phys.org/news/2026-10-amino-acid-stabilizes-material-quantum.html",
+      "source_date": "22/10",
+      "links": [
+        {
+          "label": "Nature Chemistry (DOI)",
+          "url": "https://doi.org/10.1038/s41557-026-02241-3"
+        }
+      ]
+    },
+    {
+      "title": "十萬顆類星體統計：支持超大質量黑洞合併後被引力波「踢走」",
+      "summary": "ELTE／伯明翰團隊分析斯隆巡天約 10 萬顆類星體，發現黑洞相對宿主星系速度愈快，類星體平均愈紅（塵埃遮擋愈多），同十年前 Raffai、Haiman、Frei 預測嘅「被踢出」黑洞喺星系中心附近擺動特徵一致。合併末期非各向同性引力波可令剩餘黑洞獲高速反衝（可達每小時數百萬公里）。結果刊於 MNRAS，為 LISA 等未來引力波天文舖路。",
+      "topic": "力和運動（動量／反衝）、引力（引力波）、波動（多普勒／光譜紅移）、天文學",
+      "source_name": "phys.org / ELTE / MNRAS",
+      "source_url": "https://phys.org/news/2026-10-supermassive-black-holes-ejected-galactic.html",
+      "source_date": "22/10",
+      "links": [
+        {
+          "label": "MNRAS (DOI)",
+          "url": "https://doi.org/10.1093/mnras/stag1367"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "藍寶石襯底鋁鎵氧化物：能隙逾 7 eV 破紀錄，室溫導電提升逾億倍",
+    "question_en": "A silicon-doped aluminium gallium oxide film has a band gap energy $E_g = 7.00\\ \\mathrm{eV}$. An electron in the valence band needs at least this much energy from a photon to jump into the conduction band.\n\nTake $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$, $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$, and $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$.\n\n(a) Express $E_g$ in joules. Hence calculate the minimum frequency $f$ of a photon that can excite an electron across this band gap. (3 marks)\nGiven:\n- $E = hf$\n\n(b) Calculate the corresponding wavelength $\\lambda$. (2 marks)\nGiven:\n- $c = f\\lambda$\n\n(c) Express your answer in (b) in nanometres. Visible light has wavelengths from about $400\\ \\mathrm{nm}$ to $700\\ \\mathrm{nm}$. State whether a $7.00\\ \\mathrm{eV}$ photon is ultraviolet, visible or infrared. (2 marks)\n\n(d) Silicon has a much smaller band gap $E_g(\\mathrm{Si}) = 1.12\\ \\mathrm{eV}$. Calculate the minimum photon wavelength that can excite an electron across the silicon band gap. (2 marks)\n\n(e) Wide-band-gap semiconductors can withstand stronger electric fields than silicon before they start to conduct strongly. Explain briefly why a larger band gap makes electrical breakdown harder. (2 marks)",
+    "question_zh": "一塊矽摻雜鋁鎵氧化物薄膜嘅能隙能量 $E_g = 7.00\\ \\mathrm{eV}$。價帶入面嘅電子至少要吸收咁多能量嘅光子，先可以躍遷到導帶。\n\n取 $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$，$c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$，同 $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$。\n\n(a) 把 $E_g$ 用焦耳表示，從而計算能夠令電子跨越呢個能隙嘅光子最低頻率 $f$。（3 分）\n已知：\n- $E = hf$\n\n(b) 計算對應波長 $\\lambda$。（2 分）\n已知：\n- $c = f\\lambda$\n\n(c) 把 (b) 嘅答案用納米表示。可見光波長大約由 $400\\ \\mathrm{nm}$ 至 $700\\ \\mathrm{nm}$。指出能量 $7.00\\ \\mathrm{eV}$ 嘅光子屬於紫外、可見定紅外。（2 分）\n\n(d) 矽嘅能隙細好多：$E_g(\\mathrm{Si}) = 1.12\\ \\mathrm{eV}$。計算能夠令電子跨越矽能隙嘅光子最低波長。（2 分）\n\n(e) 寬能隙半導體比矽更能承受較強電場先開始大量導電。簡述點解較大能隙會令電擊穿更難發生。（2 分）",
+    "answer_en": "(a)\n- $E_g = 7.00 \\times 1.60 \\times 10^{-19} = 1.12 \\times 10^{-18}\\ \\mathrm{J}$ (1A)\n- $f = E_g/h = 1.12 \\times 10^{-18}/(6.63 \\times 10^{-34})$ (1M)\n- $f = 1.69 \\times 10^{15}\\ \\mathrm{Hz}$ (1A)\n\n(b)\n- $\\lambda = c/f = 3.00 \\times 10^{8}/(1.69 \\times 10^{15})$ (1M)\n- $\\lambda = 1.78 \\times 10^{-7}\\ \\mathrm{m}$ (1A)\n\n(c)\n- $\\lambda = 178\\ \\mathrm{nm}$ (accept $177$–$178\\ \\mathrm{nm}$) (1A)\n- Ultraviolet (since $\\lambda < 400\\ \\mathrm{nm}$) (1A)\n\n(d)\n- $E = 1.12 \\times 1.60 \\times 10^{-19} = 1.79 \\times 10^{-19}\\ \\mathrm{J}$; $f = E/h = 2.70 \\times 10^{14}\\ \\mathrm{Hz}$ (1M)\n- $\\lambda = c/f = 1.11 \\times 10^{-6}\\ \\mathrm{m}$ (accept $1.11$–$1.12 \\times 10^{-6}\\ \\mathrm{m}$) (1A)\n\n(e)\n- A larger band gap means free carriers need more energy to be created / electrons need more energy to reach the conduction band. (1)\n- Under a strong electric field, avalanche / impact ionisation (or field-driven promotion of carriers) is harder to start and sustain, so breakdown requires a higher field / voltage. (1)",
+    "answer_zh": "(a)\n- $E_g = 7.00 \\times 1.60 \\times 10^{-19} = 1.12 \\times 10^{-18}\\ \\mathrm{J}$（1A）\n- $f = E_g/h = 1.12 \\times 10^{-18}/(6.63 \\times 10^{-34})$（1M）\n- $f = 1.69 \\times 10^{15}\\ \\mathrm{Hz}$（1A）\n\n(b)\n- $\\lambda = c/f = 3.00 \\times 10^{8}/(1.69 \\times 10^{15})$（1M）\n- $\\lambda = 1.78 \\times 10^{-7}\\ \\mathrm{m}$（1A）\n\n(c)\n- $\\lambda = 178\\ \\mathrm{nm}$（接受 $177$–$178\\ \\mathrm{nm}$）（1A）\n- 紫外（因為 $\\lambda < 400\\ \\mathrm{nm}$）（1A）\n\n(d)\n- $E = 1.12 \\times 1.60 \\times 10^{-19} = 1.79 \\times 10^{-19}\\ \\mathrm{J}$；$f = E/h = 2.70 \\times 10^{14}\\ \\mathrm{Hz}$（1M）\n- $\\lambda = c/f = 1.11 \\times 10^{-6}\\ \\mathrm{m}$（接受 $1.11$–$1.12 \\times 10^{-6}\\ \\mathrm{m}$）（1A）\n\n(e)\n- 能隙較大意味住要產生自由載流子／電子要進入導帶需要更多能量。（1）\n- 喺強電場下，雪崩／碰撞電離（或電場驅動嘅載流子激發）更難開始同維持，所以擊穿需要更高電場／電壓。（1）"
+  }
+}
