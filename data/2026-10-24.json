@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-24",
+  "news": [
+    {
+      "title": "阿基米德螺旋啟發：電流驅動單分子馬達，轉向可控、導電可增逾百倍",
+      "summary": "奧格斯堡大學、魏茨曼研究所同哥本哈根大學等國際團隊喺 Nature 報道，把螺旋狀分子夾喺兩支原子級金電極之間，用電流通過螺旋結構驅動旋轉，原理似阿基米德螺旋泵。扭轉方向由電壓極性決定，可逆可控；理論計算顯示旋轉期間導電率最高可升約兩個數量級（約 100 倍），因為旋轉令靜止時避開、但導電更好嘅角度變得可達。呢個係首個牢牢接喺兩邊金屬電極、電流驅動而且轉向可控嘅分子馬達。",
+      "topic": "電和磁（電路、歐姆定律、電功率）、力和運動（力矩／角動量概念）",
+      "source_name": "phys.org / University of Augsburg / Nature",
+      "source_url": "https://phys.org/news/2026-10-archimedes-molecule-motor-powered-electric.html",
+      "source_date": "23/10",
+      "links": [
+        {
+          "label": "Nature (DOI)",
+          "url": "https://doi.org/10.1038/s41586-026-11312-x"
+        }
+      ]
+    },
+    {
+      "title": "矽酸鹽玻璃導熱：聲速主導，熱導率約與聲速成正比",
+      "summary": "東北大學 Sukenaga 團隊喺 Applied Physics Letters 報道，量度 13 種矽酸鹽玻璃喺室溫嘅熱導率、聲速、體積比熱同聲子平均自由程，發現體積比熱同自由程此消彼長、乘積近似常數，而熱導率大致同聲速成正比。團隊提出經驗關係 λ ≈ 3.0×10⁻⁴ ν（λ 單位 W m⁻¹ K⁻¹，ν 為聲速 m s⁻¹），有助設計電子元件散熱用玻璃。",
+      "topic": "熱和氣體（熱傳導）、波動（聲波／聲速）",
+      "source_name": "phys.org / Tohoku University / Applied Physics Letters",
+      "source_url": "https://phys.org/news/2026-10-glass-good-key.html",
+      "source_date": "23/10",
+      "links": [
+        {
+          "label": "Applied Physics Letters (DOI)",
+          "url": "https://doi.org/10.1063/5.0351403"
+        }
+      ]
+    },
+    {
+      "title": "3 飛秒解析度追蹤分子吸光後運動：分清兩個錐形交叉",
+      "summary": "米蘭理工領導嘅 ERC Synergy TOMATTO 團隊喺 Nature Communications 報道，用紫外泵浦同阿秒級極紫外探測嘅光電子光譜平台，達約 3 飛秒（3×10⁻¹⁵ s）時間解析度。喺模型分子乙酰丙酮上，首次分清連續兩次通過錐形交叉嘅超快過程；光喺 3 fs 內大約行 0.9 μm。有助研究光化學同未來「阿秒化學」控制反應。",
+      "topic": "波動（電磁波、光電效應概念）、原子世界",
+      "source_name": "phys.org / Politecnico di Milano / Nature Communications",
+      "source_url": "https://phys.org/news/2026-10-ultrafast-pulses-track-molecular-motion.html",
+      "source_date": "22/10",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-76602-4"
+        }
+      ]
+    },
+    {
+      "title": "用磁通量量子數數光子：高速兼可分辨光子數目",
+      "summary": "日本產業技術綜合研究所（AIST）團隊喺 Physical Review Applied 報道，直接觀察超導薄膜吸收光子後產生嘅磁通量量子，並由量子化電壓訊號分辨入射光子數目。傳統 TES 靠熱平衡慢但可數光子數，SNSPD 快但難直接讀能量；新原理用吸收後即時相位動態，有望兼顧高速同光子數解析，服務量子通訊同光學量子計算。",
+      "topic": "波動（光子、電磁波）、電和磁（磁場／磁通量概念）",
+      "source_name": "phys.org / AIST / Physical Review Applied",
+      "source_url": "https://phys.org/news/2026-10-magnetic-flux-quanta-photon.html",
+      "source_date": "23/10",
+      "links": [
+        {
+          "label": "Physical Review Applied (DOI)",
+          "url": "https://doi.org/10.1103/n295-rfl8"
+        }
+      ]
+    },
+    {
+      "title": "理論計算：接近極限自旋嘅黑洞或可「一分為二」",
+      "summary": "南丹麥大學同那不勒斯／巴黎團隊喺 Physical Review D 探討黑洞會唔會分裂成兩個較細黑洞。普通非旋轉黑洞分裂會令總熵下降，熱力學上不利；快速自轉可能打開窗口，但兩塊要真正分開而唔係即刻撞返埋，條件就收窄到接近最大自旋。若發生，視界喺時間上會呈「褲」形（pair-of-pants）。團隊指原初微黑洞可能較易，未來或可用 γ 射線望遠鏡間接搜尋碎塊訊號。",
+      "topic": "引力（黑洞／廣義相對論概念）、熱和氣體（熵）、天文學",
+      "source_name": "phys.org / University of Southern Denmark / Physical Review D",
+      "source_url": "https://phys.org/news/2026-10-black-holes-maximum.html",
+      "source_date": "23/10",
+      "links": [
+        {
+          "label": "Physical Review D (DOI)",
+          "url": "https://doi.org/10.1103/cx69-t466"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "阿基米德螺旋啟發：電流驅動單分子馬達，轉向可控、導電可增逾百倍",
+    "question_en": "A helical molecule is stretched between two gold electrodes, forming a tiny circuit element. In one measurement the junction behaves like a resistor of resistance $R = 2.50 \\times 10^{7}\\ \\mathrm{\\Omega}$ when a steady voltage $V = 0.500\\ \\mathrm{V}$ is applied.\n\nTake $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$.\n\n(a) Calculate the current $I$ in the junction. (2 marks)\nGiven:\n- $V = IR$\n\n(b) Calculate the electrical power $P$ dissipated in the junction. (2 marks)\nGiven:\n- $P = VI$\n\n(c) When the molecule rotates continuously, its conductance increases by a factor of $100$ (so the resistance becomes $R/100$). Calculate the new current and the new power at the same voltage $V = 0.500\\ \\mathrm{V}$. (3 marks)\n\n(d) Experiments show that reversing the polarity of $V$ reverses the direction of rotation. Using the idea that an electric current is a flow of charge, explain briefly why reversing the polarity can reverse the motor's rotation. (2 marks)\n\n(e) Calculate the work done on one electron of charge $e$ when it is accelerated through a potential difference of $0.500\\ \\mathrm{V}$. Give your answer in joules and in electron-volts. (2 marks)\nGiven:\n- $W = qV$",
+    "question_zh": "一條螺旋分子被拉喺兩支金電極之間，形成一個極細嘅電路元件。某次量度中，接點表現得似一個電阻 $R = 2.50 \\times 10^{7}\\ \\mathrm{\\Omega}$，外加穩恆電壓 $V = 0.500\\ \\mathrm{V}$。\n\n取 $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$。\n\n(a) 計算接點入面嘅電流 $I$。（2 分）\n已知：\n- $V = IR$\n\n(b) 計算接點消耗嘅電功率 $P$。（2 分）\n已知：\n- $P = VI$\n\n(c) 當分子持續旋轉時，導電率增加 100 倍（即電阻變成 $R/100$）。喺同一電壓 $V = 0.500\\ \\mathrm{V}$ 下，計算新電流同新功率。（3 分）\n\n(d) 實驗顯示把 $V$ 嘅極性反轉會令旋轉方向反轉。用「電流係電荷流動」嘅概念，簡述點解反轉極性可以令馬達轉向反轉。（2 分）\n\n(e) 計算一粒電荷為 $e$ 嘅電子被電位差 $0.500\\ \\mathrm{V}$ 加速時所做嘅功。答案用焦耳同電子伏特表示。（2 分）\n已知：\n- $W = qV$",
+    "answer_en": "(a)\n- $I = V/R = 0.500/(2.50 \\times 10^{7})$ (1M)\n- $I = 2.00 \\times 10^{-8}\\ \\mathrm{A}$ (1A)\n\n(b)\n- $P = VI = 0.500 \\times 2.00 \\times 10^{-8}$ (1M)\n- $P = 1.00 \\times 10^{-8}\\ \\mathrm{W}$ (1A)\n\n(c)\n- New resistance $R' = R/100 = 2.50 \\times 10^{5}\\ \\mathrm{\\Omega}$ (1A)\n- $I' = V/R' = 0.500/(2.50 \\times 10^{5}) = 2.00 \\times 10^{-6}\\ \\mathrm{A}$ (accept $I' = 100I$) (1A)\n- $P' = VI' = 1.00 \\times 10^{-6}\\ \\mathrm{W}$ (accept $P' = 100P$) (1A)\n\n(d)\n- Reversing polarity reverses the direction of the electric force on the charges / reverses the current direction through the helix. (1)\n- The torque (or angular momentum transfer) from the flowing charges on the helical molecule therefore reverses, so the rotation direction reverses. (1)\n\n(e)\n- $W = eV = 1.60 \\times 10^{-19} \\times 0.500 = 8.00 \\times 10^{-20}\\ \\mathrm{J}$ (1A)\n- $W = 0.500\\ \\mathrm{eV}$ (1A)",
+    "answer_zh": "(a)\n- $I = V/R = 0.500/(2.50 \\times 10^{7})$（1M）\n- $I = 2.00 \\times 10^{-8}\\ \\mathrm{A}$（1A）\n\n(b)\n- $P = VI = 0.500 \\times 2.00 \\times 10^{-8}$（1M）\n- $P = 1.00 \\times 10^{-8}\\ \\mathrm{W}$（1A）\n\n(c)\n- 新電阻 $R' = R/100 = 2.50 \\times 10^{5}\\ \\mathrm{\\Omega}$（1A）\n- $I' = V/R' = 0.500/(2.50 \\times 10^{5}) = 2.00 \\times 10^{-6}\\ \\mathrm{A}$（接受 $I' = 100I$）（1A）\n- $P' = VI' = 1.00 \\times 10^{-6}\\ \\mathrm{W}$（接受 $P' = 100P$）（1A）\n\n(d)\n- 反轉極性會令作用喺電荷嘅電場力方向反轉／令通過螺旋嘅電流方向反轉。（1）\n- 流動電荷傳畀螺旋分子嘅力矩（或角動量）因此反轉，所以旋轉方向反轉。（1）\n\n(e)\n- $W = eV = 1.60 \\times 10^{-19} \\times 0.500 = 8.00 \\times 10^{-20}\\ \\mathrm{J}$（1A）\n- $W = 0.500\\ \\mathrm{eV}$（1A）"
+  }
+}
