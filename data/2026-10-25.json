@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-25",
+  "news": [
+    {
+      "title": "單一 X 射線脈衝一次影到等離子體 10–500 nm 結構：無擋束小角散射",
+      "summary": "日本核融合科學研究所同大阪大學等團隊喺 Communications Physics 報道，喺 SACLA X 射線自由電子激光配合飛秒強激光，用新發展嘅「無擋束（beamstop-free）小角 X 射線散射」，首次以單一 X 射線脈衝、單一相機同時量度高能量密度等離子體由約 10 nm 到 500 nm 嘅結構塌縮同稀疏過程，時間解析度達亞皮秒。傳統方法要擋走中心強光束，會遮住超小角訊號；新方法用堆疊金屬衰減濾片把動態範圍擴大逾百倍。結果顯示固體表面初始等離子體只要脹大幾納米，激光能量吸收率就可以跌到約四分之一，對激光等離子體同核聚變壁面研究有用。",
+      "topic": "原子物理（X 射線光子）、波動（衍射／電磁波）",
+      "source_name": "phys.org / National Institute for Fusion Science / Communications Physics",
+      "source_url": "https://phys.org/news/2026-10-ray-pulse-reveals-plasma-nanostructures.html",
+      "source_date": "24/10",
+      "links": [
+        {
+          "label": "Communications Physics (DOI)",
+          "url": "https://doi.org/10.1038/s42005-026-02872-5"
+        }
+      ]
+    },
+    {
+      "title": "理大合金攻克「冷脆」：77 K 兼顧強度、延性同韌性",
+      "summary": "香港理工大學陳子彬團隊喺 Nature Communications 連續兩篇報道，用納米尺度「負曲率界面」同層次納米有序結構，令鎳鈷鉻系多元合金喺液氮溫度 77 K（約 −196°C）仍然又硬又韌又可以大幅變形。其中一種 NiCoCr-AlTa 合金屈服強度約 1.30 GPa、抗拉強度約 1.80 GPa、延伸率約 50%、斷裂韌性約 213 MPa·m¹/²；另一種結合 3D 打印後處理嘅方案屈服強度可達約 2.0 GPa。針對深海、深空同極低溫設備長期受「冷脆」限制，研究指可用常規冶煉、軋製同短時時效放大生產。",
+      "topic": "熱和氣體（溫度／絕對溫標）、力和運動（應力應變概念）",
+      "source_name": "phys.org / Hong Kong Polytechnic University / Nature Communications",
+      "source_url": "https://phys.org/news/2026-10-nanoscale-alloy-redesign-tackles-cold.html",
+      "source_date": "24/10",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-74629-1"
+        },
+        {
+          "label": "Related Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-75563-y"
+        }
+      ]
+    },
+    {
+      "title": "雙色激光駕馭掃描隧道顯微鏡：阿秒級電流方向可控",
+      "summary": "以色列理工學院（Technion）Michael Krüger 團隊喺 Nature Photonics 報道，喺掃描隧道顯微鏡（STM）針尖同樣品之間嘅納米間隙注入雙色紅外激光脈衝，靠改變兩色光相對時序去「塑形」光場，從而控制電子由針尖流向樣品定反向流動。理論模型重建出持續約 860 阿秒（860×10⁻¹⁸ s）嘅電流脈衝；橫向解析度約 2 nm，高度變化細過 1 Å，而且可以喺室溫、空氣中運作。研究指有助將來喺特定位置即時觀察電子運動，以至用光波操控超快電流。",
+      "topic": "電和磁（電流）、原子物理（電子／隧道概念）、波動（電磁波）",
+      "source_name": "phys.org / Technion / Nature Photonics",
+      "source_url": "https://phys.org/news/2026-10-based-method-enables-precise-ultrafast.html",
+      "source_date": "23/10",
+      "links": [
+        {
+          "label": "Nature Photonics (DOI)",
+          "url": "https://doi.org/10.1038/s41566-026-02021-y"
+        }
+      ]
+    },
+    {
+      "title": "碳化矽缺陷「內部轉換」被低估：光激發後能量流失新計算",
+      "summary": "芝加哥大學 Galli 團隊喺 Physical Review Letters 報道，用第一性原理框架完整模擬金剛石同碳化矽入面自旋缺陷嘅光學循環，包括以往好難計準嘅「內部轉換」（excited electron 能量轉成晶格振動而唔係先放光子）。方法核對氮空位中心後，發現碳化矽雙空位缺陷嘅三重態壽命受內部轉換影響遠大於舊模型估計，有助解釋理論同實驗長期唔夾嘅謎團，亦對量子傳感器、量子計算同能量轉換材料設計有啟示。",
+      "topic": "原子物理（能級、光子）、波動（光同物質作用）",
+      "source_name": "ScienceDaily / University of Chicago / Physical Review Letters",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261022081302.htm",
+      "source_date": "23/10",
+      "links": [
+        {
+          "label": "Physical Review Letters (DOI)",
+          "url": "https://doi.org/10.1103/y6z6-h16k"
+        }
+      ]
+    },
+    {
+      "title": "歐幾里得望遠鏡發現首顆新彗星：距地球約 13 億公里",
+      "summary": "歐洲太空總署 Euclid 太空望遠鏡原本專責深空星系巡天，赫爾辛基大學團隊用自行開發嘅移動天體軟件，喺 2026 年 9 月 16 至 24 日影像中發現一條拖影，其後確認為新彗星 C/2026 S1 (Euclid)。彗星距地球約 13 億公里（1.3 billion km，約 810 million miles），大致相當太陽到木星同土星軌道之間嘅距離，但軌道面唔喺黃道平面，而係「向上」拱出太陽系，繞行需時數千年。發現流程亦為將來同 Comet Interceptor 任務協調提供實戰案例。",
+      "topic": "天文學（太陽系／彗星）、波動（望遠鏡成像概念）",
+      "source_name": "phys.org / ESA Euclid",
+      "source_url": "https://phys.org/news/2026-10-euclid-comet-million-miles-earth.html",
+      "source_date": "19/10",
+      "links": []
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "story": "單一 X 射線脈衝一次影到等離子體 10–500 nm 結構：無擋束小角散射",
+    "question_en": "In a laser–plasma experiment, an X-ray free-electron laser pulse is used as a probe. Take the X-ray wavelength to be $\\lambda = 0.100\\ \\mathrm{nm} = 1.00 \\times 10^{-10}\\ \\mathrm{m}$.\n\nTake $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$, $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$ and $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$.\n\n(a) Calculate the frequency $f$ of one X-ray photon. (2 marks)\nGiven:\n- $c = f\\lambda$\n\n(b) Calculate the energy $E$ of one X-ray photon in joules and in electron-volts. (3 marks)\nGiven:\n- $E = hf$\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n\n(c) One measurement is taken $\\Delta t = 7.50\\ \\mathrm{ps} = 7.50 \\times 10^{-12}\\ \\mathrm{s}$ after the driving laser hits the target. Calculate the distance $s$ travelled by light in vacuum in this time. (2 marks)\nGiven:\n- $s = c\\,\\Delta t$\n\n(d) The solid target is a regular array of silicon rods with spacing $d = 2.00 \\times 10^{-7}\\ \\mathrm{m}$. Treat the array as a diffraction grating. For the first-order maximum ($m = 1$), calculate $\\sin\\theta$, where $\\theta$ is the diffraction angle. (2 marks)\nGiven:\n- $d\\sin\\theta = m\\lambda$\n\n(e) Explain briefly why using a shorter X-ray wavelength (rather than visible light) helps resolve nanometre-scale structures in the plasma. (2 marks)",
+    "question_zh": "喺一個激光–等離子體實驗中，用 X 射線自由電子激光脈衝做探測。取 X 射線波長 $\\lambda = 0.100\\ \\mathrm{nm} = 1.00 \\times 10^{-10}\\ \\mathrm{m}$。\n\n取 $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$，$c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$，$e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$。\n\n(a) 計算一粒 X 射線光子嘅頻率 $f$。（2 分）\n已知：\n- $c = f\\lambda$\n\n(b) 計算一粒 X 射線光子嘅能量 $E$，用焦耳同電子伏特表示。（3 分）\n已知：\n- $E = hf$\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n\n(c) 某次量度喺驅動激光打中靶後 $\\Delta t = 7.50\\ \\mathrm{ps} = 7.50 \\times 10^{-12}\\ \\mathrm{s}$ 進行。計算光喺真空中呢段時間行過嘅距離 $s$。（2 分）\n已知：\n- $s = c\\,\\Delta t$\n\n(d) 固體靶係間距 $d = 2.00 \\times 10^{-7}\\ \\mathrm{m}$ 嘅規則矽微柱陣列，可視作衍射光柵。對一級極大（$m = 1$），計算 $\\sin\\theta$，其中 $\\theta$ 係衍射角。（2 分）\n已知：\n- $d\\sin\\theta = m\\lambda$\n\n(e) 簡述點解用較短嘅 X 射線波長（而唔係可見光）有助分辨等離子體入面納米級結構。（2 分）",
+    "answer_en": "(a)\n- $f = c/\\lambda = (3.00 \\times 10^{8})/(1.00 \\times 10^{-10})$ (1M)\n- $f = 3.00 \\times 10^{18}\\ \\mathrm{Hz}$ (1A)\n\n(b)\n- $E = hf = (6.63 \\times 10^{-34})(3.00 \\times 10^{18})$ (1M)\n- $E = 1.99 \\times 10^{-15}\\ \\mathrm{J}$ (accept $1.989 \\times 10^{-15}$) (1A)\n- $E = (1.99 \\times 10^{-15})/(1.60 \\times 10^{-19}) = 1.24 \\times 10^{4}\\ \\mathrm{eV}$ (1A)\n\n(c)\n- $s = c\\,\\Delta t = (3.00 \\times 10^{8})(7.50 \\times 10^{-12})$ (1M)\n- $s = 2.25 \\times 10^{-3}\\ \\mathrm{m}$ (1A)\n\n(d)\n- $\\sin\\theta = m\\lambda/d = (1)(1.00 \\times 10^{-10})/(2.00 \\times 10^{-7})$ (1M)\n- $\\sin\\theta = 5.00 \\times 10^{-4}$ (1A)\n\n(e)\n- Diffraction / wave effects blur detail on a scale comparable to the wavelength (or: resolving power improves when $\\lambda$ is smaller). (1)\n- X-ray wavelengths are much shorter than visible light, so nanometre-scale plasma structures can be resolved / diffraction angles remain measurable for small $d$. (1)",
+    "answer_zh": "(a)\n- $f = c/\\lambda = (3.00 \\times 10^{8})/(1.00 \\times 10^{-10})$（1M）\n- $f = 3.00 \\times 10^{18}\\ \\mathrm{Hz}$（1A）\n\n(b)\n- $E = hf = (6.63 \\times 10^{-34})(3.00 \\times 10^{18})$（1M）\n- $E = 1.99 \\times 10^{-15}\\ \\mathrm{J}$（接受 $1.989 \\times 10^{-15}$）（1A）\n- $E = (1.99 \\times 10^{-15})/(1.60 \\times 10^{-19}) = 1.24 \\times 10^{4}\\ \\mathrm{eV}$（1A）\n\n(c)\n- $s = c\\,\\Delta t = (3.00 \\times 10^{8})(7.50 \\times 10^{-12})$（1M）\n- $s = 2.25 \\times 10^{-3}\\ \\mathrm{m}$（1A）\n\n(d)\n- $\\sin\\theta = m\\lambda/d = (1)(1.00 \\times 10^{-10})/(2.00 \\times 10^{-7})$（1M）\n- $\\sin\\theta = 5.00 \\times 10^{-4}$（1A）\n\n(e)\n- 衍射／波動效應會喺同波長相約嘅尺度模糊細節（或：波長愈短，分辨本領愈高）。（1）\n- X 射線波長遠短過可見光，所以可以分辨納米級等離子體結構／細 $d$ 仍然有可量嘅衍射角。（1）"
+  }
+}
