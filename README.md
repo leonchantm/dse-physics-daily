@@ -22,6 +22,8 @@ scripts/add_day.py    validate a day file, copy into data/, update data/index.js
 
 Deep links: `https://leonchantm.github.io/dse-physics-daily/#2026-10-03`
 
+The sidebar lists the seven newest published days. **更多新聞** opens a month calendar (`#more`); days without a published file stay disabled. Choosing a date from the sidebar or the calendar shows that day's news and question and updates the hash.
+
 ## Day file format
 
 ```json

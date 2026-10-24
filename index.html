@@ -8,7 +8,7 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚛️</text></svg>">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.19.0/dist/katex.min.css" integrity="sha384-3rdsX6e5mueWyoweR9NIVmtEsUkokpBT/0ALqKKIBMr9j4qhHkaIkAcGgsE6uVlp" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.19.0/dist/katex.min.js" integrity="sha384-QFFtAGzvvj+bfgCGxXJlNZZR1nXEZgvG8tDLCCY1F19xl20WlfTYgguB4VcNdxYk" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/style.css?v=20261004c">
+  <link rel="stylesheet" href="assets/style.css?v=20261024a">
 </head>
 <body>
   <header class="site-header">
@@ -18,16 +18,15 @@
     </div>
   </header>
 
-  <nav class="date-nav wrap" aria-label="選擇日期 Choose a date">
-    <button type="button" id="prevBtn" class="nav-btn" aria-label="前一日 Previous day">‹ 前一日</button>
-    <label class="date-select">
-      <span class="sr-only">日期 Date</span>
-      <select id="dateSelect"></select>
-    </label>
-    <button type="button" id="nextBtn" class="nav-btn" aria-label="後一日 Next day">後一日 ›</button>
-  </nav>
+  <div class="layout wrap">
+    <aside class="sidebar">
+      <h2 class="sidebar-title" id="menuHeading">近期日子 <span class="en">Recent</span></h2>
+      <nav aria-labelledby="menuHeading">
+        <ul id="dayMenu" class="day-menu"></ul>
+      </nav>
+    </aside>
 
-  <main class="wrap" id="main">
+    <main class="main-panel" id="main">
     <p id="status" class="status" role="status">載入中… Loading…</p>
     <section id="day" hidden>
       <h2 id="dayTitle" class="day-title"></h2>
@@ -49,17 +48,26 @@
       </section>
     </section>
 
-    <section class="archive" aria-labelledby="archiveHeading">
-      <h3 id="archiveHeading">🗂 過往日子 Archive</h3>
-      <ul id="archiveList" class="archive-list"></ul>
+    <section id="calendarPanel" class="calendar-panel" hidden aria-labelledby="calHeading">
+      <h2 id="calHeading" class="day-title">📅 更多新聞 <small>More news</small></h2>
+      <div class="calendar card">
+        <div class="cal-toolbar">
+          <button type="button" id="calPrev" class="nav-btn" aria-label="上個月 Previous month">‹</button>
+          <p id="calTitle" class="cal-title" aria-live="polite"></p>
+          <button type="button" id="calNext" class="nav-btn" aria-label="下個月 Next month">›</button>
+        </div>
+        <div id="calGrid" class="cal-grid" role="grid" aria-labelledby="calTitle"></div>
+        <p class="cal-hint">有新聞嘅日子可以點選。Dates with news can be opened.</p>
+      </div>
     </section>
-  </main>
+    </main>
+  </div>
 
   <footer class="site-footer">
     <div class="wrap">
       <p>為 HKDSE 物理科同學整理 · 新聞摘要以廣東話撰寫，詳情請參閱原文來源。</p>
     </div>
   </footer>
-  <script defer src="assets/app.js?v=20261004c"></script>
+  <script defer src="assets/app.js?v=20261024a"></script>
 </body>
 </html>

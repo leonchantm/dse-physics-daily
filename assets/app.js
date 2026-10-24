@@ -12,6 +12,11 @@
   var LANG_KEY = "dsePhysicsDaily.lang";
   var lang = "en";
   var currentQ = null;
+  var view = "day";
+  var calYear = 0;
+  var calMonth = 0;
+  var RECENT_LIMIT = 7;
+  var MORE_HASH = "more";
 
   function $(id) { return document.getElementById(id); }
 
@@ -272,40 +277,178 @@
     btn.textContent = show ? (zh ? "隱藏答案" : "Hide answer") : (zh ? "顯示答案" : "Show answer");
   }
 
-  function renderNav() {
-    var sel = $("dateSelect");
-    if (sel) sel.replaceChildren();
-    if (sel) dates.forEach(function (d, i) {
-      sel.appendChild(el("option", { text: d + (i === 0 ? "（最新）" : ""), attrs: { value: d } }));
-    });
-    var list = $("archiveList");
+  function pad2(n) { return (n < 10 ? "0" : "") + n; }
+
+  function weekdayIndex(d) {
+    var p = d.split("-").map(Number);
+    return new Date(Date.UTC(p[0], p[1] - 1, p[2])).getUTCDay();
+  }
+
+  function monthOf(d) {
+    var p = d.split("-").map(Number);
+    return { y: p[0], m: p[1] };
+  }
+
+  function monthKey(y, m) { return y * 12 + (m - 1); }
+
+  function publishedBounds() {
+    if (!dates.length) return null;
+    return { earliest: monthOf(dates[dates.length - 1]), latest: monthOf(dates[0]) };
+  }
+
+  function monthInRange(y, m) {
+    var b = publishedBounds();
+    if (!b) return false;
+    var k = monthKey(y, m);
+    return k >= monthKey(b.earliest.y, b.earliest.m) && k <= monthKey(b.latest.y, b.latest.m);
+  }
+
+  function adjacentMonth(y, m, delta) {
+    var nm = m + delta;
+    var ny = y;
+    if (nm < 1) { nm = 12; ny -= 1; }
+    if (nm > 12) { nm = 1; ny += 1; }
+    return { y: ny, m: nm };
+  }
+
+  function shiftMonth(delta) {
+    var next = adjacentMonth(calYear, calMonth, delta);
+    if (!monthInRange(next.y, next.m)) return;
+    calYear = next.y;
+    calMonth = next.m;
+    renderCalendar();
+  }
+
+  function todayISO() {
+    var n = new Date();
+    return n.getFullYear() + "-" + pad2(n.getMonth() + 1) + "-" + pad2(n.getDate());
+  }
+
+  function renderMenu() {
+    var list = $("dayMenu");
     if (!list) return;
     list.replaceChildren();
-    dates.forEach(function (d) {
-      list.appendChild(el("li", null, [el("a", { text: d, attrs: { href: "#" + d } })]));
+    var latestYear = dates.length ? Number(String(dates[0]).slice(0, 4)) : 0;
+    dates.slice(0, RECENT_LIMIT).forEach(function (d, i) {
+      var p = d.split("-").map(Number);
+      var label = p[1] + "月" + p[2] + "日";
+      if (p[0] !== latestYear) label = p[0] + "年" + label;
+      var sub = "星期" + WEEKDAYS[weekdayIndex(d)] + (i === 0 ? " · 最新" : "");
+      var a = el("a", { attrs: { href: "#" + d } }, [
+        el("span", { className: "menu-date", text: label }),
+        el("span", { className: "menu-sub", text: sub })
+      ]);
+      list.appendChild(el("li", null, [a]));
+    });
+    list.appendChild(el("li", { className: "menu-more" }, [
+      el("a", { className: "more-link", attrs: { href: "#" + MORE_HASH } }, [
+        el("span", { className: "menu-date", text: "更多新聞" }),
+        el("span", { className: "menu-sub", text: "More news" })
+      ])
+    ]));
+  }
+
+  function updateMenuState() {
+    var list = $("dayMenu");
+    if (!list) return;
+    Array.prototype.forEach.call(list.querySelectorAll("a"), function (a) {
+      var href = a.getAttribute("href") || "";
+      var active = view === "calendar" ? href === "#" + MORE_HASH : href === "#" + current;
+      if (active) {
+        a.setAttribute("aria-current", "page");
+        if (a.scrollIntoView) a.scrollIntoView({ block: "nearest", inline: "nearest" });
+      } else a.removeAttribute("aria-current");
     });
   }
 
-  function updateNavState() {
-    var i = dates.indexOf(current);
-    if ($("dateSelect")) $("dateSelect").value = current;
-    if ($("prevBtn")) $("prevBtn").disabled = i < 0 || i >= dates.length - 1; // older
-    if ($("nextBtn")) $("nextBtn").disabled = i <= 0;                          // newer
-    var list = $("archiveList");
-    if (list) Array.prototype.forEach.call(list.querySelectorAll("a"), function (a) {
-      if (a.getAttribute("href") === "#" + current) a.setAttribute("aria-current", "page");
-      else a.removeAttribute("aria-current");
+  function renderCalendar() {
+    var grid = $("calGrid");
+    var title = $("calTitle");
+    if (!grid || !title || !calYear) return;
+    var monthLabel = calYear + "年" + calMonth + "月";
+    title.textContent = monthLabel;
+    grid.replaceChildren();
+
+    var header = el("div", { className: "cal-row cal-weekdays", attrs: { role: "row" } });
+    WEEKDAYS.forEach(function (w) {
+      header.appendChild(el("div", { className: "cal-wd", text: w, attrs: { role: "columnheader" } }));
     });
+    grid.appendChild(header);
+
+    var firstWd = new Date(Date.UTC(calYear, calMonth - 1, 1)).getUTCDay();
+    var dim = new Date(Date.UTC(calYear, calMonth, 0)).getUTCDate();
+    var cells = [];
+    var i;
+    for (i = 0; i < firstWd; i++) cells.push(0);
+    for (i = 1; i <= dim; i++) cells.push(i);
+    while (cells.length % 7) cells.push(0);
+
+    var today = todayISO();
+    var lookup = {};
+    dates.forEach(function (d) { lookup[d] = true; });
+
+    for (var r = 0; r < cells.length; r += 7) {
+      var row = el("div", { className: "cal-row", attrs: { role: "row" } });
+      for (var c = 0; c < 7; c++) {
+        var dayNum = cells[r + c];
+        if (!dayNum) {
+          row.appendChild(el("div", { className: "cal-day is-pad", attrs: { role: "gridcell" } }));
+          continue;
+        }
+        var iso = calYear + "-" + pad2(calMonth) + "-" + pad2(dayNum);
+        var has = !!lookup[iso];
+        var cls = "cal-day" + (has ? " has" : " is-disabled") + (iso === today ? " is-today" : "");
+        if (has) {
+          row.appendChild(el("a", {
+            className: cls,
+            text: String(dayNum),
+            attrs: { href: "#" + iso, role: "gridcell", "aria-label": formatDate(iso) }
+          }));
+        } else {
+          row.appendChild(el("span", {
+            className: cls,
+            text: String(dayNum),
+            attrs: { role: "gridcell", "aria-disabled": "true", "aria-label": formatDate(iso) + "，未有內容" }
+          }));
+        }
+      }
+      grid.appendChild(row);
+    }
+
+    var prev = $("calPrev");
+    var next = $("calNext");
+    var prevM = adjacentMonth(calYear, calMonth, -1);
+    var nextM = adjacentMonth(calYear, calMonth, 1);
+    if (prev) prev.disabled = !monthInRange(prevM.y, prevM.m);
+    if (next) next.disabled = !monthInRange(nextM.y, nextM.m);
+  }
+
+  function showCalendar() {
+    view = "calendar";
+    var anchor = (current && dates.indexOf(current) >= 0) ? current : dates[0];
+    if (anchor) {
+      var mo = monthOf(anchor);
+      calYear = mo.y;
+      calMonth = mo.m;
+    }
+    if ($("day")) $("day").hidden = true;
+    if ($("calendarPanel")) $("calendarPanel").hidden = false;
+    setStatus("");
+    renderCalendar();
+    updateMenuState();
   }
 
   function show(date) {
     if (!DATE_RE.test(date) || dates.indexOf(date) < 0) date = dates[0];
+    if (!date) { setStatus("暫時未有內容 No entries yet."); return; }
     current = date;
-    updateNavState();
-    setStatus("載入中… Loading…");
+    view = "day";
+    if ($("calendarPanel")) $("calendarPanel").hidden = true;
+    updateMenuState();
+    setStatus(cache[date] ? "" : "載入中… Loading…");
     var p = cache[date] ? Promise.resolve(cache[date]) : fetchJson("data/" + date + ".json");
     p.then(function (day) {
-      if (current !== date) return;
+      if (current !== date || view !== "day") return;
       cache[date] = day;
       safely("title", function () {
         var title = $("dayTitle");
@@ -318,7 +461,7 @@
       if ($("day")) $("day").hidden = false;
       setStatus("");
     }).catch(function (err) {
-      if (current !== date) return;
+      if (current !== date || view !== "day") return;
       if ($("day")) $("day").hidden = true;
       setStatus("載入失敗 Failed to load " + date + ": " + err.message, true);
     });
@@ -331,12 +474,11 @@
 
   function fromHash() {
     var h = decodeURIComponent(window.location.hash.replace(/^#/, ""));
+    if (h === MORE_HASH) { showCalendar(); return; }
+    if (!h && dates[0] && window.history && window.history.replaceState) {
+      window.history.replaceState(null, "", "#" + dates[0]);
+    }
     show(h);
-  }
-
-  function go(date) {
-    if (window.location.hash === "#" + date) show(date);
-    else window.location.hash = date;
   }
 
   function init() {
@@ -352,14 +494,11 @@
       } else if (t.closest("#answerBtn")) {
         var ans = $("answer");
         setAnswer(ans ? ans.hidden : true);
-      } else if (t.closest("#prevBtn")) {
-        var i = dates.indexOf(current); if (i >= 0 && i < dates.length - 1) go(dates[i + 1]);
-      } else if (t.closest("#nextBtn")) {
-        var j = dates.indexOf(current); if (j > 0) go(dates[j - 1]);
+      } else if (t.closest("#calPrev")) {
+        shiftMonth(-1);
+      } else if (t.closest("#calNext")) {
+        shiftMonth(1);
       }
-    });
-    document.addEventListener("change", function (e) {
-      if (e.target && e.target.id === "dateSelect") go(e.target.value);
     });
     window.addEventListener("hashchange", fromHash);
 
@@ -368,7 +507,7 @@
       dates = (Array.isArray(idx) ? idx : []).filter(function (d) { return typeof d === "string" && DATE_RE.test(d); });
       dates = dates.filter(function (d, i) { return dates.indexOf(d) === i; }).sort().reverse();
       if (!dates.length) { setStatus("暫時未有內容 No entries yet."); return; }
-      renderNav();
+      renderMenu();
       fromHash();
     }).catch(function (err) {
       setStatus("載入失敗 Failed to load index: " + err.message, true);
