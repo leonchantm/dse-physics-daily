@@ -22,7 +22,7 @@
   var topicBuckets = {};
   /* Question of the Day topics. A question uses question.topic when that
    * names one of these. Otherwise the first of these labels in the topic
-   * string of news[based_on] wins (原子世界 / 天文學 are skipped). */
+   * string of news[based_on] wins (天文學 is skipped). */
   var TOPICS = [
     { id: "heat", en: "Heat and Gases", zh: "熱和氣體",
       keys: ["熱和氣體", "熱力學", "比熱容", "理想氣體", "specific heat", "ideal gas"] },
@@ -33,7 +33,9 @@
     { id: "electricity", en: "Electricity and Magnetism", zh: "電和磁",
       keys: ["電和磁", "家居用電", "電路", "磁場", "電動勢", "magnetic field", "electric field", "electricity"] },
     { id: "radioactivity", en: "Radioactivity", zh: "放射現象和核能",
-      keys: ["放射現象和核能", "放射現象", "放射性", "核能", "核聚變", "核裂變", "核電站", "核反應", "radioactivity", "nuclear", "fusion", "fission"] }
+      keys: ["放射現象和核能", "放射現象", "放射性", "核能", "核聚變", "核裂變", "核電站", "核反應", "radioactivity", "nuclear", "fusion", "fission"] },
+    { id: "atomic", en: "Atomic Physics", zh: "原子世界",
+      keys: ["原子世界", "原子物理", "原子光譜", "線光譜", "能隙", "能級", "能階", "能帶", "價帶", "導帶", "光電效應", "逸出功", "玻爾模型", "波爾模型", "band gap", "band-gap", "energy level", "energy levels", "photoelectric", "work function", "bohr", "atomic spectra", "atomic spectrum", "line spectrum", "conduction band", "valence band"] }
   ];
   var TOPIC_BY_ID = {};
   TOPICS.forEach(function (t) { TOPIC_BY_ID[t.id] = t; });
@@ -43,6 +45,7 @@
     "waves": "waves", "waves and optics": "waves", "波動": "waves", "光學": "waves",
     "electricity": "electricity", "electricity and magnetism": "electricity", "電和磁": "electricity",
     "radioactivity": "radioactivity", "放射現象和核能": "radioactivity", "放射性": "radioactivity",
+    "atomic": "atomic", "atomic physics": "atomic", "atomic world": "atomic", "原子世界": "atomic", "原子物理": "atomic",
     "other": "other", "其他": "other"
   };
 
@@ -407,7 +410,7 @@
   }
 
   function buildTopicIndex() {
-    topicBuckets = { heat: [], mechanics: [], waves: [], electricity: [], radioactivity: [], other: [] };
+    topicBuckets = { heat: [], mechanics: [], waves: [], electricity: [], radioactivity: [], atomic: [], other: [] };
     dates.forEach(function (d) {
       var day = cache[d];
       if (!day) return;

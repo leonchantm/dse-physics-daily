@@ -17,7 +17,7 @@ The day JSON must look like:
   ],
     "question": {
     "based_on": 2,                               (optional, 1-based news index)
-    "topic": "waves",                            (optional; one of the five QoD topics)
+    "topic": "waves",                            (optional; one of the six QoD topics)
     "story": "...", "question_en": "...", "question_zh": "...",
     "answer_en": "...", "answer_zh": "..."
   }
@@ -92,6 +92,7 @@ TOPIC_ALIASES = {
     "waves", "waves and optics", "波動", "光學",
     "electricity", "electricity and magnetism", "電和磁",
     "radioactivity", "放射現象和核能", "放射性",
+    "atomic", "atomic physics", "atomic world", "原子世界", "原子物理",
 }
 
 
@@ -105,8 +106,8 @@ def _optional_topic(q):
     if key not in TOPIC_ALIASES and key.lower() not in TOPIC_ALIASES:
         raise ValidationError(
             "question: 'topic' must name one of Heat and Gases, Mechanics, "
-            "Waves and Optics, Electricity and Magnetism, Radioactivity "
-            "(slugs: heat, mechanics, waves, electricity, radioactivity)"
+            "Waves and Optics, Electricity and Magnetism, Radioactivity, Atomic Physics "
+            "(slugs: heat, mechanics, waves, electricity, radioactivity, atomic)"
         )
 
 
