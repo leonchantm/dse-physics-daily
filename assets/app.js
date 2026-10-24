@@ -17,6 +17,34 @@
   var calMonth = 0;
   var RECENT_LIMIT = 7;
   var MORE_HASH = "more";
+  var currentTopic = null;
+  var topicsReady = false;
+  var topicBuckets = {};
+  /* Question of the Day topics. A question uses question.topic when that
+   * names one of these. Otherwise the first of these labels in the topic
+   * string of news[based_on] wins (原子世界 / 天文學 are skipped). */
+  var TOPICS = [
+    { id: "heat", en: "Heat and Gases", zh: "熱和氣體",
+      keys: ["熱和氣體", "熱力學", "比熱容", "理想氣體", "specific heat", "ideal gas"] },
+    { id: "mechanics", en: "Mechanics", zh: "力和運動",
+      keys: ["力和運動", "力學", "萬有引力", "circular motion", "momentum"] },
+    { id: "waves", en: "Waves and Optics", zh: "波動",
+      keys: ["波動", "光學", "電磁波", "折射", "干涉", "衍射", "electromagnetic", "wavelength", "refraction", "interference", "diffraction"] },
+    { id: "electricity", en: "Electricity and Magnetism", zh: "電和磁",
+      keys: ["電和磁", "家居用電", "電路", "磁場", "電動勢", "magnetic field", "electric field", "electricity"] },
+    { id: "radioactivity", en: "Radioactivity", zh: "放射現象和核能",
+      keys: ["放射現象和核能", "放射現象", "放射性", "核能", "核聚變", "核裂變", "核電站", "核反應", "radioactivity", "nuclear", "fusion", "fission"] }
+  ];
+  var TOPIC_BY_ID = {};
+  TOPICS.forEach(function (t) { TOPIC_BY_ID[t.id] = t; });
+  var TOPIC_ALIASES = {
+    "heat": "heat", "heat and gases": "heat", "熱和氣體": "heat",
+    "mechanics": "mechanics", "力和運動": "mechanics", "力學": "mechanics",
+    "waves": "waves", "waves and optics": "waves", "波動": "waves", "光學": "waves",
+    "electricity": "electricity", "electricity and magnetism": "electricity", "電和磁": "electricity",
+    "radioactivity": "radioactivity", "放射現象和核能": "radioactivity", "放射性": "radioactivity",
+    "other": "other", "其他": "other"
+  };
 
   function $(id) { return document.getElementById(id); }
 
@@ -324,6 +352,186 @@
     return n.getFullYear() + "-" + pad2(n.getMonth() + 1) + "-" + pad2(n.getDate());
   }
 
+  function aliasId(text) {
+    var t = str(text).trim();
+    if (!t) return null;
+    if (TOPIC_ALIASES[t]) return TOPIC_ALIASES[t];
+    var lower = t.toLowerCase();
+    return TOPIC_ALIASES[lower] || null;
+  }
+
+  function matchTopic(text) {
+    var low = str(text).toLowerCase();
+    var best = null;
+    TOPICS.forEach(function (topic) {
+      topic.keys.forEach(function (key) {
+        var i = low.indexOf(String(key).toLowerCase());
+        if (i < 0) return;
+        if (!best || i < best.index || (i === best.index && key.length > best.len)) {
+          best = { id: topic.id, index: i, len: key.length };
+        }
+      });
+    });
+    return best ? best.id : null;
+  }
+
+  function classifyDay(day) {
+    day = day || {};
+    var q = day.question || {};
+    var explicit = aliasId(q.topic);
+    if (explicit && explicit !== "other") return explicit;
+    var news = Array.isArray(day.news) ? day.news : [];
+    var primary = "";
+    if (typeof q.based_on === "number" && news[q.based_on - 1] && news[q.based_on - 1].topic) {
+      primary = str(news[q.based_on - 1].topic);
+    }
+    var hit = primary ? matchTopic(primary) : null;
+    if (hit) return hit;
+    var rest = news.map(function (n) { return n && n.topic ? str(n.topic) : ""; }).join("\n");
+    rest += "\n" + [q.story, q.question_en, q.question_zh].map(str).join("\n");
+    return matchTopic(rest) || "other";
+  }
+
+  function previewText(day) {
+    var q = (day && day.question) || {};
+    var story = str(q.story).trim();
+    if (story) return story;
+    var news = Array.isArray(day.news) ? day.news : [];
+    if (typeof q.based_on === "number" && news[q.based_on - 1]) {
+      var title = str(news[q.based_on - 1].title).trim();
+      if (title) return title;
+    }
+    var raw = str(q.question_en || q.question_zh);
+    var lines = raw.split("\n").map(function (s) { return s.trim(); }).filter(Boolean);
+    return lines.length ? lines[0].replace(/\$+/g, "").trim() : "";
+  }
+
+  function buildTopicIndex() {
+    topicBuckets = { heat: [], mechanics: [], waves: [], electricity: [], radioactivity: [], other: [] };
+    dates.forEach(function (d) {
+      var day = cache[d];
+      if (!day) return;
+      var id = classifyDay(day);
+      if (!topicBuckets[id]) topicBuckets[id] = [];
+      topicBuckets[id].push({ date: d, preview: previewText(day) });
+    });
+  }
+
+  function topicInfo(id) {
+    if (TOPIC_BY_ID[id]) return TOPIC_BY_ID[id];
+    if (id === "other") return { id: "other", en: "Other", zh: "其他" };
+    return null;
+  }
+
+  function topicIdFromHash(h) {
+    var m = /^qotd\/([A-Za-z0-9-]+)$/.exec(h);
+    if (!m) return "";
+    var slug = m[1].toLowerCase();
+    if (topicInfo(slug)) return slug;
+    var alias = aliasId(m[1]);
+    return alias && topicInfo(alias) ? alias : "";
+  }
+
+  function renderQotdMenu() {
+    var list = $("qotdMenu");
+    if (!list) return;
+    list.replaceChildren();
+    var items = TOPICS.slice();
+    if (topicsReady && topicBuckets.other && topicBuckets.other.length) {
+      items.push(topicInfo("other"));
+    }
+    items.forEach(function (topic) {
+      var count = topicsReady && topicBuckets[topic.id] ? topicBuckets[topic.id].length : null;
+      var sub = topic.zh + (count == null ? "" : " · " + count);
+      list.appendChild(el("li", null, [
+        el("a", { attrs: { href: "#qotd/" + topic.id } }, [
+          el("span", { className: "menu-date", text: topic.en }),
+          el("span", { className: "menu-sub", text: sub })
+        ])
+      ]));
+    });
+  }
+
+  function renderTopicList() {
+    var topic = topicInfo(currentTopic);
+    var heading = $("topicHeading");
+    var intro = $("topicIntro");
+    var list = $("topicList");
+    if (!topic) {
+      if (heading) heading.textContent = "Question of the Day";
+      if (list) list.replaceChildren();
+      setStatus("未有呢個課題。Unknown topic.", true);
+      return;
+    }
+    if (heading) {
+      heading.replaceChildren(document.createTextNode(topic.en + " "), el("small", { text: topic.zh }));
+    }
+    if (intro) {
+      intro.textContent = "按每日一題所根據新聞嘅主要課題分類。Grouped by the question’s main DSE topic.";
+    }
+    if (!list) return;
+    list.replaceChildren();
+    var rows = topicBuckets[topic.id] || [];
+    if (!rows.length) {
+      list.appendChild(el("li", { className: "topic-empty", text: "呢個課題暫時未有題目。No questions in this topic yet." }));
+      return;
+    }
+    rows.forEach(function (row) {
+      list.appendChild(el("li", null, [
+        el("a", { attrs: { href: "#" + row.date } }, [
+          el("span", { className: "topic-item-date", text: formatDate(row.date) }),
+          el("span", { className: "topic-item-preview", text: row.preview || "每日一題" })
+        ])
+      ]));
+    });
+    setStatus("");
+  }
+
+  function showTopic(id) {
+    currentTopic = id;
+    view = "topic";
+    if ($("day")) $("day").hidden = true;
+    if ($("calendarPanel")) $("calendarPanel").hidden = true;
+    if ($("topicPanel")) $("topicPanel").hidden = false;
+    updateMenuState();
+    var topic = topicInfo(id);
+    if (!topic) {
+      var heading = $("topicHeading");
+      if (heading) heading.textContent = "Question of the Day";
+      if ($("topicList")) $("topicList").replaceChildren();
+      setStatus("未有呢個課題。Unknown topic.", true);
+      return;
+    }
+    if (!topicsReady) {
+      var loadingHeading = $("topicHeading");
+      if (loadingHeading) {
+        loadingHeading.replaceChildren(document.createTextNode(topic.en + " "), el("small", { text: topic.zh }));
+      }
+      if ($("topicList")) $("topicList").replaceChildren();
+      setStatus("載入中… Loading…");
+      return;
+    }
+    renderTopicList();
+  }
+
+  function loadTopics() {
+    return Promise.all(dates.map(function (d) {
+      if (cache[d]) return Promise.resolve(cache[d]);
+      return fetchJson("data/" + d + ".json").then(function (day) {
+        cache[d] = day;
+        return day;
+      }).catch(function () { return null; });
+    })).then(function () {
+      buildTopicIndex();
+      topicsReady = true;
+      renderQotdMenu();
+      updateMenuState();
+      if (view === "topic") showTopic(currentTopic);
+    }).catch(function (err) {
+      if (view === "topic") setStatus("載入失敗 Failed to load questions: " + err.message, true);
+    });
+  }
+
   function renderMenu() {
     var list = $("dayMenu");
     if (!list) return;
@@ -349,11 +557,13 @@
   }
 
   function updateMenuState() {
-    var list = $("dayMenu");
-    if (!list) return;
-    Array.prototype.forEach.call(list.querySelectorAll("a"), function (a) {
+    var nodes = document.querySelectorAll("#dayMenu a, #qotdMenu a");
+    Array.prototype.forEach.call(nodes, function (a) {
       var href = a.getAttribute("href") || "";
-      var active = view === "calendar" ? href === "#" + MORE_HASH : href === "#" + current;
+      var active = false;
+      if (view === "calendar") active = href === "#" + MORE_HASH;
+      else if (view === "topic") active = href === "#qotd/" + currentTopic;
+      else active = href === "#" + current;
       if (active) {
         a.setAttribute("aria-current", "page");
         if (a.scrollIntoView) a.scrollIntoView({ block: "nearest", inline: "nearest" });
@@ -433,17 +643,20 @@
     }
     if ($("day")) $("day").hidden = true;
     if ($("calendarPanel")) $("calendarPanel").hidden = false;
+    if ($("topicPanel")) $("topicPanel").hidden = true;
     setStatus("");
     renderCalendar();
     updateMenuState();
   }
 
   function show(date) {
+    var fromTopic = view === "topic";
     if (!DATE_RE.test(date) || dates.indexOf(date) < 0) date = dates[0];
     if (!date) { setStatus("暫時未有內容 No entries yet."); return; }
     current = date;
     view = "day";
     if ($("calendarPanel")) $("calendarPanel").hidden = true;
+    if ($("topicPanel")) $("topicPanel").hidden = true;
     updateMenuState();
     setStatus(cache[date] ? "" : "載入中… Loading…");
     var p = cache[date] ? Promise.resolve(cache[date]) : fetchJson("data/" + date + ".json");
@@ -460,6 +673,9 @@
       safely("question", function () { renderQuestion(day.question, day.news); });
       if ($("day")) $("day").hidden = false;
       setStatus("");
+      if (fromTopic && $("questionCard") && !$("questionCard").hidden && $("questionCard").scrollIntoView) {
+        $("questionCard").scrollIntoView({ block: "start" });
+      }
     }).catch(function (err) {
       if (current !== date || view !== "day") return;
       if ($("day")) $("day").hidden = true;
@@ -475,6 +691,7 @@
   function fromHash() {
     var h = decodeURIComponent(window.location.hash.replace(/^#/, ""));
     if (h === MORE_HASH) { showCalendar(); return; }
+    if (h.indexOf("qotd/") === 0) { showTopic(topicIdFromHash(h)); return; }
     if (!h && dates[0] && window.history && window.history.replaceState) {
       window.history.replaceState(null, "", "#" + dates[0]);
     }
@@ -508,7 +725,9 @@
       dates = dates.filter(function (d, i) { return dates.indexOf(d) === i; }).sort().reverse();
       if (!dates.length) { setStatus("暫時未有內容 No entries yet."); return; }
       renderMenu();
+      renderQotdMenu();
       fromHash();
+      loadTopics();
     }).catch(function (err) {
       setStatus("載入失敗 Failed to load index: " + err.message, true);
     });

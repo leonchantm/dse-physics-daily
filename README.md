@@ -24,6 +24,10 @@ Deep links: `https://leonchantm.github.io/dse-physics-daily/#2026-10-03`
 
 The sidebar lists the seven newest published days. **更多新聞** opens a month calendar (`#more`); days without a published file stay disabled. Choosing a date from the sidebar or the calendar shows that day's news and question and updates the hash.
 
+**Question of the Day** groups every day's question under Heat and Gases, Mechanics, Waves and Optics, Electricity and Magnetism, and Radioactivity (`#qotd/heat`, `#qotd/mechanics`, `#qotd/waves`, `#qotd/electricity`, `#qotd/radioactivity`). A list item opens that day's usual news-and-question view.
+
+Classification: optional `question.topic` wins when it names one of those five. Otherwise the page uses the `topic` of the news item `question.based_on` points at, and takes the first of the five syllabus labels in that string. Labels outside the five (such as 原子世界 or 天文學) are skipped. If the based-on tag has none of the five, the other news tags and the question text are checked. Anything still unmatched is listed under 其他 (`#qotd/other`). Old day files omit `question.topic` and are classified from their news tags.
+
 ## Day file format
 
 ```json
@@ -51,7 +55,7 @@ The sidebar lists the seven newest published days. **更多新聞** opens a mont
 }
 ```
 
-`source_date`, `links` and `based_on` are optional. `question_en`, `question_zh`, `answer_en` and
+`source_date`, `links`, `based_on` and `question.topic` are optional. `question.topic`, when set, is one of `heat`, `mechanics`, `waves`, `electricity`, `radioactivity` (or the English or Chinese topic name). `question_en`, `question_zh`, `answer_en` and
 `answer_zh` are all required (the old single `answer` field is rejected by `add_day.py`; the page
 still displays it for both languages if an old file has it).
 
