@@ -26,7 +26,7 @@ The sidebar lists the seven newest published days. **更多新聞** opens a mont
 
 **Question of the Day** groups every day's question under Heat and Gases, Mechanics, Waves and Optics, Electricity and Magnetism, Radioactivity, and Atomic Physics (`#qotd/heat`, `#qotd/mechanics`, `#qotd/waves`, `#qotd/electricity`, `#qotd/radioactivity`, `#qotd/atomic`). A list item opens that day's usual news-and-question view.
 
-Classification: optional `question.topic` wins when it names one of those six. Otherwise the page uses the `topic` of the news item `question.based_on` points at, and takes the first of the six syllabus labels in that string. Labels outside the six (such as 天文學) are skipped. If the based-on tag has none of the six, the other news tags and the question text are checked. Anything still unmatched is listed under 其他 (`#qotd/other`). Old day files omit `question.topic` and are classified from their news tags.
+Classification: optional `question.topic` wins when it names one of those six. Otherwise a mention of photon / photons / 光子 in the question, its story, or the based-on news topic or title selects Atomic Physics, ahead of an earlier 波動 or 電和磁 label. The word photonics (a journal or a photonic chip) does not count, and other news items on the same day are not scanned for it. If there is no photon mention, the page uses the `topic` of the news item `question.based_on` points at, and takes the first of the six syllabus labels in that string. Labels outside the six (such as 天文學) are skipped. If the based-on tag has none of the six, the other news tags and the question text are checked. Anything still unmatched is listed under 其他 (`#qotd/other`). Old day files omit `question.topic` and are classified from their news tags.
 
 ## Day file format
 
