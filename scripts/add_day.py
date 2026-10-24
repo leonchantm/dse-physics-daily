@@ -15,8 +15,9 @@ The day JSON must look like:
      "source_date": "2/10",                     (optional)
      "links": [{"label": "...", "url": "https://..."}]   (optional)}
   ],
-  "question": {
+    "question": {
     "based_on": 2,                               (optional, 1-based news index)
+    "topic": "waves",                            (optional; one of the five QoD topics)
     "story": "...", "question_en": "...", "question_zh": "...",
     "answer_en": "...", "answer_zh": "..."
   }
@@ -83,6 +84,30 @@ def _url(obj, key, where, required=True):
 
 
 CJK_RE = re.compile(r"[\u3000-\u303f\u4e00-\u9fff\uff00-\uffef]")
+
+# Optional question.topic. The page also infers a topic when this is omitted.
+TOPIC_ALIASES = {
+    "heat", "heat and gases", "熱和氣體",
+    "mechanics", "力和運動", "力學",
+    "waves", "waves and optics", "波動", "光學",
+    "electricity", "electricity and magnetism", "電和磁",
+    "radioactivity", "放射現象和核能", "放射性",
+}
+
+
+def _optional_topic(q):
+    if "topic" not in q or q.get("topic") is None:
+        return
+    v = q.get("topic")
+    if not isinstance(v, str) or not v.strip():
+        raise ValidationError("question: optional 'topic' must be a non-empty string")
+    key = v.strip()
+    if key not in TOPIC_ALIASES and key.lower() not in TOPIC_ALIASES:
+        raise ValidationError(
+            "question: 'topic' must name one of Heat and Gases, Mechanics, "
+            "Waves and Optics, Electricity and Magnetism, Radioactivity "
+            "(slugs: heat, mechanics, waves, electricity, radioactivity)"
+        )
 
 
 def check_math(text, where, warnings):
@@ -154,6 +179,7 @@ def validate_day(day, warnings=None):
     if b is not None:
         if not isinstance(b, int) or isinstance(b, bool) or not (1 <= b <= len(news)):
             raise ValidationError(f"question: 'based_on' must be an integer 1..{len(news)}")
+    _optional_topic(q)
     return date
 
 
