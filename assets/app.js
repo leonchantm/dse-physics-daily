@@ -21,8 +21,11 @@
   var topicsReady = false;
   var topicBuckets = {};
   /* Question of the Day topics. A question uses question.topic when that
-   * names one of these. Otherwise the first of these labels in the topic
-   * string of news[based_on] wins (原子世界 / 天文學 are skipped). */
+   * names one of these. Otherwise a photon / photons / 光子 mention in the
+   * question, its story, or the based-on news topic or title is Atomic
+   * Physics (photonics, as in a journal or a photonic chip, does not count).
+   * Else the first of these labels in the topic string of news[based_on]
+   * wins (天文學 is skipped). */
   var TOPICS = [
     { id: "heat", en: "Heat and Gases", zh: "熱和氣體",
       keys: ["熱和氣體", "熱力學", "比熱容", "理想氣體", "specific heat", "ideal gas"] },
@@ -33,7 +36,9 @@
     { id: "electricity", en: "Electricity and Magnetism", zh: "電和磁",
       keys: ["電和磁", "家居用電", "電路", "磁場", "電動勢", "magnetic field", "electric field", "electricity"] },
     { id: "radioactivity", en: "Radioactivity", zh: "放射現象和核能",
-      keys: ["放射現象和核能", "放射現象", "放射性", "核能", "核聚變", "核裂變", "核電站", "核反應", "radioactivity", "nuclear", "fusion", "fission"] }
+      keys: ["放射現象和核能", "放射現象", "放射性", "核能", "核聚變", "核裂變", "核電站", "核反應", "radioactivity", "nuclear", "fusion", "fission"] },
+    { id: "atomic", en: "Atomic Physics", zh: "原子世界",
+      keys: ["原子世界", "原子物理", "原子光譜", "線光譜", "能隙", "能級", "能階", "能帶", "價帶", "導帶", "光電效應", "逸出功", "光子", "玻爾模型", "波爾模型", "band gap", "band-gap", "energy level", "energy levels", "photoelectric", "work function", "photon", "photons", "bohr", "atomic spectra", "atomic spectrum", "line spectrum", "conduction band", "valence band"] }
   ];
   var TOPIC_BY_ID = {};
   TOPICS.forEach(function (t) { TOPIC_BY_ID[t.id] = t; });
@@ -43,6 +48,7 @@
     "waves": "waves", "waves and optics": "waves", "波動": "waves", "光學": "waves",
     "electricity": "electricity", "electricity and magnetism": "electricity", "電和磁": "electricity",
     "radioactivity": "radioactivity", "放射現象和核能": "radioactivity", "放射性": "radioactivity",
+    "atomic": "atomic", "atomic physics": "atomic", "atomic world": "atomic", "原子世界": "atomic", "原子物理": "atomic",
     "other": "other", "其他": "other"
   };
 
@@ -360,12 +366,30 @@
     return TOPIC_ALIASES[lower] || null;
   }
 
+  /* Whole word only, so "photonics" is not a photon. */
+  var PHOTON_RE = /(^|[^a-z])photons?(?![a-z])/i;
+  function mentionsPhoton(text) {
+    var s = str(text);
+    return s.indexOf("光子") >= 0 || PHOTON_RE.test(s);
+  }
+
+  function indexOfKey(low, key) {
+    var k = String(key).toLowerCase();
+    /* "photon" is a prefix of "photonics"; only a whole word counts. */
+    if (k === "photon" || k === "photons") {
+      var re = new RegExp("(^|[^a-z])" + k + "(?![a-z])", "i");
+      var m = re.exec(low);
+      return m ? m.index + m[1].length : -1;
+    }
+    return low.indexOf(k);
+  }
+
   function matchTopic(text) {
     var low = str(text).toLowerCase();
     var best = null;
     TOPICS.forEach(function (topic) {
       topic.keys.forEach(function (key) {
-        var i = low.indexOf(String(key).toLowerCase());
+        var i = indexOfKey(low, key);
         if (i < 0) return;
         if (!best || i < best.index || (i === best.index && key.length > best.len)) {
           best = { id: topic.id, index: i, len: key.length };
@@ -381,10 +405,10 @@
     var explicit = aliasId(q.topic);
     if (explicit && explicit !== "other") return explicit;
     var news = Array.isArray(day.news) ? day.news : [];
-    var primary = "";
-    if (typeof q.based_on === "number" && news[q.based_on - 1] && news[q.based_on - 1].topic) {
-      primary = str(news[q.based_on - 1].topic);
-    }
+    var primaryItem = (typeof q.based_on === "number") ? news[q.based_on - 1] : null;
+    var primary = primaryItem && primaryItem.topic ? str(primaryItem.topic) : "";
+    var photonSource = [q.story, q.question_en, q.question_zh, primary, primaryItem && primaryItem.title].map(str).join("\n");
+    if (mentionsPhoton(photonSource)) return "atomic";
     var hit = primary ? matchTopic(primary) : null;
     if (hit) return hit;
     var rest = news.map(function (n) { return n && n.topic ? str(n.topic) : ""; }).join("\n");
@@ -407,7 +431,7 @@
   }
 
   function buildTopicIndex() {
-    topicBuckets = { heat: [], mechanics: [], waves: [], electricity: [], radioactivity: [], other: [] };
+    topicBuckets = { heat: [], mechanics: [], waves: [], electricity: [], radioactivity: [], atomic: [], other: [] };
     dates.forEach(function (d) {
       var day = cache[d];
       if (!day) return;
