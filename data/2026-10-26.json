@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-26",
+  "news": [
+    {
+      "title": "普通矽光柵揭開電子束發光隱藏「旋性」：Smith–Purcell 效應",
+      "summary": "新加坡科技設計大學（SUTD）同中國團隊喺 Nature Communications 報道，用普通矽週期光柵觀察電子束掠過時產生嘅 Smith–Purcell 輻射，發現呢種經典效應本身就帶有「手性／旋性」（chirality），只係以往量度對稱面令左右旋互相抵消。團隊用旋轉光柵或把電子束移向邊緣兩種方法打破對稱：扭轉 30° 時旋性指標達 0.726；光柵週期由 120 nm 縮至 100 nm 可達 0.87。發出嘅光大約可喺 450–900 nm 調節，有助設計更簡潔嘅手性自由電子光源。",
+      "topic": "波動（電磁波／光柵）、原子物理（電子同光）",
+      "source_name": "phys.org / Singapore University of Technology and Design / Nature Communications",
+      "source_url": "https://phys.org/news/2026-10-plain-silicon-reveals-hidden-electron.html",
+      "source_date": "23/10",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-78729-w"
+        }
+      ]
+    },
+    {
+      "title": "Sunrise-III 氣球望遠鏡：太陽「寧靜區」上空發現絲狀磁場網",
+      "summary": "日本國立天文台（NAOJ）領導嘅國際團隊用 2024 年升空、飛到約 35 km 平流層嘅 Sunrise-III 太陽觀測台，喺看似平靜嘅太陽表面上方色球層發現大量幼細、線狀磁場結構，嵌喺稱為「磁冠層」（magnetic canopy）嘅磁場網入面。電腦模擬顯示，表面物質運動會扭轉磁力線，造出呢啲絲狀結構；儀器 SCIP 亦量度到噴流（spicule）入面磁場隨高度變化。結果刊於 The Astrophysical Journal Letters，有助理解太陽大氣點樣被加熱。",
+      "topic": "電和磁（磁場）、天文學（太陽）",
+      "source_name": "ScienceDaily / National Institutes of Natural Sciences / NAOJ",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261023023723.htm",
+      "source_date": "24/10",
+      "links": [
+        {
+          "label": "The Astrophysical Journal Letters (DOI)",
+          "url": "https://doi.org/10.3847/2041-8213/ae909b"
+        }
+      ]
+    },
+    {
+      "title": "黑洞附近首次見到似太陽風暴嘅磁重聯爆發",
+      "summary": "以色列理工學院（Technion）團隊用 XRISM 同 XMM-Newton 太空望遠鏡監測星系 NGC 3783 超大質量黑洞附近嘅 X 射線，首次喺活動星系核日冕中發現類似太陽嘅磁重聯（magnetic reconnection）事件，以及類似日冕物質拋射（CME）嘅噴出。研究亦首次喺黑洞環境觀察到太陽上早喺 1968 年發現嘅「Neupert 效應」，顯示驅動太陽風暴嘅物理過程，同樣可以喺規模大過太陽逾百萬倍嘅黑洞附近發生。結果刊於 The Astrophysical Journal Letters。",
+      "topic": "電和磁（磁場能量）、天文學（黑洞／X 射線）",
+      "source_name": "phys.org / Technion / The Astrophysical Journal Letters",
+      "source_url": "https://phys.org/news/2026-10-black-hole-uncover-evidence-solar.html",
+      "source_date": "22/10",
+      "links": [
+        {
+          "label": "The Astrophysical Journal Letters (DOI)",
+          "url": "https://doi.org/10.3847/2041-8213/ae8f44"
+        }
+      ]
+    },
+    {
+      "title": "韋伯望遠鏡：遠古星系同時餵緊三個超大質量黑洞",
+      "summary": "馬克斯·普朗克地外物理研究所（MPE）領導團隊用詹姆斯·韋伯太空望遠鏡，喺紅移 z≈5.02、距離逾 125 億光年嘅星系 J0148-4214 發現三個同時吸積物質嘅超大質量黑洞——係遠古宇宙首次確證單一星系有三個活躍黑洞。其中兩個相距約 620 光年，預計數億年內合併；另一個約 5500 光年外。質量分別約 8000 萬、60 萬同 200 萬個太陽質量，較細嗰個吸積率甚至超過基本 Eddington 極限估計。研究指早期宇宙可能好有效率令黑洞靠近，為將來引力波探測器預期嘅大質量合併鋪路。",
+      "topic": "天文學（黑洞／星系）、波動（光譜／紅移概念）",
+      "source_name": "ScienceDaily / Max Planck Institute for Extraterrestrial Physics",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261024222000.htm",
+      "source_date": "25/10",
+      "links": [
+        {
+          "label": "Astronomy & Astrophysics (DOI)",
+          "url": "https://doi.org/10.1051/0004-6361/202557419"
+        }
+      ]
+    },
+    {
+      "title": "貝努小行星樣本：木星或影響咗 45 億年前材料混合",
+      "summary": "蘇黎世聯邦理工學院（ETH Zurich）分析 NASA OSIRIS-REx 由小行星貝努（Bennu）帶回嘅樣本同位素（鐵、鈦、鉻），發現貝努、龍宮（Ryugu）同罕見 CI 隕石化學指紋極相近，卻同其他已知小行星／行星差異大。團隊提出材料並非單純喺外太陽系形成，而係喺水冰線附近混合內外太陽系塵埃；早期迅速長大嘅木星或像屏障，令細塵可以過、粗粒難過，從而塑造貝努母體成分。貝努約 1.2 年繞日一圈，大約每 6 年靠近地球至約 30 萬公里。結果刊於 Science Advances。",
+      "topic": "天文學（太陽系／小行星）、力和運動（軌道概念）",
+      "source_name": "ScienceDaily / ETH Zurich / Science Advances",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
+      "source_date": "24/10",
+      "links": [
+        {
+          "label": "Science Advances (DOI)",
+          "url": "https://doi.org/10.1126/sciadv.aei9107"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "waves",
+    "story": "普通矽光柵揭開電子束發光隱藏「旋性」：Smith–Purcell 效應",
+    "question_en": "In a Smith–Purcell experiment, a beam of electrons skims past a silicon grating of period $d$. Radiation is detected at right angles to the beam direction. For this geometry, take the wavelength of the first-order radiation to be given by\n$$\\lambda = d\\,\\frac{c}{v}$$\nwhere $v$ is the speed of the electrons and $c$ is the speed of light in vacuum.\n\nTake $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$, $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$ and $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$.\n\n(a) The electron speed is $v = 0.300\\,c = 9.00 \\times 10^{7}\\ \\mathrm{m\\,s^{-1}}$ and $d = 1.20 \\times 10^{-7}\\ \\mathrm{m}$. Calculate $\\lambda$. (2 marks)\n\n(b) Calculate the frequency $f$ of one photon of this radiation. (2 marks)\nGiven:\n- $c = f\\lambda$\n\n(c) Calculate the energy $E$ of one photon in joules and in electron-volts. (3 marks)\nGiven:\n- $E = hf$\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n\n(d) The grating period is reduced to $d' = 1.00 \\times 10^{-7}\\ \\mathrm{m}$, with $v$ unchanged. Calculate the new wavelength $\\lambda'$. (2 marks)\n\n(e) Explain briefly why the colour (wavelength) of Smith–Purcell radiation depends on both the grating spacing and the electron speed. (2 marks)",
+    "question_zh": "喺一個 Smith–Purcell 實驗中，電子束掠過週期為 $d$ 嘅矽光柵。探測器喺垂直於電子束方向接收輻射。喺呢個幾何下，取一級輻射波長為\n$$\\lambda = d\\,\\frac{c}{v}$$\n其中 $v$ 係電子速率，$c$ 係真空光速。\n\n取 $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$，$c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$，$e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$。\n\n(a) 電子速率 $v = 0.300\\,c = 9.00 \\times 10^{7}\\ \\mathrm{m\\,s^{-1}}$，光柵週期 $d = 1.20 \\times 10^{-7}\\ \\mathrm{m}$。計算 $\\lambda$。（2 分）\n\n(b) 計算呢種輻射一粒光子嘅頻率 $f$。（2 分）\n已知：\n- $c = f\\lambda$\n\n(c) 計算一粒光子嘅能量 $E$，用焦耳同電子伏特表示。（3 分）\n已知：\n- $E = hf$\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n\n(d) 光柵週期減至 $d' = 1.00 \\times 10^{-7}\\ \\mathrm{m}$，$v$ 不變。計算新波長 $\\lambda'$。（2 分）\n\n(e) 簡述點解 Smith–Purcell 輻射嘅顏色（波長）同時取決於光柵間距同電子速率。（2 分）",
+    "answer_en": "(a)\n- $\\lambda = d\\,c/v = (1.20 \\times 10^{-7})/(0.300)$ (1M)\n- $\\lambda = 4.00 \\times 10^{-7}\\ \\mathrm{m}$ (1A)\n\n(b)\n- $f = c/\\lambda = (3.00 \\times 10^{8})/(4.00 \\times 10^{-7})$ (1M)\n- $f = 7.50 \\times 10^{14}\\ \\mathrm{Hz}$ (1A)\n\n(c)\n- $E = hf = (6.63 \\times 10^{-34})(7.50 \\times 10^{14})$ (1M)\n- $E = 4.97 \\times 10^{-19}\\ \\mathrm{J}$ (accept $4.9725 \\times 10^{-19}$) (1A)\n- $E = (4.97 \\times 10^{-19})/(1.60 \\times 10^{-19}) = 3.11\\ \\mathrm{eV}$ (1A)\n\n(d)\n- $\\lambda' = d'\\,c/v = (1.00 \\times 10^{-7})/(0.300)$ (1M)\n- $\\lambda' = 3.33 \\times 10^{-7}\\ \\mathrm{m}$ (1A)\n\n(e)\n- The grating period $d$ sets the spatial scale that converts the moving electron's field into light / enters the expression for $\\lambda$. (1)\n- Faster electrons (larger $v$) give a shorter wavelength for fixed $d$ (or: $\\lambda \\propto 1/v$), so colour also depends on electron speed. (1)",
+    "answer_zh": "(a)\n- $\\lambda = d\\,c/v = (1.20 \\times 10^{-7})/(0.300)$（1M）\n- $\\lambda = 4.00 \\times 10^{-7}\\ \\mathrm{m}$（1A）\n\n(b)\n- $f = c/\\lambda = (3.00 \\times 10^{8})/(4.00 \\times 10^{-7})$（1M）\n- $f = 7.50 \\times 10^{14}\\ \\mathrm{Hz}$（1A）\n\n(c)\n- $E = hf = (6.63 \\times 10^{-34})(7.50 \\times 10^{14})$（1M）\n- $E = 4.97 \\times 10^{-19}\\ \\mathrm{J}$（接受 $4.9725 \\times 10^{-19}$）（1A）\n- $E = (4.97 \\times 10^{-19})/(1.60 \\times 10^{-19}) = 3.11\\ \\mathrm{eV}$（1A）\n\n(d)\n- $\\lambda' = d'\\,c/v = (1.00 \\times 10^{-7})/(0.300)$（1M）\n- $\\lambda' = 3.33 \\times 10^{-7}\\ \\mathrm{m}$（1A）\n\n(e)\n- 光柵週期 $d$ 決定把電子運動場轉成光嘅空間尺度／出現喺 $\\lambda$ 公式入面。（1）\n- 電子愈快（$v$ 愈大），喺固定 $d$ 下波長愈短（或：$\\lambda \\propto 1/v$），所以顏色亦取決於電子速率。（1）"
+  }
+}
