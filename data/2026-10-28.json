@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-28",
+  "news": [
+    {
+      "title": "Jülich：超導量子閘僅需 6.8 納秒，準確度逾 99.98%",
+      "summary": "德國於利希研究中心聯同亞琛、科隆團隊喺 Nature Communications 報道，用精密塑形嘅微波脈衝，喺單一超導 transmon 量子位元上完成基本量子閘操作，每脈衝只需 6.8 納秒——大約等於光喺真空行約兩米嘅時間，遠短過一般超導量子電腦常用嘅數十納秒。兩種基本操作測得準確度分別為 99.981% 同 99.989%，意外跳去更高能級嘅機率每步低過 0.002%。新方法 R2D 喺傳統 DRAG 基礎上再壓低多光子躍遷，意外多光子躍遷機率比舊法再降超過 20 倍。目前只喺單一量子位元驗證，仲要測兩位元同更大處理器。",
+      "topic": "原子物理（能級／光子）、波動（微波）",
+      "source_name": "phys.org / Forschungszentrum Jülich / Nature Communications",
+      "source_url": "https://phys.org/news/2026-10-quantum-gates-nanoseconds-accuracy.html",
+      "source_date": "27/10",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-78373-4"
+        }
+      ]
+    },
+    {
+      "title": "DIII-D 首次證實螺旋波電流驅動：電波幫核聚變等離子體持續通電",
+      "summary": "General Atomics 嘅 Jeff Lestz 團隊喺 Physical Review Letters 報道，喺美國 DIII-D 托卡馬克首次清楚示範「螺旋波（helicon）電流驅動」。佢哋用兆瓦級梳狀天線（comb-line）向環形等離子體發射定向無線電波，波被核心電子吸收並推動電流，減少依賴中央螺線管變壓器感應。傳統螺線管要靠磁通擺幅，DIII-D 脈衝大約只得約 10 秒，ITER 額定亦會受磁通限制。實驗顯示螺旋波能量沉積喺等離子體核心，同用相近微波加熱比較，磁場結構變化明顯加快，係額外電流被驅動嘅特徵。結果有助未來聚變堆更接近連續運轉。",
+      "topic": "放射現象和核能、波動（無線電波）、電和磁",
+      "source_name": "phys.org / General Atomics / Physical Review Letters",
+      "source_url": "https://phys.org/news/2026-10-radio-fusion-plasma-current-reactors.html",
+      "source_date": "27/10",
+      "links": [
+        {
+          "label": "Physical Review Letters (DOI)",
+          "url": "https://doi.org/10.1103/mbn4-fd4v"
+        }
+      ]
+    },
+    {
+      "title": "OIST：電子自旋力推動宏觀鑽石位移，空氣中約 100 nm、真空約 1.5 μm",
+      "summary": "沖繩科學技術大學院大學 Jason Twamley 團隊喺 Science Advances 報道，淨係靠鑽石樣本入面氮–空位（NV）中心電子自旋產生嘅力，就可以推動宏觀物體。樣本約 128 毫克、厘米級，透過石墨板同碳棒做抗磁懸浮；綠光激光（約 50 mW）令 NV 自旋極化，產生微弱磁矩波動並推向磁場。用干涉儀追蹤，空氣中可控位移約 100 納米，真空中可達約 1.5 微米。結果顯示量子自旋力可以帶動宏觀位移，係邁向宏觀空間疊加同精密重力／量子邊界感測嘅一步；團隊亦指出低頻懸浮系統對振動噪音好敏感。",
+      "topic": "力和運動（力學）、原子物理、電和磁",
+      "source_name": "Physics World / OIST / Science Advances",
+      "source_url": "https://physicsworld.com/a/electron-spin-force-moves-a-macroscopic-object/",
+      "source_date": "27/10",
+      "links": []
+    },
+    {
+      "title": "光控分子煞車：熱驅動隨機轉動可慢 30 萬倍",
+      "summary": "布拉格有機化學與生物化學研究所（IOCB Prague）團隊喺 Angewandte Chemie 報道一種分子機器：光驅動馬達改變空間構型後，會形成立體障礙，令相連轉子嘅布朗隨機轉動大幅變慢。未煞車時轉子易轉；煞車後能量壁壘大增，轉動速率可慢約 30 萬倍，遠超以往同類系統最多約 100 倍嘅調控幅度。溫度再低差距更大：若未煞車狀態每秒轉一圈，同樣低溫下煞車後轉一圈大約要 3500 億年，約係宇宙年齡嘅 25 倍。研究展示分子層面除咗馬達，仲需要可調控嘅「煞車」元件，先至可以組更複雜嘅分子機械。",
+      "topic": "熱和氣體（熱運動）、波動（光）",
+      "source_name": "phys.org / IOCB Prague / Angewandte Chemie",
+      "source_url": "https://phys.org/news/2026-10-random-molecular-motion-slower.html",
+      "source_date": "27/10",
+      "links": [
+        {
+          "label": "Angewandte Chemie (DOI)",
+          "url": "https://doi.org/10.1002/anie.7061287"
+        }
+      ]
+    },
+    {
+      "title": "POSTECH：電壓切換雙焦金屬透鏡，光學顯微唔使移動鏡片",
+      "summary": "韓國浦項理工大學 Junsuk Rho 同 Chulhong Kim 團隊喺 Light: Science & Applications 報道，用雙焦金屬透鏡加液晶盒，靠電壓改變入射光圓偏振（左旋／右旋），喺約 0.25 秒內切換兩個焦距，全程唔使機械移動光學元件。系統做光聲顯微，兩個焦點橫向解像約 3.1 μm 同 3.7 μm，軸向成像範圍合共約 1.2 mm。喺小鼠角膜損傷模型中，淺焦模式清楚睇到角膜新生血管，深焦模式可選擇性分辨表面以下約 2.2 mm 近虹膜血管。技術有望用於眼科多深度血管評估，亦令成像系統更細更穩。",
+      "topic": "波動（光學／偏振）、電和磁",
+      "source_name": "phys.org / POSTECH / Light: Science & Applications",
+      "source_url": "https://phys.org/news/2026-10-metalens-microscope-focus-voltage-optics.html",
+      "source_date": "26/10",
+      "links": [
+        {
+          "label": "Light: Science & Applications (DOI)",
+          "url": "https://doi.org/10.1038/s41377-026-02365-8"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "atomic",
+    "story": "Jülich：超導量子閘僅需 6.8 納秒，準確度逾 99.98%",
+    "question_en": "In the Jülich superconducting-qubit experiment, elementary quantum gates are driven by short microwave pulses of duration\n$$\\Delta t = 6.80 \\times 10^{-9}\\ \\mathrm{s}$$\n\nTake a typical microwave control frequency to be\n$$f = 5.00 \\times 10^{9}\\ \\mathrm{Hz}$$\n\nTake $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$, $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$ and $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$.\n\n(a) Calculate the distance $d$ that light travels in vacuum during one such gate pulse. (2 marks)\nGiven:\n- $d = c\\,\\Delta t$\n\n(b) Calculate the wavelength $\\lambda$ of these microwave photons in vacuum. (2 marks)\nGiven:\n- $c = f\\lambda$\n\n(c) Calculate the energy $E$ of one microwave photon in joules. (2 marks)\nGiven:\n- $E = hf$\n\n(d) Express this photon energy in electron-volts. (2 marks)\nGiven:\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n\n(e) Explain briefly why a very short, strong microwave pulse can cause unwanted transitions to higher energy levels of the qubit, and why suppressing these transitions matters for accurate gates. (2 marks)",
+    "question_zh": "喺於利希超導量子位元實驗中，基本量子閘由短微波脈衝驅動，脈衝時長為\n$$\\Delta t = 6.80 \\times 10^{-9}\\ \\mathrm{s}$$\n\n取典型微波控制頻率為\n$$f = 5.00 \\times 10^{9}\\ \\mathrm{Hz}$$\n\n取 $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$，$h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$，$e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$。\n\n(a) 計算喺一次閘脈衝期間，光喺真空中行嘅距離 $d$。（2 分）\n已知：\n- $d = c\\,\\Delta t$\n\n(b) 計算呢啲微波光子喺真空中嘅波長 $\\lambda$。（2 分）\n已知：\n- $c = f\\lambda$\n\n(c) 計算一粒微波光子嘅能量 $E$（用焦耳）。（2 分）\n已知：\n- $E = hf$\n\n(d) 將呢個光子能量用電子伏特表示。（2 分）\n已知：\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n\n(e) 簡述點解好短、好強嘅微波脈衝會令量子位元意外跳去更高能級，以及點解抑制呢啲躍遷對準確閘操作好重要。（2 分）",
+    "answer_en": "(a)\n- $d = c\\,\\Delta t = (3.00 \\times 10^{8})(6.80 \\times 10^{-9})$ (1M)\n- $d = 2.04\\ \\mathrm{m}$ (1A)\n\n(b)\n- $\\lambda = c/f = (3.00 \\times 10^{8})/(5.00 \\times 10^{9})$ (1M)\n- $\\lambda = 6.00 \\times 10^{-2}\\ \\mathrm{m}$ (1A)\n\n(c)\n- $E = hf = (6.63 \\times 10^{-34})(5.00 \\times 10^{9})$ (1M)\n- $E = 3.32 \\times 10^{-24}\\ \\mathrm{J}$ (accept $3.315 \\times 10^{-24}$) (1A)\n\n(d)\n- $E = (3.32 \\times 10^{-24})/(1.60 \\times 10^{-19})$ (1M)\n- $E = 2.07 \\times 10^{-5}\\ \\mathrm{eV}$ (accept $2.071875 \\times 10^{-5}$) (1A)\n\n(e)\n- A short pulse must be strong; the strong microwave field can drive multiphoton / off-resonant transitions to higher qubit levels beyond the two computational states. (1)\n- Population leaking to higher levels spoils the intended gate and can persist into later operations / error correction, so fidelity falls unless those transitions are suppressed (e.g. by pulse shaping). (1)",
+    "answer_zh": "(a)\n- $d = c\\,\\Delta t = (3.00 \\times 10^{8})(6.80 \\times 10^{-9})$（1M）\n- $d = 2.04\\ \\mathrm{m}$（1A）\n\n(b)\n- $\\lambda = c/f = (3.00 \\times 10^{8})/(5.00 \\times 10^{9})$（1M）\n- $\\lambda = 6.00 \\times 10^{-2}\\ \\mathrm{m}$（1A）\n\n(c)\n- $E = hf = (6.63 \\times 10^{-34})(5.00 \\times 10^{9})$（1M）\n- $E = 3.32 \\times 10^{-24}\\ \\mathrm{J}$（接受 $3.315 \\times 10^{-24}$）（1A）\n\n(d)\n- $E = (3.32 \\times 10^{-24})/(1.60 \\times 10^{-19})$（1M）\n- $E = 2.07 \\times 10^{-5}\\ \\mathrm{eV}$（接受 $2.071875 \\times 10^{-5}$）（1A）\n\n(e)\n- 短脈衝要夠強；強微波場可以透過多光子／離共振過程把量子位元推去計算用兩個態以外嘅更高能級。（1）\n- 布居洩漏去更高能級會破壞預期閘操作，甚至影響之後步驟／錯誤校正，所以必須用脈衝塑形等方法抑制，保真度先至唔會跌。（1）"
+  }
+}
