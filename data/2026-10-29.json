@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-29",
+  "news": [
+    {
+      "title": "慢鏡電子相機：石墨烯中光驅動「朗道–齊納」躍遷機率可近 100%",
+      "summary": "雷根斯堡、馬爾堡同於利希團隊喺 Nature 報道，用超快激光配合光電子動量顯微鏡，拍到石墨烯入面電子被強光電場加速、喺能帶結構入面「跳過」禁帶嘅過程。呢類朗道–齊納–馬約拉納（Landau–Zener–Majorana）躍遷以前只係理論同間接證據；而家可以一次睇好多電子嘅能量同動量，捕捉邊啲電子喺價帶同導帶之間做量子躍遷。結果顯示喺強光場下，穿越禁帶嘅穿隧機率可以高達約 100%，關鍵係電子接近禁帶嘅速度，同穿過空間勢壘嘅一般穿隧唔同。樣本係於利希製備嘅原子級近乎完美「旋轉石墨烯」。方法有助用光直接操控電子，而唔單靠電壓。",
+      "topic": "原子物理（能帶／光子）、波動（光）",
+      "source_name": "phys.org / Forschungszentrum Jülich / Nature",
+      "source_url": "https://phys.org/news/2026-10-motion-electron-camera-reveals-driven.html",
+      "source_date": "28/10",
+      "links": [
+        {
+          "label": "Nature (DOI)",
+          "url": "https://doi.org/10.1038/s41586-026-11214-y"
+        }
+      ]
+    },
+    {
+      "title": "牛津：硫化鉍「偽直接」半導體，強吸光同時電荷消失慢約 75%",
+      "summary": "牛津大學 Laura Herz 團隊聯同武漢大學喺 Nature 報道，硫化鉍（bismuth sulfide）可以同時強吸光同令電子–電洞復合變慢，打破「吸光愈強、電荷消失愈快」嘅常見取捨。佢哋用飛秒激光激發薄膜，再以超快太赫茲光譜量度電荷壽命，溫度由室溫去到接近絕對零度。電子結構計算顯示：強吸光靠一條路徑，稍低能量仲有一條弱路徑做「暫存庫」，電荷多數時間喺庫入面，所以流失慢。室溫估計電荷消失速率比同樣強吸光嘅常規材料低約 75%。研究示範物理機制，仲未係成品太陽能電池，但可啟發篩選同設計更高效光伏材料。",
+      "topic": "原子物理（能級／光電）、波動（光／太赫茲）",
+      "source_name": "University of Oxford / Nature",
+      "source_url": "https://www.ox.ac.uk/news/2026-10-28-semiconductor-breakthrough-overcomes-major-challenge-in-capturing-solar-energy",
+      "source_date": "28/10",
+      "links": []
+    },
+    {
+      "title": "台夫特：意外用電波直接操控單一原子嘅核自旋",
+      "summary": "荷蘭台夫特理工大學 Sander Otte 團隊喺 Nature Communications 報道，用改裝掃描穿隧顯微鏡對單一原子同時送出針對電子自旋同核自旋嘅訊號，發現即使兩者大致唔糾纏，仍然可以直接翻轉原子核自旋——以前以為核自旋應該對顯微鏡電訊號唔敏感。團隊將雙重磁共振精煉到單一原子尺度；核自旋共振「音調」大約比電子自旋低一百至一千倍。核自旋同外界隔離較好，長遠或有助穩定儲存量子資訊；目前機制仍要再解釋。",
+      "topic": "原子物理、波動（無線電波）、放射／核性質",
+      "source_name": "phys.org / TU Delft / Nature Communications",
+      "source_url": "https://phys.org/news/2026-10-magnetic-core-atom.html",
+      "source_date": "28/10",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-78801-5"
+        }
+      ]
+    },
+    {
+      "title": "KIT：電子反衝驅動螺旋分子馬達，唔靠加熱再散熱",
+      "summary": "卡爾斯魯厄理工學院（KIT）團隊喺 Nature Chemistry 報道一種分子電馬達：電流流過螺旋分子時，電子反衝令可動部分朝特定方向轉動，好似水喉噴水時喉身後退。以往分子馬達多數靠激發分子再將能量散去環境；新機制用動量反衝，或更慳能量。實驗用掃描穿隧顯微鏡精準通電觀察。應用仍遠，但顯示分子可以做更細、更穩嘅電路功能，因為原子鍵比幾原子寬嘅導線喺室溫更穩定。",
+      "topic": "力和運動（動量／反衝）、電和磁",
+      "source_name": "KIT / Nature Chemistry",
+      "source_url": "https://www.kit.edu/kit/english/202610-molecular-electronics-electric-current-sets-a-single-molecule-rotating.php",
+      "source_date": "28/10",
+      "links": []
+    },
+    {
+      "title": "阿得雷德：同尺寸「裸環」令磁力計可定絕對零場，唔使犧牲靈敏度",
+      "summary": "阿得雷德大學 Giuseppe Tettamanzi 團隊喺 Physical Review Applied 報道，超導量子干涉裝置（SQUID）一向好識睇磁場微細變化，但難準確判斷磁場是否剛好為零。舊做法要用成百上千唔同大小嘅環，會拖低整體靈敏度。新設計保持環一樣大，但策略性加入冇約瑟夫森結嘅「裸環」，製造「合成面積分散」，令傳感器表現得似有好多唔同尺寸環，同時保留高靈敏條件。理論同低溫實驗吻合。長遠或惠及腦磁圖、射頻接收同弱電磁訊號感測；仍要再測先至商業化。",
+      "topic": "電和磁（磁場感測）",
+      "source_name": "phys.org / University of Adelaide / Physical Review Applied",
+      "source_url": "https://phys.org/news/2026-10-quantum-sensor-loop-magnetic-medicine.html",
+      "source_date": "27/10",
+      "links": [
+        {
+          "label": "Physical Review Applied (DOI)",
+          "url": "https://doi.org/10.1103/wc1k-wxtc"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "atomic",
+    "story": "慢鏡電子相機：石墨烯中光驅動「朗道–齊納」躍遷機率可近 100%",
+    "question_en": "In a light-driven graphene experiment, electrons are accelerated by the oscillating electric field of a laser pulse and can jump across a forbidden energy gap between bands.\n\nTake the vacuum wavelength of the laser light to be\n$$\\lambda = 8.00 \\times 10^{-7}\\ \\mathrm{m}$$\n\nTake a model forbidden gap of\n$$E_{\\mathrm{g}} = 0.80\\ \\mathrm{eV}$$\n\nand a peak electric field strength of the light of\n$$E = 5.00 \\times 10^{8}\\ \\mathrm{V\\,m^{-1}}$$\n\nTake $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$, $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$ and $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$.\n\n(a) Calculate the frequency $f$ of these photons. (2 marks)\nGiven:\n- $c = f\\lambda$\n\n(b) Calculate the energy of one such photon in joules. (2 marks)\nGiven:\n- $E_{\\mathrm{ph}} = hf$\n\n(c) Express this photon energy in electron-volts. (2 marks)\nGiven:\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n\n(d) Deduce whether a single photon of this energy can supply enough energy to excite an electron across the model gap $E_{\\mathrm{g}}$. (2 marks)\n\n(e) Calculate the magnitude of the electric force $F$ on one electron in the peak field $E$. (2 marks)\nGiven:\n- $F = eE$\n\n(f) Explain briefly why recording the energies and momenta of many electrons at once helps the team catch electrons that undergo a rare quantum jump between bands. (2 marks)",
+    "question_zh": "喺光驅動石墨烯實驗中，電子被激光脈衝嘅振盪電場加速，可以跳過能帶之間嘅禁帶。\n\n取激光喺真空中嘅波長為\n$$\\lambda = 8.00 \\times 10^{-7}\\ \\mathrm{m}$$\n\n取一個模型禁帶為\n$$E_{\\mathrm{g}} = 0.80\\ \\mathrm{eV}$$\n\n以及光場峰值電場強度為\n$$E = 5.00 \\times 10^{8}\\ \\mathrm{V\\,m^{-1}}$$\n\n取 $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$，$h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$，$e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$。\n\n(a) 計算呢啲光子嘅頻率 $f$。（2 分）\n已知：\n- $c = f\\lambda$\n\n(b) 計算一粒呢啲光子嘅能量（用焦耳）。（2 分）\n已知：\n- $E_{\\mathrm{ph}} = hf$\n\n(c) 將呢個光子能量用電子伏特表示。（2 分）\n已知：\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n\n(d) 判斷單一一粒呢個能量嘅光子，可唔可以提供足夠能量令電子越過模型禁帶 $E_{\\mathrm{g}}$。（2 分）\n\n(e) 計算喺峰值電場 $E$ 下一粒電子所受電力 $F$ 嘅大小。（2 分）\n已知：\n- $F = eE$\n\n(f) 簡述點解一次記錄好多電子嘅能量同動量，有助團隊捉到喺能帶之間做稀有量子躍遷嘅電子。（2 分）",
+    "answer_en": "(a)\n- $f = c/\\lambda = (3.00 \\times 10^{8})/(8.00 \\times 10^{-7})$ (1M)\n- $f = 3.75 \\times 10^{14}\\ \\mathrm{Hz}$ (1A)\n\n(b)\n- $E_{\\mathrm{ph}} = hf = (6.63 \\times 10^{-34})(3.75 \\times 10^{14})$ (1M)\n- $E_{\\mathrm{ph}} = 2.49 \\times 10^{-19}\\ \\mathrm{J}$ (accept $2.48625 \\times 10^{-19}$) (1A)\n\n(c)\n- $E_{\\mathrm{ph}} = (2.49 \\times 10^{-19})/(1.60 \\times 10^{-19})$ (1M)\n- $E_{\\mathrm{ph}} = 1.55\\ \\mathrm{eV}$ (accept $1.5539$ or $1.554$) (1A)\n\n(d)\n- Compare $1.55\\ \\mathrm{eV}$ with $E_{\\mathrm{g}} = 0.80\\ \\mathrm{eV}$. (1M)\n- Since $1.55\\ \\mathrm{eV} > 0.80\\ \\mathrm{eV}$, a single photon can supply enough energy to cross the gap. (1A)\n\n(e)\n- $F = eE = (1.60 \\times 10^{-19})(5.00 \\times 10^{8})$ (1M)\n- $F = 8.00 \\times 10^{-11}\\ \\mathrm{N}$ (1A)\n\n(f)\n- Only some electrons undergo the interband quantum jump at a given moment / the transition is rare among many carriers. (1)\n- Mapping many electrons' energy–momentum at once raises the chance of catching those that jump, instead of watching one electron at a time. (1)",
+    "answer_zh": "(a)\n- $f = c/\\lambda = (3.00 \\times 10^{8})/(8.00 \\times 10^{-7})$（1M）\n- $f = 3.75 \\times 10^{14}\\ \\mathrm{Hz}$（1A）\n\n(b)\n- $E_{\\mathrm{ph}} = hf = (6.63 \\times 10^{-34})(3.75 \\times 10^{14})$（1M）\n- $E_{\\mathrm{ph}} = 2.49 \\times 10^{-19}\\ \\mathrm{J}$（接受 $2.48625 \\times 10^{-19}$）（1A）\n\n(c)\n- $E_{\\mathrm{ph}} = (2.49 \\times 10^{-19})/(1.60 \\times 10^{-19})$（1M）\n- $E_{\\mathrm{ph}} = 1.55\\ \\mathrm{eV}$（接受 $1.5539$ 或 $1.554$）（1A）\n\n(d)\n- 比較 $1.55\\ \\mathrm{eV}$ 同 $E_{\\mathrm{g}} = 0.80\\ \\mathrm{eV}$。（1M）\n- 因為 $1.55\\ \\mathrm{eV} > 0.80\\ \\mathrm{eV}$，單一光子已夠能量越過禁帶。（1A）\n\n(e)\n- $F = eE = (1.60 \\times 10^{-19})(5.00 \\times 10^{8})$（1M）\n- $F = 8.00 \\times 10^{-11}\\ \\mathrm{N}$（1A）\n\n(f)\n- 喺某一刻只有部分電子會做能帶間量子躍遷／呢類躍遷相對稀有。（1）\n- 一次影到好多電子嘅能量–動量，先有機會捉到真正跳帶嘅嗰啲，而唔使逐粒睇。（1）"
+  }
+}
