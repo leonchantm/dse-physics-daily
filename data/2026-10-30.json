@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-30",
+  "news": [
+    {
+      "title": "首次估出太陽外層磁場嘅全球 3D 結構",
+      "summary": "美國國家大氣研究中心（NSF NCAR）、國家太陽觀測台同西南研究院團隊，用茂納羅亞太陽觀測站（MLSO）嘅 CoMP／UCoMP 日冕儀數據，加上 IQUD 反演方法，首次由已有觀測抽出日冕磁場嘅強度同三維方向，包括太陽可見邊緣以外嘅區域。以往只見得日冕結構，難量成個磁場；而家靠解讀日冕入面傳播嘅波同偏振光，重建「隱藏」嘅磁架構。結果刊於 The Astrophysical Journal Letters。初步地圖仍要再驗證，團隊已公開軟件同數據，期望將來變成例行產品，幫預測太陽磁爆發同極端太空天氣。",
+      "topic": "電和磁（磁場）、波動、天文學",
+      "source_name": "phys.org / NSF NCAR",
+      "source_url": "https://phys.org/news/2026-10-sun-outer-magnetic-field-3d.html",
+      "source_date": "28/10",
+      "links": [
+        {
+          "label": "ApJL (DOI)",
+          "url": "https://doi.org/10.3847/2041-8213/aead9e"
+        }
+      ]
+    },
+    {
+      "title": "NASA TRACERS：磁重聯主要係「位置喺郁」，唔單係隨時間變",
+      "summary": "NASA 雙星任務 TRACERS 公布首年初步結果：兩枚衛星前後飛過極區「磁漏斗」（polar cusp），量度太陽風同地球磁層邊界（磁層頂）嘅磁重聯。初步分析顯示，磁重聯主要係空間過程——重聯發生嘅位置喺移動，多過單純隨時間改變。磁重聯令磁場線斷開再接駁，可把帶電粒子加速射入高層大氣，係日地耦合同地磁暴嘅關鍵。任務已獲延長至 2027 年春，有助預測影響衛星、電網同通訊嘅太空天氣。結果刊於 Journal of Geophysical Research。",
+      "topic": "電和磁（磁場／磁重聯）、天文學",
+      "source_name": "NASA",
+      "source_url": "https://science.nasa.gov/blogs/tracers/2026/10/29/nasas-tracers-first-results-offers-peek-into-violent-magnetic-process/",
+      "source_date": "29/10",
+      "links": []
+    },
+    {
+      "title": "理論提出「引力重聯」：引力場結構亦可斷開再接駁",
+      "summary": "哥倫比亞大學 Luca Comisso 同智利 Adolfo Ibáñez 大學 Felipe Asenjo 喺 Physical Review D 提出，廣義相對論方程容許一種類似等離子體「磁重聯」嘅過程——引力場片（mathematical field sheets）喺理想「凍結」條件失效時可改變連通性，能量可由引力場轉移到物質。佢哋定義引力重聯率，並討論對能量–動量交換同引力螺旋度演化嘅影響。研究目前係理論；下一步希望睇黑洞合併等極端場合會唔會喺引力波留下可測訊號。",
+      "topic": "力和運動（引力）、天文學",
+      "source_name": "Columbia News / Physical Review D",
+      "source_url": "https://news.columbia.edu/news/can-gravitational-fields-break-and-reconnect-einsteins-equations-suggest-they-can",
+      "source_date": "28/10",
+      "links": [
+        {
+          "label": "Phys. Rev. D (DOI)",
+          "url": "https://doi.org/10.1103/lmqy-pf9k"
+        }
+      ]
+    },
+    {
+      "title": "原子磁性解釋：點解鐵三角催化劑見光造氨、鉻就唔得",
+      "summary": "維也納大學同 TU Wien 團隊研究金屬–有機框架（MOF）光催化造氨：框架節點三個金屬原子圍住氧形成三角形。換成鐵會喺光照下把氮轉成氨，換成鉻就幾乎唔反應。關鍵唔單係電子數目，而係自旋（磁性）耦合：鐵三角出現「磁挫敗」（三個自旋唔可以兩兩相反），令氮吸附強度適中，可反應後釋放；鉻則兩原子強耦合、第三個旁觀，氮綁得太死。磁性「指紋」可用嚟篩選更慳能嘅造氨材料。結果刊於 ACS Energy Letters。",
+      "topic": "原子物理、電和磁（磁性）",
+      "source_name": "phys.org / University of Vienna / TU Wien",
+      "source_url": "https://phys.org/news/2026-10-atomic-magnetism-reveals-iron-chromium.html",
+      "source_date": "28/10",
+      "links": [
+        {
+          "label": "ACS Energy Letters (DOI)",
+          "url": "https://doi.org/10.1021/acsenergylett.6c02509"
+        }
+      ]
+    },
+    {
+      "title": "太赫茲光分清超導渦旋入面兩類粒子",
+      "summary": "羅格斯大學同愛沙尼亞團隊用太赫茲偏振光，睇鐵基超導體入面由磁場造成嘅細磁渦旋。渦旋核心超導變弱，困住嘅粒子佔分立能級；左旋同右旋偏振光分別激發兩組粒子，首次直接分開佢哋嘅貢獻。兩款硒含量唔同嘅薄膜，超導轉變溫度接近，但渦旋入面粒子比例、躍遷能量同響應壽命差好遠。方法有助改良強磁場下仍穩定載流嘅材料；實驗唔要求學生掌握超導微觀機制。結果刊於 Physical Review Letters。",
+      "topic": "波動（太赫茲／偏振）、電和磁",
+      "source_name": "phys.org / Rutgers University",
+      "source_url": "https://phys.org/news/2026-10-terahertz-distinguishes-groups-particles-superconducting.html",
+      "source_date": "29/10",
+      "links": [
+        {
+          "label": "Phys. Rev. Lett. (DOI)",
+          "url": "https://doi.org/10.1103/wrds-99zb"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "electricity",
+    "story": "首次估出太陽外層磁場嘅全球 3D 結構",
+    "question_en": "Researchers have produced the first global three-dimensional estimates of the Sun's coronal magnetic field. Changes in this field help drive eruptions that can disturb Earth's space environment.\n\nA simplified model treats a patch of the corona as having a roughly uniform magnetic field of strength $B$ directed perpendicular to an imaginary rectangular loop of area $A$.\n\n(a) The field through the loop falls from\n$$B = 5.0 \\times 10^{-4}\\ \\mathrm{T}$$\nto zero in\n$$\\Delta t = 120\\ \\mathrm{s}$$\nThe area of the loop is\n$$A = 2.0 \\times 10^{14}\\ \\mathrm{m^{2}}$$\nCalculate the average magnitude of the induced emf around the loop. (3 marks)\n\n(b) A proton moves at speed\n$$v = 4.0 \\times 10^{5}\\ \\mathrm{m\\,s^{-1}}$$\nperpendicular to a uniform magnetic field of strength\n$$B = 5.0 \\times 10^{-5}\\ \\mathrm{T}$$\nin near-Earth space. Calculate the radius of its circular path.\n\nTake $m_{\\mathrm{p}} = 1.67 \\times 10^{-27}\\ \\mathrm{kg}$ and $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$. (3 marks)\n\n(c) State one reason why better maps of the coronal magnetic field can improve forecasts of space weather that may affect satellites and power grids on Earth. (2 marks)",
+    "question_zh": "研究人員首次估出太陽日冕磁場嘅全球三維結構。呢啲磁場變化可驅動爆發，干擾地球附近嘅太空環境。\n\n簡化模型把日冕某一區域嘅磁場視為大致均勻，磁場強度為 $B$，方向垂直於一想像矩形迴路，面積為 $A$。\n\n(a) 穿過迴路嘅磁場喺\n$$\\Delta t = 120\\ \\mathrm{s}$$\n內由\n$$B = 5.0 \\times 10^{-4}\\ \\mathrm{T}$$\n降至零。迴路面積為\n$$A = 2.0 \\times 10^{14}\\ \\mathrm{m^{2}}$$\n求迴路平均感應電動勢嘅大小。（3 分）\n\n(b) 一質子喺近地太空以速率\n$$v = 4.0 \\times 10^{5}\\ \\mathrm{m\\,s^{-1}}$$\n垂直於強度\n$$B = 5.0 \\times 10^{-5}\\ \\mathrm{T}$$\n嘅均勻磁場運動。求其圓周運動半徑。\n\n取 $m_{\\mathrm{p}} = 1.67 \\times 10^{-27}\\ \\mathrm{kg}$，$e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$。（3 分）\n\n(c) 指出一項理由，說明更準確嘅日冕磁場圖點解有助預測可影響衛星同地面電網嘅太空天氣。（2 分）",
+    "answer_en": "(a)\n- Magnetic flux $\\Phi = BA = (5.0 \\times 10^{-4})(2.0 \\times 10^{14}) = 1.0 \\times 10^{11}\\ \\mathrm{Wb}$ (1M)\n- Average induced emf $\\mathcal{E} = \\dfrac{\\Delta \\Phi}{\\Delta t} = \\dfrac{1.0 \\times 10^{11}}{120}$ (1M)\n- $\\mathcal{E} = 8.3 \\times 10^{8}\\ \\mathrm{V}$ (accept $8.33 \\times 10^{8}\\ \\mathrm{V}$) (1A)\n\n(b)\n- Magnetic force provides centripetal force: $evB = \\dfrac{m_{\\mathrm{p}} v^{2}}{r}$ so $r = \\dfrac{m_{\\mathrm{p}} v}{eB}$ (1M)\n- $r = \\dfrac{(1.67 \\times 10^{-27})(4.0 \\times 10^{5})}{(1.60 \\times 10^{-19})(5.0 \\times 10^{-5})}$ (1M)\n- $r = 83.5\\ \\mathrm{m}$ (accept $84\\ \\mathrm{m}$) (1A)\n\n(c)\n- Any one valid point, e.g. coronal field structure / changes drive solar eruptions (CMEs) that can disturb Earth's magnetosphere; better maps improve prediction of geomagnetic storms affecting satellites, communications or power grids (2)",
+    "answer_zh": "(a)\n- 磁通量 $\\Phi = BA = (5.0 \\times 10^{-4})(2.0 \\times 10^{14}) = 1.0 \\times 10^{11}\\ \\mathrm{Wb}$（1M）\n- 平均感應電動勢 $\\mathcal{E} = \\dfrac{\\Delta \\Phi}{\\Delta t} = \\dfrac{1.0 \\times 10^{11}}{120}$（1M）\n- $\\mathcal{E} = 8.3 \\times 10^{8}\\ \\mathrm{V}$（接受 $8.33 \\times 10^{8}\\ \\mathrm{V}$）（1A）\n\n(b)\n- 磁力提供向心力：$evB = \\dfrac{m_{\\mathrm{p}} v^{2}}{r}$，故 $r = \\dfrac{m_{\\mathrm{p}} v}{eB}$（1M）\n- $r = \\dfrac{(1.67 \\times 10^{-27})(4.0 \\times 10^{5})}{(1.60 \\times 10^{-19})(5.0 \\times 10^{-5})}$（1M）\n- $r = 83.5\\ \\mathrm{m}$（接受 $84\\ \\mathrm{m}$）（1A）\n\n(c)\n- 任一合理要點，例如：日冕磁場結構／變化驅動太陽爆發（日冕物質拋射），可擾動地球磁層；更準確地圖有助預測影響衛星、通訊或電網嘅地磁暴（2）"
+  }
+}
