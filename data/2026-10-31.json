@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-31",
+  "news": [
+    {
+      "title": "光子「斯格明子」比糾纏更耐干擾：量子網絡新思路",
+      "summary": "賓夕法尼亞大學團隊喺晶片上產生一對糾纏光子，再用偏振喺其中一個光子「刻」出稱為量子斯格明子（skyrmion）嘅拓撲圖案，並成功把呢個圖案轉移到兩個光子共享嘅量子態。結果刊於 Nature Physics。實驗刻意加強背景光等干擾：糾纏最終會斷，但斯格明子嘅拓撲特徵仍然保住，要更強干擾先崩壞。研究顯示資訊或可用呢類較穩嘅偏振圖案編碼，為未來更可靠嘅量子網絡提供新方向；學生只需掌握光子同偏振概念，唔使學拓撲數學。",
+      "topic": "原子物理（光子）、波動（偏振／電磁波）",
+      "source_name": "phys.org / University of Pennsylvania",
+      "source_url": "https://phys.org/news/2026-10-quantum-skyrmions-outlast-entanglement-hinting.html",
+      "source_date": "30/10",
+      "links": [
+        {
+          "label": "Nature Physics (DOI)",
+          "url": "https://doi.org/10.1038/s41567-026-03487-x"
+        }
+      ]
+    },
+    {
+      "title": "韋伯望遠鏡：極藍星系 EBG-1 或令約 85% 電離光子「漏走」",
+      "summary": "東京大學 Yunjing Wu 等用 JWST／NIRSpec 分析引力透鏡星系 EBG-1（紅移 9.244，約宇宙誕生後 5.3 億年）。佢紫外斜率極藍，發射線偏弱，氧豐度約只有太陽嘅 3%。同合成光譜比較，電離光子（萊曼連續譜，波長短過約 912 Å）逃逸分數約 0.85（模型下限約 0.75）最吻合數據。若解釋正確，呢類「漏光」星系可能係早期宇宙再電離嘅高效來源；不過目前只係單一天體，鄰近環境仲要再普查。論文已上載 arXiv。",
+      "topic": "原子物理（光子／電離）、波動（紫外／電磁波譜）、天文學",
+      "source_name": "phys.org / arXiv",
+      "source_url": "https://phys.org/news/2026-10-jwst-reveals-distant-galaxy-ionizing.html",
+      "source_date": "30/10",
+      "links": [
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2610.24092"
+        }
+      ]
+    },
+    {
+      "title": "激光人造μ子首次影到隱藏物體",
+      "summary": "羅馬尼亞 Horia Hulubei 國家物理與核工程研究所團隊，用 ELI-NP 10 拍瓦級激光產生人造μ子束，首次用人工μ子對結構成像。傳統μ子斷層掃描靠宇宙射線μ子，通量低、方向固定，影一張圖可能要數月。團隊用多層屏蔽（聚乙烯、石蠟、鉛同混凝土）壓低伴生背景，閃爍體探測顯示束流約 90% 係μ子，並對鉛磚陰影做咗低解像度示範。μ子穿透力比電子強，有望用於安檢、核廢料同大型基建掃描；不過激光要再細、重複率要再高，探測器同屏蔽都要改進。報道見 Physics World。",
+      "topic": "放射現象和核能（次原子粒子／輻射穿透）、波動（激光）",
+      "source_name": "Physics World",
+      "source_url": "https://physicsworld.com/a/laser-generated-muons-image-hidden-objects/",
+      "source_date": "30/10",
+      "links": []
+    },
+    {
+      "title": "鈮酸鋰轉換器：紫外光子轉成光纖友好嘅電信波段",
+      "summary": "中國科學技術大學、濟南量子技術研究院等團隊，用週期极化薄膜鈮酸鋰波導，把約 393 nm 紫外光子高效率、低噪聲轉成約 1550 nm 電信波段光子，方便喺光纖長距離傳輸。裝置用約 527 nm 泵浦激光，過程遵守能量守恆，外部轉換效率約 28.8%，背景噪聲約每秒 35 次計數，並已接到 鈣-40 離子阱系統測試。結果刊於 Physical Review Letters，有助連接發射紫外光嘅量子節點，建造更遠嘅量子網絡。",
+      "topic": "原子物理（光子能量）、波動（電磁波譜／波長）、電和磁",
+      "source_name": "phys.org / USTC",
+      "source_url": "https://phys.org/news/2026-10-bridge-wavelength-gap-quantum-communications.html",
+      "source_date": "27/10",
+      "links": [
+        {
+          "label": "Phys. Rev. Lett. (DOI)",
+          "url": "https://doi.org/10.1103/wx56-plcm"
+        }
+      ]
+    },
+    {
+      "title": "SLAC：碲化錳自旋「手性」實驗證實第三種磁性——交變磁性",
+      "summary": "SLAC／斯坦福團隊喺 Science 發表結果，用歐洲同步輻射設施（ESRF）嘅圓偏振 X 射線，喺碲化錳（MnTe）見到清晰嘅手性散射訊號，為「交變磁性」（altermagnetism）提供有力實驗證據。交變磁性自旋如反鐵磁般上下交替、淨磁化接近零，但晶格幾何扭轉令佢兼具鐵磁可用自旋流嘅特質，有望用於更穩定、更慳電嘅自旋電子學。呢篇係手性實驗確認，同早前歐洲物理獎對第三種磁性嘅介紹屬唔同報道角度。",
+      "topic": "電和磁（磁性材料）、波動（X 射線偏振）",
+      "source_name": "phys.org / SLAC",
+      "source_url": "https://phys.org/news/2026-10-altermagnetism-geometric-experimental-proof.html",
+      "source_date": "30/10",
+      "links": [
+        {
+          "label": "Science (DOI)",
+          "url": "https://doi.org/10.1126/science.adv3196"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "atomic",
+    "story": "光子「斯格明子」比糾纏更耐干擾：量子網絡新思路",
+    "question_en": "Engineers have built a chip that generates pairs of entangled photons and encodes a robust polarization pattern (a photonic skyrmion) that can survive stronger disturbances than entanglement alone.\n\nTake $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$, $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$ and $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$.\n\n(a) One photon used in such an experiment has wavelength\n$$\\lambda = 780\\ \\mathrm{nm}$$\nCalculate\n(i) the frequency of the photon, and\n(ii) the energy of the photon in eV. (4 marks)\n\n(b) State what is meant by the polarization of a light wave. Hence explain why the observation of polarized light shows that light is a transverse wave. (3 marks)\n\n(c) Suggest one reason why encoding information in a robust pattern of photon polarization (instead of relying only on fragile entanglement) could help future quantum communication networks. (2 marks)",
+    "question_zh": "工程師製作出可產生糾纏光子對嘅晶片，並把穩健嘅偏振圖案（光子斯格明子）編碼上去；呢種圖案可以承受比糾纏本身更強嘅干擾。\n\n取 $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$，$c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$，$1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$。\n\n(a) 實驗所用其中一個光子波長為\n$$\\lambda = 780\\ \\mathrm{nm}$$\n計算\n(i) 該光子嘅頻率，以及\n(ii) 該光子能量（以 eV 為單位）。（4 分）\n\n(b) 說明光波偏振嘅意思。由此解釋，觀察到偏振光點解可以證明光係橫波。（3 分）\n\n(c) 提出一項理由，說明點解用穩健嘅光子偏振圖案編碼資訊（而不只依賴脆弱嘅糾纏）有助未來量子通訊網絡。（2 分）",
+    "answer_en": "(a)\n(i)\n- $f = \\dfrac{c}{\\lambda} = \\dfrac{3.00 \\times 10^{8}}{780 \\times 10^{-9}}$ (1M)\n- $f = 3.85 \\times 10^{14}\\ \\mathrm{Hz}$ (accept $3.846 \\times 10^{14}\\ \\mathrm{Hz}$) (1A)\n(ii)\n- $E = hf = (6.63 \\times 10^{-34})(3.85 \\times 10^{14})$ (or $E = hc/\\lambda$) (1M)\n- $E = 2.55 \\times 10^{-19}\\ \\mathrm{J} = 1.59\\ \\mathrm{eV}$ (1A)\n\n(b)\n- Polarization means the direction of the electric field oscillation (in a plane perpendicular to the direction of travel). (1)\n- Only transverse waves can be polarized / longitudinal waves have oscillations along the travel direction so cannot be polarized. (1)\n- Observing polarized light therefore shows light is a transverse electromagnetic wave. (1)\n\n(c)\n- Any one valid point, e.g. polarization patterns (topological features) can survive disturbances that destroy entanglement; more reliable encoding / transmission of quantum information over noisy links; greater robustness for practical quantum networks (2)",
+    "answer_zh": "(a)\n(i)\n- $f = \\dfrac{c}{\\lambda} = \\dfrac{3.00 \\times 10^{8}}{780 \\times 10^{-9}}$（1M）\n- $f = 3.85 \\times 10^{14}\\ \\mathrm{Hz}$（接受 $3.846 \\times 10^{14}\\ \\mathrm{Hz}$）（1A）\n(ii)\n- $E = hf = (6.63 \\times 10^{-34})(3.85 \\times 10^{14})$（或 $E = hc/\\lambda$）（1M）\n- $E = 2.55 \\times 10^{-19}\\ \\mathrm{J} = 1.59\\ \\mathrm{eV}$（1A）\n\n(b)\n- 偏振指電場振動方向（喺垂直於傳播方向嘅平面內）。（1）\n- 只有橫波可以偏振／縱波振動沿傳播方向，唔可以偏振。（1）\n- 觀察到偏振光因此證明光係橫向電磁波。（1）\n\n(c)\n- 任一合理要點，例如：偏振圖案（拓撲特徵）可喺破壞糾纏嘅干擾下仍然保存；喺嘈雜通道更可靠咁編碼／傳送量子資訊；令實際量子網絡更穩健（2）"
+  }
+}
