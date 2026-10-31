@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-01",
+  "news": [
+    {
+      "title": "PSI：機載伽瑪譜分析快到秒級，可準確辨放射性核種同定位",
+      "summary": "保羅謝勒研究所（PSI）David Breitenmoser 等喺 Nature Communications 發表新方法：把伽瑪光子由地面到直升機探測器嘅散射，拆成「空氣散射」同「機身散射」兩部分分別計算，再配合全譜貝葉斯推斷。模擬由數小時縮到微秒級，用約 6 秒單程機載數據，就可以喺秒級內辨認鋇／銫等弱放射源、米級定位，同以百分比級精度估出活度。方法改善緊急應變同核設施監察用嘅空中放射性測量，亦適用於地球物理同核材料監察；不過極弱訊號仍然受統計限制。",
+      "topic": "放射現象和核能（伽瑪射線／探測）、原子物理（光子）",
+      "source_name": "Paul Scherrer Institute",
+      "source_url": "https://www.psi.ch/en/news/media-releases/detecting-radioactivity-from-the-air-more-accurately-than-ever",
+      "source_date": "26/10",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-78464-2"
+        }
+      ]
+    },
+    {
+      "title": "IBM：四條超導電纜首次連接兩塊大型量子處理器",
+      "summary": "IBM Research 首次用四條獨立、約 80 cm 長嘅超導鋁電纜，喺接近絕對零度環境，把兩塊各約 120 量子位元嘅 Nighthawk R1 處理器接成模組。電纜由芯片上方接入，方便密集佈線，而且係芯片裝入製冷機之後先裝上。跨鏈路量子態傳輸平均準確度約 99%（最佳 99.29%），跨處理器雙量子位元操作平均約 94.75%，並成功造出跨芯片 4／6 量子位元糾纏態；三個熱循環後四條連接仍然可用。結果上載 arXiv，向可擴展模組化量子電腦再行一步，但相干時間同實用化仍要改進。",
+      "topic": "電和磁（超導／電路連接）、原子物理（量子資訊）",
+      "source_name": "phys.org / IBM Research",
+      "source_url": "https://phys.org/news/2026-10-superconducting-cables-link-large-quantum.html",
+      "source_date": "31/10",
+      "links": [
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2610.29986"
+        }
+      ]
+    },
+    {
+      "title": "超冷銣原子模擬「假真空」衰變：強電場造出正反粒子對",
+      "summary": "中國科學技術大學 Yuan 等喺 Physical Review Letters 報告，用激光光晶格困住超冷銣原子，一維鏈上每隔一個格點放兩個原子，模擬量子電動力學嘅「Schwinger 效應」——夠強嘅電場可由真空產生正反粒子對（假真空衰變）。佢哋調粒子有效質量同背景電場，觀察到質量愈大或電場相對其他相互作用太強，產生嘅粒子對愈少；零質量極限仲見到類似 Schwinger 模型集體激發嘅振盪。呢個平台令極難直接觀測嘅粒子對產生過程可以喺實驗室調控同用量子氣體顯微鏡拍攝。",
+      "topic": "原子物理（正反粒子／電場）、電和磁（電場）、放射現象和核能",
+      "source_name": "phys.org / USTC",
+      "source_url": "https://phys.org/news/2026-10-ultracold-atoms-simulate-hard-antimatter.html",
+      "source_date": "31/10",
+      "links": [
+        {
+          "label": "Phys. Rev. Lett. (DOI)",
+          "url": "https://doi.org/10.1103/vhnm-j9bw"
+        }
+      ]
+    },
+    {
+      "title": "CMS：首次直接見到夸克–膠子等離子體入面噴流「尾流」",
+      "summary": "LHC 嘅 CMS 合作組用鉛核碰撞產生夸克–膠子等離子體（QGP），並以背對背噴流對首次直接觀測到部分子穿過 QGP 時留下嘅「尾流」：噴流後方粒子明顯減少，符合理論二十多年前嘅預測。早前用 Z 玻色子加噴流只得初步跡象；今次用更常見嘅雙噴流，並發現原子核重疊愈多、QGP 愈厚，尾流訊號愈強。結果刊於 Physical Review Letters，有助量度早期宇宙曾出現嘅極端物質狀態。",
+      "topic": "放射現象和核能（次原子粒子／碰撞）、力學（動量傳遞）",
+      "source_name": "CERN / CMS",
+      "source_url": "https://home.cern/in-the-wake-of-partons/",
+      "source_date": "29/10",
+      "links": [
+        {
+          "label": "CMS news",
+          "url": "https://cms.cern/news/wake-partons"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2602.19431"
+        }
+      ]
+    },
+    {
+      "title": "EPFL 晶片級 461 nm 藍激光：可穿水通訊兼感測煙霧粒子",
+      "summary": "EPFL Kippenberg／Bianconi 團隊喺 Nature Photonics 發表晶片級藍激光：把普通藍激光接到極薄（約 25 nm）光波導微環，並用氮化鋁壓電材料快速調頻。裝置工作波長約 461 nm，一種設定線寬低於 30 kHz，另一種可喺逾 900 MHz 範圍、每秒最多調頻約 100 萬次。實驗室用頻率編碼成功透過 30 cm 水柱傳 EPFL 標誌影像；同條件下藍光對蠟燭煙有清晰散射訊號，而 1550 nm 紅外激光幾乎冇反應。藍光較易穿水、對氣溶膠敏感，有望用於水下通訊同環境監測。",
+      "topic": "波動（激光／波長／散射）、原子物理（光子）",
+      "source_name": "phys.org / EPFL",
+      "source_url": "https://phys.org/news/2026-10-blue-laser-underwater-communication.html",
+      "source_date": "29/10",
+      "links": [
+        {
+          "label": "Nature Photonics (DOI)",
+          "url": "https://doi.org/10.1038/s41566-026-02040-9"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "radioactivity",
+    "story": "PSI：機載伽瑪譜分析快到秒級，可準確辨放射性核種同定位",
+    "question_en": "Helicopter-borne detectors can map radioactive sources on the ground by measuring the energy spectrum of gamma radiation. Air scattering blurs the spectrum, so fast computer models are needed in an emergency.\n\nTake $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$, $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$ and $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$.\n\n(a) A typical gamma photon from ${}^{137}\\mathrm{Cs}$ has energy\n$$E = 0.662\\ \\mathrm{MeV}$$\nCalculate\n(i) the frequency of the photon, and\n(ii) its wavelength in m. (4 marks)\n\n(b) Treating a ground source as a point emitter and neglecting absorption in air, the intensity of gamma radiation at height $50\\ \\mathrm{m}$ vertically above the source is $I_0$. Find the intensity at height $100\\ \\mathrm{m}$. (2 marks)\n\n(c) ${}^{137}\\mathrm{Cs}$ has a half-life of $30.0\\ \\mathrm{years}$. A sealed sample has activity $8.0 \\times 10^{3}\\ \\mathrm{Bq}$ at $t = 0$. Calculate its activity after $90.0\\ \\mathrm{years}$. (3 marks)\n\n(d) Explain why scattering of gamma photons by air (and by the helicopter) makes it harder to identify which radionuclide is present from a short flight measurement. (2 marks)",
+    "question_zh": "直升機搭載探測器可藉測量伽瑪輻射能譜，繪製地面放射源分布。空氣散射會令譜線變模糊，緊急時需要快速電腦模型。\n\n取 $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$，$c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$，$1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$。\n\n(a) ${}^{137}\\mathrm{Cs}$ 典型伽瑪光子能量為\n$$E = 0.662\\ \\mathrm{MeV}$$\n計算\n(i) 該光子頻率，以及\n(ii) 波長（以 m 為單位）。（4 分）\n\n(b) 視地面源為點源，並忽略空氣吸收。喺源正上方高度 $50\\ \\mathrm{m}$ 處伽瑪輻射強度為 $I_0$。求高度 $100\\ \\mathrm{m}$ 處嘅強度。（2 分）\n\n(c) ${}^{137}\\mathrm{Cs}$ 半衰期為 $30.0\\ \\mathrm{years}$。密封樣本喺 $t = 0$ 時活度為 $8.0 \\times 10^{3}\\ \\mathrm{Bq}$。求 $90.0\\ \\mathrm{years}$ 後嘅活度。（3 分）\n\n(d) 解釋點解伽瑪光子被空氣（同直升機）散射，會令短程飛行測量更難辨認係邊一種放射性核種。（2 分）",
+    "answer_en": "(a)\n(i)\n- $E = 0.662 \\times 10^{6} \\times 1.60 \\times 10^{-19} = 1.059 \\times 10^{-13}\\ \\mathrm{J}$ (1M)\n- $f = E/h = (1.059 \\times 10^{-13})/(6.63 \\times 10^{-34}) = 1.60 \\times 10^{20}\\ \\mathrm{Hz}$ (accept $1.597 \\times 10^{20}\\ \\mathrm{Hz}$ to $1.60 \\times 10^{20}\\ \\mathrm{Hz}$) (1A)\n(ii)\n- $\\lambda = c/f = (3.00 \\times 10^{8})/(1.60 \\times 10^{20})$ (or $\\lambda = hc/E$) (1M)\n- $\\lambda = 1.88 \\times 10^{-12}\\ \\mathrm{m}$ (accept $1.877 \\times 10^{-12}\\ \\mathrm{m}$ to $1.88 \\times 10^{-12}\\ \\mathrm{m}$) (1A)\n\n(b)\n- Intensity follows the inverse-square law: $I \\propto 1/r^{2}$ (1M)\n- $I = I_0 \\times (50/100)^{2} = I_0/4$ (or $0.25\\,I_0$) (1A)\n\n(c)\n- Number of half-lives $n = 90.0/30.0 = 3$ (1M)\n- $A = A_0 (1/2)^{n} = 8.0 \\times 10^{3} \\times (1/2)^{3}$ (1M)\n- $A = 1.0 \\times 10^{3}\\ \\mathrm{Bq}$ (1A)\n\n(d)\n- Scattering changes photon energies / blurs the characteristic energy spectrum (fingerprint) of the source. (1)\n- With few counts in a short measurement, the distorted spectrum is harder to match to a specific radionuclide (Ba vs Cs, etc.). (1)",
+    "answer_zh": "(a)\n(i)\n- $E = 0.662 \\times 10^{6} \\times 1.60 \\times 10^{-19} = 1.059 \\times 10^{-13}\\ \\mathrm{J}$（1M）\n- $f = E/h = (1.059 \\times 10^{-13})/(6.63 \\times 10^{-34}) = 1.60 \\times 10^{20}\\ \\mathrm{Hz}$（接受 $1.597 \\times 10^{20}\\ \\mathrm{Hz}$ 至 $1.60 \\times 10^{20}\\ \\mathrm{Hz}$）（1A）\n(ii)\n- $\\lambda = c/f = (3.00 \\times 10^{8})/(1.60 \\times 10^{20})$（或 $\\lambda = hc/E$）（1M）\n- $\\lambda = 1.88 \\times 10^{-12}\\ \\mathrm{m}$（接受 $1.877 \\times 10^{-12}\\ \\mathrm{m}$ 至 $1.88 \\times 10^{-12}\\ \\mathrm{m}$）（1A）\n\n(b)\n- 強度遵守平方反比定律：$I \\propto 1/r^{2}$（1M）\n- $I = I_0 \\times (50/100)^{2} = I_0/4$（或 $0.25\\,I_0$）（1A）\n\n(c)\n- 半衰期數目 $n = 90.0/30.0 = 3$（1M）\n- $A = A_0 (1/2)^{n} = 8.0 \\times 10^{3} \\times (1/2)^{3}$（1M）\n- $A = 1.0 \\times 10^{3}\\ \\mathrm{Bq}$（1A）\n\n(d)\n- 散射改變光子能量／令放射源特徵能譜（指紋）變模糊。（1）\n- 短程測量計數少，扭曲後嘅譜更難對應到特定核種（例如鋇同銫）。（1）"
+  }
+}
