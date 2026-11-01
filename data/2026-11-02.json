@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-02",
+  "news": [
+    {
+      "title": "耶魯：光學陷阱納米球可分辨單個原子碰撞",
+      "summary": "耶魯大學 David Moore 團隊喺 Physical Review Letters 報告，用聚焦激光把直徑約 100 nm（半徑 50 nm）嘅二氧化矽納米球困住，令佢沿光軸做簡諧運動。再向真空室注入氪、氙或六氟化硫，氣體原子／分子撞到球會令運動出現可量度嘅微細擾動；壓力升到約 1.5 nbar（遠低於大氣壓）時，碰撞次數同動能論預期大致吻合。原理可發展成極低壓壓力感測，亦為日後用放射性摻雜納米球量度中微子反衝鋪路。",
+      "topic": "力學（簡諧運動／動量／衝量）、熱和氣體（動能論）",
+      "source_name": "Physics World / Yale",
+      "source_url": "https://physicsworld.com/a/levitated-nanoparticle-detects-single-atom-collisions/",
+      "source_date": "23/10",
+      "links": [
+        {
+          "label": "Physical Review Letters",
+          "url": "https://journals.aps.org/prl/"
+        }
+      ]
+    },
+    {
+      "title": "RHIC 氧核對撞：細系統仍見噴流淬滅，證實夸克–膠子等離子體",
+      "summary": "布魯克海文國家實驗室 STAR 實驗分析 2021 年氧–氧對撞（質心能量每核子對 200 GeV）：雖然氧核只有 8 質子＋8 中子，遠細過傳統金核，但仍量到高能粒子噴流約 20% 抑制（噴流淬滅），係夸克–膠子等離子體（QGP）嘅關鍵訊號。結果刊於 Physical Review Letters，把「細系統亦可產生早期宇宙物質」嘅下限再推低；同 CERN LHC 更高能量氧對撞互補，有助釐清造出 QGP 嘅最小條件。",
+      "topic": "放射現象和核能（次原子粒子／碰撞）、力學（能量損失）",
+      "source_name": "ScienceDaily / Brookhaven",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261030002935.htm",
+      "source_date": "30/10",
+      "links": [
+        {
+          "label": "Phys. Rev. Lett. (DOI)",
+          "url": "https://doi.org/10.1103/9w2y-bz9n"
+        }
+      ]
+    },
+    {
+      "title": "旋轉磁場令吸引膠體組成「反自旋冰」",
+      "summary": "巴塞羅那大學 Pietro Tierno 等喺 Nature Communications 用直徑 2.8 μm、含氧化鐵嘅聚苯乙烯膠體粒子，置於五邊形／七邊形混合（pentaheptite）微槽陣列，再加平面內快速旋轉磁場（實驗約 1 Hz、模擬可達 50 Hz，振幅約數 mT）。頭尾相吸比並排相斥強約一倍，淨效果係各向同性吸引。系統傾向令頂點「拓撲電荷」最大化（同傳統自旋冰最小化相反）；奇數環令電荷無法完美交錯，殘留約四分一低電荷頂點，顯示幾何阻挫。磁場傾角可調吸引／排斥，有望「編程」阻挫。",
+      "topic": "電和磁（磁場／磁力）、力學（粒子平衡）",
+      "source_name": "phys.org / Nature Communications",
+      "source_url": "https://phys.org/news/2026-10-ice-scientists-particles-anti.html",
+      "source_date": "1/11",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-77905-2"
+        }
+      ]
+    },
+    {
+      "title": "PPPL：核聚變點火最慳能量路徑係「先加熱、再增密度」",
+      "summary": "普林斯頓等離子體物理實驗室 Delgado-Aparicio、Ono、Menard 喺 Physical Review Letters 提出統一功率平衡框架，把修正版 Lawson 判據同四個點火／收支平衡條件一齊考慮（氦灰、雜質輻射、同步輻射、熱流失等）。分析顯示先把等離子體加熱、再提高密度，所需外加能量最少；很多設計卻先加密度再加熱，反而更費能。微量鎢（約一萬分之一）可令點火所需壓力約翻倍；強磁場亦可能加劇損耗。同一耗散機制又可抑止熱失控，令燃燒等離子體更易穩態。",
+      "topic": "放射現象和核能（核聚變／等離子體）、熱和氣體（溫度／能量）",
+      "source_name": "U.S. Department of Energy / PPPL",
+      "source_url": "https://www.energy.gov/science/fes/articles/novel-path-self-heating-plasma-fusion-ignition",
+      "source_date": "29/10",
+      "links": [
+        {
+          "label": "PPPL news",
+          "url": "https://www.pppl.gov/news/2026/novel-path-fusion-ignition-heat-first-then-add-fuel"
+        },
+        {
+          "label": "Phys. Rev. Lett. (DOI)",
+          "url": "https://doi.org/10.1103/mmc9-nzfx"
+        }
+      ]
+    },
+    {
+      "title": "韋伯望遠鏡：星際彗星 3I/ATLAS 甲烷重氫比例破紀錄",
+      "summary": "American University／NASA Goddard 嘅 Nathan Roth 等用韋伯太空望遠鏡觀測星際訪客 3I/ATLAS 彗髮紅外光譜，量到甲烷入面氘／氫（D/H）比約 3.2%，係太陽系內甲烷測量最高值，約為木星族彗星 67P 嘅 13 倍。結果刊於 Nature Astronomy。極低溫（約 10 K）化學反應偏向把氘鎖入分子；甲烷 D/H 又約為同彗星水冰嘅三倍，暗示甲烷可能較遲形成。數據支持 3I/ATLAS 源自另一恆星系統或寒冷分子雲，亦為化學模型提供嚴格考驗。",
+      "topic": "放射現象和核能（同位素／原子核）、原子物理、天文學",
+      "source_name": "phys.org / Nature Astronomy",
+      "source_url": "https://phys.org/news/2026-10-heavy-hydrogen-3iatlas-methane-frigid.html",
+      "source_date": "1/11",
+      "links": [
+        {
+          "label": "Nature Astronomy (DOI)",
+          "url": "https://doi.org/10.1038/s41550-026-03002-5"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "mechanics",
+    "story": "耶魯：光學陷阱納米球可分辨單個原子碰撞",
+    "question_en": "Yale researchers trap a silica nanosphere in a focused laser beam so that it performs simple harmonic motion (SHM) along the beam axis. Gas atoms colliding with the sphere produce tiny, measurable impulses.\n\nTake $\\pi = 3.14$.\n\n(a) The nanosphere has radius\n$$r = 5.00 \\times 10^{-8}\\ \\mathrm{m}$$\nand density $\\rho = 2.20 \\times 10^{3}\\ \\mathrm{kg\\,m^{-3}}$. Show that its mass is $1.15 \\times 10^{-18}\\ \\mathrm{kg}$. (2 marks)\n\n(b) The optical trap acts like a spring of constant\n$$k = 1.15 \\times 10^{-4}\\ \\mathrm{N\\,m^{-1}}$$\nCalculate the period of the SHM. (2 marks)\n\n(c) A xenon atom of mass $2.18 \\times 10^{-25}\\ \\mathrm{kg}$ approaches the sphere at $300\\ \\mathrm{m\\,s^{-1}}$ along the oscillation axis and rebounds elastically with the same speed in the opposite direction. The sphere is momentarily at rest.\n(i) Calculate the magnitude of the impulse delivered to the sphere. (2 marks)\n(ii) Hence find the speed acquired by the sphere just after the collision. (2 marks)\n\n(d) Explain, using kinetic theory, why the rate of such collisions increases when the gas pressure in the chamber is raised. (2 marks)\n\n(e) Without the optical trap the sphere would undergo Brownian motion. Explain why trapping the sphere in SHM makes individual atomic collisions easier to detect. (2 marks)",
+    "question_zh": "耶魯研究人員用聚焦激光困住二氧化矽納米球，令佢沿光軸做簡諧運動。氣體原子撞到球會產生可量度嘅微細衝量。\n\n取 $\\pi = 3.14$。\n\n(a) 納米球半徑為\n$$r = 5.00 \\times 10^{-8}\\ \\mathrm{m}$$\n密度 $\\rho = 2.20 \\times 10^{3}\\ \\mathrm{kg\\,m^{-3}}$。證明其質量為 $1.15 \\times 10^{-18}\\ \\mathrm{kg}$。（2 分）\n\n(b) 光學陷阱等效彈簧常數為\n$$k = 1.15 \\times 10^{-4}\\ \\mathrm{N\\,m^{-1}}$$\n計算簡諧運動週期。（2 分）\n\n(c) 一顆質量 $2.18 \\times 10^{-25}\\ \\mathrm{kg}$ 嘅氙原子沿振動軸以 $300\\ \\mathrm{m\\,s^{-1}}$ 接近小球，並以相同速率反向彈性反彈。小球撞前瞬間靜止。\n(i) 求傳給小球嘅衝量大小。（2 分）\n(ii) 因而求小球剛撞後嘅速率。（2 分）\n\n(d) 用動能論解釋：點解提高氣室氣壓會令呢類碰撞次數增加。（2 分）\n\n(e) 若無光學陷阱，小球會做布朗運動。解釋點解把球困喺簡諧運動，反而更容易偵測單次原子碰撞。（2 分）",
+    "answer_en": "(a)\n- $V = \\dfrac{4}{3}\\pi r^{3} = \\dfrac{4}{3}\\times 3.14 \\times (5.00 \\times 10^{-8})^{3} = 5.23 \\times 10^{-22}\\ \\mathrm{m^{3}}$ (1M)\n- $m = \\rho V = 2.20 \\times 10^{3} \\times 5.23 \\times 10^{-22} = 1.15 \\times 10^{-18}\\ \\mathrm{kg}$ (1A)\n\n(b)\n- $T = 2\\pi \\sqrt{m/k} = 2\\times 3.14 \\times \\sqrt{(1.15 \\times 10^{-18})/(1.15 \\times 10^{-4})}$ (1M)\n- $T = 6.28 \\times 10^{-7}\\ \\mathrm{s}$ (accept $6.28 \\times 10^{-7}\\ \\mathrm{s}$ to $6.29 \\times 10^{-7}\\ \\mathrm{s}$) (1A)\n\n(c)\n(i)\n- Change in momentum of Xe atom $\\Delta p = mv - (-mv) = 2mv$ (1M)\n- Impulse on sphere $J = 2 \\times 2.18 \\times 10^{-25} \\times 300 = 1.31 \\times 10^{-22}\\ \\mathrm{N\\,s}$ (accept $1.308 \\times 10^{-22}$) (1A)\n(ii)\n- $v_{\\mathrm{sphere}} = J/m = (1.31 \\times 10^{-22})/(1.15 \\times 10^{-18})$ (1M)\n- $v_{\\mathrm{sphere}} = 1.14 \\times 10^{-4}\\ \\mathrm{m\\,s^{-1}}$ (accept $1.13 \\times 10^{-4}$ to $1.14 \\times 10^{-4}$) (1A)\n\n(d)\n- Higher pressure means higher number density $n$ of gas molecules (at fixed temperature). (1)\n- Collision rate with the sphere is proportional to $n$ (and to mean speed), so more collisions per second. (1)\n\n(e)\n- In free Brownian motion the sphere wanders randomly, so small velocity kicks are hard to separate from continuous random drift. (1)\n- In a trap the motion is a well-defined SHM; each impulse appears as a clear sudden change / phase jump that can be read from the backscattered light. (1)",
+    "answer_zh": "(a)\n- $V = \\dfrac{4}{3}\\pi r^{3} = \\dfrac{4}{3}\\times 3.14 \\times (5.00 \\times 10^{-8})^{3} = 5.23 \\times 10^{-22}\\ \\mathrm{m^{3}}$（1M）\n- $m = \\rho V = 2.20 \\times 10^{3} \\times 5.23 \\times 10^{-22} = 1.15 \\times 10^{-18}\\ \\mathrm{kg}$（1A）\n\n(b)\n- $T = 2\\pi \\sqrt{m/k} = 2\\times 3.14 \\times \\sqrt{(1.15 \\times 10^{-18})/(1.15 \\times 10^{-4})}$（1M）\n- $T = 6.28 \\times 10^{-7}\\ \\mathrm{s}$（接受 $6.28 \\times 10^{-7}\\ \\mathrm{s}$ 至 $6.29 \\times 10^{-7}\\ \\mathrm{s}$）（1A）\n\n(c)\n(i)\n- 氙原子動量改變 $\\Delta p = mv - (-mv) = 2mv$（1M）\n- 傳給小球嘅衝量 $J = 2 \\times 2.18 \\times 10^{-25} \\times 300 = 1.31 \\times 10^{-22}\\ \\mathrm{N\\,s}$（接受 $1.308 \\times 10^{-22}$）（1A）\n(ii)\n- $v_{\\mathrm{sphere}} = J/m = (1.31 \\times 10^{-22})/(1.15 \\times 10^{-18})$（1M）\n- $v_{\\mathrm{sphere}} = 1.14 \\times 10^{-4}\\ \\mathrm{m\\,s^{-1}}$（接受 $1.13 \\times 10^{-4}$ 至 $1.14 \\times 10^{-4}$）（1A）\n\n(d)\n- 溫度固定時，氣壓愈高，氣體分子數密度 $n$ 愈大。（1）\n- 同小球嘅碰撞率與 $n$（同平均速率）成正比，故每秒碰撞次數增加。（1）\n\n(e)\n- 自由布朗運動下小球亂走，細微速度改變難同持續隨機漂移分開。（1）\n- 困喺陷阱時運動係明確嘅簡諧運動；每次衝量會喺背向散射光出現清晰突變／相位跳躍，因而可被分辨。（1）"
+  }
+}
