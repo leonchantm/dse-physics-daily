@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-03",
+  "news": [
+    {
+      "title": "IceCube／南極冰偵測極高能中微子：能量約太陽中微子 100 億倍",
+      "summary": "加州大學聖地牙哥分校介紹：南極 IceCube 中微子望遠鏡埋喺約 1 km³ 極清澈冰入面，用光倍增管陣列捕捉切倫科夫藍光——當中微子罕見地弱相互作用，產生以快過冰中光速飛行嘅帶電粒子（例如 μ 子）時就會發光。人體每平方厘米每秒約有 1000 億個中微子穿過；宇宙極高能中微子能量大約係典型太陽中微子嘅 100 億倍，IceCube 每年只偵測到數十個最勁嘅。2026 年 Nobel 物理獎頒畀 Halzen，表揚 IceCube 同天體物理中微子發現；Pauli 1930 年代提出中微子，Cowan–Reines 1956 年首次測到。",
+      "topic": "放射現象和核能（中微子／次原子）、波動（切倫科夫輻射／光速）",
+      "source_name": "ScienceDaily / UC San Diego",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261101010533.htm",
+      "source_date": "2/11",
+      "links": [
+        {
+          "label": "UC San Diego context (ScienceDaily)",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261101010533.htm"
+        }
+      ]
+    },
+    {
+      "title": "單分子自旋–光子介面：量子網絡新積木",
+      "summary": "德國 NVision 等團隊喺 Nature 報告：把化合物嵌進晶體、冷卻至 4.5 K，用激光製成卡賓分子；再用微波操控、激光讀出單個分子嘅電子自旋。自旋相干時間約 2.2 ms，發光頻率可穩定超過一小時，有望把量子資訊經光子接到量子網絡，避開鑽石缺陷常見嘅頻率漂移問題。",
+      "topic": "原子物理（自旋／能級）、波動（光子）",
+      "source_name": "phys.org / Nature",
+      "source_url": "https://phys.org/news/2026-11-molecules-blocks-future-quantum-networks.html",
+      "source_date": "2/11",
+      "links": [
+        {
+          "label": "Nature (DOI)",
+          "url": "https://doi.org/10.1038/s41586-026-11147-6"
+        }
+      ]
+    },
+    {
+      "title": "MIT：超柔韌配體組裝納米粒子新晶格",
+      "summary": "MIT Macfarlane 團隊喺 Nature Materials 提出用帶相反電荷、極度柔軟嘅配體連接納米粒子：正負電荷相吸令配體彎曲重組，毋須預先鎖死鍵向。只需調粒子大小同配體鏈長，就可控制每粒粒子嘅鍵數同堆積方式，造出以往未見過嘅超晶格，望用於光子學、催化同醫藥等。",
+      "topic": "電和磁（電荷／靜電力）、力學（粒子排列）",
+      "source_name": "MIT News / Nature Materials",
+      "source_url": "https://news.mit.edu/2026/flexible-new-route-designer-materials-from-nanoparticles-1102",
+      "source_date": "2/11"
+    },
+    {
+      "title": "被忽略嘅重中微子或解釋物質–反物質不對稱",
+      "summary": "南安普敦大學同 IIT Kanpur 喺 Physical Review Letters 提出：一種長期被視為無關緊要、解耦嘅重中微子壽命極長，宇宙冷卻後可短暫主宰能量密度，改變輕子經 Higgs 相互作用嘅溫度「開關」，從而影響物質多過反物質嘅累積；理論亦預測或會喺原初引力波留下可探測痕跡。",
+      "topic": "放射現象和核能（中微子／粒子）、天文學",
+      "source_name": "ScienceDaily / University of Southampton",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261031221201.htm",
+      "source_date": "1/11",
+      "links": [
+        {
+          "label": "Phys. Rev. Lett. (DOI)",
+          "url": "https://doi.org/10.1103/nfkx-q6z7"
+        }
+      ]
+    },
+    {
+      "title": "鈮–鈦合金喺 −253 °C（20 K）仍抗裂",
+      "summary": "UC Berkeley、牛津等團隊喺 Nature 發現 Nb70Ti30 同 Nb45Ta25Ti15Hf15 等 BCC 鈮–鈦系合金喺 20 K（−253 °C）仍保持韌性：低溫下常規位錯難移動，但納米孿晶同局部相變會喺晶界製造新位錯路徑，吸收應力、阻止裂紋擴展；一般 BCC 金屬喺極低溫易變脆，此機制為極冷環境結構材料提供新設計方向。",
+      "topic": "熱和氣體（低溫）、力學（韌性／形變）",
+      "source_name": "ScienceDaily / University of Oxford",
+      "source_url": "https://www.sciencedaily.com/releases/2026/10/261029072127.htm",
+      "source_date": "31/10",
+      "links": [
+        {
+          "label": "Nature (DOI)",
+          "url": "https://doi.org/10.1038/s41586-026-11065-7"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "waves",
+    "story": "IceCube／南極冰偵測極高能中微子：能量約太陽中微子 100 億倍",
+    "question_en": "The IceCube Neutrino Observatory uses about $1\\ \\mathrm{km^{3}}$ of clear Antarctic ice. When a neutrino interacts in the ice it can produce a charged particle (for example a muon). If that particle travels faster than light in ice, it emits a cone of blue Cherenkov light that photomultiplier tubes detect.\n\nTake the speed of light in vacuum $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$ and the refractive index of ice $n = 1.31$.\n\n(a) Calculate the speed of light in ice. (2 marks)\n\n(b) Hence find the minimum speed of a muon, expressed as a fraction of $c$, for Cherenkov radiation to be produced in ice. (2 marks)\n\n(c) A typical solar neutrino has energy about $1.00\\ \\mathrm{MeV}$. An ultra-high-energy IceCube neutrino can have energy about $1.00 \\times 10^{10}$ times larger. Calculate this ultra-high energy\n(i) in MeV, and\n(ii) in GeV. (2 marks)\n\n(d) About $1.00 \\times 10^{11}$ neutrinos pass through each square centimetre of your body each second. Estimate how many neutrinos pass through a palm of area $80.0\\ \\mathrm{cm^{2}}$ in $1.00$ minute. (2 marks)\n\n(e) Explain why neutrinos are very hard to detect, and why a huge volume of clear ice helps IceCube observe them. (3 marks)",
+    "question_zh": "IceCube 中微子望遠鏡使用約 $1\\ \\mathrm{km^{3}}$ 極清澈南極冰。當中微子喺冰入面相互作用，可產生帶電粒子（例如 μ 子）。若該粒子快過冰中嘅光速，就會發出錐形藍色切倫科夫光，由光倍增管偵測。\n\n取真空光速 $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$，冰嘅折射率 $n = 1.31$。\n\n(a) 計算冰中嘅光速。（2 分）\n\n(b) 因而求 μ 子要產生切倫科夫輻射嘅最小速率（以 $c$ 嘅分數表示）。（2 分）\n\n(c) 典型太陽中微子能量約 $1.00\\ \\mathrm{MeV}$。一個極高能 IceCube 中微子能量可大約大 $1.00 \\times 10^{10}$ 倍。計算呢個極高能量\n(i) 以 MeV 為單位，同\n(ii) 以 GeV 為單位。（2 分）\n\n(d) 每秒約有 $1.00 \\times 10^{11}$ 個中微子穿過人體每平方厘米。估算面積 $80.0\\ \\mathrm{cm^{2}}$ 嘅手掌喺 $1.00$ 分鐘內有幾多個中微子穿過。（2 分）\n\n(e) 解釋點解中微子極難偵測，以及點解巨大清澈冰體積有助 IceCube 觀測佢哋。（3 分）",
+    "answer_en": "(a)\n- $v = c/n = (3.00 \\times 10^{8})/1.31$ (1M)\n- $v = 2.29 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$ (accept $2.290 \\times 10^{8}$) (1A)\n\n(b)\n- Cherenkov condition: particle speed $v_{\\mathrm{p}} > c/n$, so minimum fraction $\\beta_{\\min} = v_{\\mathrm{p,min}}/c = 1/n$ (1M)\n- $\\beta_{\\min} = 1/1.31 = 0.763$ (accept $0.763$ to $0.764$) (1A)\n\n(c)\n(i)\n- $E = 1.00 \\times 10^{10} \\times 1.00\\ \\mathrm{MeV} = 1.00 \\times 10^{10}\\ \\mathrm{MeV}$ (1A)\n(ii)\n- $1\\ \\mathrm{GeV} = 10^{3}\\ \\mathrm{MeV}$, so $E = 1.00 \\times 10^{10}/10^{3} = 1.00 \\times 10^{7}\\ \\mathrm{GeV}$ (1A)\n\n(d)\n- Number $N = (1.00 \\times 10^{11}\\ \\mathrm{cm^{-2}\\,s^{-1}}) \\times 80.0\\ \\mathrm{cm^{2}} \\times 60\\ \\mathrm{s}$ (1M)\n- $N = 4.80 \\times 10^{14}$ (1A)\n\n(e)\n- Neutrinos interact only via the weak interaction, so the chance of any single neutrino interacting in ordinary matter is extremely small. (1)\n- Detecting rare interactions therefore needs a very large target mass / volume to raise the total interaction rate. (1)\n- Clear ice lets IceCube see the Cherenkov light from a secondary charged particle (e.g. a muon) produced in those rare interactions, over a long path. (1)",
+    "answer_zh": "(a)\n- $v = c/n = (3.00 \\times 10^{8})/1.31$（1M）\n- $v = 2.29 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$（接受 $2.290 \\times 10^{8}$）（1A）\n\n(b)\n- 切倫科夫條件：粒子速率 $v_{\\mathrm{p}} > c/n$，故最小分數 $\\beta_{\\min} = v_{\\mathrm{p,min}}/c = 1/n$（1M）\n- $\\beta_{\\min} = 1/1.31 = 0.763$（接受 $0.763$ 至 $0.764$）（1A）\n\n(c)\n(i)\n- $E = 1.00 \\times 10^{10} \\times 1.00\\ \\mathrm{MeV} = 1.00 \\times 10^{10}\\ \\mathrm{MeV}$（1A）\n(ii)\n- $1\\ \\mathrm{GeV} = 10^{3}\\ \\mathrm{MeV}$，故 $E = 1.00 \\times 10^{10}/10^{3} = 1.00 \\times 10^{7}\\ \\mathrm{GeV}$（1A）\n\n(d)\n- 數目 $N = (1.00 \\times 10^{11}\\ \\mathrm{cm^{-2}\\,s^{-1}}) \\times 80.0\\ \\mathrm{cm^{2}} \\times 60\\ \\mathrm{s}$（1M）\n- $N = 4.80 \\times 10^{14}$（1A）\n\n(e)\n- 中微子只經弱相互作用，單個中微子喺普通物質入面相互作用機會極低。（1）\n- 要捕捉呢啲罕見事件，需要極大靶質量／體積去提高總相互作用率。（1）\n- 清澈冰令 IceCube 可以沿長路徑睇到次級帶電粒子（例如 μ 子）發出嘅切倫科夫光。（1）"
+  }
+}
