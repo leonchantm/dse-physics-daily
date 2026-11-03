@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-04",
+  "news": [
+    {
+      "title": "Hera 太空船首次分開影到 Didymos 同 Dimorphos 雙小行星",
+      "summary": "歐空局（ESA）Hera 任務喺距離目標約 1280 km 時，首次用 Asteroid Framing Camera 將 Didymos–Dimorphos 系統影成兩個分開天體，而唔再係一個光點。系統距離地球約 1.97 億 km；Dimorphos 直徑約 151 m，Didymos 約 780 m，兩者平均相隔約 1.15 km，Dimorphos 軌道速率約 0.18 m/s。Hera 早前兩次推進器煞車，相對速率降至約 20 m/s。任務要調查 2022 年 NASA DART 以約 6.1 km/s 撞擊 Dimorphos 之後：軌道周期縮短約 33 分鐘，碎片拋出遠至約 10 000 km，但撞擊效應遠超模擬，仍未知係留下隕石坑定改變整體形狀。",
+      "topic": "力學（動量／圓周運動）、波動（電磁波通訊）",
+      "source_name": "ScienceDaily / ESA",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm",
+      "source_date": "3/11",
+      "links": [
+        {
+          "label": "ESA / ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261103003154.htm"
+        }
+      ]
+    },
+    {
+      "title": "LHCb：十年億分一「美夸克」衰變成雙 μ 子首見證據",
+      "summary": "CERN 嘅 LHCb 合作組宣佈：首次喺單一實驗見到 Bd 粒子（含美夸克同反下夸克）衰變成一對 μ 子（μ⁺μ⁻）嘅證據。理論預測大約每 100 億個美夸克粒子先發生一次呢個衰變，比已觀測嘅 Bs→μ⁺μ⁻ 仲稀有約 30 倍。用 2024–2025 升級後五倍數據率，再結合 2011–2018 數據，統計顯著性達 3.2σ（證據門檻約 3σ；發現要 5σ）。精確量度極稀有衰變率，可間接探測 LHC 直接造唔到嘅新粒子影響。",
+      "topic": "放射現象和核能（粒子衰變／μ 子）",
+      "source_name": "CERN / LHCb",
+      "source_url": "https://home.cern/lhcb-finds-evidence-of-one-in-ten-billion-particle-decay/",
+      "source_date": "3/11",
+      "links": [
+        {
+          "label": "University of Manchester / phys.org",
+          "url": "https://phys.org/news/2026-11-physicists-closer-zeptoverse-year-particle.html"
+        }
+      ]
+    },
+    {
+      "title": "指甲大光子晶片：把混埋嘅激光拆成互不相關嘅乾淨光束",
+      "summary": "史丹福、ISTA 等團隊喺 Nature Photonics 示範：指甲大小嘅集成光子晶片，可將多支激光混成嘅「部分相干」光，自動分解成互相完全唔相干嘅獨立輸出光束。實驗先用兩支紅外激光混合，晶片按相干模態分揀；再加第三支激光仍然拆得清。傳統相機容易把重疊光源當成一個，呢種分離可保留深度同來源資訊，望用於顯微、天文同 NASA 合作探測遙遠星系複雜光線。",
+      "topic": "波動（光嘅相干／干涉）",
+      "source_name": "phys.org / Stanford / Nature Photonics",
+      "source_url": "https://phys.org/news/2026-11-fingernail-sized-chip-untangles.html",
+      "source_date": "3/11",
+      "links": [
+        {
+          "label": "Nature Photonics (DOI)",
+          "url": "https://doi.org/10.1038/s41566-026-02035-6"
+        }
+      ]
+    },
+    {
+      "title": "室溫超固態：光–物質混合準粒子首次見到「又固體又超流」",
+      "summary": "華沙大學、波蘭軍事技術大學、IBM Zurich 同 CNRS 喺 Science Advances 報告：用液晶微腔加有機半導體，令激子–極化子（exciton polariton）喺室溫形成玻色–愛因斯坦凝聚，並同時出現超流同晶體式週期結構——即超固態。樣本甚至可靠近 60 °C 運作；發光出現規則亮紋同自旋螺旋偏振調制，每次激光脈衝亮紋位置可自發揀唔同組態。以往超固態多數要接近絕對零度，室溫光控平台有望用於光子器件同光學感測。",
+      "topic": "波動（光子／偏振）、原子物理（能級／準粒子）",
+      "source_name": "phys.org / University of Warsaw",
+      "source_url": "https://phys.org/news/2026-11-hybrids-supersolid-quantum-state-room.html",
+      "source_date": "3/11",
+      "links": [
+        {
+          "label": "Science Advances (DOI)",
+          "url": "https://doi.org/10.1126/sciadv.aee4875"
+        }
+      ]
+    },
+    {
+      "title": "CERN HiLumi 四極磁鐵就緒：峰值磁場 11.3 T，準備裝入隧道",
+      "summary": "高亮度大型強子對撞機（HiLumi LHC）計劃：CERN 自製嘅八件鈮–錫（Nb₃Sn）內三重態四極磁鐵全部完成測試，準備日後裝入隧道。額定峰值磁場 11.3 T、磁長度 7.2 m，孔徑 150 mm，比現有 Nb–Ti 四極磁鐵約 8.6 T 更高更強，用嚟喺 ATLAS 同 CMS 附近把質子束更大力聚焦，提高對撞光度。IT String 全尺寸測試已達額定電流；預計 2028 年起陸續安裝。",
+      "topic": "電和磁（磁場／帶電粒子受力）",
+      "source_name": "CERN",
+      "source_url": "https://home.cern/cern-made-hilumi-lhc-quadrupoles-ready-for-installation/",
+      "source_date": "28/10"
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "mechanics",
+    "story": "Hera 太空船首次分開影到 Didymos 同 Dimorphos 雙小行星",
+    "question_en": "In 2022 NASA's DART spacecraft hit the asteroid Dimorphos at a speed of $6.10\\ \\mathrm{km\\,s^{-1}}$. ESA's Hera spacecraft is now approaching the Didymos–Dimorphos system to study the aftermath.\n\nDimorphos orbits Didymos at an average separation of $1.15\\ \\mathrm{km}$ with orbital speed $0.180\\ \\mathrm{m\\,s^{-1}}$. Treat the orbit as circular.\n\n(a) Express the DART impact speed in $\\mathrm{m\\,s^{-1}}$. (1 mark)\n\n(b) Calculate the orbital period of Dimorphos\n(i) in seconds, and\n(ii) in hours. (3 marks)\n\n(c) The impact shortened the orbital period by $33.0$ minutes. Using your answer in (b)(ii), find the new orbital period in hours. (2 marks)\n\n(d) The asteroid system is $1.97 \\times 10^{8}\\ \\mathrm{km}$ from Earth. A radio signal from Hera travels at $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$. Calculate the one-way travel time to Earth in minutes. (3 marks)\n\n(e) Explain briefly why deliberately changing an asteroid's orbital period by a kinetic impact could help protect the Earth. (2 marks)",
+    "question_zh": "2022 年 NASA 嘅 DART 太空船以 $6.10\\ \\mathrm{km\\,s^{-1}}$ 撞擊小行星 Dimorphos。歐空局 Hera 太空船而家正接近 Didymos–Dimorphos 系統，調查撞擊後果。\n\nDimorphos 繞 Didymos 運行，平均距離 $1.15\\ \\mathrm{km}$，軌道速率 $0.180\\ \\mathrm{m\\,s^{-1}}$。可視軌道為圓形。\n\n(a) 將 DART 撞擊速率以 $\\mathrm{m\\,s^{-1}}$ 表示。（1 分）\n\n(b) 計算 Dimorphos 嘅軌道周期\n(i) 以秒為單位，同\n(ii) 以小時為單位。（3 分）\n\n(c) 撞擊令軌道周期縮短 $33.0$ 分鐘。用 (b)(ii) 嘅答案，求新嘅軌道周期（以小時為單位）。（2 分）\n\n(d) 該小行星系統距離地球 $1.97 \\times 10^{8}\\ \\mathrm{km}$。Hera 發出嘅無線電訊號以 $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$ 傳播。計算單程到達地球所需時間（以分鐘為單位）。（3 分）\n\n(e) 簡述點解刻意用動能撞擊改變小行星軌道周期，可以有助保護地球。（2 分）",
+    "answer_en": "(a)\n- $6.10\\ \\mathrm{km\\,s^{-1}} = 6.10 \\times 10^{3}\\ \\mathrm{m\\,s^{-1}}$ ($6100\\ \\mathrm{m\\,s^{-1}}$) (1A)\n\n(b)\n(i)\n- $T = 2\\pi r / v$ with $r = 1.15 \\times 10^{3}\\ \\mathrm{m}$ (1M)\n- $T = 2\\pi (1.15 \\times 10^{3}) / 0.180 = 4.01 \\times 10^{4}\\ \\mathrm{s}$ (accept $4.014 \\times 10^{4}$) (1A)\n(ii)\n- $T = 4.01 \\times 10^{4}/3600 = 11.2\\ \\mathrm{h}$ (accept $11.15\\ \\mathrm{h}$) (1A)\n\n(c)\n- $33.0\\ \\mathrm{min} = 33.0/60 = 0.550\\ \\mathrm{h}$ (1M)\n- $T_{\\mathrm{new}} = 11.2 - 0.550 = 10.6\\ \\mathrm{h}$ (accept $10.60\\ \\mathrm{h}$ if $11.15$ used) (1A)\n\n(d)\n- $d = 1.97 \\times 10^{8}\\ \\mathrm{km} = 1.97 \\times 10^{11}\\ \\mathrm{m}$ (1M)\n- $t = d/c = (1.97 \\times 10^{11})/(3.00 \\times 10^{8}) = 657\\ \\mathrm{s}$ (1A)\n- $t = 657/60 = 10.9\\ \\mathrm{min}$ (1A)\n\n(e)\n- A change in orbital period / velocity alters the asteroid's future path so it can miss Earth. (1)\n- Kinetic impact transfers momentum (and ejected debris can add further momentum change), so a small deflection early can produce a large miss distance later. (1)",
+    "answer_zh": "(a)\n- $6.10\\ \\mathrm{km\\,s^{-1}} = 6.10 \\times 10^{3}\\ \\mathrm{m\\,s^{-1}}$（$6100\\ \\mathrm{m\\,s^{-1}}$）（1A）\n\n(b)\n(i)\n- $T = 2\\pi r / v$，其中 $r = 1.15 \\times 10^{3}\\ \\mathrm{m}$（1M）\n- $T = 2\\pi (1.15 \\times 10^{3}) / 0.180 = 4.01 \\times 10^{4}\\ \\mathrm{s}$（接受 $4.014 \\times 10^{4}$）（1A）\n(ii)\n- $T = 4.01 \\times 10^{4}/3600 = 11.2\\ \\mathrm{h}$（接受 $11.15\\ \\mathrm{h}$）（1A）\n\n(c)\n- $33.0\\ \\mathrm{min} = 33.0/60 = 0.550\\ \\mathrm{h}$（1M）\n- $T_{\\mathrm{new}} = 11.2 - 0.550 = 10.6\\ \\mathrm{h}$（若用 $11.15$ 則接受 $10.60\\ \\mathrm{h}$）（1A）\n\n(d)\n- $d = 1.97 \\times 10^{8}\\ \\mathrm{km} = 1.97 \\times 10^{11}\\ \\mathrm{m}$（1M）\n- $t = d/c = (1.97 \\times 10^{11})/(3.00 \\times 10^{8}) = 657\\ \\mathrm{s}$（1A）\n- $t = 657/60 = 10.9\\ \\mathrm{min}$（1A）\n\n(e)\n- 改變軌道周期／速率會改變小行星將來路徑，從而可能避開地球。（1）\n- 動能撞擊傳遞動量（噴出碎片可再加動量改變）；提早細微偏轉可喺之後造成大距離錯過。（1）"
+  }
+}
