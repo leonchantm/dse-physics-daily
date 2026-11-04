@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-05",
+  "news": [
+    {
+      "title": "蝙蝠群飛時會「自組織」調高／調低超音波頻率，減少回聲互相干擾",
+      "summary": "富山大學、同志社大學等團隊喺 Proceedings of the Royal Society B 報告：東方彎翅蝠（Miniopterus fuliginosus）發出約 20–120 kHz 超音波回聲定位。實驗幫 11 隻蝠裝無線咪，播干擾聲並量度叫聲變化；提出「洩漏積分」模型——蝠較易受較低頻干擾影響，較唔受更高頻影響——模擬顯示群體可自發把頻率拉開，減少誤判回聲，而唔使有中央指揮。",
+      "topic": "波動（聲波／超音波／回聲定位）",
+      "source_name": "phys.org",
+      "source_url": "https://phys.org/news/2026-11-adjustments-echolocation-distinct.html",
+      "source_date": "4/11",
+      "links": [
+        {
+          "label": "Royal Society B (DOI)",
+          "url": "https://doi.org/10.1098/rspb.2026.0921"
+        }
+      ]
+    },
+    {
+      "title": "地中海 KM3NeT／ORCA：5828 個大氣中微子事件未見違反勞侖茲不變性",
+      "summary": "KM3NeT 合作組用地中海深海 ORCA 望遠鏡首六組探測單元、約 1.4 年數據，分析 5828 個大氣中微子候選事件，尋找愛因斯坦相對論核心嘅勞侖茲不變性有冇破綻。結果未見違反證據，但定出新嘅實驗上限，並首次直接限制某啲 μ／τ 中微子振盪相關效應；即使探測器仍未建完，結果已可同 IceCube、Super-Kamiokande 競爭。論文刊於 Journal of Cosmology and Astroparticle Physics。",
+      "topic": "放射現象和核能（中微子）、波動（相對論／光速）",
+      "source_name": "phys.org / KM3NeT",
+      "source_url": "https://phys.org/news/2026-11-einstein-laws-bottom-mediterranean-sea.html",
+      "source_date": "4/11",
+      "links": [
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2603.04264"
+        }
+      ]
+    },
+    {
+      "title": "新演算法 FLIP：兩年前 JWST 影像「去星光眩光」後現出巨行星 51 Eri b",
+      "summary": "西北大學團隊喺 Nature 發表 Physics-based Learning for Imaging Planets（FLIP）：用望遠鏡物理模型加優化，數碼孿生模擬星光經鏡面到探測器嘅路徑，再減去眩光。對已有 JWST 數據，探測暗行星靈敏度可提高約 2–15 倍；喺標準方法睇唔到嘅影像中，以 >5σ 找回早知存在嘅巨行星 51 Eridani b（該波段受大氣二氧化碳吸收，訊號更弱）。有望喺唔改硬件下發掘更暗、更似地球嘅行星。",
+      "topic": "波動（光／紅外／成像）、天文學",
+      "source_name": "phys.org / Northwestern / Nature",
+      "source_url": "https://phys.org/news/2026-11-giant-planet-emerges-year-jwst.html",
+      "source_date": "4/11",
+      "links": [
+        {
+          "label": "Nature (DOI)",
+          "url": "https://doi.org/10.1038/s41586-026-11213-z"
+        }
+      ]
+    },
+    {
+      "title": "CMS：希格斯玻色子質量最精確單實驗量度 125.065 GeV（不確定度 88 MeV）",
+      "summary": "CERN 嘅 CMS 合作組結合希格斯衰變成雙光子（H→γγ）同衰變成兩個 Z 再變四輕子（H→ZZ→4ℓ）兩個潔淨道，用 7、8、13 TeV 質子對撞數據，得出質量 125.065 GeV，不確定度僅 88 MeV（約 0.07%），係迄今單一實驗最精確結果。更準質量可收緊標準模型預測，並為日後同 ATLAS 合併奠定基礎。結果於 2026 年 11 月 2 日公布。",
+      "topic": "放射現象和核能（粒子／衰變）、原子世界（光子）",
+      "source_name": "CMS / CERN",
+      "source_url": "https://cms.cern/news/how-much-does-higgs-boson-weigh-cms-gives-its-most-precise-answer-yet",
+      "source_date": "2/11"
+    },
+    {
+      "title": "NASA 太陽耀斑預警系統首次助探空火箭「趕得切」觀測進行中嘅耀斑",
+      "summary": "NASA Goddard 團隊喺 The Astrophysical Journal（11 月 4 日）描述一套耀斑警報：用 SDO、GOES 同地面觀測嘅 X 射線／紫外線，幾分鐘內估出耀斑位置同可持續時間。探空火箭只有約五分鐘觀測窗，以往難押中耀斑未熄；系統已協助 2024 年 4 月兩枚火箭同 2026 年 5 月 FOXSI-5（Black Brant IX，阿拉斯加）成功觀測進行中嘅耀斑（後者一次飛行見到三個細耀斑），亦有助未來太空天氣預報。",
+      "topic": "波動（電磁波／X 射線）、熱和氣體（太陽能量釋放）",
+      "source_name": "NASA Science",
+      "source_url": "https://science.nasa.gov/blogs/science-news/2026/11/04/solar-flare-alert-system-helps-nasa-rocket-team-decide-when-to-launch/",
+      "source_date": "4/11"
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "waves",
+    "story": "蝙蝠群飛時會「自組織」調高／調低超音波頻率，減少回聲互相干擾",
+    "question_en": "Eastern bent-winged bats navigate in the dark using ultrasonic echolocation. A bat emits short pulses of ultrasound of frequency $40.0\\ \\mathrm{kHz}$. Take the speed of sound in air as $340\\ \\mathrm{m\\,s^{-1}}$.\n\n(a) Calculate the wavelength of this ultrasound. (2 marks)\n\n(b) An insect is $5.10\\ \\mathrm{m}$ from the bat. Calculate the time interval between the emission of a pulse and the reception of its echo. (3 marks)\n\n(c) In a group of bats, individuals adjust their call frequencies so that neighbouring bats do not use almost the same frequency.\n(i) Suggest one advantage of using ultrasound rather than audible sound to locate small insects. (1 mark)\n(ii) Explain briefly why two bats calling at nearly the same frequency would make echolocation less reliable. (2 marks)",
+    "question_zh": "東方彎翅蝠靠超音波回聲定位喺黑暗中飛行。一隻蝠發出頻率 $40.0\\ \\mathrm{kHz}$ 嘅短脈衝超音波。取空氣中聲速為 $340\\ \\mathrm{m\\,s^{-1}}$。\n\n(a) 計算呢種超音波嘅波長。（2 分）\n\n(b) 一隻昆蟲距離蝠 $5.10\\ \\mathrm{m}$。計算由發出脈衝至收到回聲嘅時間間隔。（3 分）\n\n(c) 喺蝠群入面，個體會調整叫聲頻率，令鄰近嘅蝠唔好用幾乎相同嘅頻率。\n(i) 提出一項用超音波而非可聽聲去定位細小昆蟲嘅好處。（1 分）\n(ii) 簡述點解兩隻蝠用幾乎相同頻率叫聲會令回聲定位較唔可靠。（2 分）",
+    "answer_en": "(a)\n- $f = 40.0\\ \\mathrm{kHz} = 4.00 \\times 10^{4}\\ \\mathrm{Hz}$ (1M)\n- $\\lambda = v/f = 340 / (4.00 \\times 10^{4}) = 8.50 \\times 10^{-3}\\ \\mathrm{m}$ ($8.50\\ \\mathrm{mm}$) (1A)\n\n(b)\n- Total path length $= 2 \\times 5.10 = 10.2\\ \\mathrm{m}$ (1M)\n- $t = s/v = 10.2 / 340$ (1M)\n- $t = 0.0300\\ \\mathrm{s}$ ($30.0\\ \\mathrm{ms}$) (1A)\n\n(c)\n(i)\n- Shorter wavelength / higher resolution / can detect smaller objects (or: less audible to prey / humans; or diffraction less severe for small targets). (1)\n(ii)\n- Echoes from the two bats would be hard to tell apart / could be confused with each other. (1)\n- So a bat may misjudge distance / direction / fail to detect an obstacle or prey (signal jamming). (1)",
+    "answer_zh": "(a)\n- $f = 40.0\\ \\mathrm{kHz} = 4.00 \\times 10^{4}\\ \\mathrm{Hz}$（1M）\n- $\\lambda = v/f = 340 / (4.00 \\times 10^{4}) = 8.50 \\times 10^{-3}\\ \\mathrm{m}$（$8.50\\ \\mathrm{mm}$）（1A）\n\n(b)\n- 總路程 $= 2 \\times 5.10 = 10.2\\ \\mathrm{m}$（1M）\n- $t = s/v = 10.2 / 340$（1M）\n- $t = 0.0300\\ \\mathrm{s}$（$30.0\\ \\mathrm{ms}$）（1A）\n\n(c)\n(i)\n- 波長較短／解像較高／可探測較細物體（或：獵物／人較難聽見；或對細目標衍射較唔嚴重）。（1）\n(ii)\n- 兩隻蝠嘅回聲好難分辨／容易互相混淆。（1）\n- 因而可能誤判距離／方向／偵測唔到障礙或獵物（訊號干擾）。（1）"
+  }
+}
