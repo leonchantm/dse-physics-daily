@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-06",
+  "news": [
+    {
+      "title": "萊頓大學：超導納米線探測器可分辨 1、2、3 個或以上光子",
+      "summary": "萊頓大學 Erik Baalbergen 博士論文 Photon-Number Resolution with Superconducting Nanowires（11 月 3 日答辯）改良超導納米線單光子探測器：極低溫下納米線電阻為零，光子打中會令局部電阻突變並產生可量度電訊號。他同理論組 Ilse Kuijf 等不單睇訊號振幅，仲用訊號對時間嘅導數，更準分辨 1、2、3（或以上）個光子——以往探測器多數淨係「有／冇」光。光學量子電腦要用光子數目做運算，呢類光子計數探測器係關鍵積木；部分成果刊於 APS Open Science。",
+      "topic": "原子世界（光子／量子光學）、電和磁（超導探測）",
+      "source_name": "phys.org / Leiden University",
+      "source_url": "https://phys.org/news/2026-11-physicist-detector-capable-photons-quantum.html",
+      "source_date": "5/11",
+      "links": [
+        {
+          "label": "APS Open Science (DOI)",
+          "url": "https://doi.org/10.1103/dwth-wjtr"
+        }
+      ]
+    },
+    {
+      "title": "Parkes 脈衝星計時陣列：首次為「宇宙黎明」超大質量雙黑洞定質量上限",
+      "summary": "北京師範大學陳宜勤等團隊用澳洲 Parkes 脈衝星計時陣列 18 年、30 顆脈衝星數據，並計入宇宙膨脹造成嘅引力波紅移，對兩顆極遠目標——大爆炸後不足 9 億年嘅超亮類星體，同 JWST 見到、不足 3 億年嘅遠星系——首次直接限制雙超大質量黑洞對。兩邊都排除約 100 億太陽質量或以上嘅雙黑洞。納赫茲引力波搜尋以往多限於近距；新方法顯示極遠未必更難偵測。論文刊於 Physical Review Letters。",
+      "topic": "波動（引力波）、天文學",
+      "source_name": "phys.org / PRL",
+      "source_url": "https://phys.org/news/2026-11-pulsars-mass-limits-supermassive-black.html",
+      "source_date": "4/11",
+      "links": [
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2609.00613"
+        }
+      ]
+    },
+    {
+      "title": "東北大學＋JAEA：室溫用電流控制量子幾何非線性霍爾效應",
+      "summary": "東北大學同日本原子力研究開發機構團隊首次用電流控制手性反鐵磁體 Mn₃Sn 入面嘅量子幾何非線性霍爾（QgNLH）態。佢哋喺室溫觀測到三階非線性霍爾電壓（與電流三次方成正比），並證實可由自旋結構反轉而改變符號。喺 Mn₃Sn 旁加重金屬層，用自旋軌道力矩脈衝切換磁序，即可用相反極性電流脈衝翻轉非線性霍爾響應。研究顯示量子幾何唔係固定材料屬性，可用電流按需調控，有望做可調非線性電子器件。論文刊於 Cell Press 期刊 Newton（11 月 4 日）。",
+      "topic": "電和磁（霍爾效應／電流）",
+      "source_name": "Tohoku University",
+      "source_url": "https://www.tohoku.ac.jp/en/press/electrical_control_of_an_unconventional_quantum_transport_state_in_magnets_demonstrated.html",
+      "source_date": "5/11",
+      "links": [
+        {
+          "label": "Nanowerk summary",
+          "url": "https://www.nanowerk.com/nanotechnology-news3/newsid=70546.php"
+        }
+      ]
+    },
+    {
+      "title": "月球形成撞擊後地球自轉變慢，或塑造原始地殼同早期板塊",
+      "summary": "布里斯托大學 Simon Lock 喺 JGR: Solid Earth 提出：約 45 億年前月球形成撞擊令地球一日只有約 2–5 小時，極快自轉把地球壓扁成「扁球」，赤道可厚至兩倍極距。其後潮汐把月球推遠、地球自轉變慢並逐漸變圓；赤道附近離心力曾部分抵消重力，令赤道地殼較厚。變圓時極區地殼被拉伸、赤道被擠壓，變形速率有時可比擬喜馬拉雅造山，持續可達數千萬年，或解釋早期岩石多樣性同大陸種子，以往模型多忽略自轉減速。",
+      "topic": "力和運動（圓周運動／角動量）",
+      "source_name": "phys.org",
+      "source_url": "https://phys.org/news/2026-11-earth-primordial-crust.html",
+      "source_date": "5/11",
+      "links": [
+        {
+          "label": "JGR Solid Earth (DOI)",
+          "url": "https://doi.org/10.1029/2025jb033676"
+        }
+      ]
+    },
+    {
+      "title": "柏林自由大學：用月球潮汐模型尋找愛因斯坦引力波「交叉偏振」殘差",
+      "summary": "柏林自由大學數學家 Muhittin Eser 喺 The Astrophysical Journal 提出，把經典牛頓月球潮汐模型加上一個對應引力波交叉偏振嘅額外項，並分析參考系退化同正弦正交殘差，說明點樣先可以喺高精度潮汐／重力／月球激光測距數據入面，有針對性噉搜尋廣義相對論嘅極微細痕跡。作者強調未聲稱發現新效應，而係為日後精密量度提供定量框架——引力波以往多靠遙遠雙黑洞合併，呢度則望向地月系統。",
+      "topic": "波動／力和運動（潮汐／引力）",
+      "source_name": "phys.org / Freie Universität Berlin",
+      "source_url": "https://phys.org/news/2026-11-einstein-gravitational-newton-tides.html",
+      "source_date": "5/11",
+      "links": [
+        {
+          "label": "ApJ (DOI)",
+          "url": "https://doi.org/10.3847/1538-4357/aeacd5"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "atomic",
+    "story": "萊頓大學：超導納米線探測器可分辨 1、2、3 個或以上光子",
+    "question_en": "A photon-number-resolving detector is used with a weak laser pulse of wavelength\n$$\\lambda = 532\\ \\mathrm{nm}$$\n\nTake $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$, $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$ and $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$.\n\n(a) Calculate the energy of one photon in joules and in electron-volts. (3 marks)\nGiven:\n- $E = \\dfrac{hc}{\\lambda}$\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n\n(b) A weak pulse has a mean energy corresponding to $N = 5$ photons. The detector registers exactly 2 photons in one trial.\n(i) Compare the registered energy with the mean total energy of the pulse. (1 mark)\n(ii) Explain why an ordinary photodetector that only indicates \"light present\" or \"no light\" is insufficient for optical quantum computing. (2 marks)\n\n(c) The detector uses a superconducting nanowire kept at a very low temperature. Explain briefly how absorption of a single photon can produce a measurable electrical pulse. (2 marks)",
+    "question_zh": "一個可分辨光子數目嘅探測器搭配波長為\n$$\\lambda = 532\\ \\mathrm{nm}$$\n嘅弱激光脈衝使用。\n\n取 $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$、$c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$ 同 $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$。\n\n(a) 計算一個光子嘅能量（以焦耳及電子伏特表示）。（3 分）\n已知：\n- $E = \\dfrac{hc}{\\lambda}$\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n\n(b) 一個弱脈衝嘅平均能量相當於 $N = 5$ 個光子。某次探測器剛好記錄到 2 個光子。\n(i) 比較記錄到嘅能量同脈衝平均總能量。（1 分）\n(ii) 解釋點解淨係顯示「有光／冇光」嘅普通光電探測器，對光學量子計算並不足夠。（2 分）\n\n(c) 探測器用處於極低溫嘅超導納米線。簡述吸收一個光子點樣可以產生可量度嘅電脈衝。（2 分）",
+    "answer_en": "(a)\n- $\\lambda = 532\\ \\mathrm{nm} = 5.32 \\times 10^{-7}\\ \\mathrm{m}$ (1M)\n- $E = \\dfrac{hc}{\\lambda} = \\dfrac{(6.63 \\times 10^{-34})(3.00 \\times 10^{8})}{5.32 \\times 10^{-7}} = 3.74 \\times 10^{-19}\\ \\mathrm{J}$ (1A)\n- $E = \\dfrac{3.74 \\times 10^{-19}}{1.60 \\times 10^{-19}} = 2.34\\ \\mathrm{eV}$ (1A)\n\n(b)\n(i)\n- Registered energy $= 2E$; mean total energy $= 5E$，so registered energy is smaller than the mean total (ratio $2/5$). (1)\n(ii)\n- Optical quantum computing needs the exact number of photons (1, 2, 3, …) as part of the calculation. (1)\n- A yes/no detector cannot distinguish one photon from two or more, so the required photon-number information is lost. (1)\n\n(c)\n- At very low temperature the nanowire has (essentially) zero resistance. (1)\n- A photon heats a small spot, creating a local resistance / breaking superconductivity there, which produces a measurable voltage/current pulse. (1)",
+    "answer_zh": "(a)\n- $\\lambda = 532\\ \\mathrm{nm} = 5.32 \\times 10^{-7}\\ \\mathrm{m}$（1M）\n- $E = \\dfrac{hc}{\\lambda} = \\dfrac{(6.63 \\times 10^{-34})(3.00 \\times 10^{8})}{5.32 \\times 10^{-7}} = 3.74 \\times 10^{-19}\\ \\mathrm{J}$（1A）\n- $E = \\dfrac{3.74 \\times 10^{-19}}{1.60 \\times 10^{-19}} = 2.34\\ \\mathrm{eV}$（1A）\n\n(b)\n(i)\n- 記錄能量 $= 2E$；平均總能量 $= 5E$，故記錄能量細過平均總能量（比值 $2/5$）。（1）\n(ii)\n- 光學量子計算需要準確知道光子數目（1、2、3…）先可以做運算。（1）\n- 「有／冇」探測器分唔到一個同兩個或以上光子，所需嘅光子數目資訊會失落。（1）\n\n(c)\n- 極低溫下納米線電阻（基本上）為零。（1）\n- 光子令局部受熱出現電阻／局部失去超導，因而產生可量度嘅電壓／電流脈衝。（1）"
+  }
+}
