@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-08",
+  "news": [
+    {
+      "title": "中國太空站：光學阱冷卻銣原子至 9.7 皮開，創太空最低溫紀錄",
+      "summary": "北京大學周小計等團隊喺天宮太空站，用激光冷卻同蒸發冷卻，再配合光學偶極阱（ODT），將約 2 萬個銣原子冷卻到等效溫度 9.7 皮開（9.7×10⁻¹² K；不確定度約 7.0–12.9 pK），比以往墜落塔紀錄 38 pK 低約 4 倍，亦低於國際空間站冷原子實驗嘅 52 pK。微重力下原子唔會喺阱內「下墜」，自由膨脹觀測可長達 7 秒（墜落塔約 2 秒、ISS 約 1 秒）。成果刊於 Science，有望做太空量子模擬同原子干涉儀。",
+      "topic": "熱和氣體（溫度／絕對零度）、原子世界",
+      "source_name": "phys.org / Science",
+      "source_url": "https://phys.org/news/2026-11-scientists-temperature-china-space-station.html",
+      "source_date": "6/11",
+      "links": [
+        {
+          "label": "Science (DOI)",
+          "url": "https://doi.org/10.1126/science.aea5324"
+        }
+      ]
+    },
+    {
+      "title": "牛津：阱中離子模擬 Aharonov–Bohm 干涉，零磁通令粒子隧穿加倍",
+      "summary": "牛津大學 Sebastian Saner 等用兩粒鍶離子喺混合量子電腦上模擬 Z₂ 格點規範理論嘅閉合迴路：離子電子態編碼規範場、振動模編碼物質。粒子沿兩條路徑繞通量時，零磁通令兩路徑同號相長、隧穿速率約為單連線嘅兩倍；非零磁通（vison）則相消、隧穿完全抑制——係 Aharonov–Bohm 效應喺格點規範模擬中嘅直接演示。論文刊於 Nature Physics。",
+      "topic": "波動（干涉）、電和磁（磁通）",
+      "source_name": "phys.org / Nature Physics",
+      "source_url": "https://phys.org/news/2026-11-paths-flux-ions-simulate-aharonovbohm.html",
+      "source_date": "7/11",
+      "links": [
+        {
+          "label": "Nature Physics (DOI)",
+          "url": "https://doi.org/10.1038/s41567-026-03400-6"
+        }
+      ]
+    },
+    {
+      "title": "UCSB：振動「光鏡」令物質波聚成脈衝，類比黑洞事件視界",
+      "summary": "加州大學聖巴巴拉分校 David Weld 團隊把超冷鋰原子當作物質波，用兩片激光「鏡」組成腔；其中一片以約 100 Hz 振動。原本散開嘅原子雲喺幾週期內收成緊密波包，並沿穩定單向路徑運動，數學上類似黑洞／白洞事件視界附近嘅單向流動。加倍驅動頻率可造兩個波包；突然改相位可對調穩定／不穩定路徑。結果刊於 Physical Review Letters，或啟發壓縮光學訊號嘅新方法。",
+      "topic": "波動（駐波／共振腔）、原子世界",
+      "source_name": "phys.org / PRL",
+      "source_url": "https://phys.org/news/2026-11-vibrating-mirrors-analog-black-hole.html",
+      "source_date": "6/11",
+      "links": [
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2601.21122"
+        }
+      ]
+    },
+    {
+      "title": "Fraunhofer：鑽石 NV 心放入激光腔，磁場感測對比度達 100%",
+      "summary": "德國弗勞恩霍夫應用固體物理研究所 Florian Schall 團隊把掺氮空位（NV）鑽石放進近紅外激光腔（波長 1042 nm）。外加磁場經塞曼效應改變 NV 自旋能隙，調控鑽石對紅外光嘅吸收，從而直接改變激光輸出強度——共振時激光可完全熄滅（100% 光學對比），失配時輸出超過 50 mW。相對傳統螢光讀出，靈敏度極限與動態範圍之比提升約 500 倍，並可做三軸矢量磁力測量。論文刊於 Nature Communications。",
+      "topic": "電和磁（磁場）、原子世界（能級）",
+      "source_name": "Physics World",
+      "source_url": "https://physicsworld.com/a/laser-cavity-boosts-nitrogen-vacancy-magnetic-sensor/",
+      "source_date": "2/11"
+    },
+    {
+      "title": "火星 Arsia Mons 晨雲：重力波急冷引發「均勻成核」結冰",
+      "summary": "巴黎 LMD／CNRS／索邦大學 Jorge Hernández-Bernal 等結合 Mars Express 晨間影像同中尺度大氣模型，解釋每年火星春季喺 Arsia Mons 火山西側約 45 km 高空出現、可伸延至 1800 km 嘅細長晨雲。強風過山頂激發大氣重力波，空氣喺約 10 分鐘內可冷卻最多 30 K；溫度低於約 130 K 時水汽過飽和可達地球常見值嘅 10⁵ 倍，動能障礙崩潰，水分子可唔靠塵埃種子直接結成純冰晶（均勻成核）——以往被認為喺真實行星大氣極罕見。研究刊於 Nature Geoscience。",
+      "topic": "熱和氣體（冷卻／相變）、波動（重力波）",
+      "source_name": "Physics World / Nature Geoscience",
+      "source_url": "https://physicsworld.com/a/mystery-of-recurring-martian-cloud-may-be-solved/",
+      "source_date": "4/11"
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "heat",
+    "story": "中國太空站：光學阱冷卻銣原子至 9.7 皮開，創太空最低溫紀錄",
+    "question_en": "Researchers on China's Tiangong space station cooled about $2 \\times 10^{4}$ rubidium atoms to an equivalent temperature of\n$$T = 9.7\\ \\mathrm{pK} = 9.7 \\times 10^{-12}\\ \\mathrm{K}$$\n(the previous drop-tower record was $38\\ \\mathrm{pK}$).\n\nTake $k = 1.38 \\times 10^{-23}\\ \\mathrm{J\\,K^{-1}}$ and the mass of one ${}^{87}\\mathrm{Rb}$ atom as $m = 87 \\times 1.66 \\times 10^{-27}\\ \\mathrm{kg}$.\n\n(a) Show that $T = 9.7\\ \\mathrm{pK}$ is about 4 times lower than $38\\ \\mathrm{pK}$. (1 mark)\n\n(b) For an ideal monatomic gas the root-mean-square speed is\n$$c_{\\mathrm{rms}} = \\sqrt{\\dfrac{3kT}{m}}$$\nCalculate $c_{\\mathrm{rms}}$ of the rubidium atoms at $T = 9.7 \\times 10^{-12}\\ \\mathrm{K}$. (3 marks)\n\n(c) The average translational kinetic energy of one atom is\n$$\\overline{E}_{\\mathrm{k}} = \\dfrac{3}{2}kT$$\nCalculate $\\overline{E}_{\\mathrm{k}}$ at this temperature. (2 marks)\n\n(d) Explain why carrying out the experiment in microgravity (instead of on Earth) helps the team reach a lower temperature and observe the cloud for longer. (2 marks)",
+    "question_zh": "中國天宮太空站嘅研究人員將約 $2 \\times 10^{4}$ 個銣原子冷卻到等效溫度\n$$T = 9.7\\ \\mathrm{pK} = 9.7 \\times 10^{-12}\\ \\mathrm{K}$$\n（以往墜落塔紀錄為 $38\\ \\mathrm{pK}$）。\n\n取 $k = 1.38 \\times 10^{-23}\\ \\mathrm{J\\,K^{-1}}$，一個 ${}^{87}\\mathrm{Rb}$ 原子質量 $m = 87 \\times 1.66 \\times 10^{-27}\\ \\mathrm{kg}$。\n\n(a) 證明 $T = 9.7\\ \\mathrm{pK}$ 大約比 $38\\ \\mathrm{pK}$ 低 4 倍。（1 分）\n\n(b) 理想氣體單原子氣體嘅均方根速率為\n$$c_{\\mathrm{rms}} = \\sqrt{\\dfrac{3kT}{m}}$$\n計算 $T = 9.7 \\times 10^{-12}\\ \\mathrm{K}$ 時銣原子嘅 $c_{\\mathrm{rms}}$。（3 分）\n\n(c) 一個原子嘅平均平動能為\n$$\\overline{E}_{\\mathrm{k}} = \\dfrac{3}{2}kT$$\n計算此溫度下嘅 $\\overline{E}_{\\mathrm{k}}$。（2 分）\n\n(d) 解釋點解喺微重力環境（而非地球表面）做實驗，有助達到更低溫度同更長時間觀測原子雲。（2 分）",
+    "answer_en": "(a)\n- $\\dfrac{38}{9.7} \\approx 3.92 \\approx 4$ (times lower). (1A)\n\n(b)\n- $m = 87 \\times 1.66 \\times 10^{-27} = 1.44 \\times 10^{-25}\\ \\mathrm{kg}$ (1M)\n- $\\dfrac{3kT}{m} = \\dfrac{3(1.38 \\times 10^{-23})(9.7 \\times 10^{-12})}{1.44 \\times 10^{-25}} = 2.78 \\times 10^{-9}\\ \\mathrm{m^{2}\\,s^{-2}}$ (1M)\n- $c_{\\mathrm{rms}} = \\sqrt{2.78 \\times 10^{-9}} = 5.27 \\times 10^{-5}\\ \\mathrm{m\\,s^{-1}}$ (1A)\n\n(c)\n- $\\overline{E}_{\\mathrm{k}} = \\dfrac{3}{2}(1.38 \\times 10^{-23})(9.7 \\times 10^{-12})$ (1M)\n- $= 2.01 \\times 10^{-34}\\ \\mathrm{J}$ (1A)\n\n(d)\n- On Earth, gravity makes the atom cloud sag / fall in the trap, limiting how weakly the trap can hold the atoms (and thus how low $T$ can be). (1)\n- In microgravity the cloud can expand / be observed for much longer (here up to about 7 s), so weaker confinement and lower equivalent temperature are practical. (1)",
+    "answer_zh": "(a)\n- $\\dfrac{38}{9.7} \\approx 3.92 \\approx 4$（倍更低）。（1A）\n\n(b)\n- $m = 87 \\times 1.66 \\times 10^{-27} = 1.44 \\times 10^{-25}\\ \\mathrm{kg}$（1M）\n- $\\dfrac{3kT}{m} = \\dfrac{3(1.38 \\times 10^{-23})(9.7 \\times 10^{-12})}{1.44 \\times 10^{-25}} = 2.78 \\times 10^{-9}\\ \\mathrm{m^{2}\\,s^{-2}}$（1M）\n- $c_{\\mathrm{rms}} = \\sqrt{2.78 \\times 10^{-9}} = 5.27 \\times 10^{-5}\\ \\mathrm{m\\,s^{-1}}$（1A）\n\n(c)\n- $\\overline{E}_{\\mathrm{k}} = \\dfrac{3}{2}(1.38 \\times 10^{-23})(9.7 \\times 10^{-12})$（1M）\n- $= 2.01 \\times 10^{-34}\\ \\mathrm{J}$（1A）\n\n(d)\n- 喺地球，重力令原子雲喺阱內下墜／下垂，限制阱可以開得多弱（因而限制可達嘅低溫）。（1）\n- 微重力下可更長時間膨脹／觀測原子雲（今次約 7 秒），因此可以用更弱約束、達到更低等效溫度。（1）"
+  }
+}
