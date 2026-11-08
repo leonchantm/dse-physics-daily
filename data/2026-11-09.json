@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-09",
+  "news": [
+    {
+      "title": "斯圖加特：矽晶圓鑽空氣孔，造成可聚焦紫外光嘅平面反射鏡",
+      "summary": "斯圖加特大學團隊喺矽晶圓上蝕刻橢圓空氣孔（約 470 nm 長、100 nm 深），做成「Mie 空洞」超表面。矽喺紫外波段會強烈吸收光，但如果把光場主要困喺空氣孔入面，吸收就好少；周圍矽界面嘅反射反而因為吸收而增強。用圓偏振、波長 325 nm 嘅紫外光以 45° 入射，旋轉嘅橢圓孔令反射光獲得幾何相位，超表面可把光束轉折 90° 並聚焦，焦距由 5 mm 到 1.25 mm，最小圓形焦斑約 1 μm，數值孔徑達 0.15 時接近衍射極限。只需一步光刻同蝕刻，有望做緊湊紫外成像同生物分子感測。成果刊於 Advanced Photonics。",
+      "topic": "波動（紫外光／反射／聚焦）、原子世界（光子）",
+      "source_name": "phys.org / University of Stuttgart / Advanced Photonics",
+      "source_url": "https://phys.org/news/2026-11-air-holes-silicon-wafers-flat.html",
+      "source_date": "6/11",
+      "links": [
+        {
+          "label": "Advanced Photonics (DOI)",
+          "url": "https://doi.org/10.1117/1.ap.9.1.016002"
+        }
+      ]
+    },
+    {
+      "title": "雷根斯堡：電子「時空極限」獲實驗證實，響應滯後約 500 阿秒",
+      "summary": "雷根斯堡大學超快納米顯微中心聯同漢堡馬普所，用超快掃描隧道顯微鏡同兩束相隔可控時間嘅紅外激光脈衝，追蹤金屬針尖同銀表面之間只有幾個原子直徑嘅電子運動。電子以量子波方式隧穿過勢壘，運動滯後於光場約 500 阿秒。愈想精確鎖定電子「幾時郁」，就要畀更多能量，波包喺空間就散得更開——即位置同時間唔可以同時無限精確。局部峰值電流密度可高達約 10¹² A cm⁻²，長遠或有助操控化學反應，甚至令電子元件接近電子本身嘅速度極限（或可比現時 CMOS 快數十萬倍）。論文刊於 Nature Photonics。",
+      "topic": "原子世界（電子／光子）、波動（激光）",
+      "source_name": "ScienceDaily / University of Regensburg / Nature Photonics",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261106174537.htm",
+      "source_date": "7/11",
+      "links": [
+        {
+          "label": "Nature Photonics (DOI)",
+          "url": "https://doi.org/10.1038/s41566-026-01932-0"
+        }
+      ]
+    },
+    {
+      "title": "曼徹斯特：礦物生成法可從廢液移除逾 99% 放射性鎝-99",
+      "summary": "鎝-99（technetium-99）係核燃料生產同後處理產生嘅長壽命放射性核素，喺好多環境會形成好易隨水同泥土移動嘅化學形態，係英國 Sellafield、美國 Hanford 等遺留核場嘅重點污染物。曼徹斯特大學兩項研究提出新方法：其一喺層狀雙氫氧化物（LDH）生成期間，把溶解鎝還原並鎖入礦物八面體層，即使濃度偏高都可移除逾 99%，係首次證實鎝進入 LDH 八面體層；其二借用醫院骨掃描用嘅亞甲基二磷酸（MDP），令還原鎝被羥基磷灰石捕捉，實驗室同流動地下水條件下亦可移除高達 99%。有望用嚟處理廢液同原位修復受污染土地。論文刊於 Environmental Science & Technology。",
+      "topic": "放射現象和核能（放射性核素／廢料處理）",
+      "source_name": "phys.org / University of Manchester / ES&T",
+      "source_url": "https://phys.org/news/2026-11-mineral-method-radioactive-technetium-liquid.html",
+      "source_date": "6/11",
+      "links": [
+        {
+          "label": "ES&T (DOI)",
+          "url": "https://doi.org/10.1021/acs.est.6c09361"
+        }
+      ]
+    },
+    {
+      "title": "杜塞爾多夫：模擬顯示激光等離子體加速器可造「水窗」X 射線",
+      "summary": "波長約 2.3–4.4 nm 嘅軟 X 射線處於「水窗」波段：水幾乎透明，但碳、氮等生物分子會強烈吸收，好適合觀察含水生物樣本。目前通常要靠公里級自由電子激光先造到夠亮嘅呢種輻射。杜塞爾多夫海涅大學、捷克 ELI Beamlines 同斯特拉斯克萊德大學嘅模擬顯示，用高強度激光脈衝喺氣體中激發等離子體波，可喺幾厘米內把電子加速到接近光速，再經磁力擺動器（undulator）喺幾米距離內把電子能量高效轉成可調、同相嘅水窗 X 射線閃光。如果實驗成功，大學級緊湊裝置就有望做生命科學成像。論文刊於 Nature Communications。",
+      "topic": "波動（X 射線／電磁波譜）、原子世界",
+      "source_name": "phys.org / HHU Düsseldorf / Nature Communications",
+      "source_url": "https://phys.org/news/2026-11-laser-plasma-generate-bright-rays.html",
+      "source_date": "5/11",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-78880-4"
+        }
+      ]
+    },
+    {
+      "title": "美茵茨：超巨型原初黑洞幾乎不可能係暗物質主要來源",
+      "summary": "理論上早期宇宙高密度物質團可直接塌縮成「原初黑洞」，有人認為質量至少係太陽 1000 億倍嘅「超巨型」（stupendously large）原初黑洞，可以解釋宇宙約 85% 物質屬於暗物質呢個謎。美茵茨理論物理研究所團隊計算：如果呢啲極重、質量相同嘅黑洞隨機散佈，隨宇宙膨脹、輻射變稀，暗物質相對輻射會變得太不均匀，本應喺宇宙微波背景（CMB）留下特徵圖案，但觀測並未見到。結果大幅收緊呢個質量窗口可以貢獻嘅暗物質比例，亦挑戰「佢哋幫助韋伯望遠鏡見到嘅早期大質量星系形成」嘅講法。論文刊於 Physical Review Letters。",
+      "topic": "力和運動（萬有引力）、天文學（宇宙微波背景）",
+      "source_name": "phys.org / Mainz Institute for Theoretical Physics / PRL",
+      "source_url": "https://phys.org/news/2026-11-stupendously-large-primordial-black-holes.html",
+      "source_date": "8/11",
+      "links": [
+        {
+          "label": "Physical Review Letters (DOI)",
+          "url": "https://doi.org/10.1103/qlf9-thf4"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "atomic",
+    "story": "斯圖加特：矽晶圓鑽空氣孔，造成可聚焦紫外光嘅平面反射鏡",
+    "question_en": "Researchers at the University of Stuttgart etched elliptical air holes into a silicon wafer to make a flat metasurface that reflects and focuses ultraviolet light of wavelength\n$$\\lambda = 325\\ \\mathrm{nm}$$\nWhen this ultraviolet light is incident at $45^\\circ$, the metasurface redirects the beam by $90^\\circ$ while focusing it. Devices produced circular focal spots as small as about $1.00\\ \\mathrm{\\mu m}$.\n\nTake $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$, $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$ and $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$.\n\n(a) Calculate the frequency of this ultraviolet light. (2 marks)\n\n(b) Calculate the energy of one photon of this ultraviolet light, in eV. (3 marks)\n\n(c) The smallest focal spot has a diameter of about $1.00\\ \\mathrm{\\mu m}$. Estimate how many wavelengths of this ultraviolet light fit across the diameter of the spot. (2 marks)\n\n(d) The ultraviolet light is incident at $45^\\circ$ and the reflected beam is redirected by $90^\\circ$ (the incoming and outgoing rays are perpendicular). Show that this is consistent with the law of reflection. (2 marks)\n\n(e) Silicon strongly absorbs ultraviolet light. Explain why etching air holes, rather than using solid silicon pillars as a transmitting lens, allows the device to act as an efficient reflecting focusing mirror. (2 marks)",
+    "question_zh": "斯圖加特大學嘅研究人員喺矽晶圓上蝕刻橢圓空氣孔，造成一塊可以反射並聚焦紫外光嘅平面超表面，紫外光波長為\n$$\\lambda = 325\\ \\mathrm{nm}$$\n當紫外光以 $45^\\circ$ 入射時，超表面會把光束轉折 $90^\\circ$ 並同時聚焦。器件造成嘅圓形焦斑最小約 $1.00\\ \\mathrm{\\mu m}$。\n\n取 $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$，$h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$，$e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$。\n\n(a) 計算此紫外光嘅頻率。（2 分）\n\n(b) 計算此紫外光一個光子嘅能量（以 eV 為單位）。（3 分）\n\n(c) 最小焦斑直徑約為 $1.00\\ \\mathrm{\\mu m}$。估計呢個焦斑直徑大約相當於幾多個此紫外光波長。（2 分）\n\n(d) 紫外光以 $45^\\circ$ 入射，反射光束轉折 $90^\\circ$（入射光線同反射光線互相垂直）。證明呢一點符合反射定律。（2 分）\n\n(e) 矽會強烈吸收紫外光。解釋點解蝕刻空氣孔（而唔係用實心矽柱做成透射透鏡），可以令器件成為有效嘅反射聚焦鏡。（2 分）",
+    "answer_en": "(a)\n- $\\lambda = 325\\ \\mathrm{nm} = 3.25 \\times 10^{-7}\\ \\mathrm{m}$ (1M)\n- $f = \\dfrac{c}{\\lambda} = \\dfrac{3.00 \\times 10^{8}}{3.25 \\times 10^{-7}} = 9.23 \\times 10^{14}\\ \\mathrm{Hz}$ (1A)\n\n(b)\n- $E = hf = (6.63 \\times 10^{-34})(9.23 \\times 10^{14})$ (or $E = hc/\\lambda$) (1M)\n- $= 6.12 \\times 10^{-19}\\ \\mathrm{J}$ (1A)\n- $E = \\dfrac{6.12 \\times 10^{-19}}{1.60 \\times 10^{-19}} = 3.83\\ \\mathrm{eV}$ (1A)\n\n(c)\n- $1.00\\ \\mathrm{\\mu m} = 1.00 \\times 10^{-6}\\ \\mathrm{m}$ ($= 1000\\ \\mathrm{nm}$) (1M)\n- $N = \\dfrac{1.00 \\times 10^{-6}}{3.25 \\times 10^{-7}} = 3.08$ (wavelengths) (1A)\n\n(d)\n- By the law of reflection, $i = r$. With $i = 45^\\circ$, $r = 45^\\circ$. (1)\n- The deviation of the ray is $180^\\circ - i - r = 90^\\circ$, so the incoming and outgoing rays are perpendicular. (1)\n\n(e)\n- Light travelling through silicon (as in a transmitting lens / solid silicon pillars) would be strongly absorbed, so little ultraviolet light would be transmitted or usefully redirected. (1)\n- Etching air holes confines most of the light field in air, where absorption is negligible, and the ultraviolet light reflects from the silicon–air boundaries, so the device acts as a reflecting focusing mirror. (1)",
+    "answer_zh": "(a)\n- $\\lambda = 325\\ \\mathrm{nm} = 3.25 \\times 10^{-7}\\ \\mathrm{m}$（1M）\n- $f = \\dfrac{c}{\\lambda} = \\dfrac{3.00 \\times 10^{8}}{3.25 \\times 10^{-7}} = 9.23 \\times 10^{14}\\ \\mathrm{Hz}$（1A）\n\n(b)\n- $E = hf = (6.63 \\times 10^{-34})(9.23 \\times 10^{14})$（或 $E = hc/\\lambda$）（1M）\n- $= 6.12 \\times 10^{-19}\\ \\mathrm{J}$（1A）\n- $E = \\dfrac{6.12 \\times 10^{-19}}{1.60 \\times 10^{-19}} = 3.83\\ \\mathrm{eV}$（1A）\n\n(c)\n- $1.00\\ \\mathrm{\\mu m} = 1.00 \\times 10^{-6}\\ \\mathrm{m}$（$= 1000\\ \\mathrm{nm}$）（1M）\n- $N = \\dfrac{1.00 \\times 10^{-6}}{3.25 \\times 10^{-7}} = 3.08$（個波長）（1A）\n\n(d)\n- 根據反射定律，$i = r$。當 $i = 45^\\circ$ 時，$r = 45^\\circ$。（1）\n- 光線偏轉角為 $180^\\circ - i - r = 90^\\circ$，所以入射光線同反射光線互相垂直。（1）\n\n(e)\n- 紫外光穿過矽（好似透射透鏡／實心矽柱）會被強烈吸收，因此好少紫外光可以透射或者被有效轉折。（1）\n- 蝕刻空氣孔令大部分光場困喺空氣入面（吸收可忽略），紫外光喺矽–空氣界面反射，所以器件成為反射聚焦鏡。（1）"
+  }
+}
