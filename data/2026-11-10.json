@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-10",
+  "news": [
+    {
+      "title": "北極磁力站：磁尾亞暴約 7 分鐘後地面磁場急變，可誘發電網電流",
+      "summary": "密歇根大學同合作團隊結合 NASA THEMIS、NOAA GOES 衛星同加拿大北極密網磁力計，追蹤「亞暴」（substorm）：太陽風同日冕物質拋射把地球磁力線拉長成磁尾，約 4.5–6.5 萬公里外磁重聯釋放能量，帶電粒子沿磁力線衝向高層大氣（約 90–150 km），撞氧同氮原子造成極光。同一時間高層大氣電流急變，令地面磁場約 7 分鐘後急劇改變；磁場變化會喺地面同輸電線感應出電流，有機會損壞變壓器。歷史例子包括 1989 年魁北克大停電、2003 年瑞典 Malmö 停電，同 2024 年 5 月瑞典南部輸電鏈短暫中斷。研究指出極光唔等於當地感應電流一定最強——取決於高層大氣同地質導電度。成果刊於 Journal of Geophysical Research: Space Physics。",
+      "topic": "電和磁（電磁感應／磁場變化）、原子世界（原子發光）",
+      "source_name": "phys.org / The Conversation / University of Michigan",
+      "source_url": "https://phys.org/news/2026-11-space-weather-powers-auroras-sky.html",
+      "source_date": "8/11",
+      "links": [
+        {
+          "label": "JGR Space Physics (DOI)",
+          "url": "https://doi.org/10.1029/2025ja034553"
+        }
+      ]
+    },
+    {
+      "title": "歐洲 XFEL：硬 X 射線閃光縮至約 300 阿秒，焦斑 180×330 nm 破強度紀錄",
+      "summary": "歐洲 XFEL 團隊用進階 Kirkpatrick–Baez（AKB）雙鏡系統，把硬 X 射線脈衝聚焦到約 180×330 nm 嘅極細焦斑，脈衝時長估計約 300 阿秒，峰值強度超過 10²⁰ W cm⁻²，創硬 X 射線阿秒脈衝嘅強度同注量世界紀錄。打到薄銅片時，X 射線打出內層電子空穴，之後出現放大自發輻射（ASE）：發射光由四面八方收成向前方錐束，並見飽和現象，獨立證實極高強度。呢啲超短、超強 X 射線有望捕捉原子同分子入面電子嘅超快運動。論文刊於 Optica。",
+      "topic": "波動（X 射線／電磁波）、原子世界（電子／光子）",
+      "source_name": "ScienceDaily / European XFEL / Optica",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261104012329.htm",
+      "source_date": "7/11",
+      "links": [
+        {
+          "label": "Optica (DOI)",
+          "url": "https://doi.org/10.1364/OPTICA.613284"
+        }
+      ]
+    },
+    {
+      "title": "東南大學：單光子光學實驗證實量子「強 Mpemba 效應」",
+      "summary": "Mpemba 效應係指有時離熱平衡更遠嘅系統反而更快回到平衡。東南大學團隊用單個光子嘅偏振編碼一個量子位元，用光路模擬 Davies 映射下嘅熱弛豫：發現由能量本徵態（無相干）出發嘅量子位元，比由疊加態（有相干）出發嘅更快接近熱平衡——即使前者一開始嘅非平衡自由能更高。結果顯示移除量子相干可以跳過最慢衰減模式，係「強 Mpemba 效應」喺單量子位元嘅實驗證據。論文刊於 Physical Review Letters。",
+      "topic": "原子世界（光子／量子位元）、波動（偏振）",
+      "source_name": "phys.org / Southeast University / PRL",
+      "source_url": "https://phys.org/news/2026-11-optical-strong-mpemba-effect-qubit.html",
+      "source_date": "9/11",
+      "links": [
+        {
+          "label": "Physical Review Letters (DOI)",
+          "url": "https://doi.org/10.1103/z9t9-mwgv"
+        }
+      ]
+    },
+    {
+      "title": "RPTU：量子干涉令兩原子「有能量都散唔開」——連續譜束縛態首見於超冷原子",
+      "summary": "凱澤斯勞滕－蘭道技術大學（RPTU）把鋰原子冷卻到絕對零度以上唔到百萬分之一度，再用快速振盪磁場精確調控原子相互作用，令兩條可能嘅分子衰變路徑嘅量子波剛好相消——好似降噪耳機用聲波抵消噪音。結果出現「連續譜中嘅束縛態」（bound state in the continuum）：兩原子擁有足以分開嘅能量，但干涉壓抑衰變，令佢哋仍然束縛。理論早喺 1985 年提出，今次係超冷原子碰撞中首個實驗證據。論文刊於 Nature Physics。",
+      "topic": "原子世界（物質波／量子干涉）、波動（干涉）",
+      "source_name": "phys.org / RPTU / Nature Physics",
+      "source_url": "https://phys.org/news/2026-11-quantum-atoms-bound-energy.html",
+      "source_date": "9/11",
+      "links": [
+        {
+          "label": "Nature Physics (DOI)",
+          "url": "https://doi.org/10.1038/s41567-026-03519-6"
+        }
+      ]
+    },
+    {
+      "title": "超導阱懸浮微磁鐵轉速達每秒 230 萬轉，助搜尋類軸子暗物質",
+      "summary": "團隊喺約 4.2 K 嘅超導鉛阱入面懸浮半徑約 30 μm 嘅微磁球，用線圈加速至約 2.3×10⁶ 轉／秒（約 1.38×10⁸ rpm），遠超先前約半毫米級懸浮磁鐵嘅轉速紀錄；減速特徵時間約 24 日，係同類懸浮微／納米物體最低阻尼之一。同一裝置可作 4.2 K 低壓轉子壓力計（低至約 10⁻⁸ mbar），並同步振盪磁場做初步類軸子暗物質搜尋，為軸子–電子耦合設實驗室上限。論文刊於 Science Advances。",
+      "topic": "電和磁（磁場／磁力）、力和運動（轉動）",
+      "source_name": "phys.org / Science Advances",
+      "source_url": "https://phys.org/news/2026-11-fastest-levitated-magnet-physicists-dark.html",
+      "source_date": "9/11",
+      "links": [
+        {
+          "label": "Science Advances (DOI)",
+          "url": "https://doi.org/10.1126/sciadv.aee6434"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "electricity",
+    "story": "北極磁力站：磁尾亞暴約 7 分鐘後地面磁場急變，可誘發電網電流",
+    "question_en": "During a geomagnetic substorm, energetic charged particles travel along Earth's magnetic field lines toward the upper atmosphere and drive strong electric currents there. Rapid changes in these currents make the magnetic field at ground level change sharply. The changing magnetic field can induce an emf in a large closed path formed by transmission lines and the conducting ground, which may damage transformers.\n\nSuppose that over a region of the power grid the magnetic flux density perpendicular to the ground decreases uniformly from\n$$B_1 = 5.40 \\times 10^{-5}\\ \\mathrm{T}$$\nto\n$$B_2 = 5.35 \\times 10^{-5}\\ \\mathrm{T}$$\nin a time interval $\\Delta t = 40.0\\ \\mathrm{s}$. Take the effective area of the closed path to be\n$$A = 4.00 \\times 10^{9}\\ \\mathrm{m^{2}}$$\nand the total resistance of the path to be $R = 2.00\\ \\Omega$. Assume the magnetic field is uniform over the area and perpendicular to it.\n\n(a) Calculate the magnitude of the change in magnetic flux through the closed path. (2 marks)\n\n(b) Calculate the average induced emf in the closed path. (2 marks)\n\n(c) Calculate the average induced current in the closed path. (2 marks)\n\n(d) State Lenz's law. Hence explain the direction of the induced current relative to the decrease in $B$. (3 marks)\n\n(e) The magnetic reconnection that starts the substorm occurs roughly $5.5 \\times 10^{7}\\ \\mathrm{m}$ from Earth, and ground magnetometers register a rapid field change about $7.0$ minutes later. Estimate the average speed at which this disturbance effect reaches the ground. (2 marks)",
+    "question_zh": "地磁亞暴期間，高能帶電粒子沿地球磁力線衝向高層大氣，並喺嗰度驅動強電流。呢啲電流急速變化會令地面磁場急劇改變；變化嘅磁場可以喺由輸電線同導電地面組成嘅大閉合路徑入面感應出電動勢，有機會損壞變壓器。\n\n假設喺電網某一區域，垂直地面嘅磁通密度均勻地由\n$$B_1 = 5.40 \\times 10^{-5}\\ \\mathrm{T}$$\n減至\n$$B_2 = 5.35 \\times 10^{-5}\\ \\mathrm{T}$$\n，歷時 $\\Delta t = 40.0\\ \\mathrm{s}$。取該閉合路徑嘅有效面積為\n$$A = 4.00 \\times 10^{9}\\ \\mathrm{m^{2}}$$\n，路徑總電阻為 $R = 2.00\\ \\Omega$。假設磁場喺成個面積上均勻，並垂直於該面積。\n\n(a) 計算通過該閉合路徑嘅磁通量變化量（大小）。（2 分）\n\n(b) 計算該閉合路徑入面嘅平均感應電動勢。（2 分）\n\n(c) 計算該閉合路徑入面嘅平均感應電流。（2 分）\n\n(d) 寫出楞次定律。從而解釋感應電流相對於 $B$ 減小嘅方向。（3 分）\n\n(e) 引發亞暴嘅磁重聯大約發生喺距離地球 $5.5 \\times 10^{7}\\ \\mathrm{m}$ 處，而地面磁力計約 $7.0$ 分鐘後先錄得磁場急變。估計呢個擾動效應到達地面嘅平均速率。（2 分）",
+    "answer_en": "(a)\n- $\\Delta B = B_1 - B_2 = 5.40 \\times 10^{-5} - 5.35 \\times 10^{-5} = 5.00 \\times 10^{-7}\\ \\mathrm{T}$ (1M)\n- $|\\Delta \\Phi| = A|\\Delta B| = (4.00 \\times 10^{9})(5.00 \\times 10^{-7}) = 2.00 \\times 10^{3}\\ \\mathrm{Wb}$ (1A)\n\n(b)\n- $\\mathcal{E} = \\dfrac{|\\Delta \\Phi|}{\\Delta t}$ (or $\\mathcal{E} = \\dfrac{\\Delta \\Phi}{\\Delta t}$ with $N = 1$) (1M)\n- $\\mathcal{E} = \\dfrac{2.00 \\times 10^{3}}{40.0} = 50.0\\ \\mathrm{V}$ (1A)\n\n(c)\n- $I = \\dfrac{\\mathcal{E}}{R} = \\dfrac{50.0}{2.00} = 25.0\\ \\mathrm{A}$ (1M + 1A)\n\n(d)\n- Lenz's law: the induced current flows in a direction that opposes the change in magnetic flux that produces it. (1)\n- Here $B$ (into / out of the ground) is decreasing, so the flux magnitude through the path decreases. (1)\n- The induced current therefore produces its own magnetic field in the same direction as the original $B$, opposing the decrease. (1)\n\n(e)\n- $\\Delta t = 7.0 \\times 60 = 420\\ \\mathrm{s}$ (1M)\n- $v = \\dfrac{s}{t} = \\dfrac{5.5 \\times 10^{7}}{420} = 1.3 \\times 10^{5}\\ \\mathrm{m\\,s^{-1}}$ (1A)",
+    "answer_zh": "(a)\n- $\\Delta B = B_1 - B_2 = 5.40 \\times 10^{-5} - 5.35 \\times 10^{-5} = 5.00 \\times 10^{-7}\\ \\mathrm{T}$（1M）\n- $|\\Delta \\Phi| = A|\\Delta B| = (4.00 \\times 10^{9})(5.00 \\times 10^{-7}) = 2.00 \\times 10^{3}\\ \\mathrm{Wb}$（1A）\n\n(b)\n- $\\mathcal{E} = \\dfrac{|\\Delta \\Phi|}{\\Delta t}$（或 $N = 1$ 時 $\\mathcal{E} = \\dfrac{\\Delta \\Phi}{\\Delta t}$）（1M）\n- $\\mathcal{E} = \\dfrac{2.00 \\times 10^{3}}{40.0} = 50.0\\ \\mathrm{V}$（1A）\n\n(c)\n- $I = \\dfrac{\\mathcal{E}}{R} = \\dfrac{50.0}{2.00} = 25.0\\ \\mathrm{A}$（1M + 1A）\n\n(d)\n- 楞次定律：感應電流嘅方向會反抗產生佢嘅磁通量變化。（1）\n- 呢度 $B$（穿入／穿出地面）正在減小，所以通過路徑嘅磁通量大小亦減小。（1）\n- 因此感應電流會產生同原本 $B$ 同向嘅磁場，以反抗呢個減小。（1）\n\n(e)\n- $\\Delta t = 7.0 \\times 60 = 420\\ \\mathrm{s}$（1M）\n- $v = \\dfrac{s}{t} = \\dfrac{5.5 \\times 10^{7}}{420} = 1.3 \\times 10^{5}\\ \\mathrm{m\\,s^{-1}}$（1A）"
+  }
+}
