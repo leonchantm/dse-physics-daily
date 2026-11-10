@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-11",
+  "news": [
+    {
+      "title": "DESY ALPS II：全球最靈敏實驗室軸子搜索首次結果，未發現訊號",
+      "summary": "德國 DESY 嘅 ALPS II（Any Light Particle Search II）公布第一次科學運行（2024 年 2 月至 5 月）結果。實驗用「光穿過牆」方法：強激光穿過 12 個超導偶極磁鐵產生嘅磁場，如果存在極輕、極弱相互作用嘅「軸子」（axion，暗物質熱門候選），少量光子可能喺磁場中轉成軸子，穿過不透明牆，再喺牆後另外 12 個磁鐵嘅磁場中轉返做原本波長嘅光；光學腔可以提高再生光子訊號。今次未發現軸子證據；探測器見到嘅多餘訊號好可能係雜散光，強度約每小時 2 個光子。即使如此，靈敏度已比同類實驗高逾 20 倍；升級後有望再提高兩個數量級。論文將刊於 Physical Review Letters。",
+      "topic": "波動（電磁波／光子）、原子世界（光子能量）",
+      "source_name": "phys.org / DESY / PRL",
+      "source_url": "https://phys.org/news/2026-11-world-sensitive-lab-based-axion.html",
+      "source_date": "10/11",
+      "links": [
+        {
+          "label": "Physical Review Letters (DOI)",
+          "url": "https://doi.org/10.1103/61sw-k3bc"
+        },
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2512.14110"
+        }
+      ]
+    },
+    {
+      "title": "引力波數據顯示：約 10 倍太陽質量黑洞或來自「失敗超新星」",
+      "summary": "加州理工學院團隊分析 LIGO–Virgo–KAGRA 網絡過去 10 年偵測到嘅 257 次黑洞合併，發現質量分布喺約 10 倍太陽質量處有明顯高峰——約佔樣本四分三——並首次見到 12 至 16 倍太陽質量區間明顯缺少黑洞。呢批約 10 倍太陽質量嘅黑洞自旋分布亦較整體樣本更窄，顯示佢哋可能有共同起源。理論指部分大質量恆星死亡時唔會爆炸成超新星，而係直接塌縮成中子星或黑洞（「失敗超新星」）；研究指現有引力波數據同呢個圖像相符，但未直接觀測到失敗超新星，仍需更多研究。論文刊於 Physical Review D。",
+      "topic": "力和運動（萬有引力）、天文學",
+      "source_name": "phys.org / Caltech / Physical Review D",
+      "source_url": "https://phys.org/news/2026-11-gravitational-hint-black-holes-born.html",
+      "source_date": "10/11",
+      "links": [
+        {
+          "label": "Physical Review D (DOI)",
+          "url": "https://doi.org/10.1103/mnzq-w1b5"
+        }
+      ]
+    },
+    {
+      "title": "錢德拉望遠鏡揭開「假超新星」AT 2016blu：每 113 日爆發或由隱藏伴星吸積驅動",
+      "summary": "天文團隊用 NASA 錢德拉 X 射線望遠鏡，搵到螺旋星系 NGC 4559（距地球約 3 千萬光年）入面巨型不穩定星 AT 2016blu 反覆爆發嘅可能原因。呢顆明亮藍變星質量至少係太陽 33 倍；2012 至 2026 年間至少錄得 27 次可見光爆發，大約每 113 日一次，星體本身冇被摧毀，故稱「假超新星」。2026 年 3 月嘅錢德拉數據顯示，佢嘅 X 射線亮度至少係 2001–2002 年（爆發開始前）嘅 100 倍。最佳解釋係有一顆先前隱藏嘅伴星——恆星質量黑洞或中子星——喺橢圓軌道最接近時，把巨星拋出嘅物質吸積，物質以接近光速繞轉並熱到發出強 X 射線。呢係呢類爆發星首次被偵測到 X 射線，亦係首次發現有緻密伴星。論文刊於 The Astrophysical Journal。",
+      "topic": "力和運動（圓周運動／萬有引力）、波動（X 射線／電磁波譜）",
+      "source_name": "phys.org / Chandra X-ray Center / ApJ",
+      "source_url": "https://phys.org/news/2026-11-supernova-impostor-chandra-source-giant.html",
+      "source_date": "9/11",
+      "links": [
+        {
+          "label": "The Astrophysical Journal (DOI)",
+          "url": "https://doi.org/10.3847/1538-4357/ae9a86"
+        }
+      ]
+    },
+    {
+      "title": "巴塞爾大學：唔毀樣下品量單個氮分子嘅「禁戒」振動，頻率精度提高 10 倍",
+      "summary": "北極光嘅綠色光芒來自一種被稱為「禁戒」嘅量子躍遷——唔係不可能，只係機會極低，可以比尋常「允許」躍遷弱逾十億倍，但頻率極其穩定，今日最精準嘅原子鐘就靠呢類躍遷。巴塞爾大學團隊而家喺單個帶正電嘅氮分子（分子離子）上，搵到並相干操控呢類禁戒振動躍遷，而且唔會喺每次測量入面毀掉樣本。佢哋用量子邏輯光譜：把氮分子離子同鈣離子一齊困住，鈣離子受激光激發發光，作為「信使」反映氮分子嘅振動同轉動狀態。用同一分子反覆測量，再結合數百個獨立製備嘅分子，把該分子嘅基本振動頻率測得比以往精確 10 倍。呢啲穩定躍遷有望用作未來分子鐘同量子位元，亦可用來檢驗質子同電子質量係咪隨時間改變。論文刊於 Nature Communications。",
+      "topic": "波動（頻率／光譜）、原子世界（能級／光子）",
+      "source_name": "phys.org / University of Basel / Nature Communications",
+      "source_url": "https://phys.org/news/2026-11-laser-reveal-forbidden-vibrations-molecules.html",
+      "source_date": "10/11",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-78680-w"
+        }
+      ]
+    },
+    {
+      "title": "橡樹嶺實驗室：激光驅動磁狀態違反「精細平衡」，中子散射見到長壽非平衡態",
+      "summary": "美國橡樹嶺國家實驗室（ORNL）同合作者用激光把磁性材料推離正常平衡，再用散裂中子源嘅非彈性中子散射，觀察到一個長壽命嘅量子磁狀態。研究對象係磁振子（magnon）——描述磁性材料內部波動激發嘅準粒子。喺平衡系統入面，「精細平衡」（detailed balance）規定吸收能量同釋放能量嘅過程有可預測嘅關係；但喺快速激光脈衝下呢條規則被打破，中子數據只喺其中一邊出現多餘訊號。更意外嘅係，呢種一邊倒嘅多餘磁振子並冇迅速消失，而係由周期性激光脈衝維持成一個長壽嘅非平衡穩態——唔單止係短暫加熱效應。研究為遠離平衡嘅量子磁體提供新平台，可能有助量子資訊同低損耗電子學。論文刊於 Nature Communications。",
+      "topic": "電和磁（磁性）、波動（激光）、原子世界",
+      "source_name": "phys.org / Oak Ridge National Laboratory / Nature Communications",
+      "source_url": "https://phys.org/news/2026-11-laser-driven-magnetic-state-defies.html",
+      "source_date": "10/11",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-71068-w"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "atomic",
+    "story": "DESY ALPS II：全球最靈敏實驗室軸子搜索首次結果，未發現訊號",
+    "question_en": "The ALPS II experiment at DESY searches for hypothetical lightweight particles called axions, which are a leading candidate for dark matter. A laser beam of wavelength\n$$\\lambda = 1064\\ \\mathrm{nm}$$\nis directed through a strong magnetic field towards an opaque wall. If axions exist, a tiny fraction of the laser photons may convert into axions, pass through the wall, and convert back into photons of the same wavelength on the other side. In the first science campaign no evidence for axions was found. A small excess at the detector was traced to stray light, with an intensity of $2.00$ photons per hour.\n\nGiven:\n- $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n\n(a) Calculate the frequency of the laser light. (2 marks)\n\n(b) Calculate the energy of one photon of this laser light, in eV. (3 marks)\n\n(c) Calculate the average power of the stray light reaching the detector. (2 marks)\n\n(d) Any regenerated photons would have the same wavelength as the original laser light. Explain this result in terms of the energy of a photon. (2 marks)\n\n(e) Explain why the opaque wall can block the laser light completely, but would not block axions if they exist and interact only very weakly with ordinary matter. (2 marks)",
+    "question_zh": "德國 DESY 嘅 ALPS II 實驗，用嚟搜索一種被稱為軸子嘅假設輕粒子，軸子係暗物質嘅熱門候選。一束波長為\n$$\\lambda = 1064\\ \\mathrm{nm}$$\n嘅激光穿過強磁場，射向一面不透明牆。如果軸子存在，極小部分激光光子可能轉成軸子、穿過牆，再喺另一邊轉返做相同波長嘅光子。第一次科學運行未發現軸子證據。探測器錄得嘅少量多餘訊號被追溯為雜散光，強度為每小時 $2.00$ 個光子。\n\n已知：\n- $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n\n(a) 計算該激光嘅頻率。（2 分）\n\n(b) 計算該激光一個光子嘅能量，以 eV 為單位。（3 分）\n\n(c) 計算到達探測器嘅雜散光平均功率。（2 分）\n\n(d) 若有再生光子，其波長會同原本激光相同。用光子能量解釋呢個結果。（2 分）\n\n(e) 解釋點解不透明牆可以完全擋住激光，但如果軸子存在而且同普通物質只做極弱相互作用，牆就擋唔住軸子。（2 分）",
+    "answer_en": "(a)\n- $f = \\dfrac{c}{\\lambda}$ (1M)\n- $f = \\dfrac{3.00 \\times 10^{8}}{1.064 \\times 10^{-6}} = 2.82 \\times 10^{14}\\ \\mathrm{Hz}$ (1A)\n\n(b)\n- $E = hf$ (or $E = \\dfrac{hc}{\\lambda}$) (1M)\n- $E = (6.63 \\times 10^{-34})(2.82 \\times 10^{14}) = 1.87 \\times 10^{-19}\\ \\mathrm{J}$ (1A)\n- $E = \\dfrac{1.87 \\times 10^{-19}}{1.60 \\times 10^{-19}} = 1.17\\ \\mathrm{eV}$ (1A)\n\n(c)\n- $P = \\dfrac{nE}{t}$, with $t = 3600\\ \\mathrm{s}$ (1M)\n- $P = \\dfrac{2.00 \\times 1.87 \\times 10^{-19}}{3600} = 1.04 \\times 10^{-22}\\ \\mathrm{W}$ (1A)\n\n(d)\n- The energy of a photon is $E = hf = hc/\\lambda$, which is determined by its frequency (or wavelength). (1)\n- Energy is conserved when a photon converts into an axion and back, so the regenerated photon has the same energy and therefore the same wavelength. (1)\n\n(e)\n- Laser light consists of photons (electromagnetic waves) that are absorbed or reflected by the opaque wall, so none of the original laser photons reach the far side. (1)\n- Axions, if they exist, interact only very weakly with ordinary matter, so they can pass through the wall and may later convert back into photons. (1)",
+    "answer_zh": "(a)\n- $f = \\dfrac{c}{\\lambda}$（1M）\n- $f = \\dfrac{3.00 \\times 10^{8}}{1.064 \\times 10^{-6}} = 2.82 \\times 10^{14}\\ \\mathrm{Hz}$（1A）\n\n(b)\n- $E = hf$（或 $E = \\dfrac{hc}{\\lambda}$）（1M）\n- $E = (6.63 \\times 10^{-34})(2.82 \\times 10^{14}) = 1.87 \\times 10^{-19}\\ \\mathrm{J}$（1A）\n- $E = \\dfrac{1.87 \\times 10^{-19}}{1.60 \\times 10^{-19}} = 1.17\\ \\mathrm{eV}$（1A）\n\n(c)\n- $P = \\dfrac{nE}{t}$，其中 $t = 3600\\ \\mathrm{s}$（1M）\n- $P = \\dfrac{2.00 \\times 1.87 \\times 10^{-19}}{3600} = 1.04 \\times 10^{-22}\\ \\mathrm{W}$（1A）\n\n(d)\n- 光子能量為 $E = hf = hc/\\lambda$，只取決於頻率（或波長）。（1）\n- 光子轉成軸子再轉返嚟時能量守恆，所以再生光子能量相同，波長亦相同。（1）\n\n(e)\n- 激光由光子（電磁波）組成，會被不透明牆吸收或反射，因此原本嘅激光光子到唔到牆嘅另一邊。（1）\n- 如果軸子存在，佢哋同普通物質只做極弱相互作用，所以可以穿過牆，之後先有機會再轉返做光子。（1）"
+  }
+}
