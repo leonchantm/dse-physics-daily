@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-12",
+  "news": [
+    {
+      "title": "維爾茨堡大學：等離子體模擬重現半人馬座 A 黑洞噴流「邊緣更亮」",
+      "summary": "距離地球約 1,200 萬光年嘅活躍星系半人馬座 A（Centaurus A），其中心超大質量黑洞質量約係太陽嘅 6,000 萬倍，正以接近光速向太空噴出兩束等離子體噴流。事件視界望遠鏡（EHT）喺波長 1.3 mm 嘅觀測顯示，噴流邊緣比中央更亮，同「中心應該最亮」嘅直覺相反，原因一直未明。維爾茨堡大學天文學講座嘅團隊用等離子體模擬解釋：噴流極強磁場入面，高速電子沿磁力線運動，佢哋發出嘅光亮度取決於磁場方向；磁場結構複雜，於是造成亮邊、相對暗核，而且合成影像同 EHT 觀測高度吻合。模擬把粒子尺度嘅過程，同橫跨數光日嘅大尺度結構連起來。論文刊於 Astronomy & Astrophysics。",
+      "topic": "電和磁（帶電粒子喺磁場中運動）、波動（電磁波譜／毫米波）",
+      "source_name": "phys.org / University of Würzburg / Astronomy & Astrophysics",
+      "source_url": "https://phys.org/news/2026-11-centaurus-spotlight-plasma-simulations-black.html",
+      "source_date": "11/11",
+      "links": [
+        {
+          "label": "Astronomy & Astrophysics (DOI)",
+          "url": "https://doi.org/10.1051/0004-6361/202660093"
+        }
+      ]
+    },
+    {
+      "title": "威特沃特斯蘭德大學：磁場從側面都可以改變光纖入面嘅光，證實橫向法拉第效應",
+      "summary": "光學纖維除咗傳網絡訊號，幾十年嚟亦用嚟量度磁場（例如電線同變電站嘅電流）。傳統做法靠法拉第效應：磁場沿光纖方向時，會輕輕扭轉光嘅偏振。橫向（由側面施加）嘅磁場一向被認為唔會產生法拉第效應，因為常用嘅「弱導向近似」忽略咗光波入面沿纖維方向、極細嘅電場分量。南非威特沃特斯蘭德大學團隊喺多模光纖旁放置磁鐵（唔接觸光纖），發現輸出端嘅斑點干涉圖樣會改變。喺 0.24 T（約等於強釹磁鐵近距離嘅磁場）之下，垂直於磁場偏振嘅光，圖樣只剩約 84% 相似。效應同磁場成正比，而且只喺折射率有明顯階躍、入射角較陡、特定偏振同波長之下出現。將來或可用嚟沿電纜旁鋪纖維做磁場感測，亦可能用電流線圈調控光纖模式，服務光學計算。論文刊於 Optics Letters。",
+      "topic": "波動（全內反射／偏振）、電和磁（磁場）",
+      "source_name": "phys.org / University of the Witwatersrand / Optics Letters",
+      "source_url": "https://phys.org/news/2026-11-standard-shortcut-1970s-magneto-optic.html",
+      "source_date": "11/11",
+      "links": [
+        {
+          "label": "Optics Letters (DOI)",
+          "url": "https://doi.org/10.1364/ol.611078"
+        }
+      ]
+    },
+    {
+      "title": "科羅拉多大學博爾德分校：玻璃拉成一個原子咁幼，熱流達量子上限約 40%",
+      "summary": "玻璃一向係差嘅熱導體，窗用玻璃就係為咗留住室內熱。科羅拉多大學博爾德分校團隊把兩塊玻璃壓埋再慢慢拉開，直到接觸處變成一條只有一個原子咁幼嘅絲，再用掃描熱探針顯微鏡（探針尖有溫度計）量度熱流。佢哋發現，喺呢個原子尺度，熱反而好容易穿過玻璃，而且以離散嘅「一級一級」方式流動，每一級相當於量子物理規定嘅單通道熱流上限嘅 40%——呢係首次觀察到由原子振動承載嘅量子化熱流。宏觀玻璃入面，原子排列雜亂，會散射傳熱嘅振動；拉成單原子絲之後冇空間畀呢種無序，振動可以直接通過。今日電腦晶片普遍用二氧化硅玻璃做絕緣層，理解納米尺度熱傳導有助設計更細、更可靠嘅電子同光子元件。論文刊於 Nature Nanotechnology。",
+      "topic": "熱和氣體（熱傳導）",
+      "source_name": "phys.org / University of Colorado Boulder / Nature Nanotechnology",
+      "source_url": "https://phys.org/news/2026-11-glass-atom-wide-discovery-electronics.html",
+      "source_date": "11/11",
+      "links": [
+        {
+          "label": "Nature Nanotechnology (DOI)",
+          "url": "https://doi.org/10.1038/s41565-026-02308-9"
+        }
+      ]
+    },
+    {
+      "title": "因斯布魯克／萊斯特：超流氦液滴上嘅金納米粒子，首次直接影到「湯姆遜問題」電荷排列",
+      "summary": "1904 年 J. J. Thomson 問過：相同電荷喺球面上面會點樣排，先至令靜電能量最低（即互相盡量遠離）。呢個「湯姆遜問題」只有少數個數有嚴謹解（例如 4 個成四面體、6 個成八面體、12 個成二十面體），一直主要靠電腦計算。因斯布魯克大學同萊斯特大學團隊用電子束令超流氦液滴帶上多個正電荷；液滴再穿過金蒸氣，金原子被吸到各個電荷處，結成約 700 個原子、各帶一個電荷嘅金納米粒子。液滴撞上薄碳膜後留下二維印記，用透射電子顯微鏡觀察，再同理論投影比較。最多 36 個電荷時，實驗印記同計算出嘅湯姆遜解完全吻合。最大嘅液滴直徑約 2 μm，可帶數百個電荷；平面上每個電荷傾向有六個鄰居，但單靠六邊形覆蓋唔到球面，較大系統見到五重缺陷打斷六角排列。論文刊於 Physical Review Letters。",
+      "topic": "電和磁（庫侖力／電荷平衡）",
+      "source_name": "Physics World / University of Innsbruck / Physical Review Letters",
+      "source_url": "https://physicsworld.com/a/gold-nanoparticles-on-superfluid-droplets-illuminate-century-old-thomson-problem/",
+      "source_date": "11/11",
+      "links": [
+        {
+          "label": "Physical Review Letters (DOI)",
+          "url": "https://doi.org/10.1103/qby4-bm6q"
+        }
+      ]
+    },
+    {
+      "title": "杜倫大學：全碳氫分子室溫下發出超過 12 秒嘅青藍色餘輝",
+      "summary": "杜倫大學物理系同有機電活性材料組喺兩篇 Nature Communications 論文入面，研究點樣用分子結構控制光嘅吸收同釋放。第一項研究針對一種叫 monohomotruxene（MHTX）嘅分子：佢只由碳同氫組成，唔使靠重金屬，都可以喺室溫發出青藍色光，而且光源關掉之後餘輝仍然可見超過 12 秒，有望用於防偽印刷同特殊光學技術。第二項研究則喺低溫、受控條件下，為分子 HzTFEX2 搵到實驗證據，支持一種同通常預期相反嘅能級排列，而且分子對光嘅反應取決於照射方式同周圍環境。兩項結果都有助設計未來發光材料，包括電子顯示屏，但距離實際產品仍需更多研究。",
+      "topic": "原子世界（能級／光子）、波動（可見光）",
+      "source_name": "phys.org / Durham University / Nature Communications",
+      "source_url": "https://phys.org/news/2026-11-lingering-blue-unexpected-energy-hint.html",
+      "source_date": "11/11",
+      "links": [
+        {
+          "label": "Nature Communications: MHTX paper (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-78107-6"
+        },
+        {
+          "label": "Nature Communications: HzTFEX2 paper (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-78831-z"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "atomic",
+    "story": "維爾茨堡大學：等離子體模擬重現半人馬座 A 黑洞噴流「邊緣更亮」",
+    "question_en": "The galaxy Centaurus A is $12.0$ million light-years from Earth. Its supermassive black hole, with a mass about $60$ million times that of the Sun, launches two plasma jets at nearly the speed of light. The Event Horizon Telescope imaged the inner jet at a wavelength of\n$$\\lambda = 1.30\\ \\mathrm{mm}$$\nThe jets are brighter at their edges than at the centre. Researchers showed that this is because fast electrons in the jet move along a complex pattern of magnetic field lines, and the brightness of the emitted radiation depends on the orientation of the magnetic field.\n\nGiven:\n- $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n- $1\\ \\mathrm{ly} = 9.46 \\times 10^{15}\\ \\mathrm{m}$\n\n(a) Calculate the frequency of the radiation used to take the image. (2 marks)\n\n(b) To which region of the electromagnetic spectrum does this radiation belong? (1 mark)\n\n(c) Calculate the energy of one photon of this radiation, in eV. (3 marks)\n\n(d) Calculate the distance from Earth to Centaurus A, in metres. (2 marks)\n\n(e) A fast electron in the jet has a component of velocity parallel to the magnetic field and a component perpendicular to the field.\n\n(i) Write down an expression for the magnetic force on the electron and state the direction of this force. (2 marks)\n\n(ii) Hence explain why the electron follows a helical path along a field line. (2 marks)",
+    "question_zh": "星系半人馬座 A 距離地球 $12.0$ 百萬光年。其中心超大質量黑洞嘅質量約係太陽嘅 $60$ 百萬倍，並以接近光速噴出兩束等離子體噴流。事件視界望遠鏡以波長\n$$\\lambda = 1.30\\ \\mathrm{mm}$$\n拍攝噴流內側。噴流邊緣比中央更亮。研究指出，原因係噴流入面嘅高速電子沿複雜嘅磁力線運動，而輻射亮度取決於磁場方向。\n\n已知：\n- $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n- $1\\ \\mathrm{ly} = 9.46 \\times 10^{15}\\ \\mathrm{m}$\n\n(a) 計算拍攝影像所用輻射嘅頻率。（2 分）\n\n(b) 呢種輻射屬於電磁波譜嘅邊一個波段？（1 分）\n\n(c) 計算呢種輻射一個光子嘅能量，以 eV 為單位。（3 分）\n\n(d) 計算地球到半人馬座 A 嘅距離，以米為單位。（2 分）\n\n(e) 噴流入面一粒高速電子嘅速度，有平行磁場嘅分量，亦有垂直磁場嘅分量。\n\n(i) 寫出電子所受磁力嘅表示式，並說明呢個力嘅方向。（2 分）\n\n(ii) 因此解釋點解電子會沿磁力線走螺旋路徑。（2 分）",
+    "answer_en": "(a)\n- $f = \\dfrac{c}{\\lambda}$ (1M)\n- $f = \\dfrac{3.00 \\times 10^{8}}{1.30 \\times 10^{-3}} = 2.31 \\times 10^{11}\\ \\mathrm{Hz}$ (1A)\n\n(b)\n- Microwave (accept radio / millimetre wave) (1A)\n\n(c)\n- $E = hf$ (or $E = \\dfrac{hc}{\\lambda}$) (1M)\n- $E = (6.63 \\times 10^{-34})(2.31 \\times 10^{11}) = 1.53 \\times 10^{-22}\\ \\mathrm{J}$ (1A)\n- $E = \\dfrac{1.53 \\times 10^{-22}}{1.60 \\times 10^{-19}} = 9.56 \\times 10^{-4}\\ \\mathrm{eV}$ (1A)\n\n(d)\n- $d = (1.20 \\times 10^{7})(9.46 \\times 10^{15})$ (1M)\n- $d = 1.14 \\times 10^{23}\\ \\mathrm{m}$ (1A)\n\n(e)\n(i)\n- $F = qvB\\sin\\theta$ (or $F = evB$ when $v$ is perpendicular to $B$) (1)\n- The force is perpendicular to both $v$ and $B$ (Fleming's left-hand rule). (1)\n\n(ii)\n- The velocity component parallel to $B$ experiences no magnetic force, so the electron moves uniformly along the field line. (1)\n- The perpendicular component experiences a magnetic force that provides the centripetal force, so the electron moves in a circle about the field line. The two motions together give a helix. (1)",
+    "answer_zh": "(a)\n- $f = \\dfrac{c}{\\lambda}$（1M）\n- $f = \\dfrac{3.00 \\times 10^{8}}{1.30 \\times 10^{-3}} = 2.31 \\times 10^{11}\\ \\mathrm{Hz}$（1A）\n\n(b)\n- 微波（亦可接受無線電波／毫米波）（1A）\n\n(c)\n- $E = hf$（或 $E = \\dfrac{hc}{\\lambda}$）（1M）\n- $E = (6.63 \\times 10^{-34})(2.31 \\times 10^{11}) = 1.53 \\times 10^{-22}\\ \\mathrm{J}$（1A）\n- $E = \\dfrac{1.53 \\times 10^{-22}}{1.60 \\times 10^{-19}} = 9.56 \\times 10^{-4}\\ \\mathrm{eV}$（1A）\n\n(d)\n- $d = (1.20 \\times 10^{7})(9.46 \\times 10^{15})$（1M）\n- $d = 1.14 \\times 10^{23}\\ \\mathrm{m}$（1A）\n\n(e)\n(i)\n- $F = qvB\\sin\\theta$（若 $v$ 垂直於 $B$，則 $F = evB$）（1）\n- 磁力同時垂直於 $v$ 同 $B$（佛萊明左手定則）。（1）\n\n(ii)\n- 平行於 $B$ 嘅速度分量不受磁力，電子沿磁力線做勻速運動。（1）\n- 垂直分量所受磁力提供向心力，電子繞磁力線做圓周運動。兩個運動合起來就係螺旋路徑。（1）"
+  }
+}
