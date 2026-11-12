@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-13",
+  "news": [
+    {
+      "title": "康奈爾大學：晶片輸送駐波激光，150 微秒冷卻鈣離子三種振動",
+      "summary": "康奈爾大學 Mehta 團隊喺微製晶片上面，用兩束相反方向行進嘅激光做成穩定駐波，把阱中一粒鈣-40 離子放喺光強度最低嘅波節，減少唔必要嘅加熱。用電磁誘導透明冷卻，大約 150 微秒就可以把目標振動冷卻到接近量子基態，傳統行進波做法大約要 500 微秒；而且可以一次過冷卻三種振動模式，頻率範圍約 5 MHz。冷卻激光波長為 397 nm。實驗只做咗單個離子，但方法可以推廣到更大規模嘅阱離子量子電腦，紓緩冷卻佔用大量運算時間嘅樽頸。論文刊於 PRX Quantum。",
+      "topic": "波動（駐波／激光）、力和運動（簡諧運動）、原子世界（光子）",
+      "source_name": "phys.org / Cornell University / PRX Quantum",
+      "source_url": "https://phys.org/news/2026-11-chip-based-laser-cooling-ease.html",
+      "source_date": "12/11",
+      "links": [
+        {
+          "label": "Cornell Chronicle",
+          "url": "https://news.cornell.edu/stories/2026/11/researchers-develop-faster-laser-cooling-quantum-computers"
+        },
+        {
+          "label": "PRX Quantum (DOI)",
+          "url": "https://doi.org/10.1103/5btm-vwgy"
+        }
+      ]
+    },
+    {
+      "title": "INRS：三維輪廓成像達每秒 15 萬幀，可從超音波振動還原語音",
+      "summary": "加拿大國立科學研究院（INRS）梁晉陽團隊開發稱為 C-BLIP（色帶限制照明輪廓量度）嘅技術，用較平價嘅光學設計同對眼睛安全嘅 LED 照明，以高達每秒 15 萬幀拍攝三維影像，打破輪廓量度世界紀錄。團隊成功量度彈丸撞渦輪風扇葉片、楓樹種子下落時嘅氣動，同揚聲器膜嘅振動；仲可以由物體表面嘅超音波振動還原講過嘅說話。技術有望用於力學、氣動、微流體同物料高速測試。論文刊於 Nature Communications。",
+      "topic": "波動（超音波／成像）、力和運動（碰撞／振動）",
+      "source_name": "phys.org / INRS / Nature Communications",
+      "source_url": "https://phys.org/news/2026-11-ultrafast-3d-imaging-captures-fleeting.html",
+      "source_date": "12/11",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-78478-w"
+        }
+      ]
+    },
+    {
+      "title": "人工智能設計超構表面：相機用光效率實驗達 88.8%，約為傳統濾光片 3.6 倍",
+      "summary": "數碼相機通常用拜耳濾光陣列把像素分成紅、綠、藍，靠吸收唔要嘅顏色分辨色彩，結果浪費大部分入射光。Hyoseok Park 團隊用神經網絡（先用 14 萬個模擬結構訓練）配合遺傳算法，喺約 4000 萬個候選入面設計一層氮化矽納米柱超構表面，把紅、綠、藍光引導去對應像素，而唔係吸收掉。實驗測得透光率 88.8%，對比重建時用嘅傳統濾光陣列 24.7%，大約提升 3.6 倍。仍然有少少顏色串擾同空間解像略降。論文刊於 Reports on Progress in Physics。",
+      "topic": "波動（光／濾光／超構表面）",
+      "source_name": "Physics World / Reports on Progress in Physics",
+      "source_url": "https://physicsworld.com/a/ai-designed-metasurface-could-make-cameras-far-more-light-efficient/",
+      "source_date": "11/11",
+      "links": [
+        {
+          "label": "Reports on Progress in Physics (DOI)",
+          "url": "https://doi.org/10.1088/1361-6633/ae9e8c"
+        }
+      ]
+    },
+    {
+      "title": "歐幾里得望遠鏡公布首次大型數據：逾 9 億星系、約 1.5 萬個強引力透鏡候選",
+      "summary": "歐洲太空總署（ESA）同歐幾里得聯盟公布任務首次大型數據發布 DR1 Foundation，包含約 13 個月觀測、1.7 million GB 數據，覆蓋 1900 平方度天空（約等於 9500 個滿月，佔六年任務計劃天空約 14%）。分析約 1 萬張可見光同近紅外科學影像，錄得逾 9 億星系、約 1.5 萬個強引力透鏡候選、逾 6000 萬類星體候選，以及逾 1.6 億個光源嘅光譜。強引力透鏡係遠方星系嘅光被前景星系大幅扭曲，可以用嚟「秤」星系（包括睇唔到嘅暗物質），亦有助研究宇宙膨脹。完整數據發布預計 2027 年中。",
+      "topic": "波動（可見光／近紅外／引力透鏡）、天文學",
+      "source_name": "phys.org / ESA / Euclid Consortium",
+      "source_url": "https://phys.org/news/2026-11-euclid-3d-universe-date.html",
+      "source_date": "12/11",
+      "links": [
+        {
+          "label": "Physics World",
+          "url": "https://physicsworld.com/a/esas-euclid-mission-unveils-treasure-trove-of-cosmic-data/"
+        }
+      ]
+    },
+    {
+      "title": "柯伊伯帶塵埃顯示外太陽系或有較「重」嘅原始水庫",
+      "summary": "NASA 研究員 Lindsay P. Keller 團隊分析 12 粒由 NASA 飛機喺地球平流層收集嘅星際塵埃。塵埃有高密度嘅太陽高能粒子輻射痕跡，顯示很可能來自海王星外嘅柯伊伯帶。氧同位素模式同常見、被水改造過嘅隕石唔同；塵埃入面嘅水合黏土礦物顯示，母體內部曾經有重水同岩石喺低溫反應。雖然量唔到水本身，模型計算指出，改造呢啲塵埃嘅原始水，氧-18 對氧-16 比例最多大約比地球海水標準高 15%（上限估計）。研究認為呢個外太陽系重水庫同內太陽系混合唔多，土星（可能連同天王星、海王星）或幫佢哋隔開。論文刊於 Science Advances。",
+      "topic": "放射現象和核能（同位素／原子核）",
+      "source_name": "phys.org / NASA / Science Advances",
+      "source_url": "https://phys.org/news/2026-11-space-particles-ancient-heavy-oxygen.html",
+      "source_date": "12/11",
+      "links": [
+        {
+          "label": "Science Advances (DOI)",
+          "url": "https://doi.org/10.1126/sciadv.aeg1602"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "atomic",
+    "story": "康奈爾大學：晶片輸送駐波激光，150 微秒冷卻鈣離子三種振動",
+    "question_en": "Researchers at Cornell University cool a trapped ${}^{40}_{20}\\mathrm{Ca}^{+}$ ion using two laser beams of the same frequency travelling in opposite directions. The beams form a standing wave of wavelength\n$$\\lambda = 397\\ \\mathrm{nm}$$\nThe ion is held at a position of minimum intensity (a node). In a simplified model, one motional mode of the ion is simple harmonic motion of frequency $2.00\\ \\mathrm{MHz}$. The new method cools this motion to near the quantum ground state in $150\\ \\mu\\mathrm{s}$, compared with $500\\ \\mu\\mathrm{s}$ using a conventional travelling-wave arrangement.\n\nGiven:\n- $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n\n(a) Calculate the period of this motional mode. (2 marks)\n\n(b) Calculate the number of oscillations the ion completes during the $150\\ \\mu\\mathrm{s}$ cooling time. (2 marks)\n\n(c) Calculate the distance between two adjacent nodes of the standing wave. (2 marks)\n\n(d) Calculate the energy of one photon of this laser light, in eV. (3 marks)\n\n(e) Explain how the two laser beams produce a standing wave, and why the light intensity is a minimum at a node. (3 marks)",
+    "question_zh": "康奈爾大學嘅研究人員用兩束頻率相同、相反方向行進嘅激光，冷卻一粒被困住嘅 ${}^{40}_{20}\\mathrm{Ca}^{+}$ 離子。兩束激光形成波長為\n$$\\lambda = 397\\ \\mathrm{nm}$$\n嘅駐波。離子被固定喺光強度最低嘅位置（波節）。喺一個簡化模型入面，離子其中一種振動模式係頻率 $2.00\\ \\mathrm{MHz}$ 嘅簡諧運動。新方法用 $150\\ \\mu\\mathrm{s}$ 就可以把呢種運動冷卻到接近量子基態，傳統行進波做法則要 $500\\ \\mu\\mathrm{s}$。\n\n已知：\n- $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n\n(a) 計算呢種振動模式嘅周期。（2 分）\n\n(b) 計算喺 $150\\ \\mu\\mathrm{s}$ 冷卻時間之內，離子完成幾多次振動。（2 分）\n\n(c) 計算駐波相鄰兩個波節之間嘅距離。（2 分）\n\n(d) 計算呢種激光一個光子嘅能量，以 eV 為單位。（3 分）\n\n(e) 解釋兩束激光點樣產生駐波，同埋點解波節位置嘅光強度最低。（3 分）",
+    "answer_en": "(a)\n- $T = \\dfrac{1}{f}$ (1M)\n- $T = \\dfrac{1}{2.00 \\times 10^{6}} = 5.00 \\times 10^{-7}\\ \\mathrm{s}$ (1A)\n\n(b)\n- $N = \\dfrac{t}{T}$ (or $N = ft$) (1M)\n- $N = \\dfrac{1.50 \\times 10^{-4}}{5.00 \\times 10^{-7}} = 300$ (1A)\n\n(c)\n- Distance between adjacent nodes $= \\dfrac{\\lambda}{2}$ (1M)\n- $\\dfrac{3.97 \\times 10^{-7}}{2} = 1.99 \\times 10^{-7}\\ \\mathrm{m}$ (accept $1.985 \\times 10^{-7}\\ \\mathrm{m}$) (1A)\n\n(d)\n- $E = \\dfrac{hc}{\\lambda}$ (or $E = hf$ with $f = \\dfrac{c}{\\lambda}$) (1M)\n- $E = \\dfrac{(6.63 \\times 10^{-34})(3.00 \\times 10^{8})}{3.97 \\times 10^{-7}} = 5.01 \\times 10^{-19}\\ \\mathrm{J}$ (1A)\n- $E = \\dfrac{5.01 \\times 10^{-19}}{1.60 \\times 10^{-19}} = 3.13\\ \\mathrm{eV}$ (1A)\n\n(e)\n- The two waves have the same frequency (and wavelength / speed) and travel in opposite directions, so they superpose to form a standing wave. (1)\n- At a node the two waves are always in antiphase / have a phase difference of $\\pi$, so they interfere destructively. (1)\n- The resultant displacement of the light wave is always zero (or a minimum), so the intensity is a minimum. (1)",
+    "answer_zh": "(a)\n- $T = \\dfrac{1}{f}$（1M）\n- $T = \\dfrac{1}{2.00 \\times 10^{6}} = 5.00 \\times 10^{-7}\\ \\mathrm{s}$（1A）\n\n(b)\n- $N = \\dfrac{t}{T}$（或 $N = ft$）（1M）\n- $N = \\dfrac{1.50 \\times 10^{-4}}{5.00 \\times 10^{-7}} = 300$（1A）\n\n(c)\n- 相鄰波節距離 $= \\dfrac{\\lambda}{2}$（1M）\n- $\\dfrac{3.97 \\times 10^{-7}}{2} = 1.99 \\times 10^{-7}\\ \\mathrm{m}$（接受 $1.985 \\times 10^{-7}\\ \\mathrm{m}$）（1A）\n\n(d)\n- $E = \\dfrac{hc}{\\lambda}$（或先求 $f = \\dfrac{c}{\\lambda}$，再算 $E = hf$）（1M）\n- $E = \\dfrac{(6.63 \\times 10^{-34})(3.00 \\times 10^{8})}{3.97 \\times 10^{-7}} = 5.01 \\times 10^{-19}\\ \\mathrm{J}$（1A）\n- $E = \\dfrac{5.01 \\times 10^{-19}}{1.60 \\times 10^{-19}} = 3.13\\ \\mathrm{eV}$（1A）\n\n(e)\n- 兩列波頻率（同波長／波速）相同，而且相反方向行進，疊加之後形成駐波。（1）\n- 喺波節，兩列波永遠反相／相位差為 $\\pi$，所以相消干涉。（1）\n- 光波嘅合位移永遠為零（或最小），因此強度最低。（1）"
+  }
+}
