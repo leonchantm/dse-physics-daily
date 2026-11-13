@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-14",
+  "news": [
+    {
+      "title": "NIST／科羅拉多大學：首次用太陽光鎖定鐵原子譜線，做成太陽光學鐘",
+      "summary": "科羅拉多大學博爾德分校 Diddams 團隊同 NIST 合作，把實驗室激光鎖定喺太陽大氣鐵原子（Fe I）吸收線（波長約 1565.28 nm），再用對準國際單位制秒嘅光學頻率梳計頻，做成太陽光學鐘。呢條線吸收深度約 28%，線寬約 4.3 GHz。平均幾千秒後，頻率精度可達光學頻率嘅 10 億分之一，相當於徑向速度約 30 cm s⁻¹，並且達到熱光外差探測嘅光子噪聲極限。團隊量到太陽約 5.5 分鐘周期嘅聲波振盪（p-mode），亦喺 2024 年日偏食（博爾德峰值遮蔽約 80%）期間錄得預期嘅轉動態普勒訊號，幅度約 500 m s⁻¹。如果配合 25 至 40 米級望遠鏡，方法或可用嚟量度附近類太陽恆星嘅徑向速度，協助尋找類地行星。報道見 New Scientist。",
+      "topic": "原子世界（光子／能級）、波動（多普勒效應）",
+      "source_name": "New Scientist / University of Colorado Boulder / NIST",
+      "source_url": "https://www.newscientist.com/article/2598583-researchers-built-the-first-ever-quantum-clock-that-uses-sunlight/",
+      "source_date": "13/11",
+      "links": [
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2610.28485"
+        }
+      ]
+    },
+    {
+      "title": "名古屋大學／Arase：2024 年 5 月超強地磁暴環電流約 85% 氧離子來自地球",
+      "summary": "名古屋大學 Kitamura 團隊利用 JAXA 衛星 Arase，分析 2024 年 5 月 10 至 11 日超強地磁暴（又稱 Gannon 風暴）。SYM-H 指數最低達 −518 nT，係 1981 年以來錄得第二大嘅地磁擾動。衛星首次喺咁大規模風暴期間同時量度環電流離子同太陽風，發現約 85% 離子係來自地球電離層嘅氧離子，太陽風貢獻相對很少。因為呢啲地球來源離子比太陽風粒子重得多，或令磁場擾動加強，而且環電流高峰出現喺更接近地球嘅位置。暴峰時 Arase 喺地球上空約 16,000 km 量到磁場強度下降約 40%，位置比以往同類大幅下降更近地球。研究刊於 Science Advances。",
+      "topic": "電和磁（磁場／帶電粒子）",
+      "source_name": "ScienceDaily / Nagoya University / Science Advances",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261111005905.htm",
+      "source_date": "13/11",
+      "links": [
+        {
+          "label": "Nagoya University",
+          "url": "https://en.nagoya-u.ac.jp/news/articles/earths-ionosphere-supplied-vast-majority-of-ring-current-ions-during-may-2024-super-geomagnetic-storm-study-finds/"
+        },
+        {
+          "label": "Science Advances (DOI)",
+          "url": "https://doi.org/10.1126/sciadv.aee1069"
+        }
+      ]
+    },
+    {
+      "title": "中科院：聚合物納米球穩定柔性鈣鈦礦電池，效率 26.02%，熱循環後仍留逾 95%",
+      "summary": "中國科學院北京 Dong-Mei Li 團隊喺柔性鈣鈦礦太陽能電池入面，把羧基功能化聚甲基丙烯酸甲酯納米球加喺 Me-4PACz 同鈣鈦礦 FAPbI₃ 嘅介面。實驗顯示直徑 50 nm、覆蓋約 12% 介面面積嘅納米球效果最好：佢哋自成唔連續嘅納米島網絡，保留空穴提取通道，同時做機械緩衝，紓緩彎曲同熱脹冷縮嘅應力。電池光電轉換效率達 26.02%，填充因子 0.845。以 6 mm 半徑彎曲 5000 次後仍保持初始性能；喺 −60 至 +80 °C 做 200 次熱循環後，仍保留超過 95% 效率。研究刊於 Chinese Physics Letters。",
+      "topic": "電和磁（光電轉換）、原子世界（光子）",
+      "source_name": "Physics World / Chinese Physics Letters",
+      "source_url": "https://physicsworld.com/a/polymer-nanospheres-could-improve-perovskite-solar-cells/",
+      "source_date": "13/11"
+    },
+    {
+      "title": "長春光機所：把多個紅外視場摺疊到同一細探測器，正確辨認約 89%",
+      "summary": "中國科學院長春光學精密機械與物理研究所開發一套光學系統，用反射摺疊模組把中央、上、下、左、右幾個子視場，聚焦到同一個細格式紅外探測器。因為唔同方向嘅目標可能落喺重疊嘅探測器座標，單靠位置分唔出嚟自邊個視場。團隊喺中間像平面加圓柱調制元件，引入受控像散同彗差，令點擴散函數嘅形狀、闊度同取向隨視場改變，再用預先校準嘅光斑圖案辨認來源。序列測試入面，系統約 89% 個案可以正確指出目標所屬視場。方法適合稀疏、孤立或弱重疊嘅點狀目標，唔適合目標密集、光斑持續重疊嘅場景。論文刊於 Optics & Laser Technology。",
+      "topic": "波動（光學／成像／像差）",
+      "source_name": "phys.org / Chinese Academy of Sciences / Optics & Laser Technology",
+      "source_url": "https://phys.org/news/2026-11-optical-multiple-infrared-fields-small.html",
+      "source_date": "13/11",
+      "links": [
+        {
+          "label": "Optics & Laser Technology (DOI)",
+          "url": "https://doi.org/10.1016/j.optlastec.2026.116357"
+        }
+      ]
+    },
+    {
+      "title": "曼徹斯特大學：岩漿過熱令結晶延遲超過 8 小時，或催生高熔岩噴泉",
+      "summary": "曼徹斯特大學 Bonechi 團隊用 2021 年西班牙拉帕爾馬島 Tajogaite 火山嘅物質，喺英國 Diamond Light Source 用同步輻射 X 射線微斷層掃描，現場觀察過熱岩漿點樣結晶。過熱係指岩漿溫度高過晶體通常能夠穩定存在嘅溫度，可以溶解微晶種子，亦令熔體內部更均勻，唔利新晶體形成。實驗顯示，未過熱嘅岩漿大約 20 分鐘就開始結晶；經過強過熱之後，結晶延遲超過 8 小時。晶體愈多，岩漿黏度一般愈高。模型顯示，延遲結晶可以令岩漿保持較易流動、上升更快，有利氣體把熔岩噴高形成熔岩噴泉；提早結晶則較黏、上升較慢，氣體有更多時間逃逸，傾向較平靜嘅溢流噴發。研究刊於 Nature Communications。",
+      "topic": "熱和氣體（溫度／黏度）",
+      "source_name": "ScienceDaily / University of Manchester / Nature Communications",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261111221811.htm",
+      "source_date": "13/11",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-73352-1"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "atomic",
+    "story": "NIST／科羅拉多大學：首次用太陽光鎖定鐵原子譜線，做成太陽光學鐘",
+    "question_en": "Researchers at the University of Colorado and NIST have built a solar optical clock by locking a laser to an absorption line of iron atoms in the Sun's atmosphere. The wavelength of this line is\n$$\\lambda = 1565\\ \\mathrm{nm}$$\n\nGiven:\n- $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n\n(a) Calculate the frequency of this radiation. (2 marks)\n\n(b) Calculate the energy of one photon of this radiation, in eV. (3 marks)\n\n(c) A change in the Sun's radial velocity $v$ produces a Doppler shift in the frequency of the line given by\n$$\\frac{\\Delta f}{f} = \\frac{v}{c}$$\nThe clock can resolve a fractional frequency change $\\Delta f / f = 1.00 \\times 10^{-9}$. Calculate the smallest radial velocity that can be resolved. (2 marks)\n\n(d) Explain why iron atoms in the Sun's atmosphere absorb photons of this particular wavelength. (2 marks)\n\n(e) The Sun rotates. Light from the limb moving towards the Earth is blueshifted, while light from the opposite limb is redshifted. During a partial solar eclipse the Moon blocks part of the solar disk, and a net frequency shift is observed. Explain this observation. (3 marks)",
+    "question_zh": "科羅拉多大學同 NIST 嘅研究人員，把激光鎖定喺太陽大氣入面鐵原子嘅一條吸收線，做成太陽光學鐘。呢條譜線嘅波長為\n$$\\lambda = 1565\\ \\mathrm{nm}$$\n\n已知：\n- $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n\n(a) 計算呢種輻射嘅頻率。（2 分）\n\n(b) 計算呢種輻射一個光子嘅能量，以 eV 為單位。（3 分）\n\n(c) 太陽徑向速度 $v$ 嘅改變，會令譜線頻率出現多普勒頻移，關係為\n$$\\frac{\\Delta f}{f} = \\frac{v}{c}$$\n呢座鐘可以分辨嘅頻率分數改變為 $\\Delta f / f = 1.00 \\times 10^{-9}$。計算可以分辨到嘅最小徑向速度。（2 分）\n\n(d) 解釋點解太陽大氣入面嘅鐵原子會吸收呢個特定波長嘅光子。（2 分）\n\n(e) 太陽會自轉。來自朝地球接近嗰一邊（邊緣）嘅光會藍移，相反一邊則會紅移。喺日偏食期間，月球遮住咗一部分日面，結果量到淨頻率偏移。解釋呢個現象。（3 分）",
+    "answer_en": "(a)\n- $f = \\dfrac{c}{\\lambda}$ (1M)\n- $f = \\dfrac{3.00 \\times 10^{8}}{1.565 \\times 10^{-6}} = 1.92 \\times 10^{14}\\ \\mathrm{Hz}$ (accept $1.917 \\times 10^{14}\\ \\mathrm{Hz}$) (1A)\n\n(b)\n- $E = \\dfrac{hc}{\\lambda}$ (or $E = hf$) (1M)\n- $E = \\dfrac{(6.63 \\times 10^{-34})(3.00 \\times 10^{8})}{1.565 \\times 10^{-6}} = 1.27 \\times 10^{-19}\\ \\mathrm{J}$ (1A)\n- $E = \\dfrac{1.27 \\times 10^{-19}}{1.60 \\times 10^{-19}} = 0.794\\ \\mathrm{eV}$ (accept $0.796\\ \\mathrm{eV}$ if $f = 1.92 \\times 10^{14}\\ \\mathrm{Hz}$ is used) (1A)\n\n(c)\n- $v = c \\times \\dfrac{\\Delta f}{f}$ (1M)\n- $v = (3.00 \\times 10^{8})(1.00 \\times 10^{-9}) = 0.300\\ \\mathrm{m\\,s^{-1}}$ (1A)\n\n(d)\n- Photons are absorbed when their energy equals the difference between two electron energy levels in the iron atom. (1)\n- Only radiation of this frequency (or wavelength) has $E = hf = hc/\\lambda$ matching that energy difference, so this line is absorbed. (1)\n\n(e)\n- Because the Sun rotates, one limb approaches the Earth (frequency increased / blueshift) and the opposite limb recedes (frequency decreased / redshift). (1)\n- When the whole disk is visible these contributions (approximately) cancel, giving little net rotational Doppler shift. (1)\n- The Moon blocks more light from one limb than the other, so the two contributions no longer cancel and a net frequency shift is observed. (1)",
+    "answer_zh": "(a)\n- $f = \\dfrac{c}{\\lambda}$（1M）\n- $f = \\dfrac{3.00 \\times 10^{8}}{1.565 \\times 10^{-6}} = 1.92 \\times 10^{14}\\ \\mathrm{Hz}$（接受 $1.917 \\times 10^{14}\\ \\mathrm{Hz}$）（1A）\n\n(b)\n- $E = \\dfrac{hc}{\\lambda}$（或 $E = hf$）（1M）\n- $E = \\dfrac{(6.63 \\times 10^{-34})(3.00 \\times 10^{8})}{1.565 \\times 10^{-6}} = 1.27 \\times 10^{-19}\\ \\mathrm{J}$（1A）\n- $E = \\dfrac{1.27 \\times 10^{-19}}{1.60 \\times 10^{-19}} = 0.794\\ \\mathrm{eV}$（若用 $f = 1.92 \\times 10^{14}\\ \\mathrm{Hz}$，接受 $0.796\\ \\mathrm{eV}$）（1A）\n\n(c)\n- $v = c \\times \\dfrac{\\Delta f}{f}$（1M）\n- $v = (3.00 \\times 10^{8})(1.00 \\times 10^{-9}) = 0.300\\ \\mathrm{m\\,s^{-1}}$（1A）\n\n(d)\n- 當光子能量等於鐵原子入面兩個電子能級嘅差時，光子就會被吸收。（1）\n- 只有呢個頻率（或波長）嘅輻射先至滿足 $E = hf = hc/\\lambda$ 等於呢個能級差，所以呢條譜線會被吸收。（1）\n\n(e)\n- 因為太陽自轉，一邊邊緣靠近地球（頻率升高／藍移），相反一邊遠離地球（頻率降低／紅移）。（1）\n- 成個日面都睇到嘅時候，兩邊貢獻大致抵消，淨轉動態普勒頻移好細。（1）\n- 月球遮住其中一邊比另一邊多，兩邊唔再抵消，所以量到淨頻率偏移。（1）"
+  }
+}
