@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-15",
+  "news": [
+    {
+      "title": "NASA：Voyager 1 即將成為人類首個到達「一光日」嘅探測器",
+      "summary": "NASA／JPL 表示，1977 年發射嘅 Voyager 1 將於 2026 年 11 月 18 日（美東時間早上 5:16）成為人類首個到達距離地球一光日嘅探測器。一光日係電磁波喺真空行走 24 小時嘅距離，約 259 億公里（約 161 億英里）；到達之後，探測器嘅無線電訊號要剛好 24 小時先至返到地球。Voyager 1 而家以約每小時 6.1 萬公里飛向星際空間，早喺 2012 年離開太陽圈；孿生探測器 Voyager 2 預計要到 2035 年先至到達同一里程。NASA 指以光速計，Voyager 1 再行約 1.8 萬年先至夠一光年。雖然船齡近 50 年、钚電池要慳電，兩艘 Voyager 幾乎每日仍然傳回磁場、塵埃同宇宙射線等數據。",
+      "topic": "波動（電磁波／光速）",
+      "source_name": "Phys.org / NASA / AP",
+      "source_url": "https://phys.org/news/2026-11-nasa-voyager-day-interstellar-space.html",
+      "source_date": "14/11",
+      "links": [
+        {
+          "label": "NASA: What Is a Light-Day",
+          "url": "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/"
+        }
+      ]
+    },
+    {
+      "title": "核融合科學研究所 LHD：唔穩定等離子體用自己產生嘅波自己加熱",
+      "summary": "日本自然科學研究機構核融合科學研究所（NIFS）Ida 團隊，喺大型螺旋裝置 LHD 首次實驗觀察到：等離子體唔穩定時自己產生電磁波，之後溫度不降反升。以往認為波動會令等離子體失能量、溫度下降，研究重點多係抑制不穩定。他們刻意產生唔穩定等離子體，追蹤粒子速度分佈，發現波動造成嘅「畸變」回復之後，粒子運動嘅散佈反而變大，即溫度上升。過程係：等離子體唔穩定 → 產生波 → 速度分佈畸變 → 分佈變闊（被加熱）。呢個係聚變「自加熱」嘅其中一個關鍵環節，完整自加熱預期要到約 2040 年先至可以喺 ITER 等級裝置全面示範；同樣過程亦會喺地球磁層等空間等離子體出現。研究刊於 Communications Physics。",
+      "topic": "熱和氣體（溫度／熱能）、電和磁（磁場約束／電磁波）",
+      "source_name": "Phys.org / National Institute for Fusion Science / Communications Physics",
+      "source_url": "https://phys.org/news/2026-11-unstable-plasma-generates-reveal.html",
+      "source_date": "13/11",
+      "links": [
+        {
+          "label": "Communications Physics (DOI)",
+          "url": "https://doi.org/10.1038/s42005-026-02939-3"
+        }
+      ]
+    },
+    {
+      "title": "柯廷大學：死亡恆星每 7.9 分鐘閃一次無線電波，伴星好似太陽",
+      "summary": "柯廷大學 Hurley-Walker、McSweeney 團隊用西澳默奇森寬視場陣列發現一個長週期無線電波暫現源，短脈衝準時每隔 7.9 分鐘到來，但只喺約 6 小時窗口內出現，之後約 26 小時靜止，顯示系統以約 32 小時互相繞轉。南非 MeerKAT 把源定位到一顆暗星，夏威夷 Keck 光譜證實佢係質量同溫度都接近太陽嘅 G 型星，而非以往常見嘅紅矮星。脈衝到達時間會提早或延遲最多約 4 秒，反映軌道不同位置光程唔同；再結合太陽型星幾乎唔擺動，算出脈衝天體約為太陽質量嘅三分之二，太輕唔可以係中子星，因此判斷係白矮星脈衝星，亦係首個被發現繞住類太陽恆星嘅例子。呢類雙星或同 Ia 型超新星前身有關。研究刊於 Nature Astronomy。",
+      "topic": "波動（無線電波／週期）、力和運動（圓周運動／軌道）",
+      "source_name": "Phys.org / The Conversation / Nature Astronomy",
+      "source_url": "https://phys.org/news/2026-11-dead-star-radio-minutes-partner.html",
+      "source_date": "14/11",
+      "links": [
+        {
+          "label": "Nature Astronomy (DOI)",
+          "url": "https://doi.org/10.1038/s41550-026-03016-z"
+        }
+      ]
+    },
+    {
+      "title": "帕德博恩大學：多路超導納米線系統可精確數超過 9000 個光子",
+      "summary": "德國帕德博恩大學 Schapeler、Bartley 團隊把超導納米線單光子探測器（SNSPD）同多路復用結合，把一束光脈衝先分成 128 個時間上分開嘅較細脈衝，再分到 8 個探測器，做成 1024 個探測箱，可以從 0 數到超過 9000 個光子。配合預先建立嘅探測器模型，系統能量度最多 276 個光子嘅脈衝，不確定度細過 1 個光子；若用傳統多路方法達到同樣精度，大約需要 3.7 萬個探測元件。他們用平均光子數由 1 到 1.5 萬嘅激光脈衝測試系統。呢項技術有助把單光子測量同高靈敏光學功率計之間嘅空隙接上，亦對光量子計算同單光子成像嘅規模化有用。研究刊於 Optica。",
+      "topic": "原子世界（光子）、波動（光）",
+      "source_name": "Phys.org / Optica / Paderborn University",
+      "source_url": "https://phys.org/news/2026-11-multiplexed-detector-precisely-photons.html",
+      "source_date": "12/11",
+      "links": [
+        {
+          "label": "Optica (DOI)",
+          "url": "https://doi.org/10.1364/optica.604389"
+        }
+      ]
+    },
+    {
+      "title": "華沙大學：調控里德伯原子相互作用，微波感測資訊量增至三倍",
+      "summary": "華沙大學物理學系同光學量子技術中心嘅 Kurzyna、Parniak、Wasilewski 等，用冷卻而且強烈相互作用嘅里德伯原子做微波探測器。里德伯原子係電子被激光激發到好高能級、可以大到基態約一千倍嘅原子，因此對微波等電場非常敏感。實際測量難免有損耗，通常會降低精度；他們發現，預先調控原子之間嘅相互作用，可以令原子態對之後探測損耗更穩健，測得嘅 Fisher 資訊（衡量對微波場強度了解有幾「尖」）係冇相互作用時嘅三倍。呢類感測唔使校準都好靈敏，連周圍裝置嘅熱輻射都有機會測到，亦同用微波光子運作嘅超導量子電腦相關。研究刊於 Nature Communications。",
+      "topic": "電和磁（微波／電磁波）、原子世界（能級）",
+      "source_name": "Phys.org / University of Warsaw / Nature Communications",
+      "source_url": "https://phys.org/news/2026-11-atomic-interactions-microwave-sensor-capture.html",
+      "source_date": "12/11",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-76016-2"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "waves",
+    "story": "NASA：Voyager 1 即將成為人類首個到達「一光日」嘅探測器",
+    "question_en": "NASA's Voyager 1 is about to become the first human-made object to reach a distance of one light-day from Earth. One light-day is the distance travelled by electromagnetic waves in vacuum in $1.00$ day.\n\nGiven:\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n- $1\\ \\mathrm{day} = 8.64 \\times 10^{4}\\ \\mathrm{s}$\n\n(a) Calculate the distance corresponding to one light-day, in metres. (2 marks)\n\nVoyager 1 is travelling at a speed of $6.10 \\times 10^{4}\\ \\mathrm{km\\,h^{-1}}$.\n\n(b) Calculate the time, in years, that Voyager 1 would take to travel a distance of one light-day at this constant speed. Take $1\\ \\mathrm{year} = 365\\ \\mathrm{days}$. (3 marks)\n\nVoyager 1 communicates with Earth using radio waves of frequency $8.40\\ \\mathrm{GHz}$.\n\n(c) Calculate the wavelength of these radio waves in vacuum. (2 marks)\n\n(d) Explain why a radio command sent from Earth takes $24$ hours to reach Voyager 1 when the spacecraft is one light-day away. (2 marks)\n\n(e) The radio transmitter on Voyager 1 may be treated as a point source. Using the inverse square law, calculate the factor by which the intensity of the signal received at Earth decreases when the distance of Voyager 1 from Earth increases from $0.500$ light-day to $1.00$ light-day. (3 marks)",
+    "question_zh": "NASA 嘅 Voyager 1 即將成為首個到達距離地球一光日嘅人造物體。一光日係電磁波喺真空中行走 $1.00$ 日嘅距離。\n\n已知：\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n- $1\\ \\mathrm{day} = 8.64 \\times 10^{4}\\ \\mathrm{s}$\n\n(a) 計算一光日對應嘅距離，以米為單位。（2 分）\n\nVoyager 1 以 $6.10 \\times 10^{4}\\ \\mathrm{km\\,h^{-1}}$ 嘅速率行進。\n\n(b) 計算 Voyager 1 以呢個恆定速率行走一光日距離所需嘅時間，以年為單位。取 $1\\ \\mathrm{year} = 365\\ \\mathrm{days}$。（3 分）\n\nVoyager 1 用頻率為 $8.40\\ \\mathrm{GHz}$ 嘅無線電波同地球通訊。\n\n(c) 計算呢啲無線電波喺真空中嘅波長。（2 分）\n\n(d) 解釋點解當太空船距離地球一光日時，從地球發出嘅無線電指令要 $24$ 小時先至到達 Voyager 1。（2 分）\n\n(e) Voyager 1 上嘅無線電發射器可以視為點源。利用平方反比定律，計算當 Voyager 1 同地球嘅距離由 $0.500$ 光日增至 $1.00$ 光日時，地球接收到嘅訊號強度減弱嘅倍數。（3 分）",
+    "answer_en": "(a)\n- $d = c \\Delta t$ (1M)\n- $d = (3.00 \\times 10^{8})(8.64 \\times 10^{4}) = 2.59 \\times 10^{13}\\ \\mathrm{m}$ (accept $2.592 \\times 10^{13}\\ \\mathrm{m}$) (1A)\n\n(b)\n- Convert units consistently, e.g. $d = 2.592 \\times 10^{10}\\ \\mathrm{km}$ (or $v = 1.69 \\times 10^{4}\\ \\mathrm{m\\,s^{-1}}$) (1M)\n- $t = d/v = 2.592 \\times 10^{10}/(6.10 \\times 10^{4}) = 4.25 \\times 10^{5}\\ \\mathrm{h}$ ($= 1.77 \\times 10^{4}\\ \\mathrm{days}$) (1M)\n- $t = (1.77 \\times 10^{4})/365 = 48.5\\ \\mathrm{years}$ (1A)\n\n(c)\n- $\\lambda = c/f$ (1M)\n- $f = 8.40 \\times 10^{9}\\ \\mathrm{Hz}$, $\\lambda = (3.00 \\times 10^{8})/(8.40 \\times 10^{9}) = 3.57 \\times 10^{-2}\\ \\mathrm{m}$ (1A)\n\n(d)\n- Radio waves are electromagnetic waves and travel at speed $c$ in vacuum. (1)\n- Time taken $= d/c = 1$ day $= 24$ hours. (1)\n\n(e)\n- Inverse square law: $I \\propto 1/r^{2}$ (or $I = P/(4\\pi r^{2})$) (1M)\n- $I_2/I_1 = (r_1/r_2)^{2} = (0.500/1.00)^{2}$ (1M)\n- $= 0.250$ (intensity decreases by a factor of $4$ / becomes one quarter) (1A)",
+    "answer_zh": "(a)\n- $d = c \\Delta t$（1M）\n- $d = (3.00 \\times 10^{8})(8.64 \\times 10^{4}) = 2.59 \\times 10^{13}\\ \\mathrm{m}$（接受 $2.592 \\times 10^{13}\\ \\mathrm{m}$）（1A）\n\n(b)\n- 單位換算一致，例如 $d = 2.592 \\times 10^{10}\\ \\mathrm{km}$（或 $v = 1.69 \\times 10^{4}\\ \\mathrm{m\\,s^{-1}}$）（1M）\n- $t = d/v = 2.592 \\times 10^{10}/(6.10 \\times 10^{4}) = 4.25 \\times 10^{5}\\ \\mathrm{h}$（$= 1.77 \\times 10^{4}\\ \\mathrm{days}$）（1M）\n- $t = (1.77 \\times 10^{4})/365 = 48.5\\ \\mathrm{years}$（1A）\n\n(c)\n- $\\lambda = c/f$（1M）\n- $f = 8.40 \\times 10^{9}\\ \\mathrm{Hz}$，$\\lambda = (3.00 \\times 10^{8})/(8.40 \\times 10^{9}) = 3.57 \\times 10^{-2}\\ \\mathrm{m}$（1A）\n\n(d)\n- 無線電波係電磁波，喺真空以速率 $c$ 傳播。（1）\n- 所需時間 $= d/c = 1$ 日 $= 24$ 小時。（1）\n\n(e)\n- 平方反比定律：$I \\propto 1/r^{2}$（或 $I = P/(4\\pi r^{2})$）（1M）\n- $I_2/I_1 = (r_1/r_2)^{2} = (0.500/1.00)^{2}$（1M）\n- $= 0.250$（強度減至四分之一／減弱 4 倍）（1A）"
+  }
+}
