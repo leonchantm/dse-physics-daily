@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-16",
+  "news": [
+    {
+      "title": "德州大學奧斯汀分校：天王星同海王星古怪磁場，或由內部導電率隨深度增加解釋",
+      "summary": "NASA 嘅 Voyager 2 喺 1980 年代飛過天王星同海王星時，發現兩顆行星嘅磁場嚴重扭曲同傾斜，同地球有明確南北極好唔同。地球磁軸只斜約 11°，天王星約 59°、海王星約 47°；兩顆冰巨星直徑約為地球四倍。德州大學奧斯汀分校 Yan 團隊聯同 UCLA、倫敦帝國學院同諾森比亞大學，用電腦模擬重現 Voyager 2 測到嘅磁場。他們認為行星內部極高溫高壓可令水分子分解成離子，導電率隨深度增加，從而影響發電機效應、造成異常磁場。模擬仲顯示，冰巨星磁軸有時可喺數十年內擺動幾十度，遠快過地球約 50 年先漂移約 1°，即而家嘅磁場可能已經同當年測到嘅唔同。團隊正分析韋伯太空望遠鏡對兩星極光嘅紅外觀測，尋找磁軸有冇已經改變嘅線索。研究刊於 Communications Physics。",
+      "topic": "電和磁（磁場）",
+      "source_name": "ScienceDaily / UT Austin / Communications Physics",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261114202204.htm",
+      "source_date": "15/11",
+      "links": [
+        {
+          "label": "Communications Physics (DOI)",
+          "url": "https://doi.org/10.1038/s42005-026-02841-y"
+        },
+        {
+          "label": "UT Institute for Geophysics",
+          "url": "https://ig.utexas.edu/homepage-news/2026/wacky-magnetic-fields-of-ice-giants-explained/"
+        }
+      ]
+    },
+    {
+      "title": "劍橋大學：首次直接影到超冷氣體入面「量子渦旋團」慢慢散開",
+      "summary": "當原子雲冷卻到接近絕對零度，可以形成玻色–愛因斯坦凝聚體（BEC）：成團原子共用同一個量子態。理論預測，呢種量子流體由混亂變得有序時，會出現一團幼細渦旋線，之後慢慢散開，稱為「Vinen 湍流」。劍橋大學 Morris 團隊用鉀原子 BEC，困喺直徑細過 0.1 mm 嘅均勻圓柱形光阱，首次直接觀察到呢個過程。他們先擾動氣體打亂有序狀態，再開啟原子相互作用讓系統緩和；喺唔同時刻釋放氣體、放大約 3.5 倍，再影一薄層，渦旋喺相片入面呈現黑線。重複多次之後，他們估計單位體積入面渦旋線總長度，發現渦旋密度下降符合理論：越密嘅渦旋團散得越快；之後剩低嘅渦旋喺阱壁流失。計及粒子質量之後，衰減速率仲同超流氦嘅測量接近。研究刊於 Physical Review Letters。",
+      "topic": "熱和氣體（低溫／原子氣體）",
+      "source_name": "Phys.org / University of Cambridge / Physical Review Letters",
+      "source_url": "https://phys.org/news/2026-11-tangled-quantum-whirlpools-caught-unraveling.html",
+      "source_date": "15/11",
+      "links": [
+        {
+          "label": "Physical Review Letters (DOI)",
+          "url": "https://doi.org/10.1103/lywd-gjg9"
+        }
+      ]
+    },
+    {
+      "title": "雷根斯堡／於利希：捕捉石墨烯電子「跳過禁戒能隙」，過渡機率可達 100%",
+      "summary": "雷根斯堡大學、馬爾堡大學同於利希研究中心嘅 Eggers、Huber、Höfer、Tautz 等，用光發射動量顯微鏡，喺接近完美嘅單原子層「旋轉」石墨烯入面，首次直接觀察到電子喺強光電場加速下，以 Landau–Zener–Majorana 過程跳過禁戒能隙，由價帶去到導帶。半導體入面電子通常只能留喺特定能帶，中間嘅禁戒能隙一般去唔到；但當電子接近能隙夠快，過渡機率竟然可達 100%。呢個同一般穿過空間勢壘嘅量子隧穿唔同，關鍵係電子接近能隙嘅速率。團隊形容就好似電梯樓層顯示由 1、2、3 直接跳到 20。呢項技術有助了解點樣用光控制電子，發展超快電子學。研究刊於 Nature。",
+      "topic": "原子世界（能級／能隙）",
+      "source_name": "ScienceDaily / Forschungszentrum Jülich / Nature",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261112025523.htm",
+      "source_date": "13/11",
+      "links": [
+        {
+          "label": "Nature (DOI)",
+          "url": "https://doi.org/10.1038/s41586-026-11214-y"
+        },
+        {
+          "label": "Jülich press release",
+          "url": "https://www.fz-juelich.de/en/news/archive/press-release/2026/a-quantum-elevator-in-slow-motion-video"
+        }
+      ]
+    },
+    {
+      "title": "DUNE：美國地下中微子實驗開始安裝巨型液氬低溫槽",
+      "summary": "工程人員開始喺南達科他州 Sanford 地下研究設施（地下 1.6 km）安裝總值約 33 億美元嘅深地中微子實驗 DUNE-LBNF 低溫槽基礎設施。兩個地下實驗廳各長約 150 m、高七層，將放置四個探測槽，每個注入 1.7 萬噸液氬並冷卻至 88 K。用來固定低溫槽嘅約 6200 噸鋼材已由 5 月起陸續運入地下。CERN 主導低溫槽嘅設計、建造規劃同安裝，係該實驗室首次對歐洲以外實驗作出如此大規模貢獻。探測器計劃 2030 年完成，2031 年起量度由約 1300 km 外、芝加哥附近 Fermilab 加速器複合體產生嘅中微子，詳細研究中微子性質，並比較中微子同反中微子嘅行為差異。",
+      "topic": "放射現象（中微子）、熱和氣體（低溫）",
+      "source_name": "Physics World",
+      "source_url": "https://physicsworld.com/a/us-underground-neutrino-experiment-begins-cryostat-installation/",
+      "source_date": "10/11"
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "electricity",
+    "story": "德州大學奧斯汀分校：天王星同海王星古怪磁場，或由內部導電率隨深度增加解釋",
+    "question_en": "New computer models have been used to study the unusually tilted magnetic field of Uranus, first measured by NASA's Voyager 2. In one region near the planet, the magnetic field may be treated as uniform with magnitude\n$$B = 2.30 \\times 10^{-5}\\ \\mathrm{T}$$\n\nA proton enters this region with speed $4.00 \\times 10^{5}\\ \\mathrm{m\\,s^{-1}}$, travelling perpendicular to the field.\n\nGiven:\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n- $m_{\\mathrm{p}} = 1.67 \\times 10^{-27}\\ \\mathrm{kg}$\n\n(a) Calculate the magnetic force acting on the proton. (2 marks)\n\n(b) Calculate the radius of the circular path of the proton. (2 marks)\n\n(c) Calculate the period of this circular motion. (2 marks)\n\nA small search coil on a spacecraft has $200$ turns, each of mean area $4.00 \\times 10^{-2}\\ \\mathrm{m^{2}}$. At a certain instant the magnetic field of magnitude $2.30 \\times 10^{-5}\\ \\mathrm{T}$ is uniform over the coil and perpendicular to the plane of the coil.\n\n(d) Calculate the magnetic flux linkage of the coil. (2 marks)\n\nThe spacecraft then rotates so that the flux linkage of the coil falls to zero in $0.250\\ \\mathrm{s}$.\n\n(e) Calculate the average induced emf in the coil. (2 marks)\n\n(f) The models suggest that the magnetic axis of Uranus may shift by tens of degrees in only a few decades, much faster than the drift of Earth's magnetic tilt. Explain why a changing planetary magnetic field can induce an emf in a conducting loop that is at rest relative to the planet. (2 marks)",
+    "question_zh": "新嘅電腦模擬用來研究天王星異常傾斜嘅磁場，呢個磁場最先由 NASA 嘅 Voyager 2 量度。喺行星附近某區域，磁場可以視為均勻，大小為\n$$B = 2.30 \\times 10^{-5}\\ \\mathrm{T}$$\n\n一隻質子以速率 $4.00 \\times 10^{5}\\ \\mathrm{m\\,s^{-1}}$ 進入呢個區域，運動方向垂直於磁場。\n\n已知：\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n- $m_{\\mathrm{p}} = 1.67 \\times 10^{-27}\\ \\mathrm{kg}$\n\n(a) 計算作用喺質子上嘅磁力。（2 分）\n\n(b) 計算質子圓形軌跡嘅半徑。（2 分）\n\n(c) 計算呢個圓周運動嘅週期。（2 分）\n\n太空船上有一個小探測線圈，共 $200$ 匝，每匝平均面積為 $4.00 \\times 10^{-2}\\ \\mathrm{m^{2}}$。喺某瞬間，大小為 $2.30 \\times 10^{-5}\\ \\mathrm{T}$ 嘅磁場喺線圈範圍內均勻，而且垂直於線圈平面。\n\n(d) 計算線圈嘅磁通量匝連。（2 分）\n\n之後太空船轉動，令線圈嘅磁通量匝連喺 $0.250\\ \\mathrm{s}$ 內降至零。\n\n(e) 計算線圈嘅平均感應電動勢。（2 分）\n\n(f) 模擬顯示天王星嘅磁軸可能喺短短數十年內改變幾十度，遠快過地球磁軸傾斜嘅漂移。解釋點解一個正在改變嘅行星磁場，可以喺相對行星靜止嘅導體迴路入面感應出電動勢。（2 分）",
+    "answer_en": "(a)\n- $F = qvB$ (or $F = evB$) (1M)\n- $F = (1.60 \\times 10^{-19})(4.00 \\times 10^{5})(2.30 \\times 10^{-5}) = 1.47 \\times 10^{-18}\\ \\mathrm{N}$ (1A)\n\n(b)\n- $r = mv/(qB)$ (or $r = mv^{2}/F$) (1M)\n- $r = (1.67 \\times 10^{-27})(4.00 \\times 10^{5})/((1.60 \\times 10^{-19})(2.30 \\times 10^{-5})) = 182\\ \\mathrm{m}$ (1A)\n\n(c)\n- $T = 2\\pi m/(qB)$ (or $T = 2\\pi r/v$) (1M)\n- $T = 2.85 \\times 10^{-3}\\ \\mathrm{s}$ (accept $2.86 \\times 10^{-3}\\ \\mathrm{s}$ if $r = 182\\ \\mathrm{m}$ is used) (1A)\n\n(d)\n- Flux linkage $= NBA$ (1M)\n- $= (200)(2.30 \\times 10^{-5})(4.00 \\times 10^{-2}) = 1.84 \\times 10^{-4}\\ \\mathrm{Wb}$ (1A)\n\n(e)\n- $\\varepsilon = \\Delta (NBA)/\\Delta t$ (or $\\varepsilon = N \\Delta\\Phi/\\Delta t$) (1M)\n- $\\varepsilon = (1.84 \\times 10^{-4})/0.250 = 7.36 \\times 10^{-4}\\ \\mathrm{V}$ (1A)\n\n(f)\n- A change in the magnetic field (in magnitude or direction) changes the magnetic flux through the loop. (1)\n- By Faraday's law, a changing flux induces an emf. (1)",
+    "answer_zh": "(a)\n- $F = qvB$（或 $F = evB$）（1M）\n- $F = (1.60 \\times 10^{-19})(4.00 \\times 10^{5})(2.30 \\times 10^{-5}) = 1.47 \\times 10^{-18}\\ \\mathrm{N}$（1A）\n\n(b)\n- $r = mv/(qB)$（或 $r = mv^{2}/F$）（1M）\n- $r = (1.67 \\times 10^{-27})(4.00 \\times 10^{5})/((1.60 \\times 10^{-19})(2.30 \\times 10^{-5})) = 182\\ \\mathrm{m}$（1A）\n\n(c)\n- $T = 2\\pi m/(qB)$（或 $T = 2\\pi r/v$）（1M）\n- $T = 2.85 \\times 10^{-3}\\ \\mathrm{s}$（若用 $r = 182\\ \\mathrm{m}$，接受 $2.86 \\times 10^{-3}\\ \\mathrm{s}$）（1A）\n\n(d)\n- 磁通量匝連 $= NBA$（1M）\n- $= (200)(2.30 \\times 10^{-5})(4.00 \\times 10^{-2}) = 1.84 \\times 10^{-4}\\ \\mathrm{Wb}$（1A）\n\n(e)\n- $\\varepsilon = \\Delta (NBA)/\\Delta t$（或 $\\varepsilon = N \\Delta\\Phi/\\Delta t$）（1M）\n- $\\varepsilon = (1.84 \\times 10^{-4})/0.250 = 7.36 \\times 10^{-4}\\ \\mathrm{V}$（1A）\n\n(f)\n- 磁場大小或方向改變，會令穿過迴路嘅磁通量改變。（1）\n- 根據法拉第定律，磁通量改變會感應出電動勢。（1）"
+  }
+}
