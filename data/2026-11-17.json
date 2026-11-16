@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-17",
+  "news": [
+    {
+      "title": "沖繩科技大學院大學（OIST）：接近絕對零度嘅鑽石微波激射器，訊號放大逾千倍",
+      "summary": "沖繩科學技術大學院大學 Kubo、Ohta 團隊喺 Nature Communications 報告，研制出首個喺毫開爾文溫度運作、而且唔靠超導技術嘅近量子極限微波激射（maser）放大器。裝置中心係一顆粉紅色鑽石，入面嘅氮雜質（P1 中心）帶有電子自旋；用較弱嘅泵浦微波令大部分自旋進入較高能態（粒子數反轉），入射嘅訊號光子再以受激輻射令自旋落返低能態，放出同一個頻率嘅光子，從而放大微波。團隊量得喺 6.595 GHz 時功率增益超過 30 dB（即放大逾 1000 倍），額外噪聲約 2.55 個量子，只略高於任何裝置都要有嘅量子下限 0.5，飽和功率亦高過傳統約瑟夫森參量放大器。微波激射器 1954 年面世，比激光早六年，兩者都靠受激輻射；因為通常要極低溫，一直較少實際應用，但而家量子電腦本身就要接近絕對零度，呢類低噪聲放大器反而變得有用，仲可以喺強磁場下運作，有助自旋量子比特讀出、核磁共振同暗物質搜尋。",
+      "topic": "原子世界（能級／光子）、波動（微波、E = hf）",
+      "source_name": "Phys.org / OIST / Nature Communications",
+      "source_url": "https://phys.org/news/2026-11-ultracold-diamond-microwave-laser-amplifies.html",
+      "source_date": "16/11",
+      "links": [
+        {
+          "label": "Nature Communications (DOI)",
+          "url": "https://doi.org/10.1038/s41467-026-79021-7"
+        },
+        {
+          "label": "OIST press release",
+          "url": "https://www.oist.jp/news-center/news/2026/11/16/ultracold-diamond-microwave-laser-amplifies-quantum-signals-1000-fold"
+        }
+      ]
+    },
+    {
+      "title": "中科院／斯德哥爾摩：新模型提出α同β可以喺同一衰變入面一齊放出",
+      "summary": "中國科學院張文強同斯德哥爾摩 Alba Nova 大學中心 Chong Qi，喺 Physical Review Letters 提出一種新嘅放射性衰變模式：原子核可以喺單一量子躍遷入面同時放出一粒α粒子（氦核）同埋一粒β粒子，強作用力同弱作用力一齊參與。模型把α、β視為同一過程嘅兩步，中間只經過一個原子核實際上唔會停留嘅「虛態」。α粒子要隧穿勢壘，能量愈高愈易穿出，但分畀電子（或正電子）同中微子嘅相空間就愈細，兩種因素互相制衡，令α能量譜呈鐘形（高斯型）。他們把模型對照已知同位素表，找出五個候選核素若只靠單獨α或β衰變都生唔出；另外有六個核素由 1970 年代起被視為「β衰變之後好快再放α」，但實驗譜同傳統理論唔夾。團隊認為同時放出α同β可以自然解釋呢啲譜，唔使再加額外假設，有助理解強、弱核力點樣喺同一個過程入面一齊作用。",
+      "topic": "放射現象（α衰變、β衰變）",
+      "source_name": "Phys.org / Chinese Academy of Sciences / Physical Review Letters",
+      "source_url": "https://phys.org/news/2026-11-alpha-beta-decay-decades-nuclear.html",
+      "source_date": "16/11",
+      "links": [
+        {
+          "label": "Physical Review Letters (DOI)",
+          "url": "https://doi.org/10.1103/76pc-tspc"
+        },
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2606.10567"
+        }
+      ]
+    },
+    {
+      "title": "賓夕法尼亞大學：把保暖毯用嘅 Mylar 疊成耐壓月球隔熱層，約 20 MPa 壓十次仍然有效",
+      "summary": "月球表面溫度可以由零下數百度去到沸騰，基地、宇航服同設備都需要可靠隔熱，但好多高效隔熱材料一壓或者一撞就壞。賓夕法尼亞大學 Bargatin、Levin 團隊喺 ACS Applied Materials & Interfaces 報告，把數百層極薄嘅 Mylar（雙向拉伸聚對苯二甲酸乙二酯，同食物保鮮紙、鋁膜保暖毯同一類膠膜）疊成「混合層狀隔熱膜堆」（HyLIFS）。部分薄膜鍍上一層極薄氧化鋁（alumina）增加硬度。喺真空測試中，最佳樣本嘅熱導率可低至 2.2 mW m^{-1} K^{-1}，而且仍然柔軟；機械測試把樣品反覆壓到約 20 MPa（大約把 200 磅力集中喺指尖面積），連續 10 次高壓循環之後隔熱性能仍然保持。熱量喺真空中主要經薄膜入面用來防止黏住嘅微細「防黏粒子」接觸點傳導。而家樣本只有約 1 cm²，要靠鑷子同小砝碼逐層疊，團隊希望將來用捲對捲塗層放大到米級，用作月球棲所、探測車同設備嘅耐用隔熱。",
+      "topic": "熱和氣體（熱傳導、熱輻射）",
+      "source_name": "ScienceDaily / University of Pennsylvania / ACS Applied Materials & Interfaces",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261115085549.htm",
+      "source_date": "15/11",
+      "links": [
+        {
+          "label": "ACS Applied Materials & Interfaces (DOI)",
+          "url": "https://doi.org/10.1021/acsami.6c09126"
+        },
+        {
+          "label": "Penn Engineering",
+          "url": "https://www.engineering.upenn.edu/stories/penn-engineers-turn-everyday-mylar-into-a-promising-insulator-for-the-moon/"
+        }
+      ]
+    },
+    {
+      "title": "NIST：用 34.670 GHz 毫米波讀取超導量子比特，780 納秒內保真度 99.2%",
+      "summary": "美國國家標準與技術研究院（NIST）博爾德實驗室 Dixit 團隊喺 Physical Review Letters 報告，用毫米波段嘅微波諧振腔讀取超導量子比特（transmon），喺讀出時大幅減少唔必要嘅狀態躍遷。傳統 transmon 多喺 3 至 6 GHz 運作，讀出腔約 6 至 10 GHz；呢次他們把一個 3.083 GHz 嘅 transmon 耦合到 34.670 GHz 嘅鋁腔，讀出頻率同量子比特頻率之比超過 10。讀出腔係金屬封閉結構，喺特定頻率形成駐波，儲存電磁能量；腔嘅共振頻率會隨量子比特處於基態定激發態而改變，從而讀出其狀態。用 109 個讀出光子，量度保真度達 99.2%，只需 780 納秒。提高讀出頻率而保持量子比特喺微波段，有助減少讀出過程引起嘅狀態改變，亦都可以用於暗物質搜尋等需要極弱電磁波探測嘅實驗。",
+      "topic": "波動（微波／駐波、電磁波）",
+      "source_name": "Phys.org / NIST / Physical Review Letters",
+      "source_url": "https://phys.org/news/2026-11-superconducting-qubits-suppressing-unwanted-state.html",
+      "source_date": "16/11",
+      "links": [
+        {
+          "label": "Physical Review Letters (DOI)",
+          "url": "https://doi.org/10.1103/c84y-ggqs"
+        },
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2603.13837"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "atomic",
+    "story": "沖繩科技大學院大學（OIST）：接近絕對零度嘅鑽石微波激射器，訊號放大逾千倍",
+    "question_en": "Researchers have demonstrated a diamond maser that amplifies microwave signals of frequency\n$$f = 6.595 \\times 10^{9}\\ \\mathrm{Hz}$$\nby stimulated emission from electron spins in nitrogen impurities in the diamond.\n\nGiven:\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n- $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n\n(a) Calculate the wavelength of these microwaves. (2 marks)\n\n(b) Calculate the energy of one such microwave photon, in J. (2 marks)\n\n(c) Express this photon energy in eV. (2 marks)\n\nThe energy difference between two spin energy levels in the diamond is equal to the photon energy calculated in (b).\n\n(d) Explain how an incoming microwave photon of this energy can lead to the emission of a second photon of the same frequency. (2 marks)\n\n(e) In normal thermal equilibrium, more spins occupy the lower-energy level than the higher-energy level. Explain why a weak microwave signal would then be attenuated rather than amplified. (2 marks)\n\nA pump microwave field is used to produce a population inversion, so that more spins occupy the higher-energy level. In one interval of $1.00\\ \\mathrm{\\mu s}$, $8.00 \\times 10^{6}$ photons of this frequency are emitted by stimulated emission in the diamond.\n\n(f) Calculate the energy released as microwave radiation in this interval. (2 marks)",
+    "question_zh": "研究人員展示咗一個鑽石微波激射器（maser），利用鑽石入面氮雜質嘅電子自旋受激輻射，放大頻率為\n$$f = 6.595 \\times 10^{9}\\ \\mathrm{Hz}$$\n嘅微波訊號。\n\n已知：\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\,s^{-1}}$\n- $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\,s}$\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n\n(a) 計算呢啲微波嘅波長。（2 分）\n\n(b) 計算一粒呢種微波光子嘅能量，以 J 為單位。（2 分）\n\n(c) 把呢個光子能量以 eV 表示。（2 分）\n\n鑽石入面兩個自旋能級嘅能量差，等於 (b) 算出嘅光子能量。\n\n(d) 解釋一粒入射嘅呢個能量嘅微波光子，點樣可以導致放出第二粒相同頻率嘅光子。（2 分）\n\n(e) 喺正常熱平衡之下，佔據較低能級嘅自旋多過較高能級。解釋點解一弱微波訊號喺呢種情況下會被衰減而唔會被放大。（2 分）\n\n泵浦微波場用來產生粒子數反轉，令佔據較高能級嘅自旋較多。喺一段 $1.00\\ \\mathrm{\\mu s}$ 嘅時間內，鑽石入面由受激輻射放出 $8.00 \\times 10^{6}$ 粒呢個頻率嘅光子。\n\n(f) 計算呢段時間內以微波輻射放出嘅能量。（2 分）",
+    "answer_en": "(a)\n- $\\lambda = c/f$ (1M)\n- $\\lambda = (3.00 \\times 10^{8})/(6.595 \\times 10^{9}) = 4.55 \\times 10^{-2}\\ \\mathrm{m}$ (1A)\n\n(b)\n- $E = hf$ (1M)\n- $E = (6.63 \\times 10^{-34})(6.595 \\times 10^{9}) = 4.37 \\times 10^{-24}\\ \\mathrm{J}$ (1A)\n\n(c)\n- $E = (4.37 \\times 10^{-24})/(1.60 \\times 10^{-19})$ (1M)\n- $E = 2.73 \\times 10^{-5}\\ \\mathrm{eV}$ (1A)\n\n(d)\n- The incoming photon has energy equal to the difference between the two spin energy levels, and interacts with a spin in the higher-energy level. (1)\n- The spin drops to the lower-energy level and a second photon of the same frequency is emitted. (1)\n\n(e)\n- Incoming photons are more likely to be absorbed by the greater number of spins in the lower-energy level. (1)\n- Absorption removes photons from the beam (and outweighs stimulated emission), so the signal is attenuated. (1)\n\n(f)\n- $E_{\\mathrm{tot}} = N hf$ (or $N \\times 4.37 \\times 10^{-24}$) (1M)\n- $E_{\\mathrm{tot}} = (8.00 \\times 10^{6})(4.37 \\times 10^{-24}) = 3.50 \\times 10^{-17}\\ \\mathrm{J}$ (1A)",
+    "answer_zh": "(a)\n- $\\lambda = c/f$（1M）\n- $\\lambda = (3.00 \\times 10^{8})/(6.595 \\times 10^{9}) = 4.55 \\times 10^{-2}\\ \\mathrm{m}$（1A）\n\n(b)\n- $E = hf$（1M）\n- $E = (6.63 \\times 10^{-34})(6.595 \\times 10^{9}) = 4.37 \\times 10^{-24}\\ \\mathrm{J}$（1A）\n\n(c)\n- $E = (4.37 \\times 10^{-24})/(1.60 \\times 10^{-19})$（1M）\n- $E = 2.73 \\times 10^{-5}\\ \\mathrm{eV}$（1A）\n\n(d)\n- 入射光子嘅能量等於兩個自旋能級嘅能量差，並同處於較高能級嘅自旋相互作用。（1）\n- 該自旋跌去較低能級，同時放出第二粒相同頻率嘅光子。（1）\n\n(e)\n- 處於較低能級嘅自旋較多，入射光子較容易被吸收。（1）\n- 吸收會令光束入面嘅光子減少（而且壓過受激輻射），所以訊號被衰減。（1）\n\n(f)\n- $E_{\\mathrm{tot}} = N hf$（或 $N \\times 4.37 \\times 10^{-24}$）（1M）\n- $E_{\\mathrm{tot}} = (8.00 \\times 10^{6})(4.37 \\times 10^{-24}) = 3.50 \\times 10^{-17}\\ \\mathrm{J}$（1A）"
+  }
+}
