@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-18",
+  "news": [
+    {
+      "title": "DESI：銀河系總質量約為太陽 1.19 萬億倍，不確定度約 11%",
+      "summary": "暗能量光譜儀（DESI）合作組喺 arXiv 發表最新分析，用儀器頭三年觀測到嘅 10,036 顆銀暈恆星，再結合 Gaia 太空望遠鏡量到佢哋喺天球上嘅運動，估出銀河系質量。呢啲恆星屬於 RR Lyrae 同藍水平分支星兩類亮度可預測嘅老年恆星，距離銀心大約 3 萬至 31 萬光年（約 9 至 95 kpc）。團隊用四種動力學模型，並先喺六個模擬星系、四個觀測視角嘅模擬巡天入面校正偏差同埋巡天覆蓋空隙。結果係：銀心 26 萬光年（約 80 kpc）以內嘅質量為 $6.36 \\times 10^{11}$ 個太陽質量，不確定度約 8%；包含暗物質同普通物質嘅總質量（virial mass $M_{200c}$）為 $1.19 \\times 10^{12}$ 個太陽質量，不確定度約 11%，係目前最精確嘅量度之一。較高嘅總質量可能表示有一個延伸得較遠嘅巨大暈；遠距離天體走得愈快，就要有愈大質量先拉得住佢哋。可見嘅恆星同氣體遠遠少過呢個數目，顯示銀河系大部分質量並唔發光。",
+      "topic": "力和運動（萬有引力、圓周運動）",
+      "source_name": "Phys.org / DESI Collaboration / arXiv",
+      "source_url": "https://phys.org/news/2026-11-desi-milky-precisely.html",
+      "source_date": "17/11",
+      "links": [
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2611.05518"
+        }
+      ]
+    },
+    {
+      "title": "東京科學大學／加州大學：亞 5 nm 納米間隙令單層 WSe₂ 電致發光線寬僅 1.83 meV",
+      "summary": "東京科學大學 Majima 同加州大學伯克利 Javey 團隊喺 Nano Letters 報告，用間距不足 5 nm 嘅異質外延金／鉑（Au/Pt）電極，喺單層二硒化鎢（WSe₂）上面實現窄線寬交流電致發光（ACEL），唔使精確疊起多層二維材料。對硅背閘極加 10 MHz 方波電壓、兩邊納米間隙電極接地，喺 3.5 K 量得擬合線寬 1.83 meV；同一器件用光激發就會出現多個峰嘅寬譜，顯示電激發較選擇性地激發接面附近少數局域態。他們分析咗 49 個器件，其中 15 個出現窄線寬 ACEL。彎曲納米間隙會造成唔均勻嘅納米尺度應變同局部增強電場，方波嘅快速電壓轉換亦有助載流子注入同複合。呢種可重複、平面嘅架構有望做成晶片上嘅量子光源，用於量子通訊同傳感。",
+      "topic": "原子世界（光子／能級）、電和磁（電場／電致發光）",
+      "source_name": "Phys.org / Institute of Science Tokyo / Nano Letters",
+      "source_url": "https://phys.org/news/2026-11-nanogap-architecture-quantum-sources-chips.html",
+      "source_date": "17/11",
+      "links": [
+        {
+          "label": "Science Tokyo press release",
+          "url": "https://www.isct.ac.jp/en/news/dopd0xdsaj8i"
+        },
+        {
+          "label": "Nano Letters (DOI)",
+          "url": "https://doi.org/10.1021/acs.nanolett.6c03133"
+        }
+      ]
+    },
+    {
+      "title": "中國科學技術大學／浙江大學：困住鈣離子自主糾錯，邏輯量子比特壽命 42.7 ms",
+      "summary": "中國科學技術大學同浙江大學團隊喺 Nature Physics 報告，把一個邏輯量子比特編碼喺單一被困鈣離子嘅四個內核能級，再用第二粒離子以激光冷卻兩粒離子嘅共用振動，無需中途量度、即時回饋或事後篩選，就可以自主糾正由周圍磁場起伏引起嘅相位誤差。誤差發生時，一個「熵轉換」脈衝把干擾轉到共用運動，冷卻離子再以激光冷卻清走呢份熵，從而重置系統、準備下一輪糾正。人為加入磁場噪聲時，受保護邏輯比特保存量子資訊嘅時間約為最佳未保護物理比特嘅 12 倍；喺正常實驗室條件下，估計壽命為 42.7 ms，對比最佳物理比特嘅 29.4 ms。團隊表示呢次首次令呢種自主糾錯過到「打和點」（即邏輯比特壽命長過最佳物理比特），有助發展較慳資源嘅量子記憶。",
+      "topic": "原子世界（能級）、電和磁（磁場）",
+      "source_name": "Phys.org / USTC / Zhejiang University / Nature Physics",
+      "source_url": "https://phys.org/news/2026-11-team-qubit-lifetime-errors.html",
+      "source_date": "17/11",
+      "links": [
+        {
+          "label": "Nature Physics (DOI)",
+          "url": "https://doi.org/10.1038/s41567-026-03486-y"
+        },
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2504.16746"
+        }
+      ]
+    },
+    {
+      "title": "浙江大學／港科大（廣州）：喺 125 量子比特晶片傳送邏輯量子態，最優邏輯誤差約 2.5%",
+      "summary": "浙江大學張鵬飛、王浩華團隊同香港科技大學（廣州）朱國毅，喺 Nature Physics 報告，喺浙江大學研制嘅 125 量子比特超導處理器「天目-2」上面，成功把一個邏輯量子比特嘅狀態，由一組量子比特傳送到同一塊晶片上嘅另一組。他們用其中 98 個物理量子比特，編成兩組各 49 個、距離為 7 嘅表面碼（要至少同時影響 7 個物理量子比特，先可以喺唔被發現之下改到編碼資訊）。喺最強糾纏設定下，解碼後嘅邏輯誤差率約 2.5%。實驗顯示存在一個傳送臨界點：糾纏強過臨界值時，用更大嘅碼可以更好地保護資訊；一旦低過臨界值，加大碼距離反而可能令傳送更差。呢個臨界糾纏強度同理論預測嘅西森里（Nishimori）臨界點相符，表明即使糾纏被削弱，只要平衡好人為引入誤差嘅類型，仍然可以傳送編碼後嘅量子態。",
+      "topic": "原子世界（量子態）、電和磁",
+      "source_name": "Phys.org / Zhejiang University / HKUST (Guangzhou) / Nature Physics",
+      "source_url": "https://phys.org/news/2026-11-quantum-teleportation-method-weaker-entanglement.html",
+      "source_date": "16/11",
+      "links": [
+        {
+          "label": "Nature Physics (DOI)",
+          "url": "https://doi.org/10.1038/s41567-026-03484-0"
+        }
+      ]
+    },
+    {
+      "title": "NASA：COSI 伽馬射線科學載荷運抵 Northrop Grumman，準備 2027 年 8 月升空",
+      "summary": "NASA 即將升空嘅康普頓光譜儀同成像器（COSI）科學載荷，本月較早時運抵維珍尼亞州 Sterling 嘅 Northrop Grumman 衛星製造設施。COSI 用伽馬射線（電磁波譜入面能量最高嘅光）做廣視野巡天，科學目標包括研究銀河系同更遠宇宙嘅高能現象，例如物質同反物質嘅產生同湮滅，以及恆星生命嘅最後階段。探測器組件由團隊喺加州大學伯克利太空科學實驗室組裝，11 月 2 日出貨。Northrop Grumman 工程師會把載荷裝上 LEOStar-2 衛星，並進行振動同熱測試，發射目標為 2027 年 8 月。呢項任務屬 NASA 天體物理探險者計劃，合作單位包括加州大學伯克利、加州大學聖地牙哥、美國海軍研究實驗室、NASA 戈達德太空飛行中心、意大利太空署等。",
+      "topic": "波動（電磁波譜／伽馬射線）、放射現象（物質與反物質）",
+      "source_name": "NASA Science",
+      "source_url": "https://science.nasa.gov/blogs/cosi/2026/11/16/nasa-payload-to-study-gamma-rays-arrives-at-northrop-grumman/",
+      "source_date": "16/11"
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "mechanics",
+    "story": "DESI：銀河系總質量約為太陽 1.19 萬億倍，不確定度約 11%",
+    "question_en": "The Dark Energy Spectroscopic Instrument (DESI) collaboration has estimated the mass of the Milky Way from the motions of distant stars. In a simple model, a star of mass $m$ moves in a uniform circular orbit of radius $r$ about the galactic centre. The mass enclosed within this orbit is $M$.\n\nGiven:\n- $G = 6.67 \\times 10^{-11}\\ \\mathrm{N\\ m^{2}\\ kg^{-2}}$\n- mass of the Sun $M_{\\odot} = 1.99 \\times 10^{30}\\ \\mathrm{kg}$\n- $1\\ \\mathrm{light\\ year} = 9.46 \\times 10^{15}\\ \\mathrm{m}$\n\n(a) A star is at a distance of $2.61 \\times 10^{5}$ light-years from the galactic centre. Calculate this distance in metres. (2 marks)\n\n(b) The star moves at a constant speed $v = 1.85 \\times 10^{5}\\ \\mathrm{m\\ s^{-1}}$. Write an equation relating the gravitational force on the star to the centripetal force, and hence show that\n$$M = \\frac{v^{2} r}{G}$$\n(2 marks)\n\n(c) Calculate the mass $M$ enclosed within the orbit. (2 marks)\n\n(d) Express $M$ as a multiple of the solar mass $M_{\\odot}$. (2 marks)\n\nIt is estimated that the total mass of visible stars and gas within this radius is only $8.00 \\times 10^{10}\\ M_{\\odot}$.\n\n(e) Calculate the percentage of the enclosed mass $M$ that is visible. (2 marks)\n\n(f) Suggest why $M$ is much larger than the mass of the visible stars and gas. (2 marks)",
+    "question_zh": "暗能量光譜儀（DESI）合作組根據遙遠恆星嘅運動，估出銀河系嘅質量。喺一個簡單模型之中，一顆質量為 $m$ 嘅恆星，以半徑 $r$ 繞銀心做勻速圓周運動。呢個軌道以內包圍嘅質量為 $M$。\n\n已知：\n- $G = 6.67 \\times 10^{-11}\\ \\mathrm{N\\ m^{2}\\ kg^{-2}}$\n- 太陽質量 $M_{\\odot} = 1.99 \\times 10^{30}\\ \\mathrm{kg}$\n- $1\\ \\mathrm{light\\ year} = 9.46 \\times 10^{15}\\ \\mathrm{m}$\n\n(a) 一顆恆星距離銀心 $2.61 \\times 10^{5}$ light-years。計算呢個距離，以米為單位。（2 分）\n\n(b) 呢顆恆星以恒定速率 $v = 1.85 \\times 10^{5}\\ \\mathrm{m\\ s^{-1}}$ 運動。寫出作用喺恆星上嘅萬有引力同向心力之間嘅方程式，從而證明\n$$M = \\frac{v^{2} r}{G}$$\n（2 分）\n\n(c) 計算軌道以內包圍嘅質量 $M$。（2 分）\n\n(d) 把 $M$ 以太陽質量 $M_{\\odot}$ 嘅倍數表示。（2 分）\n\n估計喺呢個半徑以內，可見恆星同氣體嘅總質量只有 $8.00 \\times 10^{10}\\ M_{\\odot}$。\n\n(e) 計算包圍質量 $M$ 之中，可見部分所佔嘅百分率。（2 分）\n\n(f) 解釋點解 $M$ 遠大於可見恆星同氣體嘅質量。（2 分）",
+    "answer_en": "(a)\n- $r = (2.61 \\times 10^{5})(9.46 \\times 10^{15})$ (1M)\n- $r = 2.47 \\times 10^{21}\\ \\mathrm{m}$ (1A)\n\n(b)\n- $\\dfrac{GMm}{r^{2}} = \\dfrac{mv^{2}}{r}$ (1M)\n- Cancel $m$ and one factor of $r$, hence $M = \\dfrac{v^{2} r}{G}$ (1A)\n\n(c)\n- $M = \\dfrac{(1.85 \\times 10^{5})^{2}(2.47 \\times 10^{21})}{6.67 \\times 10^{-11}}$ (1M)\n- $M = 1.27 \\times 10^{42}\\ \\mathrm{kg}$ (1A)\n\n(d)\n- $M/M_{\\odot} = (1.267 \\times 10^{42})/(1.99 \\times 10^{30})$ (1M)\n- $M = 6.37 \\times 10^{11}\\ M_{\\odot}$ (1A)\n\n(e)\n- $\\mathrm{percentage} = (8.00 \\times 10^{10})/(6.37 \\times 10^{11}) \\times 100\\%$ (1M)\n- $\\mathrm{percentage} = 12.6\\%$ (1A)\n\n(f)\n- Most of the enclosed mass does not emit (or absorb) light / is not visible as stars or gas. (1)\n- This unseen mass is known as dark matter (or forms an extended halo around the galaxy). (1)",
+    "answer_zh": "(a)\n- $r = (2.61 \\times 10^{5})(9.46 \\times 10^{15})$（1M）\n- $r = 2.47 \\times 10^{21}\\ \\mathrm{m}$（1A）\n\n(b)\n- $\\dfrac{GMm}{r^{2}} = \\dfrac{mv^{2}}{r}$（1M）\n- 約去 $m$ 同埋一個 $r$，故 $M = \\dfrac{v^{2} r}{G}$（1A）\n\n(c)\n- $M = \\dfrac{(1.85 \\times 10^{5})^{2}(2.47 \\times 10^{21})}{6.67 \\times 10^{-11}}$（1M）\n- $M = 1.27 \\times 10^{42}\\ \\mathrm{kg}$（1A）\n\n(d)\n- $M/M_{\\odot} = (1.267 \\times 10^{42})/(1.99 \\times 10^{30})$（1M）\n- $M = 6.37 \\times 10^{11}\\ M_{\\odot}$（1A）\n\n(e)\n- $\\mathrm{percentage} = (8.00 \\times 10^{10})/(6.37 \\times 10^{11}) \\times 100\\%$（1M）\n- $\\mathrm{percentage} = 12.6\\%$（1A）\n\n(f)\n- 大部分被包圍嘅質量並唔發光（或吸收光）／唔以可見恆星或氣體形式出現。（1）\n- 呢啲睇唔到嘅質量稱為暗物質（或形成包圍星系嘅延伸暈）。（1）"
+  }
+}
