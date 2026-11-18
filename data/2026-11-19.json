@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-19",
+  "news": [
+    {
+      "title": "昆士蘭大學：用升降機 1.8 噸配重隔住磚牆，靠重力場傳送「Gravity」",
+      "summary": "昆士蘭大學（UQ）物理學家喺 Parnell Building，用一部 1950 年代升降機嘅 1.8 噸配重，喺上下兩層之間來回移動，用兩個位置代表二進制 0 同 1。隔住一道磚牆、喺隔壁洗手間嘅重力計，量到重力場嘅變化，成功解出單詞「Gravity」。研究刊登於 Science Advances：訊號傳送大約 0.7 米，每分鐘只傳 1 bit，配重一移動，垂直重力加速度就出現約 $50\\ \\mathrm{nm\\ s^{-2}}$ 嘅清晰跳變。單詞用 7-bit ASCII 編碼共 49 bit，前後再加控制序列，大約用咗一個鐘。呢個諗法源自團隊早前要用重力做「唔接觸過磅」嘅貨車磅橋。同 Wi-Fi、無線電波唔同，普通物料阻擋唔到重力場；質量又冇負值可以互相抵消，所以磚牆、法拉第籠都遮唔住呢個訊號。而家呢套古典重力計又慢又近，未有實用價值；團隊模擬顯示，若用更灵敏嘅量子重力傳感器，喺好進取嘅假設之下，距離或可達約 500 米，速率約每分鐘 15 bit，有機會用於無線電、光同聲音都穿唔透嘅環境。",
+      "topic": "力和運動（萬有引力、重力場）",
+      "source_name": "The University of Queensland / Science Advances",
+      "source_url": "https://news.uq.edu.au/2026-11-uq-researchers-send-unblockable-message-using-gravity",
+      "source_date": "19/11",
+      "links": [
+        {
+          "label": "Science Advances paper",
+          "url": "https://www.science.org/doi/10.1126/sciadv.aee0802"
+        },
+        {
+          "label": "Phys.org report",
+          "url": "https://phys.org/news/2026-11-physicists-unblockable-message-gravity.html"
+        }
+      ]
+    },
+    {
+      "title": "ICFO：量子氣體顯微鏡一次過分辨鍶-87 十種自旋，影到「彩色」單原子",
+      "summary": "巴塞羅那 ICFO 超冷量子氣體組，用量子氣體顯微鏡首次喺單一次實驗入面，同時分辨鍶-87（$^{87}\\mathrm{Sr}$）全部 10 種自旋態，並逐粒原子定位。2024 年佢哋已經可以影到冇自旋嘅玻色同位素鍶-84；呢次改用費米子鍶-87，每種自旋喺圖上用唔同顏色標示，好似五彩碎紙。關鍵係鍶嘅紅色窄線躍遷：調到恰當頻率嘅激光只會激發其中一種自旋，原子吸收之後再放出熒光，顯微鏡先見到佢；其他自旋保持「黑暗」。之後再把其餘自旋逐一轉去呢個可讀狀態並重複熒光成像，就可以一次過讀齊 10 種自旋。原子困喺由激光干涉形成嘅光晶格入面，用嚟模擬固體入面電子嘅哈伯德模型；多過兩種自旋仲可以研究更複雜嘅量子磁性，亦都適合做可以編碼超過兩個值嘅 qudit。成果刊於 Physical Review X。",
+      "topic": "原子世界（能級、熒光、光子）",
+      "source_name": "Phys.org / ICFO / Physical Review X",
+      "source_url": "https://phys.org/news/2026-11-quantum-gas-microscope-individual-atoms.html",
+      "source_date": "17/11",
+      "links": [
+        {
+          "label": "Physical Review X paper",
+          "url": "https://doi.org/10.1103/v9sh-cq7r"
+        }
+      ]
+    },
+    {
+      "title": "加州理工／史丹福：鐿離子超輻射同步閃光，同時製成微波同紅外頻梳",
+      "summary": "加州理工學院 Andrei Faraon 實驗室同史丹福大學 Joonhee Choi 團隊，喺釩酸釔晶體入面嵌入數十億個鐿離子，再耦合到一塊超導微波共振器。激光激發離子之後，佢哋透過超輻射同步發光：同一微波場令離子互相影響，先係穩定發光，激光再強就會轉成有節奏嘅脈衝，形成頻梳（頻率像梳齒咁等距排列）。更罕見嘅係，微波同紅外光會同步閃動，以前未觀察過。傳統鎖模頻梳靠鏡面共振腔，腔長會因溫度等改變而漂移；呢種超輻射來自原子之間嘅干涉，原則上頻率更穩定。鐿離子有三個能級：細能隙對應微波，大能隙對應光，所以同一個離子可以同時同兩種電磁波相互作用，有助連接用微波嘅超導量子電路同用光纖傳送嘅光學訊號。論文《Observation of tunable superradiant frequency combs》於 11 月 18 日刊登喺 Nature。",
+      "topic": "原子世界（能級、光子）、波動（電磁波）",
+      "source_name": "Caltech / Nature",
+      "source_url": "https://www.caltech.edu/about/news/atoms-in-sync-superradiance-offers-a-new-kind-of-frequency-comb",
+      "source_date": "18/11",
+      "links": [
+        {
+          "label": "Nature paper",
+          "url": "https://doi.org/10.1038/s41586-026-11289-7"
+        }
+      ]
+    },
+    {
+      "title": "中科院高能所／意大利：最亮伽馬射線暴現約 40 MeV 譜線，或為空心磁噴流",
+      "summary": "中國科學院高能物理研究所聯同意大利團隊，用張衡一號（CSES-01）衛星上嘅高能粒子探測器 HEPP-H，重建咗史上最亮伽馬射線暴 GRB 221009A（距離約 24 億光年，2022 年 10 月 9 日到達地球）最亮階段嘅時間分辨能譜。當時好多常規探測器都飽和，但 HEPP-H 係間接透過次級電子探測伽馬射線，效率較低反而保留到未飽和嘅數據，再同 GECAM-C、Fermi 交叉校正。光譜出現大約 2 MeV 嘅多餘鼓包；若當成熱輻射，呢段時間約佔伽馬射線能量 6%，暗示除咗強大嘅磁化噴流，仲有一個較弱嘅熱火球。另外一條窄發射線由最初約 40 MeV 隨時間大約按反比下降，線寬約為中心能量嘅 10%，有可能係電子–正電子湮滅；Fermi 較後先喺約 12 MeV 見到呢條線。團隊提出一種環狀磁場、軸心較空嘅磁主導噴流，嚟解釋譜線先升後降。論文於 11 月 12 日刊登喺 The Astrophysical Journal Letters。",
+      "topic": "放射現象和核能（伽馬輻射）、原子世界（電子–正電子湮滅）",
+      "source_name": "Phys.org / Chinese Academy of Sciences / ApJ Letters",
+      "source_url": "https://phys.org/news/2026-11-spectral-clues-hollow-core-magnetic.html",
+      "source_date": "18/11",
+      "links": [
+        {
+          "label": "ApJ Letters paper",
+          "url": "https://doi.org/10.3847/2041-8213/aeba80"
+        }
+      ]
+    },
+    {
+      "title": "科爾多瓦大學：維他命 B12 做鋅空氣電池催化劑，實驗室充放達 250 次",
+      "summary": "西班牙科爾多瓦大學 IQUEMA 物理化學組，首次用維他命 B12（鈷胺素）做可充電鋅空氣電池嘅催化劑。佢哋把 B12 分子共價固定喺單壁碳納米管上，防止呢種好溶於水嘅維他命喺水系電解液入面流失；分子中心嘅鈷(III) 幫助推動電化學反應：放電時催化氧氣還元成水，充電時又促進重新產生氧氣。實驗室原型最多完成約 250 次充放電循環。鋅空氣電池用豐富、可回收嘅鋅，同埋空氣入面嘅氧，唔使把全部反應物封喺電池內，所以可以較輕；水系電解液亦唔易燃，安全性高過部分鋰離子電池，已經常用於助聽器等細型裝置。呢項研究為尋找更安全、更平、更環保嘅儲能方案踏出一步，論文刊於 Journal of Materials Chemistry A。",
+      "topic": "電和磁（化學能與電能轉換）",
+      "source_name": "ScienceDaily / University of Córdoba",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261117033909.htm",
+      "source_date": "18/11",
+      "links": [
+        {
+          "label": "University of Córdoba release",
+          "url": "https://www.uco.es/investigacion/ucci/es/noticias-ingles/item/5725-rechargable-battery-vitamin"
+        },
+        {
+          "label": "Journal of Materials Chemistry A paper",
+          "url": "https://doi.org/10.1039/d6ta02773c"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "mechanics",
+    "story": "昆士蘭大學：用升降機 1.8 噸配重隔住磚牆，靠重力場傳送「Gravity」",
+    "question_en": "Researchers at the University of Queensland encoded a binary message by moving an elevator counterweight of mass $M$ between two positions. A gravimeter on the other side of a brick wall measured the gravitational field strength due to the counterweight. In a simplified model, the counterweight is treated as a point mass, and the gravimeter measures the gravitational field strength $g$ along the line joining the counterweight and the gravimeter.\n\nGiven:\n- $G = 6.67 \\times 10^{-11}\\ \\mathrm{N\\ m^{2}\\ kg^{-2}}$\n- $M = 1.80 \\times 10^{3}\\ \\mathrm{kg}$\n\n(a) When the counterweight is at a distance $r = 1.20\\ \\mathrm{m}$ from the gravimeter, calculate the gravitational field strength $g_{0}$ due to the counterweight at the gravimeter. (2 marks)\n\n(b) The counterweight is then moved to a distance $r = 2.40\\ \\mathrm{m}$ from the gravimeter.\n\n(i) According to Newton's law of gravitation, state how $g$ changes when the distance is doubled. (1 mark)\n\n(ii) Calculate the new gravitational field strength $g_{1}$. (1 mark)\n\n(c) Calculate the change in gravitational field strength $\\Delta g = g_{0} - g_{1}$. (1 mark)\n\nThe gravimeter contains a small test mass $m = 20.0\\ \\mathrm{g}$.\n\n(d) Calculate the change in the gravitational force on this test mass when the counterweight is moved from $1.20\\ \\mathrm{m}$ to $2.40\\ \\mathrm{m}$. (2 marks)\n\nThe word GRAVITY is encoded as 7-bit ASCII, giving a sequence of 49 bits. The bits are transmitted at a rate of $1.00$ bit per minute.\n\n(e) Calculate the time needed to transmit the word GRAVITY. (1 mark)\n\n(f) Explain why a brick wall can block a Wi-Fi signal but cannot block this gravitational signal. (2 marks)\n\n(g) Suggest two reasons why this method of communication is not practical for everyday use. (2 marks)",
+    "question_zh": "昆士蘭大學嘅研究人員把一部升降機配重（質量為 $M$）喺兩個位置之間移動，用嚟編碼一個二進制訊息。磚牆另一邊嘅重力計，量度由呢個配重產生嘅重力場強度。喺一個簡化模型之中，配重視為質點，而重力計量度嘅係沿配重同重力計連線方向嘅重力場強度 $g$。\n\n已知：\n- $G = 6.67 \\times 10^{-11}\\ \\mathrm{N\\ m^{2}\\ kg^{-2}}$\n- $M = 1.80 \\times 10^{3}\\ \\mathrm{kg}$\n\n(a) 當配重距離重力計 $r = 1.20\\ \\mathrm{m}$ 時，計算配重喺重力計位置產生嘅重力場強度 $g_{0}$。（2 分）\n\n(b) 之後把配重移到距離重力計 $r = 2.40\\ \\mathrm{m}$ 嘅位置。\n\n(i) 根據萬有引力定律，說明當距離增至兩倍時，$g$ 會點樣改變。（1 分）\n\n(ii) 計算新嘅重力場強度 $g_{1}$。（1 分）\n\n(c) 計算重力場強度嘅改變 $\\Delta g = g_{0} - g_{1}$。（1 分）\n\n重力計入面有一個細測試質量 $m = 20.0\\ \\mathrm{g}$。\n\n(d) 當配重由 $1.20\\ \\mathrm{m}$ 移到 $2.40\\ \\mathrm{m}$ 時，計算作用喺呢個測試質量上嘅引力改變。（2 分）\n\n單詞 GRAVITY 以 7-bit ASCII 編碼，共 49 bit。呢啲 bit 以每分鐘 $1.00$ bit 嘅速率傳送。\n\n(e) 計算傳送單詞 GRAVITY 所需嘅時間。（1 分）\n\n(f) 解釋點解磚牆可以阻隔 Wi-Fi 訊號，但阻隔唔到呢個重力訊號。（2 分）\n\n(g) 提出兩個原因，說明點解呢種通訊方法唔適合日常使用。（2 分）",
+    "answer_en": "(a)\n- $g_{0} = \\dfrac{GM}{r^{2}} = \\dfrac{(6.67 \\times 10^{-11})(1.80 \\times 10^{3})}{(1.20)^{2}}$ (1M)\n- $g_{0} = 8.34 \\times 10^{-8}\\ \\mathrm{N\\ kg^{-1}}$ (1A)\n\n(b)\n(i)\n- $g$ becomes one quarter of its original value / is reduced by a factor of 4. (1)\n\n(ii)\n- $g_{1} = g_{0}/4 = 2.08 \\times 10^{-8}\\ \\mathrm{N\\ kg^{-1}}$ (1A)\n\n(c)\n- $\\Delta g = 8.3375 \\times 10^{-8} - 2.0844 \\times 10^{-8} = 6.25 \\times 10^{-8}\\ \\mathrm{N\\ kg^{-1}}$ (accept $6.26 \\times 10^{-8}$ from rounded $g_{0}$ and $g_{1}$) (1A)\n\n(d)\n- $m = 20.0\\ \\mathrm{g} = 0.0200\\ \\mathrm{kg}$ (1M)\n- $\\Delta F = m \\Delta g = (0.0200)(6.25 \\times 10^{-8}) = 1.25 \\times 10^{-9}\\ \\mathrm{N}$ (1A)\n\n(e)\n- $t = 49 / 1.00 = 49\\ \\mathrm{min}$ (1A)\n\n(f)\n- A Wi-Fi signal is an electromagnetic wave, which can be absorbed, reflected or screened by a wall (or a conductor). (1)\n- There is no gravitational analogue of charge cancellation / no known ordinary material can shield a gravitational field, so the wall does not block the change in $g$. (1)\n\n(g)\n- The data rate is very low (only 1 bit per minute). (1)\n- The change in $g$ is extremely small / the useful range is very short / a very large mass must be moved / a very sensitive detector is required. (1)",
+    "answer_zh": "(a)\n- $g_{0} = \\dfrac{GM}{r^{2}} = \\dfrac{(6.67 \\times 10^{-11})(1.80 \\times 10^{3})}{(1.20)^{2}}$（1M）\n- $g_{0} = 8.34 \\times 10^{-8}\\ \\mathrm{N\\ kg^{-1}}$（1A）\n\n(b)\n(i)\n- $g$ 變為原來嘅四分之一／縮小至 $1/4$。（1）\n\n(ii)\n- $g_{1} = g_{0}/4 = 2.08 \\times 10^{-8}\\ \\mathrm{N\\ kg^{-1}}$（1A）\n\n(c)\n- $\\Delta g = 8.3375 \\times 10^{-8} - 2.0844 \\times 10^{-8} = 6.25 \\times 10^{-8}\\ \\mathrm{N\\ kg^{-1}}$（若用四捨五入後嘅 $g_{0}$、$g_{1}$，接受 $6.26 \\times 10^{-8}$）（1A）\n\n(d)\n- $m = 20.0\\ \\mathrm{g} = 0.0200\\ \\mathrm{kg}$（1M）\n- $\\Delta F = m \\Delta g = (0.0200)(6.25 \\times 10^{-8}) = 1.25 \\times 10^{-9}\\ \\mathrm{N}$（1A）\n\n(e)\n- $t = 49 / 1.00 = 49\\ \\mathrm{min}$（1A）\n\n(f)\n- Wi-Fi 訊號係電磁波，會被牆（或導體）吸收、反射或屏蔽。（1）\n- 重力場冇類似電荷抵消嘅機制／已知普通物料都屏蔽唔到重力場，所以磚牆阻隔唔到 $g$ 嘅改變。（1）\n\n(g)\n- 傳輸速率極低（每分鐘只有 1 bit）。（1）\n- $g$ 嘅改變極細／有效距離好短／要移動好大質量／需要非常灵敏嘅探測器。（1）"
+  }
+}
