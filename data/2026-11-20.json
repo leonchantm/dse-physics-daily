@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-20",
+  "news": [
+    {
+      "title": "NASA／馬克斯·普朗克／魏茨曼：新算法快約一百萬倍，喺 Fermi 數據搵到每秒轉 261 圈嘅脈衝星",
+      "summary": "國際團隊用 NASA Fermi 伽馬射線太空望遠鏡 15 年公開數據，加上魏茨曼科學研究所 Dotan Gazith 同 Barak Zackay 受密碼學啟發嘅晶格算法，喺普通處理器大約 10 小時運算時間內，搵到孤立脈衝星 PSR J1622−7204，每秒自轉 261 圈。對照之下，舊方法即使用相當於標準處理器 600 年嘅運算量都搵唔到呢顆星。脈衝星係快速自轉嘅中子星，好似燈塔咁把輻射束掃向地球；伽馬射線數據入面光子極少，又夾雜背景噪音，要同時估準自轉速率、減速同埋天球位置，組合多到幾乎唔可能逐一試。新方法把搜索轉成喺高維晶格搵最短向量，呢類算法原本用嚟分析抗量子加密。每個試驗大約 5 分鐘就可以喺單核跑完，再用完整 Fermi 數據確認訊號強到唔可能係偶然。Fermi 每 3 小時掃一次全天，探測能量高過約 $300\\ \\mathrm{MeV}$ 嘅伽馬射線。下一步想搵雙星系統入面嘅脈衝星，因為伴星引力會扭曲訊號，傳統方法幾乎做唔到。論文《Gamma-Ray Pulsar Discovery Using a Lattice-Based Method》於 11 月 19 日刊登喺 Physical Review Letters。",
+      "topic": "力和運動（圓周運動）、波動（電磁波）、原子世界（光子）",
+      "source_name": "NASA Science / Physical Review Letters",
+      "source_url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
+      "source_date": "19/11",
+      "links": [
+        {
+          "label": "Physical Review Letters paper",
+          "url": "https://doi.org/10.1103/vlt2-xzgk"
+        },
+        {
+          "label": "Phys.org report",
+          "url": "https://phys.org/news/2026-11-cryptography-method-elusive-pulsars.html"
+        }
+      ]
+    },
+    {
+      "title": "馬克斯·普朗克／DESY／MAX IV：一粒 X 射線光子喺幾飛秒內打斷水分子兩條鍵，電子都未嚟得切弛豫",
+      "summary": "馬克斯·普朗克學會聯同 DESY、MAX IV 團隊發現，一粒 X 射線光子可以喺幾飛秒（千萬億分之一秒）之內，同時打斷水分子兩條 O–H 鍵，整出激發態嘅中性氧原子，而且呢個過程發生喺電子完成弛豫之前。傳統上，水分子吸收 X 射線之後會進入芯層電離態，好快以俄歇衰變放出另一粒電子；但高分辨率電子能譜見到好尖銳嘅特徵，理論計算顯示呢啲唔係完整水分子或者常見羥基碎片，而係已經分開嘅激發態中性氧原子嘅「指紋」。實驗喺漢堡 PETRA III（P04 光束線）同瑞典 MAX IV（FlexPES）兩邊都見到同一訊號。因為特定芯層激發態具有強排斥性，原子核運動可以跑贏電子弛豫。中性氧原子好活潑，可以引發後續化學反應；呢個結果亦有助重新解讀以往把類似高能碎裂訊號當成羥基碎片衰變嘅測量。論文《Ultrafast Dissociation of Water Producing Atomic Oxygen following Excitation above the O 1s Threshold》刊於 Physical Review Letters。",
+      "topic": "原子世界（光子、電離）、放射現象（X 射線）",
+      "source_name": "Phys.org / Max Planck Society / Physical Review Letters",
+      "source_url": "https://phys.org/news/2026-11-rays-electrons.html",
+      "source_date": "19/11",
+      "links": [
+        {
+          "label": "Physical Review Letters paper",
+          "url": "https://doi.org/10.1103/c1hm-82p2"
+        }
+      ]
+    },
+    {
+      "title": "史丹福／康奈爾：細過米粒嘅 0.5 mm 芯片無線監察反應放熱，一個鐘近 70 萬數據點",
+      "summary": "史丹福大學 Song Lin 團隊聯同康奈爾大學，把細過米粒、邊長約 $0.5\\ \\mathrm{mm}$ 嘅光學無線集成電路放進試管底部，即時量度化學反應嘅溫度同熱量交換，再用光把數據傳去電腦。呢啲矽芯片由光供電，外層有抗化學腐蝕材料。以前 96 支試管一批實驗，完成之後逐支分析可能要幾日，而且每支通常得一個數據點；而家芯片每半秒傳一次，一個鐘嘅反應就可以得到接近 70 萬個數據點，即每支約 7,200 個。團隊用嚟偵測催化劑中毒，以及反應放熱過多嘅安全問題：可以先喺小規模用即時數據睇清楚放熱點樣發生，再調節條件減低風險。將來呢類裝置亦可能量導電、透光同酸鹼度，用喺需要大量快速分析嘅實驗。論文《Telemetric calorimetry for wireless continuous reaction profiling》刊於 Science。",
+      "topic": "熱和氣體（溫度、熱量交換）",
+      "source_name": "Phys.org / Stanford University / Science",
+      "source_url": "https://phys.org/news/2026-11-chips-smaller-rice-grains-wirelessly.html",
+      "source_date": "19/11",
+      "links": [
+        {
+          "label": "Science paper",
+          "url": "https://doi.org/10.1126/science.aei7840"
+        }
+      ]
+    },
+    {
+      "title": "馬普所固體化學物理研究所：簡單金屬 EuSi 展現 p 波磁性，33–62 K 螺旋排列但整體冇淨磁化",
+      "summary": "馬克斯·普朗克固體化學物理研究所（MPI CPfS）帶領嘅國際團隊，喺化學上好簡單嘅金屬化合物矽化銪（EuSi）入面，找到 p 波磁性嘅有力實驗證據。大約 $33$ 至 $62\\ \\mathrm{K}$ 之間，銪原子磁矩排成有序螺旋；雖然個別原子磁矩好強，但整體互相抵消，呢個相冇淨磁化。不過電子仍然呈現不尋常嘅自旋結構：沿相反方向運動嘅電子有相反嘅自旋極化，稱為奇宇稱自旋紋理，主要由磁交換作用同螺旋磁有序嘅對稱性產生，而唔係常見嘅自旋–軌道耦合。中子衍射確認螺旋排列符合 p 波磁性所需對稱；角分辨光電子能譜見到磁性引起超過 $100\\ \\mathrm{meV}$ 嘅能帶重整；自旋分辨測量更見到自旋極化喺相鄰磁布里淵區改號，並喺理論預計紋理消失嘅位置大幅減弱。磁力顯微鏡同空間分辨光電子能譜搵到大約 $10\\ \\mathrm{\\mu m}$ 大嘅磁疇，圓偏振光量度顯示相反手性嘅磁疇有唔同電子響應。研究匯集 19 間機構共 38 位研究者，包括上海科技大學、香港科技大學同橡樹嶺國家實驗室。論文《Evidence for p-wave magnetism in electronic band structure of metallic EuSi》刊於 Nature。",
+      "topic": "電和磁（磁性、磁矩）",
+      "source_name": "Phys.org / MPI CPfS / Nature",
+      "source_url": "https://phys.org/news/2026-11-unusual-magnetism-revealed-simple-metal.html",
+      "source_date": "19/11",
+      "links": [
+        {
+          "label": "Nature paper",
+          "url": "https://doi.org/10.1038/s41586-026-11295-9"
+        }
+      ]
+    },
+    {
+      "title": "大阪大學：用等離子體納米聚焦，喺幾十納米範圍用紫外同可見光來回切換分子態",
+      "summary": "大阪大學研究人員用等離子體納米聚焦，喺大約幾十納米嘅範圍內，重複切換光致變色分子二芳基乙烯嘅兩種分子態。紫外光令開環結構轉成閉環，可見光又轉返去；兩種形態光學同電子性質唔同，有潛力做光學記憶同光控電子元件。傳統光學難以把光聚焦到遠細過波長嘅尺寸。團隊造出錐形鋁結構，光先喺較後位置激發電子嘅等離子體波，沿結構傳到極尖嘅尖端，把紫外同可見光集中到同一個納米位置。分子變化由光吸收探測，連續切換九個循環都未見到量度訊號明顯減弱。呢個方法亦有助喺極小空間控制化學反應。論文《Nano-Optical Switching of Photochromic Material through Ultraviolet and Visible Plasmon Nanofocusing》刊於 ACS Nano。",
+      "topic": "波動（光、紫外線／可見光）",
+      "source_name": "Phys.org / University of Osaka / ACS Nano",
+      "source_url": "https://phys.org/news/2026-11-molecular-states-smallest-spaces.html",
+      "source_date": "18/11",
+      "links": [
+        {
+          "label": "ACS Nano paper",
+          "url": "https://doi.org/10.1021/acsnano.6c16292"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "atomic",
+    "story": "NASA／馬克斯·普朗克／魏茨曼：新算法快約一百萬倍，喺 Fermi 數據搵到每秒轉 261 圈嘅脈衝星",
+    "question_en": "Researchers using 15 years of data from NASA's Fermi Gamma-ray Space Telescope discovered an isolated pulsar, PSR J1622−7204, that spins 261 times per second. A pulsar is a rapidly rotating neutron star that emits beams of radiation. In a simplified model, the neutron star is treated as a uniform sphere of radius $R$.\n\nGiven:\n- spin frequency $f = 261\\ \\mathrm{Hz}$\n- $R = 10.0\\ \\mathrm{km}$\n- $g = 9.81\\ \\mathrm{m\\ s^{-2}}$\n\n(a) Calculate the period of rotation $T$ of the pulsar. (1 mark)\n\n(b) Calculate the linear speed of a point on the equator of the pulsar. (2 marks)\n\n(c) Calculate the centripetal acceleration of this point. (2 marks)\n\n(d) Express your answer in (c) as a multiple of $g$. (1 mark)\n\nFermi detects gamma-ray photons. Consider a gamma-ray photon of energy $300\\ \\mathrm{MeV}$.\n\nGiven:\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n- $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\ s}$\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$\n\n(e) Convert $300\\ \\mathrm{MeV}$ into joules. (1 mark)\n\n(f) Calculate the frequency of this photon. (2 marks)\n\n(g) Calculate the corresponding wavelength. (1 mark)\n\n(h) Explain why a pulsar is often compared to a lighthouse. (2 marks)",
+    "question_zh": "研究人員利用 NASA Fermi 伽馬射線太空望遠鏡 15 年嘅數據，發現孤立脈衝星 PSR J1622−7204，每秒自轉 261 圈。脈衝星係快速自轉嘅中子星，會放出輻射束。喺一個簡化模型之中，呢顆中子星視為半徑 $R$ 嘅均勻球體。\n\n已知：\n- 自轉頻率 $f = 261\\ \\mathrm{Hz}$\n- $R = 10.0\\ \\mathrm{km}$\n- $g = 9.81\\ \\mathrm{m\\ s^{-2}}$\n\n(a) 計算呢顆脈衝星嘅自轉周期 $T$。（1 分）\n\n(b) 計算脈衝星赤道上一個質點嘅線速率。（2 分）\n\n(c) 計算呢個質點嘅向心加速度。（2 分）\n\n(d) 把 (c) 嘅答案以 $g$ 嘅倍數表示。（1 分）\n\nFermi 探測到伽馬射線光子。考慮一粒能量為 $300\\ \\mathrm{MeV}$ 嘅伽馬射線光子。\n\n已知：\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n- $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\ s}$\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$\n\n(e) 把 $300\\ \\mathrm{MeV}$ 換成焦耳。（1 分）\n\n(f) 計算呢粒光子嘅頻率。（2 分）\n\n(g) 計算對應嘅波長。（1 分）\n\n(h) 解釋點解脈衝星常常被比喻做燈塔。（2 分）",
+    "answer_en": "(a)\n- $T = 1/f = 1/261 = 3.83 \\times 10^{-3}\\ \\mathrm{s}$ (1A)\n\n(b)\n- $v = 2\\pi Rf = 2\\pi (1.00 \\times 10^{4})(261)$ (1M)\n- $v = 1.64 \\times 10^{7}\\ \\mathrm{m\\ s^{-1}}$ (1A)\n\n(c)\n- $a = v^{2}/R$  or  $a = 4\\pi^{2} Rf^{2}$ (1M)\n- $a = 2.69 \\times 10^{10}\\ \\mathrm{m\\ s^{-2}}$ (1A)\n\n(d)\n- $a/g = (2.69 \\times 10^{10})/9.81 = 2.74 \\times 10^{9}$ (1A)\n\n(e)\n- $E = 300 \\times 10^{6} \\times 1.60 \\times 10^{-19} = 4.80 \\times 10^{-11}\\ \\mathrm{J}$ (1A)\n\n(f)\n- $f = E/h = (4.80 \\times 10^{-11})/(6.63 \\times 10^{-34})$ (1M)\n- $f = 7.24 \\times 10^{22}\\ \\mathrm{Hz}$ (1A)\n\n(g)\n- $\\lambda = c/f = (3.00 \\times 10^{8})/(7.24 \\times 10^{22}) = 4.14 \\times 10^{-15}\\ \\mathrm{m}$ (1A)\n\n(h)\n- The pulsar emits a narrow beam of radiation (from its magnetic poles). (1)\n- As it rotates, the beam periodically sweeps across the Earth, producing regular pulses, like a lighthouse beam sweeping past an observer. (1)",
+    "answer_zh": "(a)\n- $T = 1/f = 1/261 = 3.83 \\times 10^{-3}\\ \\mathrm{s}$（1A）\n\n(b)\n- $v = 2\\pi Rf = 2\\pi (1.00 \\times 10^{4})(261)$（1M）\n- $v = 1.64 \\times 10^{7}\\ \\mathrm{m\\ s^{-1}}$（1A）\n\n(c)\n- $a = v^{2}/R$  或  $a = 4\\pi^{2} Rf^{2}$（1M）\n- $a = 2.69 \\times 10^{10}\\ \\mathrm{m\\ s^{-2}}$（1A）\n\n(d)\n- $a/g = (2.69 \\times 10^{10})/9.81 = 2.74 \\times 10^{9}$（1A）\n\n(e)\n- $E = 300 \\times 10^{6} \\times 1.60 \\times 10^{-19} = 4.80 \\times 10^{-11}\\ \\mathrm{J}$（1A）\n\n(f)\n- $f = E/h = (4.80 \\times 10^{-11})/(6.63 \\times 10^{-34})$（1M）\n- $f = 7.24 \\times 10^{22}\\ \\mathrm{Hz}$（1A）\n\n(g)\n- $\\lambda = c/f = (3.00 \\times 10^{8})/(7.24 \\times 10^{22}) = 4.14 \\times 10^{-15}\\ \\mathrm{m}$（1A）\n\n(h)\n- 脈衝星（由磁極）放出一束窄輻射。（1）\n- 隨住佢自轉，呢束輻射周期性地掃過地球，產生規則脈衝，好似燈塔光束掃過觀察者一樣。（1）"
+  }
+}
