@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-21",
+  "news": [
+    {
+      "title": "DESY／歐洲 XFEL：可靠產生波長約 0.04 nm、光子能量 30 keV 嘅 X 射線激光脈衝",
+      "summary": "DESY 同歐洲 XFEL 研究人員證明，可以穩定產生並運送波長約 $0.04\\ \\mathrm{nm}$（相當於光子能量 $30\\,000$ 電子伏特，即 $30\\ \\mathrm{keV}$）嘅 X 射線激光脈衝，刷新佢哋自己嘅世界紀錄。呢個波長遠短過固體入面相鄰原子嘅典型間距，因此可以用更高空間分辨率研究材料。團隊每秒產生 800 下脈衝，沿大約一公里長嘅光束線運送；經過轉向光學元件之後，仍然保留接近 60% 嘅極端短波長 X 射線。歐洲 XFEL 嘅 MID 儀器首席科學家 Anders Madsen 表示，呢次進展擴大咗設施可以向用戶提供嘅波長範圍，喺全球自由電子激光設施之中獨一無二。DESY 科學家 Ye Chen 同 Frank Brinker 指出，高品質電子束係破紀錄嘅關鍵，呢個建基於多年電子束動力學模擬同加速器優化。呢項工作有助研究受極端壓力嘅緻密材料，包括功能材料、催化同量子材料；下一步希望把更短波長脈衝變成常規實驗條件。論文《Fundamental-mode lasing at 30 keV in an X-ray free-electron laser》刊於 Optica。",
+      "topic": "波動（電磁波、X 射線）、原子世界（光子）",
+      "source_name": "Phys.org / European XFEL / DESY / Optica",
+      "source_url": "https://phys.org/news/2026-11-ray-laser-reliably-generates-wavelengths.html",
+      "source_date": "20/11",
+      "links": [
+        {
+          "label": "Optica paper",
+          "url": "https://doi.org/10.1364/optica.610411"
+        },
+        {
+          "label": "EurekAlert release",
+          "url": "https://www.eurekalert.org/news-releases/1152818"
+        }
+      ]
+    },
+    {
+      "title": "哈佛大學：鑽石 NV 心自旋排成納米螺旋，磁場成像解析度細過 20 nm",
+      "summary": "哈佛大學 Piotr Put 團隊喺室溫下，令三維鑽石傳感器入面隨機分布嘅氮－空位（NV）中心電子自旋產生協同運動。NV 心係鑽石晶格入面氮原子旁邊一個空位；困喺度嘅電子自旋好似細磁鐵，令鑽石可以好靈敏噉探測磁場。如果好多自旋一齊郁，傳感器會更強，但室溫之下鄰近自旋互相干擾，協同好快散。團隊研究薄鑽石片同窄鑽石梁入面數千個 NV 自旋，用特製芯片控制周圍磁場：先用激光把自旋對齊，再用空間上強弱唔同嘅磁場把自旋繞成只有幾納米大嘅螺旋，然後解開；同時以精確計時嘅微波脈衝，把自旋相互作用調成更對稱，減少靠得太近、耦合過強嘅自旋對破壞整體。結果協同運動比起自然相互作用可以維持得更強、更耐，團隊亦以細過 $20\\ \\mathrm{nm}$ 嘅解析度描繪自旋排列。呢種運動類似「單軸扭轉」，將來或可減低量子量度噪音，並放大微弱磁場訊號，用喺材料同生物系統嘅納米磁共振成像。論文《Collective Many-Body Dynamics in a Solid-State Quantum Sensor Controlled through Nanoscale Magnetic Gradients》刊於 Physical Review X。",
+      "topic": "電和磁（磁場）",
+      "source_name": "Phys.org / Harvard University / Physical Review X",
+      "source_url": "https://phys.org/news/2026-11-spiraling-quantum-motion-diamond-sensors.html",
+      "source_date": "20/11",
+      "links": [
+        {
+          "label": "Physical Review X paper",
+          "url": "https://doi.org/10.1103/hyrk-1ftz"
+        }
+      ]
+    },
+    {
+      "title": "耶魯／橡樹嶺：單層氮化硼入面激子好似光子咁郁，速度約 $10^{5}\\ \\mathrm{m\\ s^{-1}}$",
+      "summary": "耶魯大學 Diana Qiu、Cong Su 同 Luna Liu 團隊，聯同橡樹嶺國家實驗室嘅 Steffi Woo，首次觀察到一種傳遞能量嘅複合粒子以好意外嘅方式運動，證實十年前嘅量子預測。當光照到材料，電子被激發離開，留下帶正電嘅「電洞」；電子同電洞互相吸引，組成束縛對，稱為激子，對下一代太陽能電池同光電元件好重要。Qiu 曾經預測，喺薄到只有幾層原子嘅二維材料入面，激子嘅能量會同動量成正比，表現得更似光子。Su 花大約五年先做出高產量、獨立懸空嘅單層六方氮化硼（hBN）。實驗用動量分辨電子能量損失譜（Q-EELS），結果同模擬圖像高度吻合：當材料只有幾層原子厚，激子雖然電子同電洞本身仍然有質量，但運動好似無質量嘅光子，而且好快，速度約 $100\\,000\\ \\mathrm{m\\ s^{-1}}$。實驗亦量到單層 hBN 嘅光學能隙比先前認為更闊；能隙係電子唔可以存在嘅能量範圍，亦會容納對量子資訊有用嘅缺陷態。研究有助太陽能、LED 同其他光電技術。論文《Direct observation of massless excitons and linear exciton dispersion》刊於 Nature Physics。",
+      "topic": "原子世界（光子、能隙）、波動",
+      "source_name": "Phys.org / Yale University / Nature Physics",
+      "source_url": "https://phys.org/news/2026-11-excitons-mimic-atom-thin-material.html",
+      "source_date": "20/11",
+      "links": [
+        {
+          "label": "Nature Physics paper",
+          "url": "https://doi.org/10.1038/s41567-026-03193-8"
+        }
+      ]
+    },
+    {
+      "title": "阿德萊德大學：空氣入面嘅鈉令氫氣火焰由鮮橙變成幾乎睇唔到，光訊號相差逾 28 倍",
+      "summary": "阿德萊德大學 Paul Medwell 團隊發現，氫氣火焰可以今日鮮橙、聽日幾乎睇唔到，即使爐頭設定完全一樣；關鍵係空氣入面微量嘅鈉，例如風從海上帶來嘅海鹽微粒。有鈉嘅時候，氫氣火焰會呈現明顯橙光；鈉濃度下降，火焰就變得好難見到。研究結合實驗室同阿德萊德戶外測試，兩星期內喺爐頭設定不變之下監察光發射，同鈉有關嘅光訊號高低相差超過 28 倍。掠過海洋嘅空氣通常帶較多鈉，橙色更強。同傳統天然氣爐相比，氫氣火焰平均發出嘅可見光都較少；淡藍同紅光喺黑暗環境先較容易見到，日常燈光之下唔夠可靠。因此單靠火焰顏色判斷爐頭有冇燃點並不可靠，工程師或需改用紫外線或紅外線火焰探測器，又或者溫度傳感器，先至可以喺真實家居環境安全使用氫氣爐具。研究亦有新南威爾士大學參與，論文刊於 Next Energy。",
+      "topic": "原子世界（原子光譜）、波動（可見光）",
+      "source_name": "ScienceDaily / Adelaide University / Next Energy",
+      "source_url": "https://www.sciencedaily.com/releases/2026/11/261118065509.htm",
+      "source_date": "19/11"
+    },
+    {
+      "title": "NIST：用糾纏光子驗證位置，兩個驗證站相距 195 m，首次完整示範協議",
+      "summary": "美國國家標準與技術研究院（NIST）物理學家 Krister Shalm 帶領國際團隊，喺科羅拉多玻尔德校園首次完整示範「量子位置驗證」：用量子力學確認一個人確實身處某個位置，堵塞以往同類方案可以被欺詐嘅漏洞。兩個可信嘅驗證站相距 $195\\ \\mathrm{m}$（約 640 英尺），以電纜同超細光纖相連；被驗證者（證明者）聲稱自己喺兩站中間。其中一站產生一對糾纏光子，自己留一粒，另一粒送給證明者；兩站再同時把隨機數送到證明者聲稱嘅位置，證明者按指示量度光子偏振（電場振動方向），再把結果傳返去。協議重複數百萬次，只需幾分鐘。驗證者根據來回時間（任何訊號都唔可以快過光速）同偏振量度嘅關聯，判斷證明者係咪真喺嗰度。量子不可複製定理表示，有人嘗試複製並分發量子資訊就會破壞呢啲關聯；再配合無漏洞貝爾測試，就可以確認裝置運作正常、證明者冇作假。如果證明者其實喺區域之外，回覆就會遲過預期。研究人員指出，真正用嚟保護銀行或基礎設施指令可能仍要十多年，因為需要高保真量子通信網絡。論文《Quantum position verification with remote untrusted devices》於 11 月 18 日在線刊於 Nature。",
+      "topic": "波動（電磁波、光速）、原子世界（光子）",
+      "source_name": "Phys.org / NIST / Nature",
+      "source_url": "https://phys.org/news/2026-11-quantum-physics-person.html",
+      "source_date": "18/11",
+      "links": [
+        {
+          "label": "Nature paper",
+          "url": "https://doi.org/10.1038/s41586-026-11247-3"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "atomic",
+    "story": "DESY／歐洲 XFEL：可靠產生波長約 0.04 nm、光子能量 30 keV 嘅 X 射線激光脈衝",
+    "question_en": "Researchers at European XFEL have demonstrated reliable production of X-ray laser flashes with a wavelength of about $0.04\\ \\mathrm{nm}$. The flashes are transported along a beamline of length $1.00\\ \\mathrm{km}$.\n\nGiven:\n- $\\lambda = 0.04\\ \\mathrm{nm}$\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$\n- $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\ s}$\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n\n(a) Calculate the frequency of these X-ray flashes. (2 marks)\n\n(b) Calculate the energy of one such X-ray photon, in eV. (3 marks)\n\n(c) The reported photon energy is $30\\ \\mathrm{keV}$. Comment on whether your answer in (b) is consistent with this value. (1 mark)\n\n(d) Calculate the time taken for an X-ray flash to travel the length of the beamline. (2 marks)\n\nTypical distances between neighbouring atoms in solids are about $0.2\\ \\mathrm{nm}$.\n\n(e) Explain why using X-rays of this shorter wavelength enables the study of materials with higher spatial resolution. (2 marks)",
+    "question_zh": "歐洲 XFEL 嘅研究人員證明，可以穩定產生波長約 $0.04\\ \\mathrm{nm}$ 嘅 X 射線激光脈衝。呢啲脈衝沿一條長 $1.00\\ \\mathrm{km}$ 嘅光束線運送。\n\n已知：\n- $\\lambda = 0.04\\ \\mathrm{nm}$\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$\n- $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\ s}$\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n\n(a) 計算呢啲 X 射線脈衝嘅頻率。（2 分）\n\n(b) 計算一粒呢種 X 射線光子嘅能量，以 eV 為單位。（3 分）\n\n(c) 報道嘅光子能量係 $30\\ \\mathrm{keV}$。評論你喺 (b) 嘅答案係咪同呢個數值相符。（1 分）\n\n(d) 計算一束 X 射線脈衝行完整條光束線所需嘅時間。（2 分）\n\n固體入面相鄰原子嘅典型間距約為 $0.2\\ \\mathrm{nm}$。\n\n(e) 解釋點解用呢個較短波長嘅 X 射線，可以以更高空間分辨率研究材料。（2 分）",
+    "answer_en": "(a)\n- $\\lambda = 0.04 \\times 10^{-9} = 4 \\times 10^{-11}\\ \\mathrm{m}$ (1M)\n- $f = c/\\lambda = (3.00 \\times 10^{8})/(4 \\times 10^{-11}) = 7.50 \\times 10^{18}\\ \\mathrm{Hz}$ (1A)\n\n(b)\n- $E = hf = (6.63 \\times 10^{-34})(7.50 \\times 10^{18}) = 4.97 \\times 10^{-15}\\ \\mathrm{J}$ (1M)\n- $E = (4.97 \\times 10^{-15})/(1.60 \\times 10^{-19})$ (1M)\n- $E = 3.11 \\times 10^{4}\\ \\mathrm{eV}$ (1A)\n\n(c)\n- $3.11 \\times 10^{4}\\ \\mathrm{eV} = 31.1\\ \\mathrm{keV}$, which agrees with $30\\ \\mathrm{keV}$ to the precision of the given wavelength (about $0.04\\ \\mathrm{nm}$). (1)\n\n(d)\n- $s = 1.00\\ \\mathrm{km} = 1.00 \\times 10^{3}\\ \\mathrm{m}$; $t = s/c = (1.00 \\times 10^{3})/(3.00 \\times 10^{8})$ (1M)\n- $t = 3.33 \\times 10^{-6}\\ \\mathrm{s}$ (1A)\n\n(e)\n- The smallest detail that can be resolved is of the order of the wavelength (diffraction limits the spatial resolution). (1)\n- $0.04\\ \\mathrm{nm}$ is shorter than the typical interatomic distance $0.2\\ \\mathrm{nm}$, so neighbouring atoms / finer structure can be distinguished. (1)",
+    "answer_zh": "(a)\n- $\\lambda = 0.04 \\times 10^{-9} = 4 \\times 10^{-11}\\ \\mathrm{m}$（1M）\n- $f = c/\\lambda = (3.00 \\times 10^{8})/(4 \\times 10^{-11}) = 7.50 \\times 10^{18}\\ \\mathrm{Hz}$（1A）\n\n(b)\n- $E = hf = (6.63 \\times 10^{-34})(7.50 \\times 10^{18}) = 4.97 \\times 10^{-15}\\ \\mathrm{J}$（1M）\n- $E = (4.97 \\times 10^{-15})/(1.60 \\times 10^{-19})$（1M）\n- $E = 3.11 \\times 10^{4}\\ \\mathrm{eV}$（1A）\n\n(c)\n- $3.11 \\times 10^{4}\\ \\mathrm{eV} = 31.1\\ \\mathrm{keV}$，以已知波長（約 $0.04\\ \\mathrm{nm}$）嘅精度而言，同 $30\\ \\mathrm{keV}$ 相符。（1）\n\n(d)\n- $s = 1.00\\ \\mathrm{km} = 1.00 \\times 10^{3}\\ \\mathrm{m}$；$t = s/c = (1.00 \\times 10^{3})/(3.00 \\times 10^{8})$（1M）\n- $t = 3.33 \\times 10^{-6}\\ \\mathrm{s}$（1A）\n\n(e)\n- 可以分辨嘅最細細節大約同波長同一個數量級（衍射限制空間分辨率）。（1）\n- $0.04\\ \\mathrm{nm}$ 短過典型原子間距 $0.2\\ \\mathrm{nm}$，因此可以分辨相鄰原子／更細嘅結構。（1）"
+  }
+}
