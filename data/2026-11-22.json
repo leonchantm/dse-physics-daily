@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-22",
+  "news": [
+    {
+      "title": "Fermi／國際團隊：14 年全天圖填補「MeV 空隙」，喺 20–200 MeV 搵到 450 個伽馬射線源",
+      "summary": "Fermi 大面積望遠鏡（LAT）合作組利用 14 年觀測數據，喺長期被稱為「MeV 空隙」嘅 $20$–$200\\ \\mathrm{MeV}$ 低能伽馬射線波段，編製《第二份低能 Fermi-LAT 源星表》（2FLE），一共識別 450 個宇宙源，係至今呢個能量範圍最清晰嘅全天圖。伽馬射線穿得過普通鏡面，Fermi-LAT 其實係軌道上嘅粒子探測器：要靠光子打中鎢同矽層之後嘅軌跡反推來源。能量約 $1\\ \\mathrm{GeV}$ 嘅光子可以留下較清楚嘅軌跡；但喺 $20$–$200\\ \\mathrm{MeV}$，光子散射更隨機，單粒 $20\\ \\mathrm{MeV}$ 光子只可以定位到大約 $20^{\\circ}$ 寬嘅天區，超過滿月視直徑嘅 40 倍，再加太陽同遠方星系嘅背景輻射，來源方向好難確定。研究人員用進階統計模型處理呢 14 年數據，再同射電、光學同 X 射線資料對照，377 個源搵到已知對應天體。其中 325 個喺銀河系以外，接近一半係平坦譜射電類星體（FSRQ）呢類「耀變體」——超大質量黑洞嘅電漿噴流正對住地球；星表確認佢哋大部分能量就喺呢個 $20$–$200\\ \\mathrm{MeV}$ 窗口釋出。銀河系內有 52 個源，多數係脈衝星；球狀星團 M2 首次喺伽馬射線能量被觀測到。另外 73 個源未有明確對應，其中 60 個好可能係全新伽馬射線發現。Fermi 於 2008 年升空，團隊認為呢批數據已接近儀器上限；下一步可同準備 2027 年升空、專攻 $0.2$–$5\\ \\mathrm{MeV}$ 嘅 NASA COSI 任務結合。論文由 A. Adelfio 等發表於 The Astrophysical Journal Supplement Series。",
+      "topic": "波動（電磁波譜／伽馬射線）、原子世界（光子）",
+      "source_name": "Phys.org / Universe Today / Fermi-LAT Collaboration",
+      "source_url": "https://phys.org/news/2026-11-fermi-year-sky-bridges-astronomy.html",
+      "source_date": "21/11",
+      "links": [
+        {
+          "label": "ApJ Supplement Series paper",
+          "url": "https://doi.org/10.3847/1538-4365/aeb54d"
+        }
+      ]
+    },
+    {
+      "title": "曼徹斯特大學／CERN LHCb：首次由單一實驗找到「一百億分之一」罕有衰變 $B_d \\rightarrow \\mu^+\\mu^-$ 嘅證據",
+      "summary": "升級後嘅 CERN LHCb 實驗首次單靠一個實驗嘅數據，搵到極罕有衰變 $B_d \\rightarrow \\mu^+\\mu^-$ 嘅證據：含有底夸克同反下夸克嘅 $B_d$ 介子衰變成一對μ子。標準模型預測呢種過程大約每 100 億個 beauty 粒子先發生一次；統計顯著性達 3.2σ，夠資格稱為「證據」，但粒子物理學要 5σ 先可以宣布正式發現。Beauty夸克喺對撞入面大量產生，但只存在大約 $1.5 \\times 10^{-12}\\ \\mathrm{s}$（即 1.5 萬億分之一秒）就會衰變。2015 年 LHCb 同 CMS 嘅聯合分析曾經聲稱搵到證據，但其後用到 2018 年嘅更新未能確認；較常見嘅 $B_s \\rightarrow \\mu^+\\mu^-$ 大約每 10 億次衰變出現 3 次，$B_d$ 通道預計再稀有大約 30 倍。2024 年重大升級令 LHCb 採集速率提升至先前嘅五倍，英國製造嘅頂點定位器（Vertex Locator）距離對撞束流只有 $5\\ \\mathrm{mm}$，用來精確找出粒子產生同衰變嘅位置。曼徹斯特大學嘅 Chris Parkes 教授曾經領導國際合作組完成升級；團隊表示呢個測量同標準模型預測相符，更精密嘅後續數據或有助探測對撞機無法直接產生嘅未知粒子同作用。相關結果由 LHCb 合作組喺 CERN 研討會公布。",
+      "topic": "放射現象和核能（粒子衰變）、原子世界",
+      "source_name": "University of Manchester / CERN / LHCb",
+      "source_url": "https://www.manchester.ac.uk/about/news/manchester-physicists-step-closer-to-the-zeptoverse-after-42-year-particle-search/",
+      "source_date": "3/11",
+      "links": [
+        {
+          "label": "CERN announcement",
+          "url": "https://home.cern/lhcb-finds-evidence-of-one-in-ten-billion-particle-decay/"
+        },
+        {
+          "label": "ScienceDaily report",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261119194530.htm"
+        }
+      ]
+    },
+    {
+      "title": "洛桑聯邦理工學院：提出托卡馬克 L–H 約束轉換功率理論，預測 ITER 至少需要 43 MW",
+      "summary": "洛桑聯邦理工學院（EPFL）瑞士等離子體中心嘅 Brenno De Lucca 團隊，提出一套理論，解釋核聚變托卡馬克點樣由低約束（L-mode）突然轉入高約束（H-mode），並用嚟預測所需加熱功率。核聚變要把氣體加熱成等離子體，再用環形裝置入面嘅磁場約束；但湍流會把熱量帶走。1982 年發現，加熱功率超過某個閾值之後，邊緣湍流會急降，等離子體可以更有效留住能量，呢個 H-mode 對未來反應堆（包括正在法國興建嘅國際項目 ITER）至關重要。問題係閾值會隨等離子體密度同磁場方向改變，舊有理論未能一併解釋。研究人員用電腦模擬加熱功率增加時托卡馬克內嘅行為，發現湍流會喺外層產生速度唔同嘅流動，呢啲速度差反而有助抑制湍流、減少熱損失；磁場方向、等離子體流動同粒子碰撞一齊作用，令其中一種磁場配置較容易完成轉換。理論亦解釋點解所需功率喺某個密度區間隨密度上升、另一區間反而下降，從而出現加熱需求最低嘅密度。把模型外推到未來裝置：ITER 要進入 H-mode 至少需要 $43\\ \\mathrm{MW}$ 加熱功率，低於計劃中嘅 $73\\ \\mathrm{MW}$ 容量；美國 Commonwealth Fusion Systems 正在發展嘅緊湊高場托卡馬克 SPARC，預測下限係 $26\\ \\mathrm{MW}$，接近其計劃嘅 $25\\ \\mathrm{MW}$，餘地較少。論文《Theory for the power threshold of the L–H transition in tokamaks》於 11 月 13 日刊於 Physical Review Letters。",
+      "topic": "放射現象和核能（核聚變）、熱和氣體（等離子體）、電和磁（磁場約束）",
+      "source_name": "EPFL / Physical Review Letters",
+      "source_url": "https://actu.epfl.ch/news/solving-a-40-year-puzzle-in-fusion-energy/",
+      "source_date": "13/11",
+      "links": [
+        {
+          "label": "Physical Review Letters paper",
+          "url": "https://doi.org/10.1103/rw25-wy15"
+        }
+      ]
+    },
+    {
+      "title": "萊斯特大學／ESA／JAXA：BepiColombo 嘅 MIXS X 射線望遠鏡經過 8 年、100 億公里，首次影到蟹狀星雲",
+      "summary": "由萊斯特大學領導、安裝喺 ESA／JAXA 水星任務 BepiColombo 上面嘅水星成像 X 射線光譜儀（MIXS），喺出發八年、飛行約 100 億公里之後，首次對準天體做咗校準觀測，目標係距離約 6500 光年、X 射線訊號強而穩定嘅蟹狀星雲。水星轉移艙（MTM）9 月先同兩艘科學軌道器——水星行星軌道器（MPO）同水星磁層軌道器 Mio——分離，MIXS 先至可以直接望向太空。主要觀測喺 9 月 11 至 12 日進行，39 小時內完成 55 次太空船轉向。團隊量度蟹狀星雲嘅 X 射線像喺探測器上面散開嘅程度，發現角分辨率比 2015 年實驗室最後一次測量更好少少。首席研究員 Emma Bunce 表示，圖像冇「雜散光」（不應進入嘅可見光光子），星系宇宙射線效應可以過濾，探測器經過八年仍未見輻射損傷；太陽照到光學元件時會有少許自螢光，但唔會影響日面水星表面觀測。MIXS 係行星科學任務上第一部成像 X 射線望遠鏡，亦係 BepiColombo 唯一由英國主導嘅科學儀器，用嚟測量太陽 X 射線激發水星岩石之後發出嘅螢光 X 射線，從而繪製表面元素同原子組成地圖，並研究磁層粒子喺夜面產生嘅 X 射線。儀器科學家 Adrian Martindale 指出，上一次望通呢支望遠鏡仲係萊斯特物理天文學院地庫，而家經過火箭發射同長途飛行，表現一如以往。BepiColombo 定於 11 月 21 日進入水星軌道，MPO 同 Mio 將於 12 月 9 至 10 日分離，科學階段預計 2027 年 4 月開始。萊斯特大學 11 月 20 日公布呢批首次成像結果。",
+      "topic": "波動（電磁波、X 射線）、原子世界（光子）、天文學",
+      "source_name": "University of Leicester / ESA / JAXA",
+      "source_url": "https://le.ac.uk/news/2026/november/first-x-ray-imaging-instrument-planet-first-picture",
+      "source_date": "20/11",
+      "links": [
+        {
+          "label": "ScienceDaily report",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm"
+        }
+      ]
+    },
+    {
+      "title": "NASA／哥倫比亞大學：韋伯望遠鏡確認仙女座超巨星吞併伴星，主星光度約為太陽 1.8 萬倍",
+      "summary": "哥倫比亞大學 NASA 哈勃研究員 Viraj Karambelkar 團隊確認，喺鄰近嘅仙女座星系外圍，一顆質量略低於太陽嘅伴星螺旋跌入一顆膨脹超巨星，最終合併成一顆可能「返老還童」嘅單星，暱稱 Bao（事件編號 AT 2025abao）。呢次係首次喺實時觀測中完整重建呢類「共有包層演化」。兩星原本平穩互繞千年；一旦較細嗰顆接觸到巨星表面，只需再多大約 7 圈軌道（約 7 年）就完成「合一」，遠快過以往兩顆較細恆星合併所需嘅數千圈。爆發亦快過預期：亮度一日開始上升，一星期內就到高峰。韋伯太空望遠鏡喺爆發高峰後只有 47 日就進行中紅外觀測，係同類事件最早嘅後續觀測，並同地面同太空望遠鏡多年嘅紫外、可見光同近紅外數據交叉比對。模擬同韋伯看到、巨星數百年間拋出嘅塵埃相符：合併前主星（Big Bao）質量約為太陽 7 倍、半徑約 350 倍、光度約 18,000 倍；被吞併嘅 Little Bao 約 0.7 個太陽質量，半徑同光度都略低於太陽。伴星喺共有氣層入面因阻力失去軌道能量，螺旋跌向核心，過程「幾乎好似喺一顆仍然存活嘅恆星入面引爆」。唔係所有共有包層系統都會合併，有啲可以兩星共存並形成更密近嘅軌道，日後或演變成中子星、黑洞、超新星、引力波源或毫秒脈衝星。論文於 11 月 18 日刊於 Nature。",
+      "topic": "天文學（恆星演化）、力和運動（萬有引力、圓周運動）、波動（紅外線）",
+      "source_name": "NASA / Columbia University / Nature",
+      "source_url": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
+      "source_date": "18/11",
+      "links": [
+        {
+          "label": "Nature paper",
+          "url": "https://doi.org/10.1038/s41586-026-11221-z"
+        },
+        {
+          "label": "ScienceDaily report",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261120075556.htm"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "atomic",
+    "story": "Fermi／國際團隊：14 年全天圖填補「MeV 空隙」，喺 20–200 MeV 搵到 450 個伽馬射線源",
+    "question_en": "Researchers working with NASA's Fermi Large Area Telescope (LAT) have produced a catalogue of 450 cosmic sources of gamma rays with photon energies in the range $20\\ \\mathrm{MeV}$ to $200\\ \\mathrm{MeV}$.\n\nGiven:\n- $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\ s}$\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n\n(a) A gamma-ray photon has energy $20\\ \\mathrm{MeV}$. Express this energy in joules. (2 marks)\n\n(b) Calculate the frequency of this photon. (2 marks)\n\n(c) Calculate the wavelength of this photon. (2 marks)\n\n(d) A typical visible-light photon has energy $2.0\\ \\mathrm{eV}$. Calculate the ratio of the energy of the $20\\ \\mathrm{MeV}$ gamma-ray photon to the energy of this visible-light photon. (2 marks)\n\n(e) Fermi-LAT cannot use ordinary mirrors to focus these gamma rays. Instead, it tracks what happens when a gamma-ray photon hits layers of tungsten and silicon. Explain why ordinary mirrors cannot be used to focus gamma rays of this energy. (2 marks)",
+    "question_zh": "同 NASA Fermi 大面積望遠鏡（LAT）合作嘅研究人員，編製咗一份包含 450 個宇宙伽馬射線源嘅星表，呢啲光子嘅能量介乎 $20\\ \\mathrm{MeV}$ 至 $200\\ \\mathrm{MeV}$。\n\n已知：\n- $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\ s}$\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$\n- $e = 1.60 \\times 10^{-19}\\ \\mathrm{C}$\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n\n(a) 一粒伽馬射線光子嘅能量為 $20\\ \\mathrm{MeV}$。把呢個能量以焦耳為單位表示。（2 分）\n\n(b) 計算呢粒光子嘅頻率。（2 分）\n\n(c) 計算呢粒光子嘅波長。（2 分）\n\n(d) 一粒典型可見光光子嘅能量為 $2.0\\ \\mathrm{eV}$。計算呢粒 $20\\ \\mathrm{MeV}$ 伽馬射線光子嘅能量同呢粒可見光光子能量嘅比。（2 分）\n\n(e) Fermi-LAT 唔能夠用普通鏡面聚焦呢啲伽馬射線，而係追踪伽馬射線光子打中鎢同矽層之後發生嘅事情。解釋點解唔能夠用普通鏡面聚焦呢個能量嘅伽馬射線。（2 分）",
+    "answer_en": "(a)\n- $20\\ \\mathrm{MeV} = 20 \\times 10^{6} = 2.0 \\times 10^{7}\\ \\mathrm{eV}$ (1M)\n- $E = 2.0 \\times 10^{7} \\times 1.60 \\times 10^{-19} = 3.20 \\times 10^{-12}\\ \\mathrm{J}$ (1A)\n\n(b)\n- $f = E/h = (3.20 \\times 10^{-12})/(6.63 \\times 10^{-34})$ (1M)\n- $f = 4.83 \\times 10^{21}\\ \\mathrm{Hz}$ (1A)\n\n(c)\n- $\\lambda = hc/E = (6.63 \\times 10^{-34})(3.00 \\times 10^{8})/(3.20 \\times 10^{-12})$ (1M)\n- $\\lambda = 6.22 \\times 10^{-14}\\ \\mathrm{m}$ (1A)\n\n(d)\n- $\\mathrm{ratio} = (20 \\times 10^{6})/2.0$ (1M)\n- $\\mathrm{ratio} = 1.0 \\times 10^{7}$ (1A)\n\n(e)\n- Gamma-ray photons have very high energy / very short wavelength. (1)\n- They pass through ordinary materials / are not reflected by ordinary mirrors. (1)",
+    "answer_zh": "(a)\n- $20\\ \\mathrm{MeV} = 20 \\times 10^{6} = 2.0 \\times 10^{7}\\ \\mathrm{eV}$（1M）\n- $E = 2.0 \\times 10^{7} \\times 1.60 \\times 10^{-19} = 3.20 \\times 10^{-12}\\ \\mathrm{J}$（1A）\n\n(b)\n- $f = E/h = (3.20 \\times 10^{-12})/(6.63 \\times 10^{-34})$（1M）\n- $f = 4.83 \\times 10^{21}\\ \\mathrm{Hz}$（1A）\n\n(c)\n- $\\lambda = hc/E = (6.63 \\times 10^{-34})(3.00 \\times 10^{8})/(3.20 \\times 10^{-12})$（1M）\n- $\\lambda = 6.22 \\times 10^{-14}\\ \\mathrm{m}$（1A）\n\n(d)\n- $\\mathrm{ratio} = (20 \\times 10^{6})/2.0$（1M）\n- $\\mathrm{ratio} = 1.0 \\times 10^{7}$（1A）\n\n(e)\n- 伽馬射線光子能量好高／波長好短。（1）\n- 佢哋會穿過普通物料／唔會被普通鏡面反射。（1）"
+  }
+}
