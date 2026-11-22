@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-23",
+  "news": [
+    {
+      "title": "JWST／意大利國家天體物理研究所：早宇宙星系 MARTA 3887 或藏住比恆星增長更快嘅黑洞",
+      "summary": "意大利國家天體物理研究所博洛尼亞太空科學天文台嘅 Mirko Curti 團隊，結合詹姆斯·韋伯太空望遠鏡（JWST）光譜、哈勃影像，同埋甚大望遠鏡 MUSE 檔案數據，喺遙遠星系 MARTA 3887 搵到一個可能嘅黑洞。呢個星系嘅紅移為 $z = 3.7694$，相等於大約 120 億年前嘅樣貌；佢結構成塊、重元素含量只有太陽嘅約 10%，屬年輕、金屬貧乏嘅星系。候選黑洞質量約為太陽嘅 $3.3 \\times 10^{6}$ 倍，而宿主星系嘅恆星總質量約為太陽嘅 $1.45 \\times 10^{8}$ 倍，即黑洞大約佔恆星質量嘅 2.3%，比近鄰宇宙同樣關係高出約 100 倍（約 2 dex），顯示黑洞增長可能快過恆星組裝。JWST 光譜見到一條寬闊嘅氫α譜線，氣體速度約為 $1270\\ \\mathrm{km\\ s^{-1}}$，而且呢個訊號只出現喺氫線、唔見於較平靜氣體嘅氧線，較似黑洞周圍嘅高速氣體，而唔係普通外流。星系正以大約每年 5 至 9 個太陽質量嘅速度形成恆星，主要來自一輪較近期嘅爆發。簡單增長模型顯示：如果黑洞好早（宇宙年齡約 1 億年）就開始吸積，質量為 100、$10^{4}$ 同 $10^{5}$ 個太陽質量嘅種子，分別只需以最大吸積率嘅約 34%、19% 同 11% 進食；但如果要等到近期恆星爆發先開始，一粒 100 個太陽質量嘅種子就要去到最大速率嘅約 570%，屬於極端嘅超愛丁頓增長。團隊強調呢仍然只係「可能」嘅黑洞：一次觀測未能完全排除超新星或稠密外流假冒訊號。星系亦有約 44% 嘅萊曼α光子逃出，被稱為間接嘅紫外光「泄漏候選者」。論文已上載 arXiv。",
+      "topic": "力和運動（萬有引力、圓周運動）、天文學（黑洞、光譜）",
+      "source_name": "Phys.org / INAF / arXiv",
+      "source_url": "https://phys.org/news/2026-11-jwst-black-hole-grew-faster.html",
+      "source_date": "22/11",
+      "links": [
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2611.00199"
+        }
+      ]
+    },
+    {
+      "title": "密歇根大學：把 1% 同 3% 錫摻雜氧化銦納米晶混成單層，可放大或抑制紅外光",
+      "summary": "密歇根大學工程學院 Yujin Park、Delia Milliron 同 Thomas Truskett 團隊，製成只有一粒晶體咁薄嘅超表面：把錫摻雜量分別為 1% 同 3% 嘅氧化銦（ITO）納米晶喺溶液入面隨機混合。入射紅外光會喺晶體表面同縫隙激起電子集體振盪（等離子體元），令光被困喺納米晶同大約 $2.5\\ \\mathrm{nm}$ 嘅間隙。兩種摻雜晶體嘅等離子體能量唔同，好似兩個音高唔同嘅音叉，視乎紅外光頻率，可以互相加強或者互相削弱被困嘅能量，令整體吸收超越（或低於）兩種材料簡單相加嘅效果。研究人員由遠場紅外光譜、勞倫斯伯克利國家實驗室嘅同步輻射紅外納米光譜（SINS），再到橡樹嶺國家實驗室電子顯微鏡嘅亞納米解析度，確認 1% 同 3% 晶體確實隨機混合，而且每粒晶體嘅吸收取決於佢隔壁係邊粒。溶液自組裝唔使靠昂貴嘅蝕刻加工，有助放大生產。雖然仍屬早期階段，呢類超薄納米晶塗層或可用於減反光、熱偽裝，或者靠輻射自行冷卻嘅表面。合作單位包括橡樹嶺、勞倫斯伯克利、德州大學奧斯汀分校、科羅拉多大學博爾德分校同西班牙 ICREA。論文由 Park 等發表於 ACS Nano。",
+      "topic": "波動（電磁波、紅外線）",
+      "source_name": "University of Michigan Engineering / ACS Nano",
+      "source_url": "https://news.engin.umich.edu/2026/11/a-hybrid-metasurface-boosts-interactions-with-infrared-light/",
+      "source_date": "20/11",
+      "links": [
+        {
+          "label": "Phys.org report",
+          "url": "https://phys.org/news/2026-11-hybrid-nanocrystal-surface-reveals-tune.html"
+        },
+        {
+          "label": "ACS Nano paper",
+          "url": "https://doi.org/10.1021/acsnano.6c15778"
+        }
+      ]
+    },
+    {
+      "title": "卑詩大學／謝菲爾德大學：暗能量或來自束縛原子核嘅量子色動力學真空",
+      "summary": "卑詩大學（UBC）同謝菲爾德大學嘅研究人員提出，推動宇宙加速膨脹嘅暗能量，可能來自已經知道、用嚟束縛原子核嘅物理，而不使引入從未被實驗探測到嘅新場或新粒子。暗能量大約佔宇宙總能量嘅 70%，但來源一直未明。團隊認為，描述強核力、把夸克困喺質子同中子入面嘅量子色動力學（QCD），其真空具有拓撲性質，可以喺極大距離影響空間；隨住宇宙膨脹，呢種子原子結構會隨時間以唔同方式響應，產生剛剛好可以推動宇宙加速嘅能量改變。UBC 嘅 Ariel Zhitnitsky 教授表示，由 QCD 真空同重力得出嘅特徵能量尺度，接近今日觀測到嘅暗能量尺度，唔使額外擬合參數。謝菲爾德大學博士生、論文第一作者 Dong Ha Lee 同 UBC 嘅 Ludovic Van Waerbeke 教授指出，把模型同遙遠超新星同宇宙微波背景等觀測比較，符合程度可以同標準宇宙學模型相比，並且能夠再現近期數據所提示、暗能量隨時間演變嘅行為。呢仍然係理論框架，下一步要再完善計算，並用下一代太空望遠鏡嘅數據再檢驗。論文《Evolving Dark Energy Is Vacuum Energy After All》由 Lee 等發表於 The Astrophysical Journal。",
+      "topic": "放射現象和核能（強核力）、天文學（宇宙膨脹）",
+      "source_name": "University of British Columbia / University of Sheffield",
+      "source_url": "https://news.ubc.ca/2026/11/could-standard-physics-explain-the-mysterious-energy-driving-the-universe-apart/",
+      "source_date": "20/11",
+      "links": [
+        {
+          "label": "The Astrophysical Journal paper",
+          "url": "https://doi.org/10.3847/1538-4357/aeb9cc"
+        },
+        {
+          "label": "Phys.org report",
+          "url": "https://phys.org/news/2026-11-dark-energy-laws-particle-physics.html"
+        }
+      ]
+    },
+    {
+      "title": "勞倫斯利弗莫爾國家實驗室：用 X 射線喺逾 500 GPa 高壓下量度鉭嘅溫度",
+      "summary": "勞倫斯利弗莫爾國家實驗室（LLNL）嘅 Andrew Krygier、Yuan Ping 團隊，喺國家點火設施（NIF）把耐熱金屬鉭動態壓縮到超過 $500\\ \\mathrm{GPa}$（大約 500 萬倍大氣壓），並同時量度晶體結構同溫度。極端狀態只維持十億分之一秒量級，溫度一向極難直接測量。研究人員用 X 射線衍射確定晶體結構，再用延伸 X 射線吸收精細結構（EXAFS）追蹤原子間距同振動，從而推斷溫度；X 射線由激光加熱嘅鈦箔產生，氮化鎵隔熱層用來減少多餘加熱，另有 VISAR 測速度以助推算壓強。結果顯示，鉭喺超過 $500\\ \\mathrm{GPa}$ 仍然保持原本晶體結構，未見到先前計算所預測可能出現嘅另一種結構。大約 $200\\ \\mathrm{GPa}$ 時，只有把鉭本身嘅強度（反抗壓縮、把部分能量轉成額外熱）計入模型，溫度先同 EXAFS 相符；但到大約 $400\\ \\mathrm{GPa}$，樣本明顯熱過電腦預測。團隊認為，NIF 激光打中靶外層鈹之後形成嘅等離子體所發出嘅 X 射線，加上鈹入面微量鐵同鎳或會加強呢種輻射加熱，可以解釋大部分差異。呢次係 NIF 首次用重元素嘅 L 吸收邊做 EXAFS，把早前喺銅上面嘅方法推廣到更重嘅元素。論文刊於 Physical Review B。",
+      "topic": "熱和氣體（溫度）、波動（X 射線）、力和運動（壓強）",
+      "source_name": "Lawrence Livermore National Laboratory / Physical Review B",
+      "source_url": "https://www.llnl.gov/article/55296/nif-x-ray-technique-advances-temperature-measurements-under-extreme-pressure",
+      "source_date": "19/11"
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "mechanics",
+    "story": "JWST／意大利國家天體物理研究所：早宇宙星系 MARTA 3887 或藏住比恆星增長更快嘅黑洞",
+    "question_en": "Astronomers using the James Webb Space Telescope (JWST) have identified a possible black hole in the distant galaxy MARTA 3887, seen as it was about 12 billion years ago. The black hole has a mass of $3.3 \\times 10^{6}$ solar masses, while the host galaxy contains about $1.45 \\times 10^{8}$ solar masses of stars. Spectroscopic data show that hydrogen gas near the centre of the galaxy moves at $1.27 \\times 10^{3}\\ \\mathrm{km\\ s^{-1}}$.\n\nGiven:\n- Mass of the Sun $M_{\\odot} = 1.99 \\times 10^{30}\\ \\mathrm{kg}$\n- $G = 6.67 \\times 10^{-11}\\ \\mathrm{N\\ m^{2}\\ kg^{-2}}$\n\n(a) Calculate the mass of the black hole, in kg. (2 marks)\n\n(b) Calculate the ratio of the black-hole mass to the stellar mass of the host galaxy. (2 marks)\n\n(c) Taking the speed of the hydrogen gas as the orbital speed of the gas in a circular orbit of radius $r$ about the black hole, calculate $r$. (3 marks)\n\n(d) Calculate the period of this circular orbit. (2 marks)\n\n(e) Astronomers still describe the object only as a possible black hole. Suggest why the identification remains tentative. (2 marks)",
+    "question_zh": "天文學家利用詹姆斯·韋伯太空望遠鏡（JWST），喺遙遠星系 MARTA 3887 搵到一個可能嘅黑洞，所見到嘅係大約 120 億年前嘅樣貌。呢個黑洞嘅質量為 $3.3 \\times 10^{6}$ 個太陽質量，而宿主星系嘅恆星總質量約為 $1.45 \\times 10^{8}$ 個太陽質量。光譜數據顯示，星系中心附近嘅氫氣以 $1.27 \\times 10^{3}\\ \\mathrm{km\\ s^{-1}}$ 運動。\n\n已知：\n- 太陽質量 $M_{\\odot} = 1.99 \\times 10^{30}\\ \\mathrm{kg}$\n- $G = 6.67 \\times 10^{-11}\\ \\mathrm{N\\ m^{2}\\ kg^{-2}}$\n\n(a) 計算呢個黑洞嘅質量，以千克為單位。（2 分）\n\n(b) 計算黑洞質量同宿主星系恆星質量嘅比。（2 分）\n\n(c) 把氫氣嘅速率視為佢哋繞黑洞做半徑為 $r$ 嘅圓周運動嘅軌道速率，計算 $r$。（3 分）\n\n(d) 計算呢個圓周運動嘅周期。（2 分）\n\n(e) 天文學家仍然只係把呢個天體稱為「可能」嘅黑洞。建議點解呢個判斷仍然係初步嘅。（2 分）",
+    "answer_en": "(a)\n- $M = 3.3 \\times 10^{6} \\times 1.99 \\times 10^{30}$ (1M)\n- $M = 6.57 \\times 10^{36}\\ \\mathrm{kg}$ (1A)\n\n(b)\n- $\\mathrm{ratio} = (3.3 \\times 10^{6})/(1.45 \\times 10^{8})$ (1M)\n- $\\mathrm{ratio} = 2.3 \\times 10^{-2}$ (1A)\n\n(c)\n- $v = 1.27 \\times 10^{6}\\ \\mathrm{m\\ s^{-1}}$ (1M)\n- $r = GM/v^{2} = (6.67 \\times 10^{-11})(6.57 \\times 10^{36})/(1.27 \\times 10^{6})^{2}$ (1M)\n- $r = 2.72 \\times 10^{14}\\ \\mathrm{m}$ (1A)\n\n(d)\n- $T = 2\\pi r/v = 2\\pi (2.72 \\times 10^{14})/(1.27 \\times 10^{6})$ (1M)\n- $T = 1.35 \\times 10^{9}\\ \\mathrm{s}$ (1A)\n\n(e)\n- A supernova / a dense outflow / shocks could mimic the observed signal. (1)\n- The conclusion is based on a single observation / these alternatives have not yet been ruled out. (1)",
+    "answer_zh": "(a)\n- $M = 3.3 \\times 10^{6} \\times 1.99 \\times 10^{30}$（1M）\n- $M = 6.57 \\times 10^{36}\\ \\mathrm{kg}$（1A）\n\n(b)\n- $\\mathrm{ratio} = (3.3 \\times 10^{6})/(1.45 \\times 10^{8})$（1M）\n- $\\mathrm{ratio} = 2.3 \\times 10^{-2}$（1A）\n\n(c)\n- $v = 1.27 \\times 10^{6}\\ \\mathrm{m\\ s^{-1}}$（1M）\n- $r = GM/v^{2} = (6.67 \\times 10^{-11})(6.57 \\times 10^{36})/(1.27 \\times 10^{6})^{2}$（1M）\n- $r = 2.72 \\times 10^{14}\\ \\mathrm{m}$（1A）\n\n(d)\n- $T = 2\\pi r/v = 2\\pi (2.72 \\times 10^{14})/(1.27 \\times 10^{6})$（1M）\n- $T = 1.35 \\times 10^{9}\\ \\mathrm{s}$（1A）\n\n(e)\n- 超新星／稠密外流／衝擊波可能假冒觀測到嘅訊號。（1）\n- 結論只建基於一次觀測／尚未排除呢啲其他可能性。（1）"
+  }
+}
