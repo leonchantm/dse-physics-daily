@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-24",
+  "news": [
+    {
+      "title": "上海大學：全光纖摻鉺激光做到超過 100 nm 頻寬、72 fs 脈衝，而且噪聲極低",
+      "summary": "上海大學特種光纖與先進通信國際聯合研究實驗室嘅牟成博、黃千千團隊同合作者，製成一款摻鉺全光纖激光器，同一時間兼顧超過 $100\\ \\mathrm{nm}$ 嘅光譜寬度、壓縮後短過 $100\\ \\mathrm{fs}$ 嘅脈衝，以及好低嘅強度噪聲同時間抖動。飛秒脈衝只持續千萬億分之一秒量級，可用於高速成像、高頻訊號取樣同精密測距，但以往好多寬頻超快激光要靠波片、衍射光柵等自由空間元件，容易受震動、溫度同對準影響。呢個激光器用長 $1.84\\ \\mathrm{m}$ 嘅環形腔，由摻鉺光纖同普通單模光纖組成，利用非線性偏振旋轉鎖模；因為光柵喺光纖入面完成選擇偏振嘅工作，所以唔使自由空間偏振器。鉺離子喺通訊常用嘅大約 $1550\\ \\mathrm{nm}$ 波段提供增益。泵浦功率 $528\\ \\mathrm{mW}$ 時，光譜中心約 $1548\\ \\mathrm{nm}$，半高全寬 $100.1\\ \\mathrm{nm}$。脈衝一開始長約 $1.6\\ \\mathrm{ps}$，經過額外 $3.5\\ \\mathrm{m}$ 光纖之後被壓縮到 $72\\ \\mathrm{fs}$，重複頻率約每秒 $1.1178 \\times 10^{8}$ 個脈衝。團隊再用光纖布拉格光柵嘅反射光穩定泵浦二極管，相對強度噪聲喺 $100\\ \\mathrm{Hz}$ 至 $1\\ \\mathrm{MHz}$ 低於約 $-143\\ \\mathrm{dBc/Hz}$，積分時間抖動為 $16\\ \\mathrm{fs}$。自由運行 5.5 小時，頻寬、中心波長同輸出功率嘅均方根變化分別只有 $0.16\\%$、$0.0039\\%$ 同 $0.43\\%$。團隊表示，呢種兼顧頻寬、短脈衝同低噪聲嘅全光纖光源，有助光學相干斷層掃描、超快成像同光子模數轉換，亦較容易喺實驗室以外封裝使用。論文由 Yan 等發表於 Advanced Photonics Nexus。",
+      "topic": "波動（光、激光、折射率）",
+      "source_name": "Phys.org / SPIE / Shanghai University / Advanced Photonics Nexus",
+      "source_url": "https://phys.org/news/2026-11-fiber-laser-combines-ultrashort-pulses.html",
+      "source_date": "23/11",
+      "links": [
+        {
+          "label": "Advanced Photonics Nexus paper",
+          "url": "https://doi.org/10.1117/1.apn.6.1.016011"
+        }
+      ]
+    },
+    {
+      "title": "NASA／哥倫比亞大學：韋伯望遠鏡顯示仙后座 A 超新星塵埃，揭示爆發前數小時嘅殼層合併",
+      "summary": "哥倫比亞大學嘅 Tea Temim 團隊利用詹姆斯·韋伯太空望遠鏡（JWST）嘅中紅外觀測，為著名超新星遺跡仙后座 A（Cas A）繪製高解析度塵埃圖，並提出原恆星內部可能喺核心坍縮前僅僅數小時，就發生過劇烈嘅殼層合併。大質量恆星耗盡核心氫之後，會再融合氦同更重嘅元素，直到鐵為止，並且形成一層層較輕元素嘅殼；超新星把呢啲物質拋入太空，部分凝結成塵埃。韋伯把遺跡入面一個個大約太陽系咁大嘅塵埃團成分繪出嚟，發現氧燃燒同碳燃燒等殼層曾經混合，改變咗爆炸後噴出物嘅化學豐度。研究人員先靠已退役嘅史匹哲太空望遠鏡標出三個重點區域，再用韋伯細睇：其中兩個位於反向衝擊區（向內行嘅衝擊波撞上向外飛嘅碎片），一個主要以二氧化矽塵埃為主，另一個以碳塵為主；第三個係韋伯較早發現嘅「綠色怪物」，富含複雜嘅鎂矽酸鹽，而且來自恆星爆炸前已拋出嘅物質，而唔係超新星噴出物本身。結合錢德拉 X 射線天文台同 JAXA 主導嘅 XRISM 數據，塵埃圖顯示合併特徵遍布遺跡大部分區域。普渡大學嘅 Dan Milisavljevic 指出，喺爆炸數百年之後，仍然可以由塵埃化學追溯原恆星結構，以及核心坍縮前數小時發生過乜。呢種方法亦可供其他超新星遺跡推論原恆星結構。論文刊於 The Astrophysical Journal Letters。",
+      "topic": "放射現象和核能（核融合）、波動（紅外線、X 射線）",
+      "source_name": "NASA Science / Columbia University / Purdue University",
+      "source_url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
+      "source_date": "23/11",
+      "links": [
+        {
+          "label": "Phys.org report",
+          "url": "https://phys.org/news/2026-11-webb-evidence-star-layers-merged.html"
+        },
+        {
+          "label": "The Astrophysical Journal Letters paper",
+          "url": "https://doi.org/10.3847/2041-8213/aea901"
+        }
+      ]
+    },
+    {
+      "title": "ALMA／中科院國家天文台：首次喺早期宇宙分解到黑洞嘅「引力勢力範圍」，質量約 65 億個太陽",
+      "summary": "中科院國家天文台同智利迭戈波塔萊斯大學嘅廖麥（Mai Liao）團隊，利用阿塔卡馬大型毫米／次毫米波陣列（ALMA），量度咗塵埃遮蔽類星體 WISE J224607.56−052634.9（簡稱 W2246-0526）中心超大質量黑洞嘅質量。呢個星系嘅光被宇宙膨脹拉長到原來波長嘅大約 5.6 倍，紅移 $z = 4.6$，亦即我哋見到嘅係宇宙年齡只有大約 13 億年時嘅樣貌，光線走咗超過 120 億年先到地球。透過追蹤單電離碳同一氧化碳氣體嘅運動，並扣除類星體向外流出嘅氣體之後，團隊發現氣體速率範圍向中心急升，符合開普勒式、由黑洞引力主導嘅圖像，估計黑洞質量約為太陽嘅 65 億倍。ALMA 喺呢個距離最精細可以分辨大約 700 光年嘅結構。呢次據報係紅移大於 2、而且唔靠前景引力透鏡放大嘅星系之中，首次做到空間上分解到黑洞「引力勢力範圍」（即黑洞引力蓋過宿主星系嘅區域），並由此作出動力學質量測量。以往喺紅移大於 6、較無遮蔽嘅明亮類星體，ALMA 未必見到清晰嘅引力特徵，可能係因為活動星系核嘅強烈 X 射線進一步電離碳，令靠近黑洞嘅發射變弱；W2246-0526 周圍嘅厚塵埃或可擋住部分輻射，令示蹤氣體可以喺更近嘅地方存活。動力學質量可用嚟檢驗，早期宇宙類星體常用、由譜線寬度同亮度推斷質量嘅方法，喺遙遠星系是否仍然可靠。論文由 Liao 等發表於 Science Advances。",
+      "topic": "力和運動（萬有引力）、波動（紅移、電磁波）",
+      "source_name": "ALMA Observatory / NAOC / Universidad Diego Portales / Science Advances",
+      "source_url": "https://www.almaobservatory.org/en/press-releases/alma-resolves-the-gravitational-reach-of-a-black-hole-in-the-early-universe/",
+      "source_date": "20/11",
+      "links": [
+        {
+          "label": "Phys.org report",
+          "url": "https://phys.org/news/2026-11-alma-gravitational-black-hole-early.html"
+        },
+        {
+          "label": "Science Advances paper",
+          "url": "https://www.science.org/doi/10.1126/sciadv.aek9035"
+        }
+      ]
+    },
+    {
+      "title": "NASA：公開徵求伙伴，研製月球首座 20 kW 核裂變反應堆 Lunar Reactor-1",
+      "summary": "美國國家航空航天局（NASA）公開徵求產業伙伴，研製同試驗第一座專為月球發電而設嘅核裂變反應堆 Lunar Reactor-1（LR-1）。呢個小型裂變電源系統計劃輸出 $20\\ \\mathrm{kW}$ 電能，大約相當於地球上 16 個普通美國家庭一年嘅用電；喺月球基地可以用嚟供應居住艙、通訊、漫遊車、科學儀器同其他基礎設施。NASA 目標係 2030 年做到可以發射，部署之後至少運行五年。同依賴日光嘅太陽能唔同，核反應堆可以持續發電，包括月球大約兩星期（約 14 個地球日）嘅長夜，對於陽光有限或者完全冇陽光嘅地點尤其重要。計劃經理 Brian Giblin 表示，穩定而充足嘅能源對往後探測月球同火星表面至關重要，太空核系統可以喺任何環境持續供電，唔使靠太陽光。標書要求反應堆符合美國能源部（DOE）嘅核運行安全標準，建議書截止日期為 12 月 21 日。NASA 太空反應堆部門同 DOE 合作管理 LR-1，同一部門亦負責計劃 2028 年發射嘅 Space Reactor-1（SR-1）Freedom：佢會把三架 SkyFall 直升機送去火星，並示範用核反應堆發電去推動太空船嘅核電推進。NASA 亦指出，火星塵暴可以遮住陽光數月，而離太陽更遠嘅地方太陽能會愈來愈弱，所以核電源對深空任務愈來愈重要。",
+      "topic": "放射現象和核能（核裂變）、電和磁（電能）",
+      "source_name": "NASA",
+      "source_url": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
+      "source_date": "23/11"
+    },
+    {
+      "title": "萊斯大學：唔使磁石，夠強嘅電壓都可以催生一種新嘅霍爾效應",
+      "summary": "萊斯大學嘅斯其苗（Qimiao Si）同前博士後 Shouvik Sur，聯同維也納工業大學嘅合作者，喺 Physical Review Letters 提出一種稱為「完全非平衡響應」嘅新霍爾效應。經典霍爾效應係喺金屬通電流並加上磁場時，電荷會受到磁力，從而喺垂直方向出現電壓或者電流；磁場會打破時間反演對稱。量子反常霍爾效應則唔使外加磁場，而係靠材料本身嘅磁性去打破呢種對稱。團隊研究一類強關聯拓撲半金屬時發現，材料喺冇外加磁場、本身亦冇內稟磁場嘅情況下，仍然可以出現同電壓成正比嘅垂直電流，表面睇好似對稱已被打破。進一步分析顯示，呢種量子非線性反常霍爾效應可以分兩段：電壓較弱時，電流同電壓嘅平方成正比，時間反演對稱仍然保持；電壓夠強之後，電子會暫時獲得額外動量，電流改為同電壓成正比，表現得好似被磁場打破咗對稱，但只係暫時狀態，電壓下降就會恢復。轉變發生喺幾高電壓，視乎材料而定。Sur 指出，以往對霍爾效應嘅理解主要建基於外力較弱嘅平衡態物理；而家見到嘅，係系統喺強外力下偏離平衡之後嘅響應，雖然看起來好似磁性，但其實既唔係磁性，亦唔係平衡態。研究同時支持強關聯拓撲半金屬態嘅存在。論文題為 Fully Nonequilibrium Hall Response from Berry Curvature。",
+      "topic": "電和磁（電流、電壓、霍爾效應）",
+      "source_name": "Rice University / Physical Review Letters",
+      "source_url": "https://news.rice.edu/news/2026/no-magnets-needed-extreme-voltage-drives-completely-new-kind-hall-effect",
+      "source_date": "23/11",
+      "links": [
+        {
+          "label": "Phys.org report",
+          "url": "https://phys.org/news/2026-11-magnets-extreme-voltage-kind-hall.html"
+        },
+        {
+          "label": "Physical Review Letters paper",
+          "url": "https://journals.aps.org/prl/abstract/10.1103/cj8b-4sp4"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "waves",
+    "story": "上海大學：全光纖摻鉺激光做到超過 100 nm 頻寬、72 fs 脈衝，而且噪聲極低",
+    "question_en": "Researchers at Shanghai University have developed an erbium-doped all-fibre laser. The output is a regular train of short light pulses with a centre wavelength of $1548\\ \\mathrm{nm}$. After compression, each pulse lasts $72\\ \\mathrm{fs}$. The light circulates in a ring-shaped fibre cavity of length $1.84\\ \\mathrm{m}$, and the laser produces $1.1178 \\times 10^{8}$ pulses per second.\n\nGiven:\n- Speed of light in vacuum $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$\n- Planck constant $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\ s}$\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n- $1\\ \\mathrm{fs} = 10^{-15}\\ \\mathrm{s}$\n\n(a) Calculate the frequency of light of wavelength $1548\\ \\mathrm{nm}$. (2 marks)\n\n(b) Calculate the energy of one photon of this light, in eV. (2 marks)\n\n(c) Calculate the time interval between successive pulses. (2 marks)\n\n(d) This time interval equals the time for a pulse to travel once around the cavity. Calculate the speed of the light in the fibre, and hence the refractive index of the fibre. (3 marks)\n\n(e) Taking the pulse duration as the time between the front and the back of a pulse, estimate the spatial length of one pulse in the fibre. (2 marks)\n\n(f) The team used an all-fibre design with no free-space optical components. Suggest one advantage of this design. (1 mark)",
+    "question_zh": "上海大學嘅研究人員製成一款摻鉺全光纖激光器。輸出係一列有規律嘅短光脈衝，中心波長為 $1548\\ \\mathrm{nm}$。經過壓縮之後，每個脈衝持續 $72\\ \\mathrm{fs}$。光喺一條長 $1.84\\ \\mathrm{m}$ 嘅環形光纖腔入面循環，激光每秒產生 $1.1178 \\times 10^{8}$ 個脈衝。\n\n已知：\n- 真空中嘅光速 $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$\n- 普朗克常數 $h = 6.63 \\times 10^{-34}\\ \\mathrm{J\\ s}$\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n- $1\\ \\mathrm{fs} = 10^{-15}\\ \\mathrm{s}$\n\n(a) 計算波長為 $1548\\ \\mathrm{nm}$ 嘅光嘅頻率。（2 分）\n\n(b) 計算呢種光一個光子嘅能量，以電子伏特為單位。（2 分）\n\n(c) 計算相鄰脈衝之間嘅時間間隔。（2 分）\n\n(d) 呢個時間間隔等於脈衝沿腔走一圈所需嘅時間。計算光喺光纖入面嘅速率，從而求光纖嘅折射率。（3 分）\n\n(e) 把脈衝持續時間視為一個脈衝前端同後端之間嘅時間，估計一個脈衝喺光纖入面嘅空間長度。（2 分）\n\n(f) 團隊採用全光纖設計，冇使用自由空間光學元件。建議呢個設計嘅一個優點。（1 分）",
+    "answer_en": "(a)\n- $f = c/\\lambda = (3.00 \\times 10^{8})/(1.548 \\times 10^{-6})$ (1M)\n- $f = 1.94 \\times 10^{14}\\ \\mathrm{Hz}$ (1A)\n\n(b)\n- $E = hc/\\lambda = (6.63 \\times 10^{-34})(3.00 \\times 10^{8})/(1.548 \\times 10^{-6})$ (1M)\n- $E = 0.803\\ \\mathrm{eV}$ (1A)\n\n(c)\n- $\\Delta t = 1/(1.1178 \\times 10^{8})$ (1M)\n- $\\Delta t = 8.95 \\times 10^{-9}\\ \\mathrm{s}$ (1A)\n\n(d)\n- $v = L/\\Delta t = 1.84/(8.95 \\times 10^{-9})$ (1M)\n- $v = 2.06 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$ (1A)\n- $n = c/v = (3.00 \\times 10^{8})/(2.06 \\times 10^{8}) = 1.46$ (1A)\n\n(e)\n- $\\mathrm{length} = v \\times 72 \\times 10^{-15} = (2.06 \\times 10^{8})(7.2 \\times 10^{-14})$ (1M)\n- $\\mathrm{length} = 1.48 \\times 10^{-5}\\ \\mathrm{m}$ (1A)\n\n(f)\n- Less sensitive to vibration / temperature change / misalignment / easier to package and operate outside the laboratory. (1)",
+    "answer_zh": "(a)\n- $f = c/\\lambda = (3.00 \\times 10^{8})/(1.548 \\times 10^{-6})$（1M）\n- $f = 1.94 \\times 10^{14}\\ \\mathrm{Hz}$（1A）\n\n(b)\n- $E = hc/\\lambda = (6.63 \\times 10^{-34})(3.00 \\times 10^{8})/(1.548 \\times 10^{-6})$（1M）\n- $E = 0.803\\ \\mathrm{eV}$（1A）\n\n(c)\n- $\\Delta t = 1/(1.1178 \\times 10^{8})$（1M）\n- $\\Delta t = 8.95 \\times 10^{-9}\\ \\mathrm{s}$（1A）\n\n(d)\n- $v = L/\\Delta t = 1.84/(8.95 \\times 10^{-9})$（1M）\n- $v = 2.06 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$（1A）\n- $n = c/v = (3.00 \\times 10^{8})/(2.06 \\times 10^{8}) = 1.46$（1A）\n\n(e)\n- $\\mathrm{length} = v \\times 72 \\times 10^{-15} = (2.06 \\times 10^{8})(7.2 \\times 10^{-14})$（1M）\n- $\\mathrm{length} = 1.48 \\times 10^{-5}\\ \\mathrm{m}$（1A）\n\n(f)\n- 較唔受震動／溫度變化／對準誤差影響／較容易喺實驗室以外封裝同操作。（1）"
+  }
+}
