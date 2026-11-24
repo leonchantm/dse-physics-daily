@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-25",
+  "news": [
+    {
+      "title": "費米實驗室：研製超快「秒錶」芯片，粒子探測時間準確到約 40 ps、位置準到 15 μm",
+      "summary": "美國費米國家加速器實驗室（Fermilab）由 Artur Apresyan 帶領，聯同加州理工學院同勞倫斯伯克利國家實驗室，研製咗一款叫做 Fermilab Constant Fraction Discriminator（FCFD）嘅專用讀出芯片，為下一代粒子探測器提供超精確嘅時間同位置測量。未來高能物理實驗需要喺僅僅萬億分之一秒量級嘅時間差之中分辨大量粒子訊號，例如計劃喺 2030 年代中期，喺布魯克海文國家實驗室電子–離子對撞機（EIC）運行嘅首個實驗 ePIC。FCFD 用「恆比鑑別」（constant fraction discrimination）算法判斷訊號到達嘅精確時間，而且呢個時間唔取決於訊號幅度，從而消除傳統電路入面「幅度較大嘅訊號較早觸發、幅度較細嘅訊號稍遲」嘅 time-walk 效應，減少事後校正。芯片配合稱為交流耦合低增益雪崩二極管（AC-LGAD）嘅硅傳感器：粒子穿過時會產生微小電訊號，經放大後分配到附近嘅條狀電極；比較相鄰通道嘅訊號強度再取加權平均，就可以定出位置。測試束實驗顯示，時間準確度約為 $40\\ \\mathrm{ps}$（即 $40$ 萬億分之一秒），位置精確度約為 $15\\ \\mu\\mathrm{m}$，大約係頭髮直徑嘅五分之一。呢種精度足以用飛行時間分辨質子、K 介子同 $\\pi$ 介子。最初版本只有單通道、只量時間；最新版本擴展到六個通道，兼顧位置。ePIC 團隊其後請費米實驗室研製完整嘅 32 通道芯片，預計 2027 年年底完成。研究由美國能源部核物理辦公室資助，論文刊於 Nuclear Instruments and Methods in Physics Research A。",
+      "topic": "力和運動（時間、速率）、電和磁（電子訊號）",
+      "source_name": "Fermilab / Caltech / Lawrence Berkeley National Laboratory",
+      "source_url": "https://news.fnal.gov/2026/11/fermilab-led-team-builds-ultrafast-stopwatch-for-particle-detectors/",
+      "source_date": "24/11",
+      "links": [
+        {
+          "label": "Nuclear Instruments and Methods in Physics Research A paper",
+          "url": "https://doi.org/10.1016/j.nima.2026.171599"
+        },
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2512.19930"
+        }
+      ]
+    },
+    {
+      "title": "萊斯大學：用可見光把二氧化碳拆成工業原料一氧化碳，唔使靠傳統高溫爐",
+      "summary": "萊斯大學 Naomi Halas、Peter Nordlander 團隊示範，用可見光就可以把二氧化碳直接拆成工業常用原料一氧化碳，唔使依靠傳統高溫爐加熱。以往直接拆解二氧化碳往往要 $700$ 至 $1500\\ ^\\circ\\mathrm{C}$ 嘅高溫，或者強烈放電；而且釋出嚟嘅氧原子好快會同一氧化碳重新結合，甚至損壞催化劑。新設計把負責吸收光嘅銅納米粒子，同好似汽車催化轉換器入面嘅「氧海綿」氧化鈰配在一起：可見光打中銅納米粒子之後，高能電子被輸送到釕反應位，把二氧化碳拆成一氧化碳同氧；氧化鈰暫時把氧困喺晶體結構入面，阻止重新結合成二氧化碳，之後再用氮氣同光照就可以令催化劑再生。系統喺波長 $475\\ \\mathrm{nm}$ 嘅藍光之下表現最好，一氧化碳產率達每克催化劑每小時 $1.50 \\times 10^{4}\\ \\mu\\mathrm{mol}$。光照驅動可以穩定生產 $238$ 分鐘，幾乎係傳統加熱對照組（約 $35$ 分鐘就衰退）嘅七倍，產率亦大約係冇氧化鈰樣本嘅三倍。激光照射之下，催化劑表面溫度去到 $300$ 至 $386\\ ^\\circ\\mathrm{C}$；如果把反應室外部冷卻到 $10\\ ^\\circ\\mathrm{C}$，二氧化碳更容易吸附喺表面，產率反而再提高。Nordlander 指出，雖然催化劑整體只有幾百度，推動反應嘅電子（質量少過總質量嘅 $0.05\\%$）卻可以被加熱到超過 $10{,}000\\ ^\\circ\\mathrm{F}$（約 $5540\\ ^\\circ\\mathrm{C}$）。呢套「天線–反應器」技術已授權畀萊斯衍生公司 Syzygy Plasmonics，下一步希望由實驗室激光反應器推展到工業燈光陣列。論文由 Deneen 等發表於《美國國家科學院院刊》。",
+      "topic": "波動（可見光）、熱和氣體（溫度）",
+      "source_name": "Rice University / PNAS",
+      "source_url": "https://news.rice.edu/news/2026/rice-breakthrough-research-uses-visible-light-turn-carbon-dioxide-valuable-industrial",
+      "source_date": "20/11",
+      "links": [
+        {
+          "label": "Phys.org report",
+          "url": "https://phys.org/news/2026-11-visible-powers-catalyst-carbon-dioxide.html"
+        },
+        {
+          "label": "PNAS paper",
+          "url": "https://doi.org/10.1073/pnas.2628340123"
+        }
+      ]
+    },
+    {
+      "title": "比利時皇家太空氣象研究所／ESA：2024 年太陽超級風暴之後，地球出現過四條電子輻射帶",
+      "summary": "比利時皇家太空氣象研究所（BIRA-IASB）嘅 Viviane Pierrard 團隊，分析歐洲太空總署 PROBA-V 衛星能量粒子望遠鏡（EPT）嘅數據，首次直接觀測到地球附近同時出現四條電子輻射帶。衛星喺高度約 $820\\ \\mathrm{km}$ 嘅太陽同步極地低地球軌道運行。平時范艾倫輻射帶只有兩條甜甜圈形區域：內帶主要係高能質子同能量較低嘅電子，外帶係能量高過約 $500\\ \\mathrm{keV}$ 嘅相對論性電子，中間喺赤道面大約 $2.5$ 個地球半徑（$1\\ \\mathrm{R_E} = 6371\\ \\mathrm{km}$）處有一條粒子稀少嘅槽。2012 年，NASA 范艾倫探測器曾經喺太陽風暴之後見到臨時第三帶，維持約四個星期，但其後喺太陽活動高峰期並無再現。2024 年 5 月 11 日「母親節」地磁暴係二十年來最強烈嘅一場，擾動暴時指數 $D_{\\mathrm{st}} = -412\\ \\mathrm{nT}$。團隊只把持續超過 5 日嘅通量局部極大同極小分別計為輻射帶同槽。結果顯示，風暴把電子注入原本嘅槽，之後又喺其他位置形成新嘅稀疏槽，於 2024 年 6 月喺 $500\\ \\mathrm{keV}$ 至 $2.4\\ \\mathrm{MeV}$ 等多個能量範圍出現四條帶，並且維持超過四個星期；到 8 月先恢復常見嘅兩帶結構。最高能量通道（$2.4$ 至 $8.0\\ \\mathrm{MeV}$）則冇清楚見到四帶。研究亦發現，2024 年 10 月、2025 年 6 月、2026 年 2 月同 2026 年 7 月嘅大風暴之後，三帶結構會再次出現。研究人員認為新槽很可能係電磁波把電子擊出輻射帶、送入大氣所形成，但確切機制仍未完全清楚。了解輻射帶嘅快速變化，有助改進衛星設計同太空人輻射評估。論文刊於 npj Space Exploration。",
+      "topic": "電和磁（地球磁場）、放射現象和核能（高能電子）",
+      "source_name": "Royal Belgian Institute for Space Aeronomy / ESA / UCLouvain / npj Space Exploration",
+      "source_url": "https://phys.org/news/2026-11-belts-earth-weeks-solar-superstorm.html",
+      "source_date": "24/11",
+      "links": [
+        {
+          "label": "npj Space Exploration paper",
+          "url": "https://doi.org/10.1038/s44453-026-00064-7"
+        }
+      ]
+    },
+    {
+      "title": "麻省理工：原子大小、質量如小行星嘅原始黑洞，或可喺恆星內部引發可觀測爆炸",
+      "summary": "麻省理工學院嘅 Ore Gottlieb 聯同 Flatiron Institute、紐約大學同史丹福大學嘅同事，用理論計算同三維模擬，探討如果宇宙早期形成、至今仍然存在嘅「原始黑洞」被類似太陽嘅恆星捕捉，會發生乜嘢。呢類原始黑洞可能喺大爆炸後極短時間，由極密物質塌縮而成，有啲人認為佢哋可能構成部分暗物質。霍金輻射會令最細嘅原始黑洞早已蒸發；仍然可能存活到今日嘅，大約只有原子咁大，但質量卻同小行星相若，約為地球質量嘅一百萬分之一。模擬顯示，單靠一顆恆星嘅引力通常捉唔住路過嘅原始黑洞；如果有伴星或者行星一齊參與三體相互作用，黑洞可以反覆穿過恆星，藉摩擦逐漸失去軌道能量，喺數千至數百萬年內沉入恆星核心。之後佢會由內部吞噬物質：團隊發現大部分能量會落入黑洞，令佢增長得比以往估計更快。大約幾百萬年後，黑洞可以消耗掉恆星總質量約 $1\\%$；如果恆星轉得夠快，物質就唔會直接墮入，而會喺當時只有幾米大嘅黑洞周圍形成吸積盤。盤同自旋會扭轉磁場，並由兩極噴出電磁噴流，喺幾十秒之內把恆星爆破。爆發預期會先發出強烈嘅藍光、紫外線、X 射線同伽馬射線，之後先後出現可見光、紅外同射電，現有望遠鏡有機會睇到。不過其他天體現象都可以產生類似閃光，所以要再結合例如「本來不應該爆炸嘅恆星竟然爆炸」等線索先可以確認。即使搵唔到確切例子，呢類搜尋都可以用來限制原始黑洞嘅數量，以及佢哋可以佔暗物質幾多。論文刊於 The Astrophysical Journal。",
+      "topic": "力和運動（萬有引力）、放射現象和核能（X 射線、伽馬射線）",
+      "source_name": "MIT News / Flatiron Institute / NYU / Stanford / The Astrophysical Journal",
+      "source_url": "https://news.mit.edu/2026/if-tiny-primordial-black-holes-exist-heres-how-we-might-find-them-1119",
+      "source_date": "19/11",
+      "links": [
+        {
+          "label": "The Astrophysical Journal paper",
+          "url": "https://doi.org/10.3847/1538-4357/aeb7e1"
+        }
+      ]
+    },
+    {
+      "title": "ALMA／理研／佛羅里達大學：首次喺年輕恆星周圍探測到氣態一氧化鈦，顯示礦物正被蒸發",
+      "summary": "一個由理化學研究所 Ziwei E. Zhang、Nami Sakai 領導，並有日本國立天文台同佛羅里達大學 Adam Ginsburg 等參與嘅國際團隊，利用阿塔卡馬大型毫米／次毫米波陣列（ALMA），首次喺恆星形成區探測到氣態一氧化鈦（$\\mathrm{TiO}$）。目標係獵戶座源 I（Orion Source I），一顆位於獵戶座星雲後方塵埃雲入面、距離地球約 $1350$ 光年嘅年輕大質量原恆星。鈦喺星際空間通常被鎖喺固態塵埃入面，好難以氣體形式出現；以往氣態氧化鈦主要只喺恆星表面被發現。團隊辨認出 $\\mathrm{TiO}$ 嘅三條轉動發射譜線，而且發射集中喺原恆星周圍旋轉盤風嘅底部，分布同先前喺同一區域發現嘅一氧化鋁（$\\mathrm{AlO}$）好相似。鈦同鋁都係太陽系最古老固態物質——富鈣鋁包裹體（CAI）——嘅特徵元素。因為呢顆原恆星夠光、夠熱，能夠把附近嘅岩石蒸發成氣體，科學家就可以用光譜學直接分析固體成分，而唔使把樣本帶回地球。Ginsburg 指出，呢個系統就好似大自然喺太空幫我哋做咗實驗室入面「加熱蒸發再量光譜」嘅步驟，令太陽系以外嘅天體礦物學成為可能。探測呢啲譜線要用到 ALMA 最高頻嘅毫米／次毫米波段，包括由日本國立天文台主導研製嘅 Band 10 接收機。論文由 Zhang 等發表於 The Astrophysical Journal Letters。",
+      "topic": "熱和氣體（蒸發）、波動（光譜、毫米波）",
+      "source_name": "University of Florida / ALMA / RIKEN / NAOJ / The Astrophysical Journal Letters",
+      "source_url": "https://news.ufl.edu/2026/11/vaporized-rock-in-space/",
+      "source_date": "23/11",
+      "links": [
+        {
+          "label": "ALMA / NAOJ report",
+          "url": "https://alma-telescope.jp/en/news/gtio-202611.html"
+        },
+        {
+          "label": "Phys.org report",
+          "url": "https://phys.org/news/2026-11-vaporized-reveals-titanium-oxide-massive.html"
+        },
+        {
+          "label": "The Astrophysical Journal Letters paper",
+          "url": "https://doi.org/10.3847/2041-8213/aeacbe"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "mechanics",
+    "story": "費米實驗室：研製超快「秒錶」芯片，粒子探測時間準確到約 40 ps、位置準到 15 μm",
+    "question_en": "A research team led by Fermilab has developed a custom readout chip, the Fermilab Constant Fraction Discriminator (FCFD), for next-generation particle detectors. In test-beam measurements the chip reached a timing accuracy of about $40\\ \\mathrm{ps}$ and a position precision of about $15\\ \\mu\\mathrm{m}$. Precise timing is used to find a particle's time of flight — how long it takes to travel through the detector — and hence to help identify the particle.\n\nGiven:\n- Speed of light in vacuum $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$\n- $1\\ \\mathrm{ps} = 10^{-12}\\ \\mathrm{s}$\n- $1\\ \\mu\\mathrm{m} = 10^{-6}\\ \\mathrm{m}$\n\n(a) Express $40\\ \\mathrm{ps}$ in seconds, and calculate the distance travelled by light in vacuum in this time. (3 marks)\n\n(b) In a school illustration of time-of-flight identification, a pion travels a straight path of $2.00\\ \\mathrm{m}$ at a constant speed of $2.50 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$. Calculate its time of flight. (2 marks)\n\n(c) A proton travels the same path at a constant speed of $2.00 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$. Calculate the difference in the two times of flight, and state whether the FCFD chip can distinguish the two particles. Explain your answer. (3 marks)\n\n(d) Calculate the distance travelled by the pion in $40\\ \\mathrm{ps}$. Hence estimate the uncertainty in the pion's measured speed if the length of the flight path is known exactly. (3 marks)\n\n(e) In a simple electronic circuit, a larger-amplitude signal crosses a fixed voltage threshold slightly earlier than a smaller-amplitude signal. This effect is called time-walk. Suggest how time-walk would affect a time-of-flight measurement, and state the advantage of the constant-fraction method used by FCFD. (2 marks)",
+    "question_zh": "費米實驗室帶領嘅研究團隊，為下一代粒子探測器研製咗一款專用讀出芯片 Fermilab Constant Fraction Discriminator（FCFD）。喺測試束測量之中，芯片嘅時間準確度約為 $40\\ \\mathrm{ps}$，位置精確度約為 $15\\ \\mu\\mathrm{m}$。精確計時用嚟求出粒子嘅飛行時間——即粒子穿過探測器所需嘅時間——從而幫助分辨粒子種類。\n\n已知：\n- 真空中嘅光速 $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$\n- $1\\ \\mathrm{ps} = 10^{-12}\\ \\mathrm{s}$\n- $1\\ \\mu\\mathrm{m} = 10^{-6}\\ \\mathrm{m}$\n\n(a) 把 $40\\ \\mathrm{ps}$ 以秒表示，並計算光喺真空中喺呢段時間內行過嘅距離。（3 分）\n\n(b) 喺一個用以說明飛行時間鑑別嘅學校例題之中，一粒 π 介子以恆定速率 $2.50 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$ 沿一條長 $2.00\\ \\mathrm{m}$ 嘅直線路徑行進。計算佢嘅飛行時間。（2 分）\n\n(c) 一粒質子以恆定速率 $2.00 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$ 沿同一路徑行進。計算兩段飛行時間嘅差，並說明 FCFD 芯片能否分辨呢兩種粒子。解釋你嘅答案。（3 分）\n\n(d) 計算呢粒 π 介子喺 $40\\ \\mathrm{ps}$ 內行過嘅距離。從而估計，若飛行路徑長度精確已知，π 介子速率測量值嘅不準確度。（3 分）\n\n(e) 喺簡單電子電路之中，幅度較大嘅訊號會比幅度較細嘅訊號稍早越過固定電壓閾值。呢個效應稱為 time-walk。建議 time-walk 會點樣影響飛行時間測量，並說明 FCFD 所用恆比方法嘅優點。（2 分）",
+    "answer_en": "(a)\n- $40\\ \\mathrm{ps} = 4.0 \\times 10^{-11}\\ \\mathrm{s}$ (1A)\n- $d = c \\Delta t = (3.00 \\times 10^{8})(4.0 \\times 10^{-11})$ (1M)\n- $d = 1.20 \\times 10^{-2}\\ \\mathrm{m}$ (1A)\n\n(b)\n- $t = s/v = 2.00/(2.50 \\times 10^{8})$ (1M)\n- $t = 8.00 \\times 10^{-9}\\ \\mathrm{s}$ (1A)\n\n(c)\n- $t_{\\mathrm{p}} = 2.00/(2.00 \\times 10^{8}) = 1.00 \\times 10^{-8}\\ \\mathrm{s}$ (1M)\n- $\\Delta t = 1.00 \\times 10^{-8} - 8.00 \\times 10^{-9} = 2.00 \\times 10^{-9}\\ \\mathrm{s}$ (1A)\n- $\\Delta t$ is much larger than $40\\ \\mathrm{ps}$ ($4.0 \\times 10^{-11}\\ \\mathrm{s}$), so the chip can distinguish the two particles. (1A)\n\n(d)\n- $\\Delta s = v \\Delta t = (2.50 \\times 10^{8})(4.0 \\times 10^{-11}) = 1.00 \\times 10^{-2}\\ \\mathrm{m}$ (1A)\n- $\\Delta v = \\Delta s / t = (1.00 \\times 10^{-2})/(8.00 \\times 10^{-9})$ (1M)\n- $\\Delta v = 1.25 \\times 10^{6}\\ \\mathrm{m\\ s^{-1}}$ (1A)\n\n(e)\n- Time-walk would make the measured time of flight depend on the signal size, reducing the timing accuracy / making the particles harder to identify. (1)\n- The constant-fraction method determines the arrival time independently of the signal amplitude / automatically corrects for time-walk. (1)",
+    "answer_zh": "(a)\n- $40\\ \\mathrm{ps} = 4.0 \\times 10^{-11}\\ \\mathrm{s}$（1A）\n- $d = c \\Delta t = (3.00 \\times 10^{8})(4.0 \\times 10^{-11})$（1M）\n- $d = 1.20 \\times 10^{-2}\\ \\mathrm{m}$（1A）\n\n(b)\n- $t = s/v = 2.00/(2.50 \\times 10^{8})$（1M）\n- $t = 8.00 \\times 10^{-9}\\ \\mathrm{s}$（1A）\n\n(c)\n- $t_{\\mathrm{p}} = 2.00/(2.00 \\times 10^{8}) = 1.00 \\times 10^{-8}\\ \\mathrm{s}$（1M）\n- $\\Delta t = 1.00 \\times 10^{-8} - 8.00 \\times 10^{-9} = 2.00 \\times 10^{-9}\\ \\mathrm{s}$（1A）\n- $\\Delta t$ 遠大於 $40\\ \\mathrm{ps}$（$4.0 \\times 10^{-11}\\ \\mathrm{s}$），所以芯片可以分辨呢兩種粒子。（1A）\n\n(d)\n- $\\Delta s = v \\Delta t = (2.50 \\times 10^{8})(4.0 \\times 10^{-11}) = 1.00 \\times 10^{-2}\\ \\mathrm{m}$（1A）\n- $\\Delta v = \\Delta s / t = (1.00 \\times 10^{-2})/(8.00 \\times 10^{-9})$（1M）\n- $\\Delta v = 1.25 \\times 10^{6}\\ \\mathrm{m\\ s^{-1}}$（1A）\n\n(e)\n- Time-walk 會令測得嘅飛行時間取決於訊號幅度，降低計時準確度／令粒子更難分辨。（1）\n- 恆比方法判斷到達時間時唔取決於訊號幅度／可以自動校正 time-walk。（1）"
+  }
+}
