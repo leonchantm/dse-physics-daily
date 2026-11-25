@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-26",
+  "news": [
+    {
+      "title": "COHERENT：用四個各 2.2 kg 嘅鍺探測器，做出至今最精確嘅相干彈性中微子–原子核散射測量",
+      "summary": "COHERENT 國際合作組（包括杜克大學嘅 Ryan Bouabid 等）喺《Physical Review Letters》報告，用高純度鍺探測器做出至今最精確嘅「相干彈性中微子–原子核散射」（CEvNS）測量，並收緊中微子可能透過標準模型以外嘅力同夸克相互作用嘅上限。中微子質量極細、唔帶電荷，絕大多數會穿過物質而唔發生相互作用；不過偶爾可以撞到整個原子核，把少少能量傳過去，令原子核產生極細嘅反衝。呢種過程喺理論上預測得相當清楚，而且比起打中單一質子或中子更容易發生，但唯一訊號就係極難偵測嘅原子核反衝。COHERENT 喺 2017 年首次觀測到呢個訊號，距過程被提出已超過四十年。新實驗喺橡樹嶺國家實驗室嘅散裂中子源（SNS）進行：質子打中水銀靶產生 $\\pi$ 介子，$\\pi$ 介子衰變放出低能中微子。四個各重 $2.2\\ \\mathrm{kg}$ 嘅高純度鍺探測器放喺稱為「中微子巷」嘅地下室走廊，距離水銀靶約 $20\\ \\mathrm{m}$（$66$ 呎），前面有厚混凝土同砂礫擋住束流中子。當中微子推動鍺原子核，反衝會釋出微量電荷，由探測器收集。SNS 每秒射出 $60$ 個短脈衝，研究人員只喺每個脈衝之後嘅短暫時間窗入面搵訊號，就可以排除絕大部分持續存在嘅本底，長間隔則用來量度同減去剩餘本底。測量顯示，中微子喺鍺原子核上嘅散射次數同標準模型預測大致相符，並未發現新相互作用，但收緊咗對假設新力嘅限制。一個附帶結果係：四個探測器各自都見到顯著訊號，其中三個超過物理學家用來宣布發現嘅 $5$ 倍標準差門檻，第四個只差少少，令每個都有資格競爭「全球最細中微子探測器」。而家精度已經主要受中微子通量嘅不確定度限制，而唔係事例數目；團隊正用重水探測器，透過中微子同氘核可精確計算嘅相互作用獨立測量通量，並計劃用噸級液氬同低溫碘化銫探測器，比較唔同原子核嘅散射，以檢驗過程點樣隨核大小改變。",
+      "topic": "放射現象和核能（中微子）、力和運動（動能／反衝）",
+      "source_name": "COHERENT Collaboration / Oak Ridge National Laboratory / Duke University / Physical Review Letters",
+      "source_url": "https://phys.org/news/2026-11-precise-coherent-elastic-neutrinonucleus-date.html",
+      "source_date": "25/11",
+      "links": [
+        {
+          "label": "Physical Review Letters paper",
+          "url": "https://doi.org/10.1103/999m-b763"
+        },
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2603.17951"
+        }
+      ]
+    },
+    {
+      "title": "KAIST：氧化銅鋁令偏振光學元件可以薄到石英嘅約 1/120，半波片估計只需 173 nm",
+      "summary": "韓國科學技術院（KAIST）物理系孫昌熙（Changhee Sohn）教授團隊，聯同蔚山科學技術院（UNIST）同釜山大學，發現氧化物半導體氧化銅鋁（$\\mathrm{CuAlO_2}$）喺可見光波段透光率高，而且對紫光嘅雙折射大約係石英嘅 $120$ 倍，有望把控制偏振嘅光學元件做到傳統元件約 $1/120$ 嘅厚度。半波片利用光喺唔同偏振方向行速唔同（即雙折射），嚟改變光嘅偏振；雙折射愈強，達到同一光學效果所需嘅厚度就可以愈薄。常用嘅結晶石英雙折射較弱，對紫光嚟講，石英半波片大約要有光波長嘅 $52$ 倍咁厚，不利微型化。團隊估計，用 $\\mathrm{CuAlO_2}$ 整嘅半波片可以薄至 $173\\ \\mathrm{nm}$，已經細過光嘅波長。佢哋指出，關鍵在於氧–銅–氧啞鈴形原子排列：隨偏振方向唔同，呢個結構會容許或壓抑光吸收，令唔同方向嘅光學性質差好遠。喺紫外波段，材料重呈現雙曲光學行為，即沿原子層內好似金屬，垂直層面則唔係，或可用於紫外光學器件。如果可以製成均勻、損耗更低嘅薄膜，就有助把擴增實境眼鏡同光通訊設備做得更薄更輕。論文由 Kang 等發表於《自然通訊》。",
+      "topic": "波動（偏振、光的傳播）",
+      "source_name": "KAIST / UNIST / Pusan National University / Nature Communications",
+      "source_url": "https://phys.org/news/2026-11-copper-aluminum-oxide-components-smart.html",
+      "source_date": "24/11",
+      "links": [
+        {
+          "label": "Nature Communications paper",
+          "url": "https://doi.org/10.1038/s41467-026-78383-2"
+        }
+      ]
+    },
+    {
+      "title": "華沙大學：室溫下用微腔困光，做成兼具超流同晶體結構嘅超固體",
+      "summary": "華沙大學物理系 Jacek Szczytko 教授帶領嘅國際團隊，把光困喺兩塊只相隔 $2$ 至 $3$ 微米嘅鏡面組成嘅光學微腔入面，並加入有機染料同液晶，喺室溫下做出稱為「超固體」嘅奇特量子物態。超固體同時具有冇黏滯性嘅超流體性質，又會自發形成好似晶體咁嘅週期密疏結構。以往用原子凝聚態或半導體微腔做超固體，都要接近絕對零度；呢套系統可以喺室溫運作，負責製備液晶結構嘅華沙軍事技術大學 Wiktor Piecek 更指出，微腔甚至可以喺約 $60\\ ^\\circ\\mathrm{C}$ 下工作。光同物質喺微腔入面形成激子–極化激元，係光同受激物質嘅量子混合物。研究人員用電壓調控液晶，再用短激光脈衝激發，產生玻色–愛因斯坦凝聚，再誘使佢自發形成週期結構。第一作者 Marcin Muszyński 表示，最關鍵嘅測量喺 IBM Research Zurich 進行，把有機半導體 MeLPPP 沉積喺軍事技術大學製成嘅光子結構上。研究成果刊於《Science Advances》，令科學家可以喺唔使昂貴低溫設備嘅情況下研究呢類量子相，未來或有助發展室溫傳感器同光學計算元件。",
+      "topic": "波動（光／微腔）、熱和氣體（溫度／物態）",
+      "source_name": "University of Warsaw / Military University of Technology / IBM Research Zurich / Science Advances",
+      "source_url": "https://en.uw.edu.pl/a-new-quantum-state-of-matter/",
+      "source_date": "24/11",
+      "links": [
+        {
+          "label": "Science in Poland report",
+          "url": "https://scienceinpoland.pl/en/news/news%2C115826%2Cpolish-physicists-create-exotic-quantum-state-matter-using-light.html"
+        },
+        {
+          "label": "Science Advances paper",
+          "url": "https://doi.org/10.1126/sciadv.aee4875"
+        }
+      ]
+    },
+    {
+      "title": "中國科學技術大學：用超冷銣原子「軌道量子比特」，驗證 123 個量子比特嘅糾纏網絡",
+      "summary": "中國科學技術大學何明根、張偉勇、苑珍碩、潘建偉等團隊喺《Physical Review Letters》報告一種新嘅軌道量子比特處理器：用激光做成嘅光晶格困住超冷銣-87 原子，每個量子比特唔係用電子能態，而係用原子喺相鄰兩個勢阱之間嘅位置（$0$ 或 $1$）來儲存資訊，原子自旋則用嚟控制運算。量測式量子計算需要預先製備大範圍糾纏嘅「簇態」，但光晶格格距接近光學繞射極限，好難單獨操控一粒原子又唔騷擾鄰居。新方法用原子內部輔助態，做到有選擇嘅局域操作，同時保留平行控制。一層糾纏閘可以產生一維簇態，兩層則形成二維網絡。團隊用格點解析成像，驗證糾纏覆蓋一個由 $123$ 個量子比特組成嘅連通區域，符合「完全二部不可分離」條件。另外喺細嘅三、四比特片段上示範咗單比特操作同兩比特糾纏操作，而且唔會騷擾相鄰原子；不過實驗並未用全部 $123$ 個量子比特完成一次計算。測試區域入面糾纏閘平均保真度約為 $95\\%$，主要受不均勻嘅勢阱條件限制；作者預期，更均勻嘅激光勢阱將來可以把保真度做到 $99.9\\%$ 以上。",
+      "topic": "原子世界（量子態）、波動（激光／光晶格）",
+      "source_name": "University of Science and Technology of China / Physical Review Letters",
+      "source_url": "https://phys.org/news/2026-11-quantum-network-entangles-qubits-atoms.html",
+      "source_date": "25/11",
+      "links": [
+        {
+          "label": "Physical Review Letters paper",
+          "url": "https://doi.org/10.1103/fxpf-vzxx"
+        },
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2509.10797"
+        }
+      ]
+    },
+    {
+      "title": "QuTech：首次相干操控基於馬約拉納準粒子嘅量子比特，振盪維持數十納秒",
+      "summary": "荷蘭奎特中心（QuTech，代爾夫特理工大學同荷蘭應用科學研究組織 TNO 合辦）嘅 Francesco Zatelli、Bart Roovers、Nick van Loo 等，喺《Nature》報告首次對基於馬約拉納準粒子嘅量子比特作出相干操控。團隊做出兩條最短嘅北葉夫鏈（Kitaev chain），每條只有兩個量子點，各承載兩個馬約拉納模；四個模一齊組成一個量子比特。呢種最短鏈上嘅模有時被稱為「窮人版馬約拉納」，對干擾嘅保護有限，但已經足夠示範基本操作。研究人員短暫打開兩條鏈之間嘅相互作用，先量初始態，等一段受控時間再量一次；隨住相互作用時間改變，搵返初始態嘅機率會有規律咁升跌，形成相干振盪，證明可以刻意控制量子態。而家呢啲振盪會喺數十納秒內衰減。團隊下一步想睇較長嘅鏈（例如兩條各三個量子點）能否更好地保護量子資訊。指導者 Leo Kouwenhoven 認為，呢個量子比特係改進器件同深入研究馬約拉納物理（包括非阿貝爾交換統計）嘅起點。論文於 2026 年 11 月 25 日喺《Nature》線上發表。",
+      "topic": "電和磁（納米電子器件）、原子世界（量子態）",
+      "source_name": "QuTech / Delft University of Technology / Nature",
+      "source_url": "https://qutech.nl/2026/11/25/qutech-demonstrates-a-qubit-based-on-majorana-quasiparticles/",
+      "source_date": "25/11"
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "radioactivity",
+    "story": "COHERENT：用四個各 2.2 kg 嘅鍺探測器，做出至今最精確嘅相干彈性中微子–原子核散射測量",
+    "question_en": "The COHERENT Collaboration has made the most precise measurement to date of coherent elastic neutrino–nucleus scattering (CEvNS), in which a low-energy neutrino scatters from an atomic nucleus as a whole. Four high-purity germanium detectors were placed in a basement corridor about $20.0\\ \\mathrm{m}$ from a mercury target at the Spallation Neutron Source (SNS) at Oak Ridge National Laboratory. Protons striking the target produce pions that decay into bursts of neutrinos. Neutrinos travel at a speed that may be taken as the speed of light in vacuum. The SNS fires $60.0$ short pulses each second. The team looks for signals only in a brief time window after each pulse, and uses the long gaps between pulses to measure the steady background.\n\nGiven:\n- Speed of light in vacuum $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n- $1\\ \\mathrm{keV} = 10^{3}\\ \\mathrm{eV}$\n\n(a) Calculate the time taken for a neutrino to travel from the mercury target to the detectors. (2 marks)\n\n(b) Calculate the time interval between successive pulses. (2 marks)\n\n(c) Find the ratio of your answer in (b) to that in (a). Hence explain why looking only in a brief time window after each pulse helps the team reject most of the background that arrives at a steady rate. (3 marks)\n\n(d) In a school illustration of a CEvNS event, a germanium nucleus of mass $1.21 \\times 10^{-25}\\ \\mathrm{kg}$ gains a kinetic energy of $2.00\\ \\mathrm{keV}$ after being struck by a neutrino. Calculate this kinetic energy in joules, and hence the speed of the nucleus immediately after the interaction. (4 marks)\n\n(e) Neutrinos have no electric charge. Explain why a uniform magnetic field would not deflect a neutrino, but would deflect a proton travelling at the same speed. (2 marks)",
+    "question_zh": "COHERENT 合作組做出至今最精確嘅相干彈性中微子–原子核散射（CEvNS）測量。喺呢種過程之中，低能中微子會同整個原子核發生散射。四個高純度鍺探測器被放喺一條地下室走廊，距離橡樹嶺國家實驗室散裂中子源（SNS）嘅水銀靶約 $20.0\\ \\mathrm{m}$。質子打中靶之後產生 $\\pi$ 介子，$\\pi$ 介子衰變放出一束束中微子。中微子嘅速率可以當作真空中嘅光速。SNS 每秒射出 $60.0$ 個短脈衝。研究人員只喺每個脈衝之後嘅短暫時間窗入面搵訊號，並利用脈衝之間嘅長間隔量度穩定本底。\n\n已知：\n- 真空中嘅光速 $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$\n- $1\\ \\mathrm{eV} = 1.60 \\times 10^{-19}\\ \\mathrm{J}$\n- $1\\ \\mathrm{keV} = 10^{3}\\ \\mathrm{eV}$\n\n(a) 計算一粒中微子由水銀靶行到探測器所需嘅時間。（2 分）\n\n(b) 計算相鄰兩個脈衝之間嘅時間間隔。（2 分）\n\n(c) 求出 (b) 同 (a) 答案嘅比。從而解釋，點解只喺每個脈衝之後嘅短暫時間窗入面觀察，就有助排除大部分以穩定速率到達嘅本底。（3 分）\n\n(d) 喺一個用以說明 CEvNS 事例嘅學校例題之中，一粒質量為 $1.21 \\times 10^{-25}\\ \\mathrm{kg}$ 嘅鍺原子核被中微子擊中之後，獲得 $2.00\\ \\mathrm{keV}$ 嘅動能。計算呢個動能（以焦耳為單位），從而求出原子核喺相互作用後瞬間嘅速率。（4 分）\n\n(e) 中微子唔帶電荷。解釋點解均勻磁場唔會令中微子偏轉，但會令以相同速率行進嘅質子偏轉。（2 分）",
+    "answer_en": "(a)\n- $t = s/c = 20.0/(3.00 \\times 10^{8})$ (1M)\n- $t = 6.67 \\times 10^{-8}\\ \\mathrm{s}$ (1A)\n\n(b)\n- $T = 1/f = 1/60.0$ (1M)\n- $T = 1.67 \\times 10^{-2}\\ \\mathrm{s}$ (1A)\n\n(c)\n- $T/t = (1.67 \\times 10^{-2})/(6.67 \\times 10^{-8}) = 2.50 \\times 10^{5}$ (1A)\n- Neutrino events arrive almost immediately after each pulse, since the travel time is much shorter than the interval between pulses. (1)\n- A short window after each pulse therefore keeps most neutrino signals but excludes the background that arrives during the long gaps. (1)\n\n(d)\n- $E_{\\mathrm{k}} = 2.00 \\times 10^{3} \\times 1.60 \\times 10^{-19} = 3.20 \\times 10^{-16}\\ \\mathrm{J}$ (1A)\n- $v = \\sqrt{2E_{\\mathrm{k}}/m} = \\sqrt{2 \\times 3.20 \\times 10^{-16}/(1.21 \\times 10^{-25})}$ (1M)\n- $= \\sqrt{5.29 \\times 10^{9}}$ (1M)\n- $v = 7.27 \\times 10^{4}\\ \\mathrm{m\\ s^{-1}}$ (1A)\n\n(e)\n- The magnetic force on a moving charged particle is $F = qvB$ (or $F = qvB\\sin\\theta$). (1)\n- For a neutrino $q = 0$, so $F = 0$ and it is not deflected; a proton has charge, so it experiences a magnetic force and is deflected / moves in a curved path. (1)",
+    "answer_zh": "(a)\n- $t = s/c = 20.0/(3.00 \\times 10^{8})$（1M）\n- $t = 6.67 \\times 10^{-8}\\ \\mathrm{s}$（1A）\n\n(b)\n- $T = 1/f = 1/60.0$（1M）\n- $T = 1.67 \\times 10^{-2}\\ \\mathrm{s}$（1A）\n\n(c)\n- $T/t = (1.67 \\times 10^{-2})/(6.67 \\times 10^{-8}) = 2.50 \\times 10^{5}$（1A）\n- 中微子事例幾乎喺每個脈衝之後立即到達，因為飛行時間遠短於脈衝間隔。（1）\n- 因此，每個脈衝之後嘅短時間窗可以保留大部分中微子訊號，同時排除喺長間隔期間到達嘅本底。（1）\n\n(d)\n- $E_{\\mathrm{k}} = 2.00 \\times 10^{3} \\times 1.60 \\times 10^{-19} = 3.20 \\times 10^{-16}\\ \\mathrm{J}$（1A）\n- $v = \\sqrt{2E_{\\mathrm{k}}/m} = \\sqrt{2 \\times 3.20 \\times 10^{-16}/(1.21 \\times 10^{-25})}$（1M）\n- $= \\sqrt{5.29 \\times 10^{9}}$（1M）\n- $v = 7.27 \\times 10^{4}\\ \\mathrm{m\\ s^{-1}}$（1A）\n\n(e)\n- 磁場對運動電荷嘅力為 $F = qvB$（或 $F = qvB\\sin\\theta$）。（1）\n- 中微子 $q = 0$，所以 $F = 0$，唔會偏轉；質子帶電荷，會受到磁力而偏轉／沿彎曲路徑運動。（1）"
+  }
+}
