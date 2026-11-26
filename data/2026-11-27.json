@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-27",
+  "news": [
+    {
+      "title": "史丹福大學：磷化鈮納米帶愈窄電阻率愈低，約 9 nm² 截面室溫電阻率低至 18 μΩ cm，細過同尺寸銅線",
+      "summary": "史丹福大學 Eric Pop 團隊喺《自然》報告，用工業兼容嘅由上而下納米加工，把拓撲半金屬磷化鈮（NbP）做成寬約 $5$ 至 $6\\ \\mathrm{nm}$、厚約 $1.5\\ \\mathrm{nm}$ 嘅納米帶，測試可取代芯片入面愈做愈細、電阻卻愈嚟愈大嘅銅互連線。一枚只係郵票咁大嘅芯片，入面銅線總長可以去到 $100\\ \\mathrm{km}$；最細嘅銅線已經比頭髮細過一千倍，但銅主要靠線芯導電，截面縮到納米級時，電子喺表面同晶界散射變得嚴重，電阻率急升，耗電同發熱都增加。NbP 唔同：相當部分電流沿表面同邊緣傳導，而且呢種傳導對加工造成嘅粗糙同氧化並不太敏感。量度顯示，當截面約為 $9\\ \\mathrm{nm^{2}}$ 時，室溫電阻率低至 $18 \\pm 4.1\\ \\mu\\Omega\\ \\mathrm{cm}$（即 $1.8 \\times 10^{-7}\\ \\mathrm{\\Omega\\ m}$），低過同等尺寸嘅常規金屬同半金屬；更特別嘅係，電阻率會隨寬度再收窄而下降，同銅嘅經典行為相反。實驗喺室溫完成，亦可用現有芯片工藝製作。團隊下一步會測試耐久性、溫度特性，並研究其他有潛力嘅半金屬。論文由 Su 等發表於 Nature。",
+      "topic": "電和磁（電阻、電阻率、電流）",
+      "source_name": "Stanford University / Nature",
+      "source_url": "https://news.stanford.edu/stories/2026/11/energy-efficient-semimetals-copper-wires-computer-chips",
+      "source_date": "25/11",
+      "links": [
+        {
+          "label": "Nature paper",
+          "url": "https://doi.org/10.1038/s41586-026-11288-8"
+        },
+        {
+          "label": "Science news report",
+          "url": "https://www.science.org/content/article/strange-topological-wires-conduct-electricity-better-thinner-they-get"
+        }
+      ]
+    },
+    {
+      "title": "ESA 歐幾里得望遠鏡：發現至今最遠類星體 Dún Aonghasa，大爆炸後僅 6.30 億年已有約 3.60 億倍太陽質量黑洞",
+      "summary": "歐洲太空總署歐幾里得太空望遠鏡喺約 18 個月巡天數據入面，發現至今最遠嘅類星體 J1504+6252，團隊暱稱為 Dún Aonghasa（愛爾蘭阿蘭群島一座史前石堡）。紅移 $z = 8.13$，對應宇宙只有 $6.30$ 億歲、即大爆炸之後唔到而家年齡（約 $138$ 億年）嘅 $5\\%$ 嗰陣；我哋而家見到嘅，係大約 $131$ 億年前發出嘅光。呢個紀錄比歐幾里得本身數月前嘅舊紀錄再早約 $4000$ 萬年，亦係首個紅移超過 $8$ 嘅類星體。韋伯太空望遠鏡等後續觀測顯示，中央超大質量黑洞已達約 $3.60$ 億倍太陽質量。類星體係超大質量黑洞吞噬周圍氣體時釋出巨大能量、光度甚至超過整間星系嘅短暫階段。令人費解嘅係，而家見到佢嘅吸積速率遠低於愛丁頓極限；如果一直都吸得咁慢，就需要一粒極重嘅「種子」。研究認為，較合理嘅解釋包括早期氣體雲直接塌縮形成較重黑洞，或者曾經有過更快、甚至超越愛丁頓極限嘅生長。發現由 Julien Wolf（馬普天文學研究所／歐洲南天天文台）領導，並得到凱克、哈勃、大雙筒望遠鏡同韋伯望遠鏡證實，論文刊於 Astronomy & Astrophysics。",
+      "topic": "力和運動（萬有引力）、天文學（紅移、黑洞）",
+      "source_name": "ESA / Max Planck Institute for Astronomy / ESO",
+      "source_url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-breaks-own-quasar-record-by-40-million-years",
+      "source_date": "24/11",
+      "links": [
+        {
+          "label": "Max Planck Institute for Astronomy news",
+          "url": "https://www.mpia.de/news/science/2026-10-dun-aonghasa"
+        },
+        {
+          "label": "Astronomy & Astrophysics paper",
+          "url": "https://doi.org/10.1051/0004-6361/202662243"
+        }
+      ]
+    },
+    {
+      "title": "芝加哥大學／阿貢國家實驗室：南極望遠鏡用宇宙微波背景引力透鏡，繪出至今最清晰嘅遙遠宇宙物質分佈圖",
+      "summary": "由芝加哥大學牽頭、三十間機構組成嘅南極望遠鏡（SPT）合作組，公布至今最清晰、最靈敏嘅遙遠宇宙物質分佈圖。望遠鏡位於南極阿蒙森–斯科特站，利用當地極為清澈嘅天空觀測宇宙微波背景（CMB）——大爆炸嘅「餘輝」，已經傳播咗大約 $138$ 億年。呢啲微波喺路上會被星系同星系團嘅重力輕微偏折，即引力透鏡效應；仔細量度偏折，就可以重建我哋同 CMB 發出位置之間所有物質（包括唔發光嘅暗物質）嘅分佈。今次地圖來自第三代相機 SPT-3G 喺 2019 至 2020 年、覆蓋約 $1500$ 平方度主觀測區（稱為 SPT-3G D1）嘅溫度同偏振數據，係至今最高訊噪比嘅 CMB 引力透鏡測量。結果同標準宇宙模型嘅預測喺約 $2\\%$ 精度內一致，亦同普朗克衛星同智利阿塔卡馬宇宙學望遠鏡嘅測量吻合。結合暗能量巡天（DES）數據，可以更清楚睇到宇宙中期物質點樣「結團」成而家嘅星系同星團。研究亦有助將來間接限制中微子總質量，並為南極 BICEP 實驗清理前景，尋找大爆炸最初瞬間可能留下嘅原初引力波。論文由 Omori 等放上 arXiv。",
+      "topic": "波動（電磁波、微波）、力和運動（萬有引力、引力透鏡）",
+      "source_name": "University of Chicago / Argonne National Laboratory / SPT-3G Collaboration",
+      "source_url": "https://news.uchicago.edu/story/south-pole-telescope-releases-clearest-map-ever-matter-distant-universe",
+      "source_date": "25/11",
+      "links": [
+        {
+          "label": "Phys.org / Argonne report",
+          "url": "https://phys.org/news/2026-11-south-pole-telescope-clearest-distant.html"
+        },
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2608.31136"
+        }
+      ]
+    },
+    {
+      "title": "馬克斯·普朗克射電天文研究所：脈衝星 J1909+0749 以約 1460 km/s 橫向速度跑出自己嘅超新星遺蹟",
+      "summary": "前馬克斯·普朗克射電天文研究所 Rohit Dokara 團隊，將過去二十年多個射電巡天（包括 MeerKAT、VLA 同 Murchison Widefield Array，頻率由約 $200\\ \\mathrm{MHz}$ 至約 $6\\ \\mathrm{GHz}$）合併分析，無意中發現一圈新嘅殼狀天體 G42.1-0.2，射電譜指數為 $-0.36 \\pm 0.08$，證實主要係非熱同步輻射，因而將佢定為超新星遺蹟（SNR）。已知脈衝星 PSR J1909+0749 位於呢個殼外，但有一條彗星狀尾巴清楚指向殼嘅中心。若兩者來自同一場核心塌縮超新星，就可以用脈衝星嘅特徵年齡同距離去估計佢跑得有幾快。色散量加上電子密度模型得出距離約 $9.7\\ \\mathrm{kpc}$，自轉減慢得出特徵年齡只有 $2.47 \\times 10^{4}$ 年；脈衝星同殼中心角距 $13.1'$，對應投影距離約 $37\\ \\mathrm{pc}$，由此估計橫向速度約為 $1460\\ \\mathrm{km\\ s^{-1}}$，屬於銀河系脈衝星入面最高嘅一批。假設爆炸能量為 $10^{51}\\ \\mathrm{erg}$，直徑約 $33.2\\ \\mathrm{pc}$ 嘅遺蹟此時應仍處於 Sedov–Taylor 階段。脈衝星往往會喺爆炸時被「踢」走，極少數會跑得比膨脹中嘅遺蹟仲快；呢類例子此前只得約四宗。銀河系估計應有大約 $2000$ 個超新星遺蹟，但目前只發現約 $400$ 個。論文已獲 Astronomy & Astrophysics 接收。",
+      "topic": "力和運動（速率、位移）、波動（電磁波、無線電波）",
+      "source_name": "Max Planck Institute for Radio Astronomy / Phys.org",
+      "source_url": "https://phys.org/news/2026-11-runaway-pulsar-remnant-supernova.html",
+      "source_date": "26/11",
+      "links": [
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2610.28073"
+        },
+        {
+          "label": "Astronomy & Astrophysics paper",
+          "url": "https://doi.org/10.1051/0004-6361/202662258"
+        }
+      ]
+    },
+    {
+      "title": "橫濱國立大學：用激光熒光定位 WSe₂/MoS₂ 二極管入面電子累積嘅界面，正偏時三激子發光增強 18 倍",
+      "summary": "橫濱國立大學大野真也同防衛大學校平田泰之等，用光致發光光譜喺唔損壞器件嘅情況之下，找出由原子薄層堆疊做成嘅二極管究竟邊個界面喺控制電流。佢哋把單層二硒化鎢（WSe₂）同二硫化鉬（MoS₂）疊成二極管：電測量可以證明有單向電流，但好難判斷電子喺邊度注入同累積。團隊一邊加電壓，一邊用激光照射，再量度唔同位置發出嘅光。激光通常會喺半導體入面產生中性激子（一對束縛住嘅電子–空穴）；加上正向偏壓之後，電子由 MoS₂ 注入 WSe₂，同中性激子結合成帶負電嘅三激子，發出獨特嘅光訊號。結果顯示，正偏之下三激子發光強度大約係冇偏壓時嘅 $18$ 倍，反偏則幾乎冇變化，因而可以把活躍界面同電子累積位置「影」出嚟。研究希望將呢種光學方法推廣到更複雜嘅堆疊結構，幫助設計更慳電嘅光電同探測器件。論文刊於 Applied Physics Letters。",
+      "topic": "電和磁（電流、二極管）、原子世界（光子、能級）",
+      "source_name": "Yokohama National University / Applied Physics Letters",
+      "source_url": "https://phys.org/news/2026-11-laser-reveals-electrons-accumulate-atomically.html",
+      "source_date": "24/11",
+      "links": [
+        {
+          "label": "EurekAlert release",
+          "url": "https://www.eurekalert.org/news-releases/1153157"
+        },
+        {
+          "label": "Applied Physics Letters paper",
+          "url": "https://doi.org/10.1063/5.0347746"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "electricity",
+    "story": "史丹福大學：磷化鈮納米帶愈窄電阻率愈低，約 9 nm² 截面室溫電阻率低至 18 μΩ cm，細過同尺寸銅線",
+    "question_en": "Stanford researchers have made nanoribbons of the topological semimetal niobium phosphide (NbP) as possible replacements for the copper interconnects inside a computer chip. A postage-stamp-sized chip can contain $100\\ \\mathrm{km}$ of copper wire. In ordinary metals such as copper, most of the current travels through the core of the wire, and the resistivity rises sharply when the wire is made only a few nanometres across. In the NbP nanoribbons, a significant part of the current is carried along the surfaces and edges.\n\nA particular NbP nanoribbon used in the study may be modelled as a uniform rectangular conductor of width $6.00\\ \\mathrm{nm}$, thickness $1.50\\ \\mathrm{nm}$ and length $5.00 \\times 10^{-7}\\ \\mathrm{m}$. Its measured room-temperature resistivity is $1.80 \\times 10^{-7}\\ \\mathrm{\\Omega\\ m}$.\n\nGiven:\n- $1\\ \\mathrm{nm} = 10^{-9}\\ \\mathrm{m}$\n- $1\\ \\mu\\mathrm{m} = 10^{-6}\\ \\mathrm{m}$\n\n(a) Calculate the cross-sectional area of the nanoribbon, and hence its resistance. (3 marks)\n\n(b) A steady current of $50.0\\ \\mu\\mathrm{A}$ passes through the nanoribbon. Calculate the potential difference across it and the power dissipated as heat. (3 marks)\n\n(c) The resistivity of bulk copper at room temperature is $1.70 \\times 10^{-8}\\ \\mathrm{\\Omega\\ m}$, which is smaller than the measured resistivity of this NbP nanoribbon. At the same nanoscale cross-section, however, a copper wire typically has a much higher effective resistivity than bulk copper. Explain, in terms of $R = \\rho L/A$ and the motion of electrons, why the resistance of a copper wire increases when its cross-section is reduced to a few nanometres. (3 marks)\n\n(d) The measured resistivity of the NbP nanoribbons decreases as the ribbons are made narrower, unlike copper. Suggest why this surface and edge conduction can make NbP more suitable than copper for the narrowest interconnects in a chip. (2 marks)\n\n(e) A human hair has a typical diameter of $80.0\\ \\mu\\mathrm{m}$. Calculate how many times thinner the $6.00\\ \\mathrm{nm}$ width of the nanoribbon is than this diameter. (2 marks)",
+    "question_zh": "史丹福大學研究人員製成拓撲半金屬磷化鈮（NbP）納米帶，希望將來可以取代芯片入面嘅銅互連線。一枚郵票咁大嘅芯片，入面銅線總長可以去到 $100\\ \\mathrm{km}$。喺銅呢類普通金屬之中，大部分電流喺導線芯部通過；當導線截面縮到只有幾納米時，電阻率會急劇上升。喺 NbP 納米帶入面，相當部分電流沿表面同邊緣傳導。\n\n研究之中一條 NbP 納米帶可以視為均勻矩形導體，寬 $6.00\\ \\mathrm{nm}$，厚 $1.50\\ \\mathrm{nm}$，長 $5.00 \\times 10^{-7}\\ \\mathrm{m}$。量得嘅室溫電阻率為 $1.80 \\times 10^{-7}\\ \\mathrm{\\Omega\\ m}$。\n\n已知：\n- $1\\ \\mathrm{nm} = 10^{-9}\\ \\mathrm{m}$\n- $1\\ \\mu\\mathrm{m} = 10^{-6}\\ \\mathrm{m}$\n\n(a) 計算納米帶嘅橫截面積，從而求出佢嘅電阻。（3 分）\n\n(b) 一穩恆電流 $50.0\\ \\mu\\mathrm{A}$ 通過呢條納米帶。計算佢兩端嘅電位差，以及以熱形式耗散嘅功率。（3 分）\n\n(c) 塊狀銅喺室溫下嘅電阻率為 $1.70 \\times 10^{-8}\\ \\mathrm{\\Omega\\ m}$，細過呢條 NbP 納米帶量得嘅電阻率。不過，喺相同嘅納米級截面之下，銅線嘅有效電阻率通常遠高過塊狀銅。就 $R = \\rho L/A$ 同電子運動，解釋點解當銅線截面縮小到只有幾納米時，電阻會增加。（3 分）\n\n(d) 同銅相反，量得嘅 NbP 納米帶電阻率會隨寬度再收窄而下降。解釋點解呢種表面同邊緣導電，可以令 NbP 比銅更適合做芯片入面最窄嘅互連線。（2 分）\n\n(e) 頭髮嘅典型直徑為 $80.0\\ \\mu\\mathrm{m}$。計算呢條納米帶 $6.00\\ \\mathrm{nm}$ 嘅寬度，比呢個直徑細幾倍。（2 分）",
+    "answer_en": "(a)\n- $A = 6.00 \\times 10^{-9} \\times 1.50 \\times 10^{-9} = 9.00 \\times 10^{-18}\\ \\mathrm{m^{2}}$ (1A)\n- $R = \\rho L/A = (1.80 \\times 10^{-7}) \\times (5.00 \\times 10^{-7})/(9.00 \\times 10^{-18})$ (1M)\n- $R = 1.00 \\times 10^{4}\\ \\mathrm{\\Omega}$ (1A)\n\n(b)\n- $V = IR = (50.0 \\times 10^{-6}) \\times (1.00 \\times 10^{4}) = 0.500\\ \\mathrm{V}$ (1A)\n- $P = IV$ or $P = I^{2}R$ (1M)\n- $P = (50.0 \\times 10^{-6}) \\times 0.500 = 2.50 \\times 10^{-5}\\ \\mathrm{W}$ (1A)\n\n(c)\n- From $R = \\rho L/A$, a smaller cross-sectional area $A$ gives a larger resistance $R$. (1)\n- In a very thin copper wire, a larger fraction of the electrons scatter from the surfaces (and grain boundaries). (1)\n- This scattering increases the effective resistivity $\\rho$, so $R$ increases still further. (1)\n\n(d)\n- In NbP, surface and edge conduction becomes relatively more important as the ribbon gets narrower, so the resistivity falls rather than rises. (1)\n- The narrowest chip interconnects therefore have lower resistance / less heating / less wasted energy than comparable copper wires. (1)\n\n(e)\n- $80.0\\ \\mu\\mathrm{m} = 8.00 \\times 10^{-5}\\ \\mathrm{m}$ and $6.00\\ \\mathrm{nm} = 6.00 \\times 10^{-9}\\ \\mathrm{m}$ (1M)\n- Ratio $= (8.00 \\times 10^{-5})/(6.00 \\times 10^{-9}) = 1.33 \\times 10^{4}$ (times thinner) (1A)",
+    "answer_zh": "(a)\n- $A = 6.00 \\times 10^{-9} \\times 1.50 \\times 10^{-9} = 9.00 \\times 10^{-18}\\ \\mathrm{m^{2}}$（1A）\n- $R = \\rho L/A = (1.80 \\times 10^{-7}) \\times (5.00 \\times 10^{-7})/(9.00 \\times 10^{-18})$（1M）\n- $R = 1.00 \\times 10^{4}\\ \\mathrm{\\Omega}$（1A）\n\n(b)\n- $V = IR = (50.0 \\times 10^{-6}) \\times (1.00 \\times 10^{4}) = 0.500\\ \\mathrm{V}$（1A）\n- $P = IV$ 或 $P = I^{2}R$（1M）\n- $P = (50.0 \\times 10^{-6}) \\times 0.500 = 2.50 \\times 10^{-5}\\ \\mathrm{W}$（1A）\n\n(c)\n- 由 $R = \\rho L/A$，橫截面積 $A$ 愈細，電阻 $R$ 愈大。（1）\n- 喺極幼嘅銅線入面，較大比例嘅電子會喺表面（同晶界）散射。（1）\n- 呢種散射令有效電阻率 $\\rho$ 上升，電阻再進一步增加。（1）\n\n(d)\n- 喺 NbP 之中，當納米帶再收窄，表面同邊緣導電佔嘅比例愈來愈大，所以電阻率不升反降。（1）\n- 因此，芯片入面最窄嘅互連線會有較低電阻／較少發熱／較少能量損耗，相比同等尺寸嘅銅線更有利。（1）\n\n(e)\n- $80.0\\ \\mu\\mathrm{m} = 8.00 \\times 10^{-5}\\ \\mathrm{m}$，$6.00\\ \\mathrm{nm} = 6.00 \\times 10^{-9}\\ \\mathrm{m}$（1M）\n- 倍數 $= (8.00 \\times 10^{-5})/(6.00 \\times 10^{-9}) = 1.33 \\times 10^{4}$（倍）（1A）"
+  }
+}
