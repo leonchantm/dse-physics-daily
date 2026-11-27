@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-28",
+  "news": [
+    {
+      "title": "ESA Hera 太空船：發現 Dimorphos 被 DART 撞出橫跨整個 151 m 寬度、運動場大小嘅隕石坑，而且喺軌道上混亂翻轉",
+      "summary": "歐洲太空總署（ESA）行星防禦任務 Hera 抵達 2022 年 9 月 26 日 NASA DART 撞擊現場之後，第一次近距離睇清楚雙小行星系統發生咗咩事。直徑 $151\\ \\mathrm{m}$ 嘅衛星小行星 Dimorphos 圍繞直徑 $730\\ \\mathrm{m}$ 嘅主星 Didymos 運行；觀測時呢個系統距離地球 $193.5$ 百萬公里。地面望遠鏡早已量到，撞擊令 Dimorphos 嘅軌道周期縮短咗預期以外嘅 $33$ 分鐘，但一直唔清楚小行星本身有冇變形。Hera 首席調查員 Patrick Michel 指出，答案出奇地係「三樣都有」：被撞嘅一面被削平成一個橫跨成個寬度、運動場大小嘅隕石坑；其他區域嘅石塊場仍然同 2022 年 DART 影像相似；而且 Dimorphos 而家喺軌道上激烈翻轉。另外，Hera 發現系統周圍有數以百計、只有幾米大嘅石塊環繞飛行，任務團隊靠近拍攝更高解像度影像時必須把它哋計入。呢架大約私家車大小嘅太空船，而家喺距離約 $25$ 至 $30\\ \\mathrm{km}$ 處，用推進器維持「矩形軌道」，平均速率只有 $12\\ \\mathrm{cm\\ s^{-1}}$。12 月計劃靠近至約 $13\\ \\mathrm{km}$，2027 年 1 月再放出兩枚鞋盒大小嘅立方衛星。ESA 話，DART 證明可以改軌道，Hera 則正在揭示撞擊之後小行星本身點樣改變，令行星防禦由一次成功實驗，變成可以信賴嘅科學工具。",
+      "topic": "力和運動（動量、動能、圓周運動）、波動（電磁波、光速）",
+      "source_name": "European Space Agency (ESA)",
+      "source_url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-reveals-stadium-sized-asteroid-crater-left-after-spacecraft-impact",
+      "source_date": "25/11",
+      "links": [
+        {
+          "label": "Science news report",
+          "url": "https://www.science.org/content/article/when-humans-walloped-asteroid-we-left-stadium-size-crater"
+        }
+      ]
+    },
+    {
+      "title": "波恩大學／CERN ATLAS：13 TeV 質子對撞出現過多均勻噴射事件，觀測顯著性 3.5σ，或為 QCD 瞬子過程嘅首次跡象",
+      "summary": "波恩大學 Matthias Schott 團隊聯同牛津同布拉格同事，喺 CERN 大型強子對撞機（LHC）嘅 ATLAS 實驗主導一項分析：喺質心能量 $\\sqrt{s} = 13\\ \\mathrm{TeV}$、積分光度只有 $1.6\\ \\mathrm{nb^{-1}}$ 嘅極低亮度質子–質子對撞數據之中，尋找標準模型預言咗約 50 年、但從未被直接觀測到嘅量子色動力學（QCD）瞬子過程。QCD 描述把夸克困喺質子同中子入面嘅強相互作用；即使係「真空」，相關場都可以有唔同嘅拓撲構型，並可以經量子穿隧由一種構型轉到另一種，呢啲轉變就叫做瞬子過程。理論預期，瞬子觸發嘅對撞會產生大量能量較低、喺靜止系幾乎均勻向四周噴出嘅粒子，但普通對撞都可以出現相似形態，所以好難單一判斷。ATLAS 用帶電粒子徑跡嘅角度變量，再訓練神經網絡去分辨普通最小偏差對撞同預期嘅低質量各向同性訊號。剖面似然擬合顯示，呢類低質量、噴射特別均勻嘅事件明顯多過背景模型所預期，觀測顯著性為 $3.5\\sigma$，屬於「跡象」而尚未足以稱為發現。如果將來用其他對撞類型同分析方法都得到同一解釋，就可以喺實驗室量度真空嘅拓撲結構；雖然 QCD 瞬子本身唔會改變物質同反物質嘅相對數量，但確認呢類過程，有助研究早期宇宙之中可能令物質多過反物質嘅類似場結構。預印本已於 11 月 17 日放上 arXiv。",
+      "topic": "放射現象和核能（粒子對撞、強相互作用）、原子世界",
+      "source_name": "University of Bonn / CERN ATLAS Collaboration",
+      "source_url": "https://phys.org/news/2026-11-atlas-hints-hidden-vacuum.html",
+      "source_date": "27/11",
+      "links": [
+        {
+          "label": "University of Bonn news",
+          "url": "https://www.uni-bonn.de/en/news/240-2026"
+        },
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2611.22092"
+        }
+      ]
+    },
+    {
+      "title": "南加州大學／耶拿大學：非線性光學晶格令互不相干嘅光自行集中，基模佔總光功率由約 50% 升至約 82%",
+      "summary": "南加州大學 Mercedeh Khajavikhan 團隊聯同德國耶拿弗里德里希·席勒大學，喺《自然·物理》報告一種唔使主動對齊相位、都可以提高光嘅空間相干性嘅方法。把幾束互相獨立、功率唔算高嘅光束合成一束又亮又好似激光咁相干嘅光，一直係光學難題：線性、被動元件（例如透鏡同反射鏡）頂多可以把功率加埋，但唔能令嗰啲波「齊步」振動；用濾波器可以提高空間相干性，但又會擋走一部分光，令透射功率下降。團隊從「光學熱力學」出發，利用非線性相互作用，令唔同光學模式（光可以傳播嘅唔同波圖案）之間轉移功率，直至整體功率分佈到達統計平衡。佢哋用兩條長度稍有不同、互相連接嘅光纖環，砌成合成光子網格晶格，再注入一組統計上互不相干嘅模式。實驗顯示，當系統到達平衡，總光功率約有 $82\\%$ 集中喺最低階嘅基模，初始只有約 $50\\%$；功率喺唔同模式之間嘅分佈符合接近零「光學溫度」嘅 Rayleigh–Jeans 分佈。更特別嘅係，雖然熱力學熵仍然增加，空間相干性卻提高咗——非線性相互作用令功率集中到一個共同、空間上相干嘅模式。呢種機制唔需要增益介質或者主動反饋，有望用於高亮度激光合成，亦同多體量子系統入面嘅凝聚現象有關。論文由 Abraham M. Berman Bradley 等發表，11 月 6 日刊出。",
+      "topic": "波動（光、相干性、駐波／模）",
+      "source_name": "University of Southern California / Friedrich Schiller University Jena / Nature Physics",
+      "source_url": "https://phys.org/news/2026-11-nonlinear-optical-lattice-boosts-spatial.html",
+      "source_date": "27/11",
+      "links": [
+        {
+          "label": "Nature Physics paper",
+          "url": "https://doi.org/10.1038/s41567-026-03520-z"
+        }
+      ]
+    },
+    {
+      "title": "南京大學：矮星系 UGCA 320 暗物質核心半徑達 7.62 至 11.97 kpc，遠超恆星主體，挑戰標準冷暗物質模型",
+      "summary": "南京大學袁欽偉團隊結合歐洲南天 VLT 嘅 MUSE 同 WiFeS 光學數據、MeerKAT 射電望遠鏡嘅中性氫觀測，以及斯皮策衛星紅外影像，量度鄰近富氣體矮星系 UGCA 320 嘅質量分佈，論文已放上 arXiv。標準 $\\Lambda$CDM 宇宙模型預測，暗物質會喺星系中心堆積成密度急升嘅「尖點」（cusp）；但好多細星系觀測到嘅，卻係中央較平坦嘅「核心」（core），呢個矛盾稱為尖點–核心問題。團隊用三維「傾斜環」模型由旋轉曲線扣除恆星同氣體之後，把剩餘部分擬合唔同暗物質暈模型，發現尖點形嘅 Navarro–Frenk–White 剖面擬合差，平坦核心模型明顯更好。兩個最佳擬合得出嘅暗物質核心半徑分別為 $7.62\\ \\mathrm{kpc}$（約 $2.485 \\times 10^{4}$ 光年）同 $11.97\\ \\mathrm{kpc}$（約 $3.90 \\times 10^{4}$ 光年），而星系恆星主體嘅有效半徑只有約 $2\\ \\mathrm{kpc}$（約 $6.6 \\times 10^{3}$ 光年），即暗物質核心遠遠伸出恆星範圍之外，喺矮星系之中相當罕見。團隊測試過幾種解釋：熱暗物質同模糊暗物質雖然可以造出核心，但所需粒子質量同其他觀測限制衝突；恆星形成同超新星可以把尖點「攪平」，模擬卻通常只能造出約 $0.1$ 至 $2\\ \\mathrm{kpc}$ 嘅核心，難以達到呢度嘅 $7$ 至 $12\\ \\mathrm{kpc}$。相比之下，粒子之間會互相碰撞並把動能由外傳入內區嘅自相互作用暗物質（SIDM），所需相互作用強度同其他同類星系研究相符，係目前最講得通嘅解釋，亦對只靠冷暗物質嘅標準模型構成壓力。",
+      "topic": "力和運動（萬有引力、圓周運動）、天文學",
+      "source_name": "Nanjing University / Phys.org",
+      "source_url": "https://phys.org/news/2026-11-small-galaxy-giant-dark-core.html",
+      "source_date": "27/11",
+      "links": [
+        {
+          "label": "arXiv preprint",
+          "url": "https://arxiv.org/abs/2611.15528"
+        }
+      ]
+    },
+    {
+      "title": "中研院天文所：紅超巨星超新星「衝擊波突破」第一道光可被周圍氣體改寫，模擬閃光峰值約 $1$–$3 \\times 10^{44}\\ \\mathrm{erg\\ s^{-1}}$",
+      "summary": "中研院天文及天文物理研究所陳文翊、陳科榮聯同京都大學前田啓一、海德堡大學 Friedrich K. Röpke，用 CASTRO 程式做二維模擬，同時追蹤湍流同由紅外到軟 X 射線共 16 個波段嘅輻射，研究紅超巨星爆炸時，「衝擊波突破」（shock breakout）呢一道往往只有幾小時嘅第一道光，點樣被恆星臨死前噴出、仍然留喺附近嘅緻密氣體雲改寫。如果冇呢層「霧」，閃光可以好短；有厚雲擋住，光子就要好似車燈穿過霧咁多次散射先走得出去，於是到達時間、亮度同持續時間都會變。模擬顯示，光唔係等衝擊波做完工夫先逃出：輻射會提早漏向前方，喺實體衝擊波到達之前已經加熱同推走附近氣體，形成「輻射前驅波」，並喺接觸面造成指狀、漣漪同混合。喺所模擬嘅氣體雲之中，閃光總功率峰值約為 $1$ 至 $3 \\times 10^{44}\\ \\mathrm{erg\\ s^{-1}}$（即約 $1$ 至 $3 \\times 10^{37}\\ \\mathrm{W}$），最亮階段可持續約 $4$ 至 $35$ 小時；呢啲係模型預測，並非某一顆超新星嘅實測。逃出嘅能量最初好多係極紫外光同軟 X 射線，肉眼睇唔到；光譜會先移向高能，再隨膨脹冷卻而變紅。緻密雲仲可以維持氦嘅高電離，令 He II $4686\\ \\mathrm{\\AA}$（即 $468.6\\ \\mathrm{nm}$）呢條特徵譜線持續數日。研究以超新星 SN 2023ixf 做參考例子，並指出 Einstein Probe 同 ULTRASAT 等望遠鏡可以分別捕捉快速 X 射線閃同較長嘅紫外訊號。論文刊於 The Astrophysical Journal。",
+      "topic": "波動（電磁波譜、紫外線／X 射線）、原子世界（光子、光譜）、放射現象和核能",
+      "source_name": "Academia Sinica Institute of Astronomy and Astrophysics / Phys.org",
+      "source_url": "https://phys.org/news/2026-11-dying-star-reveal-hidden.html",
+      "source_date": "27/11",
+      "links": [
+        {
+          "label": "The Astrophysical Journal paper",
+          "url": "https://doi.org/10.3847/1538-4357/aebb1e"
+        }
+      ]
+    }
+  ],
+  "question": {
+    "based_on": 1,
+    "topic": "mechanics",
+    "story": "ESA Hera 太空船：發現 Dimorphos 被 DART 撞出橫跨整個 151 m 寬度、運動場大小嘅隕石坑，而且喺軌道上混亂翻轉",
+    "question_en": "In September 2022, NASA's DART spacecraft struck Dimorphos, a small asteroid that orbits a larger asteroid called Didymos. In November 2026, ESA's Hera spacecraft arrived and found that one face of Dimorphos has been flattened into a stadium-sized crater spanning the asteroid's entire width, and that Dimorphos is now tumbling chaotically. Earth-based measurements had already shown that the collision shortened the orbital period of Dimorphos around Didymos.\n\nDimorphos may be treated as a sphere of diameter $151\\ \\mathrm{m}$. Take the mass of DART at impact to be $579\\ \\mathrm{kg}$ and the impact speed to be $6.14\\ \\mathrm{km\\ s^{-1}}$. At the time of Hera's observations, the Didymos–Dimorphos system was $193.5$ million km from Earth.\n\nGiven:\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$\n- $1\\ \\mathrm{km} = 10^{3}\\ \\mathrm{m}$\n\n(a) Convert the impact speed into $\\mathrm{m\\ s^{-1}}$. Hence calculate the kinetic energy of DART just before impact. (3 marks)\n\n(b) Calculate the momentum of DART just before impact. The change in momentum of Dimorphos was found to be larger than this value. Explain how debris ejected from the crater can account for the difference. (3 marks)\n\n(c) Before the impact, the orbital period of Dimorphos around Didymos was $12.0\\ \\mathrm{h}$. The impact shortened this period by $33.0\\ \\mathrm{min}$. Calculate the new period, in seconds.\n\nTreat the orbit as circular both before and after the impact. Using the relation $T^{2} \\propto r^{3}$, calculate the ratio of the new orbital radius to the original orbital radius. (3 marks)\n\n(d) A radio command travels from Earth to Hera at the speed of light in vacuum. Calculate the time taken for the signal to reach Hera. (2 marks)\n\n(e) During its early observations, Hera moved around the asteroids at an average speed of $0.120\\ \\mathrm{m\\ s^{-1}}$. If it were to travel $15.0\\ \\mathrm{km}$ closer in a straight line at this speed, calculate the time required. Suggest one reason why the actual time to move this much closer would be longer. (2 marks)",
+    "question_zh": "2022 年 9 月，NASA 嘅 DART 太空船撞擊咗圍繞較大小行星 Didymos 運行嘅細小行星 Dimorphos。2026 年 11 月，ESA 嘅 Hera 太空船抵達後發現，Dimorphos 被撞嘅一面已被削平成一個橫跨整個寬度、運動場大小嘅隕石坑，而且 Dimorphos 而家喺度混亂翻轉。地面觀測早已顯示，呢次碰撞縮短咗 Dimorphos 圍繞 Didymos 嘅軌道周期。\n\nDimorphos 可視為直徑 $151\\ \\mathrm{m}$ 嘅球體。取 DART 撞擊時嘅質量為 $579\\ \\mathrm{kg}$，撞擊速率為 $6.14\\ \\mathrm{km\\ s^{-1}}$。Hera 觀測期間，Didymos–Dimorphos 系統距離地球 $193.5$ 百萬公里。\n\n已知：\n- $c = 3.00 \\times 10^{8}\\ \\mathrm{m\\ s^{-1}}$\n- $1\\ \\mathrm{km} = 10^{3}\\ \\mathrm{m}$\n\n(a) 把撞擊速率換算成 $\\mathrm{m\\ s^{-1}}$，從而計算 DART 喺撞擊前一瞬間嘅動能。（3 分）\n\n(b) 計算 DART 喺撞擊前一瞬間嘅動量。量得 Dimorphos 嘅動量變化大過呢個數值。解釋隕石坑拋出嘅碎屑點樣可以說明呢個差異。（3 分）\n\n(c) 撞擊前，Dimorphos 圍繞 Didymos 嘅軌道周期為 $12.0\\ \\mathrm{h}$。撞擊令呢個周期縮短咗 $33.0\\ \\mathrm{min}$。計算新嘅周期，以秒為單位。\n\n假設撞擊前後軌道都係圓形。利用關係 $T^{2} \\propto r^{3}$，計算新軌道半徑與原來軌道半徑之比。（3 分）\n\n(d) 一無線電指令以真空中嘅光速由地球傳去 Hera。計算訊號到達 Hera 所需時間。（2 分）\n\n(e) 喺早期觀測期間，Hera 以平均速率 $0.120\\ \\mathrm{m\\ s^{-1}}$ 喺小行星周圍移動。若佢以呢個速率沿直線再靠近 $15.0\\ \\mathrm{km}$，計算所需時間。提出一個理由，解釋點解實際上要再靠近呢段距離，所需時間會更長。（2 分）",
+    "answer_en": "(a)\n- $v = 6.14 \\times 10^{3}\\ \\mathrm{m\\ s^{-1}}$ (1A)\n- $E_{\\mathrm{k}} = \\frac{1}{2}mv^{2} = \\frac{1}{2} \\times 579 \\times (6.14 \\times 10^{3})^{2}$ (1M)\n- $E_{\\mathrm{k}} = 1.09 \\times 10^{10}\\ \\mathrm{J}$ (1A)\n\n(b)\n- $p = mv = 579 \\times 6.14 \\times 10^{3} = 3.55 \\times 10^{6}\\ \\mathrm{kg\\ m\\ s^{-1}}$ (1A)\n- Debris / ejecta is thrown backwards (opposite to the original velocity of DART). (1)\n- By conservation of momentum, Dimorphos therefore gains a larger forward momentum than the incident momentum of DART. (1)\n\n(c)\n- $T_{2} = 12.0 \\times 3600 - 33.0 \\times 60 = 4.122 \\times 10^{4}\\ \\mathrm{s}$ (1A)\n- $\\left(r_{2}/r_{1}\\right)^{3} = \\left(T_{2}/T_{1}\\right)^{2} = (4.122 \\times 10^{4}/4.32 \\times 10^{4})^{2} = 0.910$ (1M)\n- $r_{2}/r_{1} = 0.969$ (1A)\n\n(d)\n- $s = 193.5 \\times 10^{6} \\times 10^{3} = 1.935 \\times 10^{11}\\ \\mathrm{m}$, and $t = s/c$ (1M)\n- $t = (1.935 \\times 10^{11})/(3.00 \\times 10^{8}) = 645\\ \\mathrm{s}$ (1A)\n\n(e)\n- $t = s/v = (15.0 \\times 10^{3})/0.120 = 1.25 \\times 10^{5}\\ \\mathrm{s}$ (or $34.7\\ \\mathrm{h}$) (1A)\n- The actual path is not a straight line / Hera follows a controlled (rectangular) orbit and cannot fly directly at the asteroid. (1)",
+    "answer_zh": "(a)\n- $v = 6.14 \\times 10^{3}\\ \\mathrm{m\\ s^{-1}}$（1A）\n- $E_{\\mathrm{k}} = \\frac{1}{2}mv^{2} = \\frac{1}{2} \\times 579 \\times (6.14 \\times 10^{3})^{2}$（1M）\n- $E_{\\mathrm{k}} = 1.09 \\times 10^{10}\\ \\mathrm{J}$（1A）\n\n(b)\n- $p = mv = 579 \\times 6.14 \\times 10^{3} = 3.55 \\times 10^{6}\\ \\mathrm{kg\\ m\\ s^{-1}}$（1A）\n- 碎屑／噴出物被向後拋出（與 DART 原來速度方向相反）。（1）\n- 由動量守恆，Dimorphos 因而獲得大過 DART 入射動量嘅向前動量。（1）\n\n(c)\n- $T_{2} = 12.0 \\times 3600 - 33.0 \\times 60 = 4.122 \\times 10^{4}\\ \\mathrm{s}$（1A）\n- $\\left(r_{2}/r_{1}\\right)^{3} = \\left(T_{2}/T_{1}\\right)^{2} = (4.122 \\times 10^{4}/4.32 \\times 10^{4})^{2} = 0.910$（1M）\n- $r_{2}/r_{1} = 0.969$（1A）\n\n(d)\n- $s = 193.5 \\times 10^{6} \\times 10^{3} = 1.935 \\times 10^{11}\\ \\mathrm{m}$，而 $t = s/c$（1M）\n- $t = (1.935 \\times 10^{11})/(3.00 \\times 10^{8}) = 645\\ \\mathrm{s}$（1A）\n\n(e)\n- $t = s/v = (15.0 \\times 10^{3})/0.120 = 1.25 \\times 10^{5}\\ \\mathrm{s}$（或 $34.7\\ \\mathrm{h}$）（1A）\n- 實際路徑並非直線／Hera 沿受控（矩形）軌道運行，唔可以徑直飛向小行星。（1）"
+  }
+}
